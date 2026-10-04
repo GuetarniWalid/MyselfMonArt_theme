@@ -1,0 +1,384 @@
+{
+  "generated": "2026-10-04",
+  "status": "PRÊT À APPLIQUER — rien n'est encore écrit dans Shopify",
+  "prerequis": {
+    "tag_a_ajouter": "zèbre",
+    "pourquoi": "Les 15 produits portent aujourd'hui 'zebre' ou 'zébre' (faute d'accent) : une seule règle smart ne peut pas couvrir les deux ET filtrer le type. On ajoute le tag canonique 'zèbre' sans retirer les anciens (updateProduct remplace la liste : fusionner avant d'écrire).",
+    "produits": [
+      {
+        "id": 7984102047999,
+        "gid": "gid://shopify/Product/7984102047999",
+        "handle": "cadre-moderne-zebre-regard-sauvage-en-nuances",
+        "type": "painting"
+      },
+      {
+        "id": 10777993740635,
+        "gid": "gid://shopify/Product/10777993740635",
+        "handle": "tableau-sur-toile-zebre-majestueux-portrait-noir-et-blanc-graphique",
+        "type": "painting"
+      },
+      {
+        "id": 8762940916059,
+        "gid": "gid://shopify/Product/8762940916059",
+        "handle": "tableau-sur-toile-zebre-sous-la-neige-hivernale",
+        "type": "painting"
+      },
+      {
+        "id": 8738978496859,
+        "gid": "gid://shopify/Product/8738978496859",
+        "handle": "toile-design-zebre-colore-vitalite-arc-en-ciel",
+        "type": "painting"
+      },
+      {
+        "id": 10076330623323,
+        "gid": "gid://shopify/Product/10076330623323",
+        "handle": "toile-moderne-zebre-multicolore-rayures-arc-en-ciel",
+        "type": "painting"
+      },
+      {
+        "id": 10521810501979,
+        "gid": "gid://shopify/Product/10521810501979",
+        "handle": "tableau-sur-toile-zebre-motifs-tribaux-africains-et-ocres-cuivres",
+        "type": "painting"
+      },
+      {
+        "id": 10559125389659,
+        "gid": "gid://shopify/Product/10559125389659",
+        "handle": "tableau-africain-maternite-femme-et-enfant-aux-motifs-zebres-graphiques",
+        "type": "painting"
+      },
+      {
+        "id": 10490234929499,
+        "gid": "gid://shopify/Product/10490234929499",
+        "handle": "tableau-street-art-elephant-couronne-hybride-zebre-graffiti-urbain",
+        "type": "painting"
+      },
+      {
+        "id": 7946414784767,
+        "gid": "gid://shopify/Product/7946414784767",
+        "handle": "toile-deco-zebre-rieur-ambiance-feerique",
+        "type": "painting"
+      },
+      {
+        "id": 10561623261531,
+        "gid": "gid://shopify/Product/10561623261531",
+        "handle": "poster-zebre-regard-sauvage-en-noir-et-blanc",
+        "type": "poster"
+      },
+      {
+        "id": 10778060783963,
+        "gid": "gid://shopify/Product/10778060783963",
+        "handle": "poster-affiche-zebre-portrait-intime-aux-rayures-dorees",
+        "type": "poster"
+      },
+      {
+        "id": 10566537838939,
+        "gid": "gid://shopify/Product/10566537838939",
+        "handle": "poster-zebre-sous-la-neige-rencontre-inattendue-en-plein-hiver",
+        "type": "poster"
+      },
+      {
+        "id": 10566509298011,
+        "gid": "gid://shopify/Product/10566509298011",
+        "handle": "poster-zebre-arc-en-ciel-rayures-multicolores-pleines-denergie",
+        "type": "poster"
+      },
+      {
+        "id": 10573364560219,
+        "gid": "gid://shopify/Product/10573364560219",
+        "handle": "poster-zebre-motifs-tribaux-africains-et-ocres-cuivres",
+        "type": "poster"
+      },
+      {
+        "id": 10573784154459,
+        "gid": "gid://shopify/Product/10573784154459",
+        "handle": "poster-maternite-africaine-femme-et-enfant-aux-motifs-zebres",
+        "type": "poster"
+      }
+    ]
+  },
+  "collections": [
+    {
+      "action": "METTRE À JOUR (la collection existe déjà, créée le 2026-10-04 à 15:31 : titre sans accent, ni SEO, ni image, ni éditorial)",
+      "gid": "gid://shopify/Collection/682785833307",
+      "handle": "tableau-zebre",
+      "title": "Tableau Zèbre",
+      "template_suffix": "(aucun, template collection par défaut)",
+      "rules": {
+        "appliedDisjunctively": false,
+        "rules": [
+          {
+            "column": "TAG",
+            "relation": "EQUALS",
+            "condition": "zèbre"
+          },
+          {
+            "column": "TYPE",
+            "relation": "NOT_EQUALS",
+            "condition": "poster"
+          }
+        ]
+      },
+      "seo": {
+        "title": "Tableau Zèbre : toile noir & blanc ou colorée | MyselfMonArt",
+        "description": "Tableau zèbre sur toile : portraits noir et blanc, zèbres arc-en-ciel et motifs africains. Toile 285 g/m², châssis bois massif, livraison offerte."
+      },
+      "image": {
+        "cible": "tableau-zebre-deco-murale.jpg (image héros mise en scène, playbook hero-tools, 1200x1200)",
+        "provisoire": "1re image produit de toile-design-zebre-colore-vitalite-arc-en-ciel",
+        "alt": "Tableau zèbre arc-en-ciel sur toile, décoration murale MyselfMonArt"
+      },
+      "metafields": {
+        "custom.intro": {
+          "type": "multi_line_text_field",
+          "value": "Graphique par nature, le zèbre offre à un mur ce que peu d'animaux savent donner : du rythme, du contraste et une élégance immédiate. Notre collection de tableaux zèbre réunit des œuvres sélectionnées et retouchées à la main, du portrait noir et blanc au zèbre arc-en-ciel, pour un intérieur qui a du caractère."
+        },
+        "custom.guide": {
+          "type": "multi_line_text_field",
+          "value": "<h2>Comment choisir votre tableau zèbre</h2>\n<p>Le zèbre a ce pouvoir rare d'organiser un mur à lui seul : ses rayures y tracent presque une architecture. Tout commence donc par l'atmosphère que vous souhaitez installer. Pour une pièce sobre et élégante, la <strong>photographie noir et blanc</strong> reste la valeur sûre : le <a href=\"/products/cadre-moderne-zebre-regard-sauvage-en-nuances\">regard sauvage en nuances</a> joue le gros plan hypnotique, le <a href=\"/products/tableau-sur-toile-zebre-sous-la-neige-hivernale\">zèbre sous la neige hivernale</a> raconte une rencontre inattendue, tout en douceur, et le <a href=\"/products/tableau-sur-toile-zebre-majestueux-portrait-noir-et-blanc-graphique\">zèbre majestueux sur fond noir</a>, aux reflets dorés, sculpte la lumière comme un portrait de studio.</p>\n<p>Envie d'énergie ? Les versions colorées font vibrer la pièce : le <a href=\"/products/toile-design-zebre-colore-vitalite-arc-en-ciel\">zèbre arc-en-ciel</a> à la matière picturale généreuse, ou le <a href=\"/products/toile-moderne-zebre-multicolore-rayures-arc-en-ciel\">zèbre multicolore au galop</a>, tout en mouvement. Les amoureux d'art africain se tourneront vers le <a href=\"/products/tableau-sur-toile-zebre-motifs-tribaux-africains-et-ocres-cuivres\">zèbre aux motifs tribaux et ocres cuivrés</a>, ou vers la <a href=\"/products/tableau-africain-maternite-femme-et-enfant-aux-motifs-zebres-graphiques\">maternité africaine aux motifs zébrés</a>, une illustration tendre où le motif devient vêtement. Pour un esprit urbain, l'<a href=\"/products/tableau-street-art-elephant-couronne-hybride-zebre-graffiti-urbain\">éléphant couronné aux rayures de zèbre</a> mêle graffiti et humour. Et dans une chambre d'enfant, le <a href=\"/products/toile-deco-zebre-rieur-ambiance-feerique\">zèbre rieur à l'aquarelle</a> apporte une note tendre et joyeuse.</p>\n<h3>Un motif graphique qui s'accorde à tout</h3>\n<p>Le noir et le blanc du zèbre sont des neutres absolus. Ils dialoguent naturellement avec le bois clair, le lin, le rotin ou la jute, et trouvent leur place dans un intérieur scandinave, bohème, japandi ou industriel. Dans un décor déjà coloré, une version noir et blanc ramène le calme ; dans une pièce très neutre, un zèbre arc-en-ciel ou aux ocres cuivrés devient le point de couleur que l'on attendait. Symbole d'équilibre et de liberté, le zèbre porte aussi une idée de singularité : chaque individu a des rayures qui n'appartiennent qu'à lui, comme une empreinte. Une jolie façon d'affirmer votre style.</p>\n<h3>Placement, format et finition</h3>\n<p>Au-dessus d'un canapé ou d'une tête de lit, un grand format crée un point focal qui structure toute la pièce. Dans une entrée ou un couloir, un portrait vertical accueille le regard dès le seuil ; au bureau, une version noir et blanc installe une énergie calme et concentrée. Nos toiles se déclinent du 30 x 40 cm au 90 x 120 cm, et certaines œuvres existent en format carré, jusqu'au 100 x 100 cm.</p>\n<ul>\n<li><strong>Toile 285 g/m²</strong> : une toile épaisse à la texture légèrement grainée, qui restitue la finesse du pelage et la profondeur des noirs.</li>\n<li><strong>Châssis en bois massif</strong> : chaque toile est tendue à la main sur un châssis de 3 cm de profondeur, avec cinq finitions de bordure au choix.</li>\n<li><strong>Encres haute pigmentation</strong> : des couleurs garanties 75 ans contre la décoloration, pour des contrastes qui durent.</li>\n<li><strong>Cadre en option</strong> : blanc, noir mat, argent ancien, chêne clair ou noyer, livré monté et prêt à accrocher.</li>\n</ul>\n<h2>Pourquoi choisir MyselfMonArt</h2>\n<p>Depuis 2022, notre studio créatif toulousain conçoit des œuvres pensées comme un cocon pour votre intérieur. Chaque visuel est sélectionné et retouché à la main par notre direction artistique, puis imprimé à la demande en Europe. La livraison est offerte, vous disposez de 14 jours pour changer d'avis, et une vraie personne vous répond 7 jours sur 7 pour vous aider à choisir le bon format.</p>\n<p>Le zèbre appartient à une grande famille : prolongez votre recherche avec nos <a href=\"/collections/tableau-animaux\">tableaux animaux</a>, l'élégance du <a href=\"/collections/tableau-noir-et-blanc\">tableau noir et blanc</a>, la chaleur du <a href=\"/collections/tableau-africain\">tableau africain</a> ou la prestance du <a href=\"/collections/tableau-lion\">tableau lion</a>. Et si vous préférez un format papier, plus léger, découvrez notre collection jumelle <a href=\"/collections/posters-affiches-zebre\">Poster &amp; Affiche Zèbre</a>.</p>\n<p>Avec soin, — Hayate &amp; l'équipe MyselfMonArt</p>"
+        },
+        "custom.faq": {
+          "type": "json",
+          "value": [
+            {
+              "q": "Quel tableau zèbre choisir pour mon intérieur ?",
+              "a": "<p>Tout dépend de l'ambiance recherchée. Une photographie en noir et blanc, comme le regard sauvage ou le zèbre sous la neige, apporte une élégance sobre qui s'intègre partout. Pour dynamiser une pièce, misez sur un zèbre arc-en-ciel ou sur les motifs tribaux aux ocres cuivrés. Pour une chambre d'enfant, le zèbre rieur à l'aquarelle offre une douceur joyeuse.</p>"
+            },
+            {
+              "q": "Avec quelle décoration associer un tableau zèbre ?",
+              "a": "<p>Le noir et blanc du zèbre se marie avec presque tout : bois clair, lin, rotin, jute ou métal noir. Il trouve sa place dans un intérieur scandinave, bohème, japandi ou industriel. Dans une pièce déjà colorée, préférez une version noir et blanc pour apaiser l'ensemble ; dans un décor neutre, un zèbre multicolore devient le point de couleur de la pièce.</p>"
+            },
+            {
+              "q": "Quelle taille de tableau zèbre choisir au-dessus d'un canapé ?",
+              "a": "<p>Visez une œuvre qui occupe environ les deux tiers de la largeur du meuble. En repère, un 60 x 80 cm convient au-dessus d'un canapé deux places, un 75 x 100 cm au-dessus d'un grand canapé ou d'un lit, et un 90 x 120 cm habille un grand mur. Le 30 x 40 cm se glisse au-dessus d'une console ou dans une composition murale.</p>"
+            },
+            {
+              "q": "Quelle est la qualité de vos toiles ?",
+              "a": "<p>Nos tableaux sont imprimés sur une toile de 285 g/m² avec des encres haute pigmentation, garanties 75 ans contre la décoloration. Chaque toile est tendue à la main sur un châssis en bois massif de 3 cm de profondeur, avec cinq finitions de bordure au choix. Ils sont conçus en France, imprimés à la demande en Europe et livrés déjà montés.</p>"
+            },
+            {
+              "q": "Un tableau zèbre convient-il à une chambre d'enfant ?",
+              "a": "<p>Oui, le zèbre est un animal que les enfants reconnaissent et adorent. Le zèbre rieur à l'aquarelle, aux tons doux, apporte une touche tendre et joyeuse à une chambre de bébé ou d'enfant. Pour une chambre qui grandit avec l'enfant, un zèbre plus graphique ou multicolore fonctionne très bien aussi. Retrouvez d'autres idées dans notre collection <a href='/collections/tableau-chambre-enfant'>Tableau Chambre Enfant</a>.</p>"
+            },
+            {
+              "q": "Que symbolise le zèbre en décoration ?",
+              "a": "<p>Le zèbre évoque l'équilibre, avec ses rayures qui font dialoguer le noir et le blanc, mais aussi la liberté et la singularité : chaque zèbre porte un motif de rayures unique, comme une empreinte. En décoration, il apporte un contraste graphique et une touche d'évasion vers la savane africaine, tout en restant très facile à intégrer.</p>"
+            },
+            {
+              "q": "Vos tableaux zèbre existent-ils aussi en poster ?",
+              "a": "<p>Oui, plusieurs de nos zèbres existent aussi en version poster, comme le regard sauvage, le zèbre sous la neige, le zèbre arc-en-ciel ou les motifs tribaux. Le poster est un tirage photo léger et abordable, à encadrer vous-même ou livré avec cadre. Retrouvez-les dans notre collection <a href='/collections/posters-affiches-zebre'>Poster et Affiche Zèbre</a>.</p>"
+            }
+          ]
+        },
+        "custom.cocon_links": {
+          "type": "json",
+          "value": [
+            {
+              "url": "/collections/posters-affiches-zebre",
+              "label": "Poster & Affiche Zèbre"
+            },
+            {
+              "url": "/collections/tableau-animaux",
+              "label": "Tableau Animaux"
+            },
+            {
+              "url": "/collections/tableau-africain",
+              "label": "Tableau Africain"
+            },
+            {
+              "url": "/collections/tableau-noir-et-blanc",
+              "label": "Tableau Noir et Blanc"
+            }
+          ]
+        },
+        "custom.type_of_collection": {
+          "type": "(même type que les autres collections)",
+          "value": "painting"
+        },
+        "breadcrumb.parentCollection": {
+          "type": "collection_reference",
+          "value": "gid://shopify/Collection/407429972223",
+          "note": "tableau-animaux (comme tableau-lion)"
+        }
+      },
+      "translations": {
+        "en": {
+          "title": "Zebra Artwork",
+          "handle": "zebra-artwork",
+          "seo_title": "Zebra Canvas Wall Art: Black & White or Color | MyselfMonArt",
+          "seo_description": "Zebra wall art on canvas: black-and-white portraits, rainbow zebras and African tribal motifs. 285 gsm canvas, solid wood stretcher, free delivery.",
+          "intro": "Graphic by nature, the zebra gives a wall what few animals can: rhythm, contrast and instant elegance. Our zebra wall art collection brings together hand-selected, hand-retouched pieces, from black-and-white portraits to rainbow zebras, for a home with character."
+        },
+        "de": {
+          "title": "Zebrabild",
+          "handle": "zebrabild",
+          "seo_title": "Zebrabild: Leinwand in Schwarz-Weiß oder bunt | MyselfMonArt",
+          "seo_description": "Zebrabilder auf Leinwand: Schwarz-Weiß-Porträts, Regenbogen-Zebras und afrikanische Motive. Leinwand 285 g/m², Massivholz-Keilrahmen, kostenloser Versand.",
+          "intro": "Von Natur aus grafisch, schenkt das Zebra einer Wand, was nur wenige Tiere vermögen: Rhythmus, Kontrast und sofortige Eleganz. Unsere Kollektion an Zebrabildern vereint von Hand ausgewählte und retuschierte Werke, vom Schwarz-Weiß-Porträt bis zum Regenbogen-Zebra, für ein Zuhause mit Charakter."
+        },
+        "es": {
+          "title": "Cuadro de Cebra",
+          "handle": "cuadro-de-cebra",
+          "seo_title": "Cuadro de Cebra en blanco y negro o color | MyselfMonArt",
+          "seo_description": "Cuadros de cebra en lienzo: retratos en blanco y negro, cebras arcoíris y motivos africanos. Lienzo 285 g/m², bastidor de madera maciza, envío gratis.",
+          "intro": "Gráfica por naturaleza, la cebra aporta a una pared lo que pocos animales saben dar: ritmo, contraste y una elegancia inmediata. Nuestra colección de cuadros de cebra reúne obras seleccionadas y retocadas a mano, del retrato en blanco y negro a la cebra arcoíris, para un hogar con carácter."
+        },
+        "nl": {
+          "title": "Zebraschilderij",
+          "handle": "zebra-schilderij",
+          "seo_title": "Zebraschilderij: canvas zwart-wit of kleur | MyselfMonArt",
+          "seo_description": "Zebraschilderijen op canvas: zwart-witportretten, regenboogzebra's en Afrikaanse motieven. Canvas 285 g/m², massief houten frame, gratis verzending.",
+          "intro": "Grafisch van nature geeft de zebra een muur wat weinig dieren kunnen: ritme, contrast en vanzelfsprekende elegantie. Onze collectie zebraschilderijen brengt met de hand geselecteerde en geretoucheerde werken samen, van zwart-witportret tot regenboogzebra, voor een interieur met karakter."
+        }
+      },
+      "products_expected": [
+        "cadre-moderne-zebre-regard-sauvage-en-nuances",
+        "tableau-sur-toile-zebre-majestueux-portrait-noir-et-blanc-graphique",
+        "tableau-sur-toile-zebre-sous-la-neige-hivernale",
+        "toile-design-zebre-colore-vitalite-arc-en-ciel",
+        "toile-moderne-zebre-multicolore-rayures-arc-en-ciel",
+        "tableau-sur-toile-zebre-motifs-tribaux-africains-et-ocres-cuivres",
+        "tableau-africain-maternite-femme-et-enfant-aux-motifs-zebres-graphiques",
+        "tableau-street-art-elephant-couronne-hybride-zebre-graffiti-urbain",
+        "toile-deco-zebre-rieur-ambiance-feerique"
+      ]
+    },
+    {
+      "action": "CRÉER",
+      "handle": "posters-affiches-zebre",
+      "title": "Poster & Affiche Zèbre",
+      "template_suffix": "(aucun, template collection par défaut)",
+      "rules": {
+        "appliedDisjunctively": false,
+        "rules": [
+          {
+            "column": "TAG",
+            "relation": "EQUALS",
+            "condition": "zèbre"
+          },
+          {
+            "column": "TYPE",
+            "relation": "EQUALS",
+            "condition": "poster"
+          }
+        ]
+      },
+      "seo": {
+        "title": "Poster Zèbre : affiche déco noir et blanc | MyselfMonArt",
+        "description": "Poster et affiche zèbre : photo noir et blanc, rayures arc-en-ciel et motifs africains. Tirage sur papier photo HD, avec ou sans cadre, livraison offerte."
+      },
+      "image": {
+        "cible": "poster-affiche-zebre-deco-murale.jpg (image héros mise en scène, playbook hero-tools, 1200x1200)",
+        "provisoire": "1re image produit de poster-zebre-regard-sauvage-en-noir-et-blanc",
+        "alt": "Poster zèbre noir et blanc encadré, affiche déco murale MyselfMonArt"
+      },
+      "metafields": {
+        "custom.intro": {
+          "type": "multi_line_text_field",
+          "value": "Le poster zèbre, c'est tout le graphisme de la savane dans un format papier léger et contemporain. Du regard sauvage en noir et blanc aux rayures arc-en-ciel, ces affiches s'encadrent en un instant et se renouvellent au gré de vos envies. Trouvez celle qui vous ressemble."
+        },
+        "custom.guide": {
+          "type": "multi_line_text_field",
+          "value": "<h2>Le poster zèbre, des rayures qui font le mur</h2>\n<p>Il suffit d'un zèbre pour qu'un mur prenne du relief. Ses rayures le signent d'un graphisme que l'on reconnaît au premier coup d'œil. En affiche, cet animal de la savane gagne en légèreté : un format papier accessible et contemporain, que l'on encadre en quelques minutes et que l'on fait évoluer aussi vite que ses envies. C'est l'allié des intérieurs vivants, de ceux que l'on aime recomposer au fil des saisons.</p>\n<p>Chez MyselfMonArt, studio créatif fondé à Toulouse en 2022, chaque visuel est sélectionné et retouché à la main par notre direction artistique. Chaque affiche est ensuite imprimée à la demande, en haute définition sur un vrai papier photo, bord à bord, pour un rendu plein cadre, net et lumineux.</p>\n<h3>Les univers du zèbre en affiche</h3>\n<p>Le noir et blanc d'abord, qui sublime le motif : le <a href=\"/products/poster-zebre-regard-sauvage-en-noir-et-blanc\">regard sauvage en noir et blanc</a> plonge au cœur des rayures, le <a href=\"/products/poster-zebre-sous-la-neige-rencontre-inattendue-en-plein-hiver\">zèbre sous la neige</a> saisit un instant d'hiver suspendu, et le <a href=\"/products/poster-affiche-zebre-portrait-intime-aux-rayures-dorees\">portrait intime aux rayures dorées</a> se détache en clair-obscur sur fond noir. La couleur ensuite : le <a href=\"/products/poster-zebre-arc-en-ciel-rayures-multicolores-pleines-denergie\">zèbre arc-en-ciel</a> déborde d'énergie, quand le <a href=\"/products/poster-zebre-motifs-tribaux-africains-et-ocres-cuivres\">zèbre aux motifs tribaux</a> réchauffe le mur de ses ocres cuivrés. Enfin, la <a href=\"/products/poster-maternite-africaine-femme-et-enfant-aux-motifs-zebres\">maternité africaine aux motifs zébrés</a> habille la silhouette de rayures, dans une illustration tendre et graphique.</p>\n<h2>Où l'afficher et comment le styliser</h2>\n<p>Au salon, le poster zèbre devient un point de mire au-dessus d'un canapé ou d'une console. Dans une chambre, une version noir et blanc installe une élégance feutrée ; dans une entrée, un format vertical donne le ton dès la porte franchie. Au bureau, ses lignes nettes aident à se concentrer. C'est aussi un format idéal en location ou dans un premier appartement : on l'accroche sans gros travaux, on le change sans regret.</p>\n<p>Côté encadrement, deux options. Sans cadre, vous recevez l'affiche seule, à glisser dans un cadre standard du commerce : fin et noir pour un rendu galerie, bois clair pour plus de douceur. Avec cadre, elle arrive prête à accrocher, en blanc, noir mat, chêne clair ou noyer. Pour un effet maîtrisé, composez un mur-galerie : un poster zèbre en pièce centrale, entouré d'autres <a href=\"/collections/posters-affiches-animaux\">posters &amp; affiches animaux</a> ou de <a href=\"/collections/posters-affiches-noir-et-blanc\">posters noir et blanc</a> qui dialoguent avec lui.</p>\n<h2>Poster zèbre ou toile ?</h2>\n<p>Le poster mise sur la souplesse : simple, abordable, idéal pour une première déco, un cadeau ou un mur que l'on aime faire évoluer. La toile, tendue sur un châssis en bois massif, s'installe comme une pièce maîtresse pensée pour durer. Ce ne sont pas des rivaux, mais deux façons d'habiter un mur. Si vous penchez pour la matière et la permanence, découvrez notre collection jumelle <a href=\"/collections/tableau-zebre\">Tableau Zèbre (sur toile)</a>.</p>\n<p><strong>Pour aller plus loin :</strong> explorez l'ensemble de nos <a href=\"/collections/posters-affiches\">posters &amp; affiches</a>, la chaleur des <a href=\"/collections/posters-affiches-africain\">posters &amp; affiches africains</a>, ou la noblesse du <a href=\"/collections/posters-affiches-lion\">poster &amp; affiche lion</a>, voisin du zèbre dans la savane.</p>\n<p>Avec soin, — Hayate &amp; l'équipe MyselfMonArt</p>"
+        },
+        "custom.faq": {
+          "type": "json",
+          "value": [
+            {
+              "q": "Zèbre en poster ou en toile : que choisir ?",
+              "a": "<p>Choisissez le poster si vous cherchez la souplesse : un tirage photo léger et abordable, facile à encadrer et à changer au gré de vos envies. Préférez la toile pour une pièce maîtresse durable, tendue sur un châssis en bois massif. Plusieurs de nos zèbres existent dans les deux versions : retrouvez les toiles dans notre collection <a href='/collections/tableau-zebre'>Tableau Zèbre</a>.</p>"
+            },
+            {
+              "q": "Comment encadrer une affiche zèbre ?",
+              "a": "<p>Sans cadre, l'affiche se glisse dans un cadre standard du commerce aux dimensions du poster, sans bricolage. Un cadre fin et noir souligne le graphisme des rayures, un bois clair adoucit l'ensemble. Vous préférez ne pas chercher ? Choisissez l'option « Avec cadre » : votre poster arrive prêt à accrocher, en blanc, noir mat, chêne clair ou noyer.</p>"
+            },
+            {
+              "q": "Quelle taille de poster zèbre choisir ?",
+              "a": "<p>Nos affiches existent du 30 x 40 cm au 90 x 120 cm, en portrait ou en paysage selon l'œuvre. Une règle simple : visez environ les deux tiers de la largeur du meuble (canapé, lit, console) au-dessus duquel vous l'accrochez. Le 30 x 40 cm s'intègre facilement dans un mur-galerie, tandis que le 90 x 120 cm crée un mur signature. En cas de doute, découpez un carton aux dimensions pour visualiser.</p>"
+            },
+            {
+              "q": "Où accrocher un poster zèbre chez soi ?",
+              "a": "<p>Le poster zèbre trouve sa place au-dessus d'un canapé, dans une chambre pour une touche élégante, dans une entrée ou un couloir pour donner le ton, ou au bureau, où ses lignes nettes apportent de la sérénité. Facile à changer, c'est aussi un excellent choix en location ou dans un premier appartement.</p>"
+            },
+            {
+              "q": "Comment composer un mur-galerie avec une affiche zèbre ?",
+              "a": "<p>Partez d'un poster zèbre en pièce centrale, puis entourez-le de formats plus petits qui lui répondent : d'autres animaux de la savane, des affiches noir et blanc ou des motifs africains. Gardez la même famille de cadres et un espacement régulier entre chaque affiche pour un rendu harmonieux. Un trio d'affiches alignées fonctionne aussi très bien.</p>"
+            },
+            {
+              "q": "Quelle est la qualité d'impression de vos posters ?",
+              "a": "<p>Chaque affiche est imprimée à la demande en haute définition, sur un vrai papier photo, bord à bord pour un rendu plein cadre. Les couleurs sont éclatantes et les détails nets, ce qui met en valeur la finesse des rayures. Nos posters sont conçus en France, imprimés en Europe, et la livraison est offerte.</p>"
+            }
+          ]
+        },
+        "custom.cocon_links": {
+          "type": "json",
+          "value": [
+            {
+              "url": "/collections/tableau-zebre",
+              "label": "Tableau Zèbre (sur toile)"
+            },
+            {
+              "url": "/collections/posters-affiches",
+              "label": "Tous les posters & affiches"
+            },
+            {
+              "url": "/collections/posters-affiches-animaux",
+              "label": "Poster & Affiche Animaux"
+            },
+            {
+              "url": "/collections/posters-affiches-lion",
+              "label": "Poster & Affiche Lion"
+            }
+          ]
+        },
+        "custom.type_of_collection": {
+          "type": "(même type que les autres collections)",
+          "value": "poster"
+        },
+        "breadcrumb.parentCollection": {
+          "type": "collection_reference",
+          "value": "gid://shopify/Collection/675279798619",
+          "note": "posters-affiches-animaux (comme posters-affiches-lion)"
+        }
+      },
+      "translations": {
+        "en": {
+          "title": "Zebra Posters & Prints",
+          "handle": "zebra-posters-prints",
+          "seo_title": "Zebra Posters & Prints: B&W or Colorful | MyselfMonArt",
+          "seo_description": "Shop zebra posters and prints: black-and-white photography, rainbow stripes and African motifs. HD photo paper, framed or unframed, free delivery.",
+          "intro": "A zebra poster brings all the graphic power of the savannah into a light, contemporary paper format. From a wild black-and-white gaze to rainbow stripes, these prints are framed in an instant and easy to swap as your mood changes. Find the one that feels like you."
+        },
+        "de": {
+          "title": "Zebra Poster",
+          "handle": "zebra-poster",
+          "seo_title": "Zebra Poster: Schwarz-Weiß oder farbig | MyselfMonArt",
+          "seo_description": "Zebra Poster & Kunstdrucke: Schwarz-Weiß-Fotografie, Regenbogenstreifen und afrikanische Motive. HD-Fotopapier, mit oder ohne Rahmen, kostenloser Versand.",
+          "intro": "Das Zebra-Poster bringt die ganze grafische Kraft der Savanne in ein leichtes, zeitgemäßes Papierformat. Vom wilden Blick in Schwarz-Weiß bis zu Regenbogenstreifen: Diese Poster sind im Nu gerahmt und lassen sich je nach Stimmung austauschen. Finden Sie das Motiv, das zu Ihnen passt."
+        },
+        "es": {
+          "title": "Pósters y Láminas de Cebra",
+          "handle": "posters-laminas-cebra",
+          "seo_title": "Póster de Cebra: láminas decorativas | MyselfMonArt",
+          "seo_description": "Pósters y láminas de cebra: fotografía en blanco y negro, rayas arcoíris y motivos africanos. Papel fotográfico HD, con o sin marco, envío gratis.",
+          "intro": "El póster de cebra reúne toda la fuerza gráfica de la sabana en un formato de papel ligero y contemporáneo. De la mirada salvaje en blanco y negro a las rayas arcoíris, estas láminas se enmarcan en un momento y se renuevan a su gusto. Encuentre la que mejor le represente."
+        },
+        "nl": {
+          "title": "Poster Zebra & Affiche Zebra",
+          "handle": "posters-affiches-zebra",
+          "seo_title": "Poster Zebra & Affiche Zebra | MyselfMonArt",
+          "seo_description": "Poster en affiche zebra: zwart-wit fotografie, regenboogstrepen en Afrikaanse motieven. HD-fotopapier, met of zonder lijst, gratis verzending.",
+          "intro": "De zebra poster brengt de grafische kracht van de savanne in een licht, eigentijds papierformaat. Van een wilde blik in zwart-wit tot regenboogstrepen: deze affiches lijst je in een handomdraai in en wissel je af wanneer je maar wilt. Vind de poster die bij jou past."
+        }
+      },
+      "products_expected": [
+        "poster-zebre-regard-sauvage-en-noir-et-blanc",
+        "poster-affiche-zebre-portrait-intime-aux-rayures-dorees",
+        "poster-zebre-sous-la-neige-rencontre-inattendue-en-plein-hiver",
+        "poster-zebre-arc-en-ciel-rayures-multicolores-pleines-denergie",
+        "poster-zebre-motifs-tribaux-africains-et-ocres-cuivres",
+        "poster-maternite-africaine-femme-et-enfant-aux-motifs-zebres"
+      ]
+    }
+  ]
+}
