@@ -1,0 +1,5 @@
+{"room":"rooms/chambre_J_clean.png","out":"hero_poster_G4.jpg","spec_out":"spec_poster_G4_raw.json","light":[-1,0.45],
+ "rows":[
+  {"y":293,"align":"bottom","gap":26,"cx":600,"items":[["p_oeil",223,"noir"],["p_dore",223,"chene"],["p_arcenciel",223,"noir"]]},
+  {"y":319,"align":"top","gap":26,"cx":600,"items":[["p_tribal",207,"chene"],["p_neige",207,"noir"],["p_maternite",207,"chene"]]}
+ ]}

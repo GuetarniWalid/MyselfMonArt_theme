@@ -2,7 +2,7 @@
 
 Demande de Walid, 2026-10-04 : créer les collections zèbre tableau et poster avec toutes les données des autres collections, SEO soigné, voix MyselfMonArt.
 
-> **État au 2026-10-04 : `posters-affiches-zebre` créée, publiée et traduite ; `tableau-zebre` bloquée (handle réservé par une collection que l'API ne voit pas).** Détail : [applied-log.md](./applied-log.md). Source de vérité machine : [`collections-zebre.json`](./collections-zebre.json). Ce README est généré depuis les mêmes données.
+> **État au 2026-10-04 (soir) : `posters-affiches-zebre` complète en live (image héros mise en scène, métachamps, métaobjet media, traductions EN/DE/ES/NL de tout l'éditorial) ; `tableau-zebre` prête (image héros déjà sur le CDN, traductions prêtes dans [`translations/`](./translations/)) mais bloquée : handle réservé par une collection que l'API ne voit pas.** Détail : [applied-log.md](./applied-log.md). Source de vérité machine : [`collections-zebre.json`](./collections-zebre.json). Ce README est généré depuis les mêmes données.
 
 ## Ce qui existe déjà en ligne (relevé le 2026-10-04)
 
@@ -60,8 +60,8 @@ Le poster « Portrait intime aux rayures dorées » reprend la même œuvre que 
 | `custom.type_of_collection` | `painting` |
 | `breadcrumb.parentCollection` | `gid://shopify/Collection/407429972223` (tableau-animaux (comme tableau-lion)) |
 | Template | (aucun, template collection par défaut) |
-| Image | cible : tableau-zebre-deco-murale.jpg (image héros mise en scène, playbook hero-tools, 1200x1200) · en attendant : 1re image produit de toile-design-zebre-colore-vitalite-arc-en-ciel |
-| Alt image | Tableau zèbre arc-en-ciel sur toile, décoration murale MyselfMonArt |
+| Image | [`heros/tableau-zebre-deco-murale.jpg`](./heros/tableau-zebre-deco-murale.jpg) (1200x1200, salon cuir cognac, 6 toiles) · CDN : `https://cdn.shopify.com/s/files/1/0623/2388/4287/files/tableau-zebre-deco-murale.jpg` |
+| Alt image | Tableau zèbre dans un salon chaleureux — mur-galerie déco murale \| MyselfMonArt |
 | Produits attendus | 9 |
 
 **Accroche (`custom.intro`)**
@@ -142,8 +142,8 @@ Le poster « Portrait intime aux rayures dorées » reprend la même œuvre que 
 | `custom.type_of_collection` | `poster` |
 | `breadcrumb.parentCollection` | `gid://shopify/Collection/675279798619` (posters-affiches-animaux (comme posters-affiches-lion)) |
 | Template | (aucun, template collection par défaut) |
-| Image | cible : poster-affiche-zebre-deco-murale.jpg (image héros mise en scène, playbook hero-tools, 1200x1200) · en attendant : 1re image produit de poster-zebre-regard-sauvage-en-noir-et-blanc |
-| Alt image | Poster zèbre noir et blanc encadré, affiche déco murale MyselfMonArt |
+| Image | [`heros/poster-affiche-zebre-deco-murale.jpg`](./heros/poster-affiche-zebre-deco-murale.jpg) (1200x1200, chambre, 6 posters encadrés avec passe-partout) · appliquée |
+| Alt image | Poster et affiche zèbre dans une chambre apaisante — mur-galerie déco murale MyselfMonArt |
 | Produits attendus | 6 |
 
 **Accroche (`custom.intro`)**
@@ -209,9 +209,9 @@ Le poster « Portrait intime aux rayures dorées » reprend la même œuvre que 
 2. **Créer `posters-affiches-zebre`** (smart, règle ci-dessus), puis vérifier qu'elle compte 6 produits. À faire **avant** d'écrire le guide toile, qui pointe vers elle.
 3. **Mettre à jour `tableau-zebre`** : titre « Tableau Zèbre », règle smart, SEO. Si elle a été créée en *manuelle*, Shopify ne permet pas de la passer en *smart* : soit la garder manuelle (les 9 toiles y sont déjà, mais les futurs zèbres devront être ajoutés à la main), soit la supprimer et la recréer en smart avec le même handle (sans risque SEO : elle a moins d'un jour).
 4. Écrire les métachamps des 2 collections (`custom.intro`, `custom.guide`, `custom.faq`, `custom.cocon_links`, `custom.type_of_collection`, `breadcrumb.parentCollection`).
-5. Image de collection + alt (provisoire = image produit, cible = image héros via le playbook hero-tools, en local).
+5. Image héros de collection + alt + métaobjet `media` (alts traduits), comme les autres collections. Process : [`hero-tools/README.md`](./hero-tools/README.md).
 6. Publier sur tous les canaux (boutique en ligne + Google/Shopping), comme entrée-couloir.
-7. Traductions EN / DE / ES / NL : titre, handle, titre SEO, meta, accroche ci-dessus ; guide et FAQ via la chaîne de traduction habituelle (les guides traduits existants pointent vers les URLs produit localisées).
+7. Traductions EN / DE / ES / NL : titre, handle, titre SEO, meta, description, puis les métachamps `custom.intro` / `guide` / `faq` / `cocon_links` (fichiers [`translations/`](./translations/), liens localisés). Les GID des métachamps s'obtiennent en réécrivant la même valeur avec `setMetafield` (la réponse donne le GID).
 8. Navigation (admin) : ajouter Tableau Zèbre et Poster & Affiche Zèbre sous Animaux, à côté de Lion et Cheval.
 9. Vérifier en ligne (cache Shopify : tester avec `?country=` pour un rendu frais) : 1 seul H1, guide + FAQ + JSON-LD FAQPage valides, fil d'Ariane Accueil › … › Animaux › Zèbre, 0 lien 404, cocon OK.
 10. Soumettre les 2 URLs dans Search Console et noter la baseline GSC (aujourd'hui : rien, pages neuves) ; check J+14 / J+30.

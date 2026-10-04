@@ -1,0 +1,16 @@
+{
+ "posters-affiches-zebre": {
+  "collection": "gid://shopify/Collection/682801660251",
+  "intro": "gid://shopify/Metafield/69886929568091",
+  "guide": "gid://shopify/Metafield/69886929600859",
+  "faq": "gid://shopify/Metafield/69886929633627",
+  "cocon_links": "gid://shopify/Metafield/69886929666395",
+  "translation.handle": "gid://shopify/Metafield/69886929797467",
+  "meta_object.media": "gid://shopify/Metaobject/519130415451"
+ },
+ "tableau-zebre": {
+  "collection": "à créer (handle bloqué)",
+  "hero_file": "gid://shopify/MediaImage/58839221862747",
+  "hero_url": "https://cdn.shopify.com/s/files/1/0623/2388/4287/files/tableau-zebre-deco-murale.jpg"
+ }
+}
