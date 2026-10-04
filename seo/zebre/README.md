@@ -2,7 +2,7 @@
 
 Demande de Walid, 2026-10-04 : créer les collections zèbre tableau et poster avec toutes les données des autres collections, SEO soigné, voix MyselfMonArt.
 
-> **État : contenu prêt, pas encore appliqué dans Shopify.** La session cloud qui a préparé ce pack n'avait pas accès à Shopify (connecteur non branché). Source de vérité machine : [`collections-zebre.json`](./collections-zebre.json). Ce README est généré depuis les mêmes données.
+> **État au 2026-10-04 : `posters-affiches-zebre` créée, publiée et traduite ; `tableau-zebre` bloquée (handle réservé par une collection que l'API ne voit pas).** Détail : [applied-log.md](./applied-log.md). Source de vérité machine : [`collections-zebre.json`](./collections-zebre.json). Ce README est généré depuis les mêmes données.
 
 ## Ce qui existe déjà en ligne (relevé le 2026-10-04)
 
@@ -38,7 +38,7 @@ Le poster « Portrait intime aux rayures dorées » reprend la même œuvre que 
 - **Mots-clés** : toile = « tableau zèbre » (+ toile zèbre, tableau zèbre noir et blanc) ; poster = « poster zèbre » / « affiche zèbre » (+ affiche zèbre noir et blanc). Pages différenciées pour éviter la cannibalisation entre jumelles (même logique que lion).
 - **SERP** (recherche web, pas de GSC dans cette session donc **aucun volume ni position**) : « tableau zèbre » est tenu par Maisons du Monde, Amazon et des boutiques spécialisées (TabloDéco, Toile Animaux, Artwall and Co). Leurs pages font ~1 100 mots, **aucune n'a de FAQ** : notre FAQ + JSON-LD FAQPage reste le différenciateur. « Affiche zèbre » : Scenolia, Cdiscount, Zazzle, Le Cartel Français ; l'angle noir et blanc domine.
 - **Format** : identique aux collections lion (éditorial piloté par métachamps, rendu par `snippets/collection-editorial-auto.liquid`, template par défaut, aucun code thème à toucher). Guide toile 580 mots + 7 questions ; guide poster 493 mots + 6 questions.
-- **Règle smart** : tag canonique `zèbre` (bonne orthographe, convention multi-mots accentuée du store) + type de produit, comme entrée-couloir. Pré-requis : taguer les 15 produits (liste avec gid dans le JSON).
+- **Règle smart** : tag `zèbre` + type de produit, comme entrée-couloir. Shopify compare les tags sans tenir compte des accents : `zèbre` couvre aussi les produits tagués `zebre` ou `zébre`, aucun retag n'est nécessaire (vérifié le 04/10, cf. [applied-log.md](./applied-log.md)).
 - **Fil d'Ariane** : toile sous `tableau-animaux`, poster sous `posters-affiches-animaux` (comme lion).
 - **Titres SEO** : contiennent « MyselfMonArt » avec cette casse exacte, sinon `head-base.liquid` ajoute « – MyselfMonArt » en double (c'est le cas aujourd'hui sur `tableau-lion`, écrit « MyselfMonart »).
 - **Faits utilisés**, tous vérifiés sur les fiches produit en ligne : toile polyester 285 g/m², encres haute pigmentation garanties 75 ans contre la décoloration, châssis bois massif 3 cm tendu à la main, 5 finitions de bordure, cadres blanc / noir mat / argent ancien / chêne clair / noyer ; poster en tirage HD sur vrai papier photo bord à bord, sans cadre ou avec cadre (blanc, noir mat, chêne clair, noyer) ; formats 30x40 à 90x120 cm (carrés jusqu'à 100x100) ; conçu en France, imprimé en Europe ; livraison offerte ; retour 14 jours ; réponse 7 j/7. Studio fondé à Toulouse en 2022.
@@ -205,7 +205,7 @@ Le poster « Portrait intime aux rayures dorées » reprend la même œuvre que 
 
 ## Ordre d'application (session avec MCP Shopify)
 
-1. Ajouter le tag `zèbre` aux 15 produits (fusionner avec les tags existants avant `updateProduct`).
+1. ~~Ajouter le tag `zèbre` aux 15 produits~~ : inutile, Shopify compare les tags sans accents (`zebre` / `zébre` suffisent).
 2. **Créer `posters-affiches-zebre`** (smart, règle ci-dessus), puis vérifier qu'elle compte 6 produits. À faire **avant** d'écrire le guide toile, qui pointe vers elle.
 3. **Mettre à jour `tableau-zebre`** : titre « Tableau Zèbre », règle smart, SEO. Si elle a été créée en *manuelle*, Shopify ne permet pas de la passer en *smart* : soit la garder manuelle (les 9 toiles y sont déjà, mais les futurs zèbres devront être ajoutés à la main), soit la supprimer et la recréer en smart avec le même handle (sans risque SEO : elle a moins d'un jour).
 4. Écrire les métachamps des 2 collections (`custom.intro`, `custom.guide`, `custom.faq`, `custom.cocon_links`, `custom.type_of_collection`, `breadcrumb.parentCollection`).

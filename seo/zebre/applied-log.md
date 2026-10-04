@@ -4,10 +4,14 @@ Appliqué en live via le MCP Shopify le 2026-10-04 (après 17:00 UTC). Les valeu
 
 | Heure (UTC) | Action | Résultat | Rollback |
 |---|---|---|---|
-| 17:13 | Tag `zèbre` ajouté aux 15 produits (9 toiles, 6 posters), en conservant tous les tags existants | ✅ | Retirer `zèbre` de la liste des tags |
+| 17:13 | Tag `zèbre` envoyé aux 15 produits (tags existants conservés) | ⚪ Sans effet : Shopify traite `zèbre`, `zébre` et `zebre` comme un seul tag (comparaison sans accents) et a gardé le tag existant. Aucun produit modifié | — |
 | 17:15 | Création de `posters-affiches-zebre` (gid 682801660251) : titre, description courte, SEO, règle smart TAG = `zèbre` ET TYPE = `poster`, image + alt, `custom.intro` / `guide` / `faq` / `cocon_links` / `type_of_collection` / `editorial_h1`, `breadcrumb.parentCollection` → posters-affiches-animaux, `translation.handle` (fr/en), publiée sur la boutique en ligne, tri meilleures ventes | ✅ 6 produits | `deleteCollection` |
 | 17:18 | Traductions EN/DE/ES/NL de la collection poster : titre, handle, titre SEO, meta, description | ✅ 20 entrées, aucune `outdated` | Translate & Adapt |
 | 17:20 | Création de `tableau-zebre` | ❌ « Handle has already been taken » | — |
+
+## Tags : comparaison sans accents
+
+Vérifié en admin après l'envoi : le poster arc-en-ciel porte toujours `zébre`, sans `zèbre`. Pourtant la règle `TAG = zèbre` de la collection poster a bien trouvé les 6 posters (tagués `zebre` ou `zébre`). La règle couvre donc déjà les 15 produits sans retouche du catalogue. Pour les futurs zèbres, n'importe laquelle des trois graphies suffit.
 
 ## Vérifié en ligne (`/collections/posters-affiches-zebre`)
 
