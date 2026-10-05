@@ -1,10 +1,20 @@
 {
  "lot": "lot3",
  "date": "2026-10-05",
- "statut": "bloque_avant_ecriture",
- "metachamps_modifies": [],
- "raison": "getCollection et updateCollection ne renvoient pas les GID des metachamps ; sans GID, impossible de lire le digest et les traductions (getTranslatableContent) ni de publier (registerTranslations). Apres obtention d'un GID par une reecriture identique via setMetafield, la lecture getTranslatableContent a ete refusee par le controle des permissions ; travail arrete.",
- "ecritures_sans_effet_effectuees": [
+ "statut": "termine",
+ "historique": [
+  "Premier passage : l'agent du lot 3 est bloqué par le contrôle des autorisations avant toute écriture réelle (2 réécritures à l'identique sans effet, voir ecritures_sans_effet).",
+  "11:47 UTC : sur l'accord explicite de Walid (« oui, publie les 8 collections du lot 3 dans Shopify »), l'agent écrit le guide FR de tableaux-chambre-bebe, puis est de nouveau bloqué à la relecture.",
+  "11:57-12:10 UTC : la session principale termine le lot : 4 traductions de tableaux-chambre-bebe, puis 9 autres métachamps (FR + 4 langues)."
+ ],
+ "methode": [
+  "Guides : valeur de départ = extraction brute de la page publique, refaite juste avant l'écriture et identique au fichier préparé (35/35).",
+  "FAQ : valeur getCollection comparée octet par octet à la reconstruction depuis la page (accordéon + JSON-LD) : identique pour orange (2 473 car.) et portrait (2 215 car.).",
+  "Écriture FR par setMetafield ; digest Shopify relu = sha256 de la nouvelle valeur pour les 10 champs (JSON stocké tel quel, sans re-sérialisation).",
+  "Traductions : longueur des traductions avant écriture = fichiers préparés ; publiées avec le nouveau digest ; longueur relue = longueur envoyée (40/40).",
+  "Vérification en ligne : rendu identique au caractère près à la valeur attendue (jetons remplacés par 4,2 / 4.2 et 86) sur 40/40 pages, FAQ accordéon et JSON-LD compris."
+ ],
+ "ecritures_sans_effet": [
   {
    "outil": "updateCollection",
    "collection": "gid://shopify/Collection/406505226495",
@@ -21,61 +31,1198 @@
    "valeur": "identique a l'existante ; guide public re-extrait apres coup : identique octet par octet (sha256 030b03babe3b02fbda87865a6b8522e11328aa4d54aa2e9a55d8fc3ff5adb8ce, 3199 car.)"
   }
  ],
- "champs_a_traiter": {
-  "tableaux-chambre-bebe": {
+ "metachamps_modifies": 10,
+ "traductions_publiees": 40,
+ "entrees": [
+  {
+   "handle": "tableaux-chambre-bebe",
    "collection": "gid://shopify/Collection/406505226495",
-   "champs": [
-    "guide"
-   ],
-   "guide_gid": "gid://shopify/Metafield/64742952010075"
+   "metachamp": "custom.guide",
+   "gid": "gid://shopify/Metafield/64742952010075",
+   "type": "multi_line_text_field",
+   "langues": {
+    "fr": {
+     "longueur_avant": 3199,
+     "longueur_apres": 3218,
+     "sha256_apres": "2c9cfc54f1ca0310571ff8c95c524595c8a09967ee531397859499c33063e307",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "ous ont déjà confiée, pour une note Trustpilot de 4,1/5 sur 80 avis. Une question sur un format ou une ",
+       "apres": "ous ont déjà confiée, pour une note Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis. Une question sur un form"
+      },
+      {
+       "avant": "jà confiée, pour une note Trustpilot de 4,1/5 sur 80 avis. Une question sur un format ou une teinte ? ",
+       "apres": "e, pour une note Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis. Une question sur un format ou une teinte ? "
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "en": {
+     "longueur_avant": 3035,
+     "longueur_apres": 3054,
+     "sha256_apres": "dcd80ca0d240260bec039c4befe1d47bcdc0adb4e5bbe2fef48fbaeb3a491f04",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "than 1,015 families—earning a Trustpilot score of 4.1/5 from 80 reviews. Questions about size or shade?",
+       "apres": "than 1,015 families—earning a Trustpilot score of [[TP_SCORE]]/5 from [[TP_COUNT]] reviews. Questions about size"
+      },
+      {
+       "avant": "families—earning a Trustpilot score of 4.1/5 from 80 reviews. Questions about size or shade? Our Toulo",
+       "apres": "earning a Trustpilot score of [[TP_SCORE]]/5 from [[TP_COUNT]] reviews. Questions about size or shade? Our Toulo"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "de": {
+     "longueur_avant": 3382,
+     "longueur_apres": 3401,
+     "sha256_apres": "bc5347b4286a3904d2e0733ac88765d5c1ff3b43501ef9726d880d487867d6aa",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "vertraut haben, für eine Trustpilot-Bewertung von 4,1/5 bei 80 Bewertungen. Eine Frage zu einem Format ",
+       "apres": "vertraut haben, für eine Trustpilot-Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen. Eine Frage zu ein"
+      },
+      {
+       "avant": "aben, für eine Trustpilot-Bewertung von 4,1/5 bei 80 Bewertungen. Eine Frage zu einem Format oder eine",
+       "apres": " eine Trustpilot-Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen. Eine Frage zu einem Format oder eine"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "es": {
+     "longueur_avant": 3319,
+     "longueur_apres": 3338,
+     "sha256_apres": "8cb3da7f5d136060655ae8ba3e9da6f8492814806e68a71a775223838cd20433",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": " ya nos han confiado, para una nota Trustpilot de 4,1/5 sobre 80 reseñas. ¿Una pregunta sobre un format",
+       "apres": " ya nos han confiado, para una nota Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas. ¿Una pregunta sobre"
+      },
+      {
+       "avant": "confiado, para una nota Trustpilot de 4,1/5 sobre 80 reseñas. ¿Una pregunta sobre un formato o un tono",
+       "apres": " para una nota Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas. ¿Una pregunta sobre un formato o un tono"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "nl": {
+     "longueur_avant": 3249,
+     "longueur_apres": 3268,
+     "sha256_apres": "fd5188f4140c8a0241abdf7d8569c8f076e8d96d09aab3a9ae73c1a0708778f7",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "ebben toevertrouwd, voor een Trustpilot-score van 4,1/5 op 80 reviews. Een vraag over een formaat of ee",
+       "apres": "ebben toevertrouwd, voor een Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] reviews. Een vraag over een for"
+      },
+      {
+       "avant": "vertrouwd, voor een Trustpilot-score van 4,1/5 op 80 reviews. Een vraag over een formaat of een tint? ",
+       "apres": ", voor een Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] reviews. Een vraag over een formaat of een tint? "
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    }
+   },
+   "digest_fr_relu": "2c9cfc54f1ca0310571ff8c95c524595c8a09967ee531397859499c33063e307",
+   "traductions": "4 publiées, outdated:false, valueLength = longueur envoyée"
   },
-  "tableau-chambre-fille": {
+  {
+   "handle": "tableau-chambre-fille",
    "collection": "gid://shopify/Collection/406516138239",
-   "champs": [
-    "guide"
-   ]
+   "metachamp": "custom.guide",
+   "gid": "gid://shopify/Metafield/64742994903387",
+   "type": "multi_line_text_field",
+   "langues": {
+    "fr": {
+     "longueur_avant": 2879,
+     "longueur_apres": 2898,
+     "sha256_apres": "f5031293d3476188af6928c623bde30b9c4e406069a17d59646d31a9a19b9792",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": " nous font confiance, avec une note Trustpilot de 4,1/5 sur 80 avis. Chaque œuvre est sélectionnée et r",
+       "apres": " nous font confiance, avec une note Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis. Chaque œuvre est sélecti"
+      },
+      {
+       "avant": " confiance, avec une note Trustpilot de 4,1/5 sur 80 avis. Chaque œuvre est sélectionnée et retouchée ",
+       "apres": "e, avec une note Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis. Chaque œuvre est sélectionnée et retouchée "
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "en": {
+     "longueur_avant": 2813,
+     "longueur_apres": 2832,
+     "sha256_apres": "1a1a737db0caa637e7b40ebe2f7a0d5fe3de8cddae9cb8a32d6cda49469704fe",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "amilies who trust us, with a Trustpilot rating of 4.1/5 from 80 reviews. Every artwork is hand-selected",
+       "apres": "amilies who trust us, with a Trustpilot rating of [[TP_SCORE]]/5 from [[TP_COUNT]] reviews. Every artwork is han"
+      },
+      {
+       "avant": " trust us, with a Trustpilot rating of 4.1/5 from 80 reviews. Every artwork is hand-selected and retou",
+       "apres": ", with a Trustpilot rating of [[TP_SCORE]]/5 from [[TP_COUNT]] reviews. Every artwork is hand-selected and retou"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "de": {
+     "longueur_avant": 3209,
+     "longueur_apres": 3228,
+     "sha256_apres": "b13d5a3b2a954c6417cacf381d0dda75b7665b30cf4e959d32c68b560847e36f",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "uns vertrauen, mit einer Trustpilot-Bewertung von 4,1/5 bei 80 Bewertungen. Jedes Werk wird von unserer",
+       "apres": "uns vertrauen, mit einer Trustpilot-Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen. Jedes Werk wird v"
+      },
+      {
+       "avant": "uen, mit einer Trustpilot-Bewertung von 4,1/5 bei 80 Bewertungen. Jedes Werk wird von unserer französi",
+       "apres": "einer Trustpilot-Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen. Jedes Werk wird von unserer französi"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "es": {
+     "longueur_avant": 3076,
+     "longueur_apres": 3095,
+     "sha256_apres": "e10dea27a26d6ee0872a5dc3a55de45ce81f58fd6c527d25a8f5e49a43dbda3e",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "e confían en nosotros, con una nota Trustpilot de 4,1/5 sobre 80 reseñas. Cada obra es seleccionada y r",
+       "apres": "e confían en nosotros, con una nota Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas. Cada obra es selecc"
+      },
+      {
+       "avant": " nosotros, con una nota Trustpilot de 4,1/5 sobre 80 reseñas. Cada obra es seleccionada y retocada a m",
+       "apres": ", con una nota Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas. Cada obra es seleccionada y retocada a m"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "nl": {
+     "longueur_avant": 2931,
+     "longueur_apres": 2950,
+     "sha256_apres": "16c7f1d312ab48ace9e35583b01142615555fcfbcf1da3f4abe6079aab8357c9",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": " die ons vertrouwen, met een Trustpilot-score van 4,1/5 op 80 reviews. Elk werk wordt met de hand gesel",
+       "apres": " die ons vertrouwen, met een Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] reviews. Elk werk wordt met de "
+      },
+      {
+       "avant": "vertrouwen, met een Trustpilot-score van 4,1/5 op 80 reviews. Elk werk wordt met de hand geselecteerd ",
+       "apres": "n, met een Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] reviews. Elk werk wordt met de hand geselecteerd "
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    }
+   },
+   "digest_fr_relu": "f5031293d3476188af6928c623bde30b9c4e406069a17d59646d31a9a19b9792",
+   "traductions": "4 publiées, outdated:false, valueLength = longueur envoyée"
   },
-  "tableau-jaune": {
+  {
+   "handle": "tableau-jaune",
    "collection": "gid://shopify/Collection/599721574747",
-   "champs": [
-    "guide"
-   ]
+   "metachamp": "custom.guide",
+   "gid": "gid://shopify/Metafield/64743039140187",
+   "type": "multi_line_text_field",
+   "langues": {
+    "fr": {
+     "longueur_avant": 3116,
+     "longueur_apres": 3135,
+     "sha256_apres": "25927fe8dfc18504739ed4dc6626b40901531e85f400333b446d012be02143a9",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": " <strong>1 015 tableaux</strong> et réuni <strong>4,1/5 sur 80 avis Trustpilot</strong>. Chaque œuvre e",
+       "apres": " <strong>1 015 tableaux</strong> et réuni <strong>[[TP_SCORE]]/5 sur [[TP_COUNT]] avis Trustpilot</strong>. Chaq"
+      },
+      {
+       "avant": " 015 tableaux</strong> et réuni <strong>4,1/5 sur 80 avis Trustpilot</strong>. Chaque œuvre est sélect",
+       "apres": "eaux</strong> et réuni <strong>[[TP_SCORE]]/5 sur [[TP_COUNT]] avis Trustpilot</strong>. Chaque œuvre est sélect"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "en": {
+     "longueur_avant": 2965,
+     "longueur_apres": 2984,
+     "sha256_apres": "717f0c21db2e596e915cb1d0ee9efcb2f8fee11559cb3a8ce0306de63295e874",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "strong>1,015 artworks</strong> and earned <strong>4.1/5 from 80 Trustpilot reviews</strong>. Every piec",
+       "apres": "strong>1,015 artworks</strong> and earned <strong>[[TP_SCORE]]/5 from [[TP_COUNT]] Trustpilot reviews</strong>. "
+      },
+      {
+       "avant": "5 artworks</strong> and earned <strong>4.1/5 from 80 Trustpilot reviews</strong>. Every piece is hand-",
+       "apres": "s</strong> and earned <strong>[[TP_SCORE]]/5 from [[TP_COUNT]] Trustpilot reviews</strong>. Every piece is hand-"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "de": {
+     "longueur_avant": 3429,
+     "longueur_apres": 3448,
+     "sha256_apres": "e06c7bb18ff0e42774bcbc29c34efb6c7bf69cec52fc3786d3148fcc3156acc9",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "trong>1.015 Bilder</strong> geliefert und <strong>4,1/5 bei 80 Trustpilot-Bewertungen</strong> erreicht",
+       "apres": "trong>1.015 Bilder</strong> geliefert und <strong>[[TP_SCORE]]/5 bei [[TP_COUNT]] Trustpilot-Bewertungen</strong"
+      },
+      {
+       "avant": "5 Bilder</strong> geliefert und <strong>4,1/5 bei 80 Trustpilot-Bewertungen</strong> erreicht. Jedes W",
+       "apres": "/strong> geliefert und <strong>[[TP_SCORE]]/5 bei [[TP_COUNT]] Trustpilot-Bewertungen</strong> erreicht. Jedes W"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "es": {
+     "longueur_avant": 3223,
+     "longueur_apres": 3242,
+     "sha256_apres": "6d8713f472e2f668a91ce559bd509d5bd595b9764ea81a4ebba59d8ee6702b8a",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": " <strong>1.015 cuadros</strong> y reunido <strong>4,1/5 sobre 80 reseñas en Trustpilot</strong>. Cada o",
+       "apres": " <strong>1.015 cuadros</strong> y reunido <strong>[[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas en Trustpilot</stron"
+      },
+      {
+       "avant": "15 cuadros</strong> y reunido <strong>4,1/5 sobre 80 reseñas en Trustpilot</strong>. Cada obra es sele",
+       "apres": "s</strong> y reunido <strong>[[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas en Trustpilot</strong>. Cada obra es sele"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "nl": {
+     "longueur_avant": 3205,
+     "longueur_apres": 3224,
+     "sha256_apres": "e5187cf5b8316736e3a948138af285b3995db12ff6f727e63b6d5528f7847756",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "g>1.015 schilderijen</strong> geleverd en <strong>4,1/5 op 80 Trustpilot-beoordelingen</strong> verzame",
+       "apres": "g>1.015 schilderijen</strong> geleverd en <strong>[[TP_SCORE]]/5 op [[TP_COUNT]] Trustpilot-beoordelingen</stron"
+      },
+      {
+       "avant": "childerijen</strong> geleverd en <strong>4,1/5 op 80 Trustpilot-beoordelingen</strong> verzameld. Elk ",
+       "apres": "en</strong> geleverd en <strong>[[TP_SCORE]]/5 op [[TP_COUNT]] Trustpilot-beoordelingen</strong> verzameld. Elk "
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    }
+   },
+   "digest_fr_relu": "25927fe8dfc18504739ed4dc6626b40901531e85f400333b446d012be02143a9",
+   "traductions": "4 publiées, outdated:false, valueLength = longueur envoyée"
   },
-  "tableau-orange": {
-   "collection": "gid://shopify/Collection/600335221083",
-   "champs": [
-    "guide",
-    "faq"
-   ]
-  },
-  "tableaux-nature-sauvage": {
+  {
+   "handle": "tableaux-nature-sauvage",
    "collection": "gid://shopify/Collection/607047844187",
-   "champs": [
-    "guide"
-   ]
+   "metachamp": "custom.guide",
+   "gid": "gid://shopify/Metafield/64742980157787",
+   "type": "multi_line_text_field",
+   "langues": {
+    "fr": {
+     "longueur_avant": 2972,
+     "longueur_apres": 2991,
+     "sha256_apres": "a937bf3b6f30d4de2c6e503a8b7baf2a7b5dc5326da8daf6b72ff0212aab8ac4",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "e nos clients avec une note <strong>Trustpilot de 4,1/5 sur 80 avis</strong>. Chaque oeuvre est sélecti",
+       "apres": "e nos clients avec une note <strong>Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis</strong>. Chaque oeuvre e"
+      },
+      {
+       "avant": "nts avec une note <strong>Trustpilot de 4,1/5 sur 80 avis</strong>. Chaque oeuvre est sélectionnée et ",
+       "apres": "une note <strong>Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis</strong>. Chaque oeuvre est sélectionnée et "
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "en": {
+     "longueur_avant": 2913,
+     "longueur_apres": 2932,
+     "sha256_apres": "8a95d0aadfc4d4afc1d6ea341d8338da3136de113f66f2ae3bf5b2f8f75e849d",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "tomers’ trust with a <strong>Trustpilot rating of 4.1/5 from 80 reviews</strong>. Every piece is hand-s",
+       "apres": "tomers’ trust with a <strong>Trustpilot rating of [[TP_SCORE]]/5 from [[TP_COUNT]] reviews</strong>. Every piece"
+      },
+      {
+       "avant": "st with a <strong>Trustpilot rating of 4.1/5 from 80 reviews</strong>. Every piece is hand-selected an",
+       "apres": " <strong>Trustpilot rating of [[TP_SCORE]]/5 from [[TP_COUNT]] reviews</strong>. Every piece is hand-selected an"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "de": {
+     "longueur_avant": 3157,
+     "longueur_apres": 3176,
+     "sha256_apres": "b74b3dd9baaa39631ed5a387be0e3fa8cf1b8642c4b0cb4b2944c5ecbcfeaf6b",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "Kunden mit einer <strong>Trustpilot-Bewertung von 4,1/5 bei 80 Bewertungen</strong> gewonnen. Jedes Wer",
+       "apres": "Kunden mit einer <strong>Trustpilot-Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen</strong> gewonnen."
+      },
+      {
+       "avant": " einer <strong>Trustpilot-Bewertung von 4,1/5 bei 80 Bewertungen</strong> gewonnen. Jedes Werk wird vo",
+       "apres": "trong>Trustpilot-Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen</strong> gewonnen. Jedes Werk wird vo"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "es": {
+     "longueur_avant": 3047,
+     "longueur_apres": 3066,
+     "sha256_apres": "35edcd2ce96146d667f5eb6b7b00c1ec512e8baafa5f88a8b31507162f6cf56c",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "stros clientes con una nota <strong>Trustpilot de 4,1/5 sobre 80 reseñas</strong>. Cada obra se selecci",
+       "apres": "stros clientes con una nota <strong>Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas</strong>. Cada obra "
+      },
+      {
+       "avant": "es con una nota <strong>Trustpilot de 4,1/5 sobre 80 reseñas</strong>. Cada obra se selecciona y se re",
+       "apres": "a nota <strong>Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas</strong>. Cada obra se selecciona y se re"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "nl": {
+     "longueur_avant": 2967,
+     "longueur_apres": 2986,
+     "sha256_apres": "69ee9221fe2aceffc693c810ad639ffdfbcf62a8b7ad30a20f929c64ddc7180c",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "en verzameld met een <strong>Trustpilot-score van 4,1/5 op 80 beoordelingen</strong>. Elk werk wordt me",
+       "apres": "en verzameld met een <strong>Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] beoordelingen</strong>. Elk wer"
+      },
+      {
+       "avant": "eld met een <strong>Trustpilot-score van 4,1/5 op 80 beoordelingen</strong>. Elk werk wordt met de han",
+       "apres": "en <strong>Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] beoordelingen</strong>. Elk werk wordt met de han"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    }
+   },
+   "digest_fr_relu": "a937bf3b6f30d4de2c6e503a8b7baf2a7b5dc5326da8daf6b72ff0212aab8ac4",
+   "traductions": "4 publiées, outdated:false, valueLength = longueur envoyée"
   },
-  "tableau-street-art": {
+  {
+   "handle": "tableau-street-art",
    "collection": "gid://shopify/Collection/624281387355",
-   "champs": [
-    "guide"
-   ]
+   "metachamp": "custom.guide",
+   "gid": "gid://shopify/Metafield/64743107395931",
+   "type": "multi_line_text_field",
+   "langues": {
+    "fr": {
+     "longueur_avant": 3331,
+     "longueur_apres": 3350,
+     "sha256_apres": "740e73d181402ed22ff7aafce27afff25523ca67b7ead461ae851a2f27437c88",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "rs de nos clients, qui nous accordent une note de 4,1/5 sur 80 avis Trustpilot. Une preuve discrète mai",
+       "apres": "rs de nos clients, qui nous accordent une note de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis Trustpilot. Une preuve di"
+      },
+      {
+       "avant": "clients, qui nous accordent une note de 4,1/5 sur 80 avis Trustpilot. Une preuve discrète mais sincère",
+       "apres": "qui nous accordent une note de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis Trustpilot. Une preuve discrète mais sincère"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "en": {
+     "longueur_avant": 3378,
+     "longueur_apres": 3397,
+     "sha256_apres": "d239ca1a70ba190a20444ed1f021a35ce3230aeb529d91b28a7e6c345340455f",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "have found a home with our customers, who rate us 4.1/5 across 80 Trustpilot reviews—a modest but genui",
+       "apres": "have found a home with our customers, who rate us [[TP_SCORE]]/5 across [[TP_COUNT]] Trustpilot reviews—a modest"
+      },
+      {
+       "avant": "home with our customers, who rate us 4.1/5 across 80 Trustpilot reviews—a modest but genuine sign of t",
+       "apres": " our customers, who rate us [[TP_SCORE]]/5 across [[TP_COUNT]] Trustpilot reviews—a modest but genuine sign of t"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "de": {
+     "longueur_avant": 3617,
+     "longueur_apres": 3636,
+     "sha256_apres": "585ae316b8f57c8af61df36d159131fec978d91797d7b6b2ca7ec52b416605ff",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "serer Kunden gefunden, die uns eine Bewertung von 4,1/5 bei 80 Trustpilot-Bewertungen geben. Ein dezent",
+       "apres": "serer Kunden gefunden, die uns eine Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Trustpilot-Bewertungen geben. "
+      },
+      {
+       "avant": "en gefunden, die uns eine Bewertung von 4,1/5 bei 80 Trustpilot-Bewertungen geben. Ein dezenter, aber ",
+       "apres": "en, die uns eine Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Trustpilot-Bewertungen geben. Ein dezenter, aber "
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "es": {
+     "longueur_avant": 3485,
+     "longueur_apres": 3504,
+     "sha256_apres": "c965bcc2d32d1f9ddaa786379fa54fb1ad2344ad7d269c59e221b4aa2afdd1f9",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "de nuestros clientes, que nos otorgan una nota de 4,1/5 sobre 80 reseñas Trustpilot. Una prueba discret",
+       "apres": "de nuestros clientes, que nos otorgan una nota de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas Trustpilot. Una prue"
+      },
+      {
+       "avant": "clientes, que nos otorgan una nota de 4,1/5 sobre 80 reseñas Trustpilot. Una prueba discreta pero sinc",
+       "apres": " que nos otorgan una nota de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas Trustpilot. Una prueba discreta pero sinc"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "nl": {
+     "longueur_avant": 3432,
+     "longueur_apres": 3451,
+     "sha256_apres": "3a960aafb194a1e1d00e3c663698fd9a74d65573252e9694b811205fa3f0783f",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": " van onze klanten vervoegd, die ons een score van 4,1/5 op 80 Trustpilot-beoordelingen toekennen. Een d",
+       "apres": " van onze klanten vervoegd, die ons een score van [[TP_SCORE]]/5 op [[TP_COUNT]] Trustpilot-beoordelingen toeken"
+      },
+      {
+       "avant": " klanten vervoegd, die ons een score van 4,1/5 op 80 Trustpilot-beoordelingen toekennen. Een discreet ",
+       "apres": "vervoegd, die ons een score van [[TP_SCORE]]/5 op [[TP_COUNT]] Trustpilot-beoordelingen toekennen. Een discreet "
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    }
+   },
+   "digest_fr_relu": "740e73d181402ed22ff7aafce27afff25523ca67b7ead461ae851a2f27437c88",
+   "traductions": "4 publiées, outdated:false, valueLength = longueur envoyée"
   },
-  "tableau-portrait-1": {
-   "collection": "gid://shopify/Collection/644760338779",
-   "champs": [
-    "guide",
-    "faq"
-   ]
-  },
-  "posters-affiches-chambre-enfant": {
+  {
+   "handle": "posters-affiches-chambre-enfant",
    "collection": "gid://shopify/Collection/675280650587",
-   "champs": [
-    "guide"
-   ],
-   "note": "seulement [[TP_SCORE]] (pas de nombre d'avis dans la phrase), dans les 5 langues"
+   "metachamp": "custom.guide",
+   "gid": "gid://shopify/Metafield/65790201561435",
+   "type": "multi_line_text_field",
+   "langues": {
+    "fr": {
+     "longueur_avant": 3583,
+     "longueur_apres": 3592,
+     "sha256_apres": "19e02ea402ef33325df9cc7c278652eead60e0e715b2fbfdbbc6391dca39e8fd",
+     "remplacements": 1,
+     "phrases": [
+      {
+       "avant": " Bébé</a>. Maison française fondée en 2022, notée 4,1/5 sur Trustpilot, nous sélectionnons chaque visue",
+       "apres": " Bébé</a>. Maison française fondée en 2022, notée [[TP_SCORE]]/5 sur Trustpilot, nous sélectionnons chaque visue"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "en": {
+     "longueur_avant": 3155,
+     "longueur_apres": 3164,
+     "sha256_apres": "8f776896b378ecb471f49d31132c48c275258139a7d608a7280a093df21e9989",
+     "remplacements": 1,
+     "phrases": [
+      {
+       "avant": "nts</a>. A French brand founded in 2022 and rated 4.1/5 on Trustpilot, we curate every design with care",
+       "apres": "nts</a>. A French brand founded in 2022 and rated [[TP_SCORE]]/5 on Trustpilot, we curate every design with care"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "de": {
+     "longueur_avant": 3530,
+     "longueur_apres": 3539,
+     "sha256_apres": "a1fbb2f2410db686a35e153ee124e7185fdceb99261c66afed16d0ac1121fb73",
+     "remplacements": 1,
+     "phrases": [
+      {
+       "avant": "mmer</a>. Französisches Haus, gegründet 2022, mit 4,1/5 auf Trustpilot bewertet – wir wählen jedes Moti",
+       "apres": "mmer</a>. Französisches Haus, gegründet 2022, mit [[TP_SCORE]]/5 auf Trustpilot bewertet – wir wählen jedes Moti"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "es": {
+     "longueur_avant": 3579,
+     "longueur_apres": 3588,
+     "sha256_apres": "ccbe78e5430c56ec33c7b99d5dbbc55e5fd2d8cc1fc2287faabe1f6c0b1676e7",
+     "remplacements": 1,
+     "phrases": [
+      {
+       "avant": "a francesa fundada en 2022, con una valoración de 4,1/5 en Trustpilot; seleccionamos cada visual con ex",
+       "apres": "a francesa fundada en 2022, con una valoración de [[TP_SCORE]]/5 en Trustpilot; seleccionamos cada visual con ex"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "nl": {
+     "longueur_avant": 3575,
+     "longueur_apres": 3584,
+     "sha256_apres": "b956d5c5e9965badaf429d4f8f4c1b93eb0a78d4286b93e018a0cdd9da10d4e8",
+     "remplacements": 1,
+     "phrases": [
+      {
+       "avant": "a>. Frans huis, opgericht in 2022, beoordeeld met 4,1/5 op Trustpilot; we selecteren elk beeld met hoge",
+       "apres": "a>. Frans huis, opgericht in 2022, beoordeeld met [[TP_SCORE]]/5 op Trustpilot; we selecteren elk beeld met hoge"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": null,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    }
+   },
+   "digest_fr_relu": "19e02ea402ef33325df9cc7c278652eead60e0e715b2fbfdbbc6391dca39e8fd",
+   "traductions": "4 publiées, outdated:false, valueLength = longueur envoyée"
+  },
+  {
+   "handle": "tableau-orange",
+   "collection": "gid://shopify/Collection/600335221083",
+   "metachamp": "custom.guide",
+   "gid": "gid://shopify/Metafield/64743048249691",
+   "type": "multi_line_text_field",
+   "langues": {
+    "fr": {
+     "longueur_avant": 3002,
+     "longueur_apres": 3021,
+     "sha256_apres": "7d7a3be4cac3e22166b159d805b2a62a67420f6cc38f73094f7cc3da393d8050",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "rieurs, et nos clients nous accordent une note de 4,1/5 sur 80 avis Trustpilot. Une confiance qui nous ",
+       "apres": "rieurs, et nos clients nous accordent une note de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis Trustpilot. Une confiance"
+      },
+      {
+       "avant": " nos clients nous accordent une note de 4,1/5 sur 80 avis Trustpilot. Une confiance qui nous engage. U",
+       "apres": "nts nous accordent une note de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis Trustpilot. Une confiance qui nous engage. U"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": true,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "en": {
+     "longueur_avant": 2816,
+     "longueur_apres": 2835,
+     "sha256_apres": "15390849a4e1dbeab02ec524a22ea1dfb35eee7abb2a46aecca4ac23abda0f12",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "works into our customers' homes, and they rate us 4.1/5 across 80 Trustpilot reviews. A trust that comm",
+       "apres": "works into our customers' homes, and they rate us [[TP_SCORE]]/5 across [[TP_COUNT]] Trustpilot reviews. A trust"
+      },
+      {
+       "avant": "r customers' homes, and they rate us 4.1/5 across 80 Trustpilot reviews. A trust that commits us. Ques",
+       "apres": "rs' homes, and they rate us [[TP_SCORE]]/5 across [[TP_COUNT]] Trustpilot reviews. A trust that commits us. Ques"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": true,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "de": {
+     "longueur_avant": 3234,
+     "longueur_apres": 3253,
+     "sha256_apres": "3c54e6c03656b78e2005b10bad62d58020db29f8d8c96ecd89617d4c0493b2bb",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "t, und unsere Kunden geben uns eine Bewertung von 4,1/5 bei 80 Trustpilot-Bewertungen. Ein Vertrauen, d",
+       "apres": "t, und unsere Kunden geben uns eine Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Trustpilot-Bewertungen. Ein Ve"
+      },
+      {
+       "avant": "ere Kunden geben uns eine Bewertung von 4,1/5 bei 80 Trustpilot-Bewertungen. Ein Vertrauen, das uns ve",
+       "apres": "n geben uns eine Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Trustpilot-Bewertungen. Ein Vertrauen, das uns ve"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": true,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "es": {
+     "longueur_avant": 3075,
+     "longueur_apres": 3094,
+     "sha256_apres": "8bc72360cf4daca5837487ab149f56a53841b63ec91ab0a50de60ef1e8b8495e",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "ores, y nuestros clientes nos otorgan una nota de 4,1/5 sobre 80 reseñas en Trustpilot. Una confianza q",
+       "apres": "ores, y nuestros clientes nos otorgan una nota de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas en Trustpilot. Una c"
+      },
+      {
+       "avant": "tros clientes nos otorgan una nota de 4,1/5 sobre 80 reseñas en Trustpilot. Una confianza que nos comp",
+       "apres": "ntes nos otorgan una nota de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas en Trustpilot. Una confianza que nos comp"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": true,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "nl": {
+     "longueur_avant": 3020,
+     "longueur_apres": 3039,
+     "sha256_apres": "e245f3cccac4263f2a0f4a0e1f48101ee59af3dd69cdf38b42e66b4e19bd2f70",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "erieurs, en onze klanten kennen ons een score van 4,1/5 op 80 Trustpilot-beoordelingen toe. Een vertrou",
+       "apres": "erieurs, en onze klanten kennen ons een score van [[TP_SCORE]]/5 op [[TP_COUNT]] Trustpilot-beoordelingen toe. E"
+      },
+      {
+       "avant": "en onze klanten kennen ons een score van 4,1/5 op 80 Trustpilot-beoordelingen toe. Een vertrouwen dat ",
+       "apres": "lanten kennen ons een score van [[TP_SCORE]]/5 op [[TP_COUNT]] Trustpilot-beoordelingen toe. Een vertrouwen dat "
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": true,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    }
+   },
+   "digest_fr_relu": "7d7a3be4cac3e22166b159d805b2a62a67420f6cc38f73094f7cc3da393d8050",
+   "traductions": "4 publiées, outdated:false, valueLength = longueur envoyée"
+  },
+  {
+   "handle": "tableau-portrait-1",
+   "collection": "gid://shopify/Collection/644760338779",
+   "metachamp": "custom.guide",
+   "gid": "gid://shopify/Metafield/64743053001051",
+   "type": "multi_line_text_field",
+   "langues": {
+    "fr": {
+     "longueur_avant": 3083,
+     "longueur_apres": 3102,
+     "sha256_apres": "21e7a304b3d123437ccdb417bde16cd557e74417d22c32274e6cd13a9f6aa8ed",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "semblent.</li>\n<li>Une note <strong>Trustpilot de 4,1/5</strong> sur 80 avis.</li>\n<li>Un <strong>servi",
+       "apres": "semblent.</li>\n<li>Une note <strong>Trustpilot de [[TP_SCORE]]/5</strong> sur [[TP_COUNT]] avis.</li>\n<li>Un <st"
+      },
+      {
+       "avant": "Une note <strong>Trustpilot de 4,1/5</strong> sur 80 avis.</li>\n<li>Un <strong>service client basé à T",
+       "apres": "<strong>Trustpilot de [[TP_SCORE]]/5</strong> sur [[TP_COUNT]] avis.</li>\n<li>Un <strong>service client basé à T"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": true,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "en": {
+     "longueur_avant": 3014,
+     "longueur_apres": 3033,
+     "sha256_apres": "69c8d4bf37a7e6f6e1d5e6a58aeead0ce8da7f0f2f109a83ef73a547e97fc24e",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "o we are.</li>\n<li>A <strong>Trustpilot rating of 4.1/5</strong> from 80 reviews.</li>\n<li><strong>Cust",
+       "apres": "o we are.</li>\n<li>A <strong>Trustpilot rating of [[TP_SCORE]]/5</strong> from [[TP_COUNT]] reviews.</li>\n<li><s"
+      },
+      {
+       "avant": " <strong>Trustpilot rating of 4.1/5</strong> from 80 reviews.</li>\n<li><strong>Customer service based ",
+       "apres": "Trustpilot rating of [[TP_SCORE]]/5</strong> from [[TP_COUNT]] reviews.</li>\n<li><strong>Customer service based "
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": true,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "de": {
+     "longueur_avant": 3295,
+     "longueur_apres": 3314,
+     "sha256_apres": "a36c8ea2e18a6110b637de544d2937a3958f2a093c50f04567f22648c0405e59",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "passen.</li>\n<li>Eine Note <strong>Trustpilot von 4,1/5</strong> bei 80 Bewertungen.</li>\n<li>Ein <stro",
+       "apres": "passen.</li>\n<li>Eine Note <strong>Trustpilot von [[TP_SCORE]]/5</strong> bei [[TP_COUNT]] Bewertungen.</li>\n<li"
+      },
+      {
+       "avant": "ne Note <strong>Trustpilot von 4,1/5</strong> bei 80 Bewertungen.</li>\n<li>Ein <strong>Kundenservice m",
+       "apres": "strong>Trustpilot von [[TP_SCORE]]/5</strong> bei [[TP_COUNT]] Bewertungen.</li>\n<li>Ein <strong>Kundenservice m"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": true,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "es": {
+     "longueur_avant": 3127,
+     "longueur_apres": 3146,
+     "sha256_apres": "d9c296621ab468bfd196c0396b3109e2fe59eb7028b72e643a8a018d8e1f2d0d",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "nosotros.</li>\n<li>Una nota <strong>Trustpilot de 4,1/5</strong> sobre 80 opiniones.</li>\n<li>Un <stron",
+       "apres": "nosotros.</li>\n<li>Una nota <strong>Trustpilot de [[TP_SCORE]]/5</strong> sobre [[TP_COUNT]] opiniones.</li>\n<li"
+      },
+      {
+       "avant": "a nota <strong>Trustpilot de 4,1/5</strong> sobre 80 opiniones.</li>\n<li>Un <strong>servicio de atenci",
+       "apres": "trong>Trustpilot de [[TP_SCORE]]/5</strong> sobre [[TP_COUNT]] opiniones.</li>\n<li>Un <strong>servicio de atenci"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": true,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "nl": {
+     "longueur_avant": 3192,
+     "longueur_apres": 3211,
+     "sha256_apres": "cdaaea2a924a3416d51332b50f5442abf8daea6443a894dbd02347219ee8f262",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "passen.</li>\n<li>Een <strong>Trustpilot-score van 4,1/5</strong> op 80 beoordelingen.</li>\n<li>Een <str",
+       "apres": "passen.</li>\n<li>Een <strong>Trustpilot-score van [[TP_SCORE]]/5</strong> op [[TP_COUNT]] beoordelingen.</li>\n<l"
+      },
+      {
+       "avant": "en <strong>Trustpilot-score van 4,1/5</strong> op 80 beoordelingen.</li>\n<li>Een <strong>klantenservic",
+       "apres": "g>Trustpilot-score van [[TP_SCORE]]/5</strong> op [[TP_COUNT]] beoordelingen.</li>\n<li>Een <strong>klantenservic"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": true,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    }
+   },
+   "digest_fr_relu": "21e7a304b3d123437ccdb417bde16cd557e74417d22c32274e6cd13a9f6aa8ed",
+   "traductions": "4 publiées, outdated:false, valueLength = longueur envoyée"
+  },
+  {
+   "handle": "tableau-orange",
+   "collection": "gid://shopify/Collection/600335221083",
+   "metachamp": "custom.faq",
+   "gid": "gid://shopify/Metafield/64743059456347",
+   "type": "json",
+   "langues": {
+    "fr": {
+     "longueur_avant": 2473,
+     "longueur_apres": 2492,
+     "sha256_apres": "d596dd1e80dfd6a0b6a0ec2786016062a271d3d8bd9e12e831a75634d3ab1c95",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "s de nos clients, qui nous attribuent une note de 4,1/5 sur 80 avis Trustpilot. Chaque commande est sui",
+       "apres": "s de nos clients, qui nous attribuent une note de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis Trustpilot. Chaque comman"
+      },
+      {
+       "avant": "lients, qui nous attribuent une note de 4,1/5 sur 80 avis Trustpilot. Chaque commande est suivie avec ",
+       "apres": "ui nous attribuent une note de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis Trustpilot. Chaque commande est suivie avec "
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": true,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "en": {
+     "longueur_avant": 2160,
+     "longueur_apres": 2179,
+     "sha256_apres": "ae66cb6e9272d950e83370d2540d7f220a1a4970955deb9506a158dde7b85ff8",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": " a place in our customers' homes, and we're rated 4.1/5 across 80 Trustpilot reviews. Every order is ca",
+       "apres": " a place in our customers' homes, and we're rated [[TP_SCORE]]/5 across [[TP_COUNT]] Trustpilot reviews. Every o"
+      },
+      {
+       "avant": "ur customers' homes, and we're rated 4.1/5 across 80 Trustpilot reviews. Every order is carefully hand",
+       "apres": "ers' homes, and we're rated [[TP_SCORE]]/5 across [[TP_COUNT]] Trustpilot reviews. Every order is carefully hand"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": true,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "de": {
+     "longueur_avant": 2586,
+     "longueur_apres": 2605,
+     "sha256_apres": "1bc0676e77ebfa3d6bcefb029d1826fbe35b6a1d86975d757d743ea2f24f9843",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "serer Kunden gefunden, die uns eine Bewertung von 4,1/5 bei 80 Trustpilot-Bewertungen geben. Jede Beste",
+       "apres": "serer Kunden gefunden, die uns eine Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Trustpilot-Bewertungen geben. "
+      },
+      {
+       "avant": "en gefunden, die uns eine Bewertung von 4,1/5 bei 80 Trustpilot-Bewertungen geben. Jede Bestellung wir",
+       "apres": "en, die uns eine Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Trustpilot-Bewertungen geben. Jede Bestellung wir"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": true,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "es": {
+     "longueur_avant": 2506,
+     "longueur_apres": 2525,
+     "sha256_apres": "8cc7efdf7a7b3359c299091939ace9b6e5477655b8a4ad71bc8458d7234b960c",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": " nuestros clientes, que nos atribuyen una nota de 4,1/5 sobre 80 reseñas en Trustpilot. Cada pedido se ",
+       "apres": " nuestros clientes, que nos atribuyen una nota de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas en Trustpilot. Cada "
+      },
+      {
+       "avant": "ientes, que nos atribuyen una nota de 4,1/5 sobre 80 reseñas en Trustpilot. Cada pedido se sigue con c",
+       "apres": "ue nos atribuyen una nota de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas en Trustpilot. Cada pedido se sigue con c"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": true,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "nl": {
+     "longueur_avant": 2524,
+     "longueur_apres": 2543,
+     "sha256_apres": "bfcac0a3203b55c1d79f531b05b5ba4d2eb569cd21f9154928a1798b76f35405",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "nterieurs van onze klanten, die ons een score van 4,1/5 op 80 Trustpilot-beoordelingen toekennen. Elke ",
+       "apres": "nterieurs van onze klanten, die ons een score van [[TP_SCORE]]/5 op [[TP_COUNT]] Trustpilot-beoordelingen toeken"
+      },
+      {
+       "avant": " van onze klanten, die ons een score van 4,1/5 op 80 Trustpilot-beoordelingen toekennen. Elke bestelli",
+       "apres": " klanten, die ons een score van [[TP_SCORE]]/5 op [[TP_COUNT]] Trustpilot-beoordelingen toekennen. Elke bestelli"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": true,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    }
+   },
+   "digest_fr_relu": "d596dd1e80dfd6a0b6a0ec2786016062a271d3d8bd9e12e831a75634d3ab1c95",
+   "traductions": "4 publiées, outdated:false, valueLength = longueur envoyée"
+  },
+  {
+   "handle": "tableau-portrait-1",
+   "collection": "gid://shopify/Collection/644760338779",
+   "metachamp": "custom.faq",
+   "gid": "gid://shopify/Metafield/64743067353435",
+   "type": "json",
+   "langues": {
+    "fr": {
+     "longueur_avant": 2215,
+     "longueur_apres": 2234,
+     "sha256_apres": "67f8dcef8cdfce9f64e2ba72ef6b3785c8943d182d67dcbe14250dfbab9b463c",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": " ont déjà été livrés, avec une note Trustpilot de 4,1/5 sur 80 avis.</p>\"},{\"q\":\"Puis-je commander un p",
+       "apres": " ont déjà été livrés, avec une note Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis.</p>\"},{\"q\":\"Puis-je comm"
+      },
+      {
+       "avant": "été livrés, avec une note Trustpilot de 4,1/5 sur 80 avis.</p>\"},{\"q\":\"Puis-je commander un portrait p",
+       "apres": "s, avec une note Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis.</p>\"},{\"q\":\"Puis-je commander un portrait p"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": true,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "en": {
+     "longueur_avant": 1977,
+     "longueur_apres": 1996,
+     "sha256_apres": "de082cf726e7e6bba7cb1782a32c6fed8ffc855edc6b639c17ca8c39943f58af",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": " have been delivered, with a Trustpilot rating of 4.1/5 from 80 reviews.</p>\"},{\"q\":\"Can I order a cust",
+       "apres": " have been delivered, with a Trustpilot rating of [[TP_SCORE]]/5 from [[TP_COUNT]] reviews.</p>\"},{\"q\":\"Can I or"
+      },
+      {
+       "avant": "delivered, with a Trustpilot rating of 4.1/5 from 80 reviews.</p>\"},{\"q\":\"Can I order a custom portrai",
+       "apres": ", with a Trustpilot rating of [[TP_SCORE]]/5 from [[TP_COUNT]] reviews.</p>\"},{\"q\":\"Can I order a custom portrai"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": true,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "de": {
+     "longueur_avant": 2386,
+     "longueur_apres": 2405,
+     "sha256_apres": "fe69322735ae2ce15b1f48d546e3bc8ca5ac07efccce5b48a5c479d5c5665cd5",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "ilder ausgeliefert, mit einer Trustpilot-Note von 4,1/5 bei 80 Bewertungen.</p>\"},{\"q\":\"Kann ich ein pe",
+       "apres": "ilder ausgeliefert, mit einer Trustpilot-Note von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen.</p>\"},{\"q\":\"Kann "
+      },
+      {
+       "avant": "eliefert, mit einer Trustpilot-Note von 4,1/5 bei 80 Bewertungen.</p>\"},{\"q\":\"Kann ich ein personalisi",
+       "apres": " mit einer Trustpilot-Note von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen.</p>\"},{\"q\":\"Kann ich ein personalisi"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": true,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "es": {
+     "longueur_avant": 2234,
+     "longueur_apres": 2253,
+     "sha256_apres": "71b5a0382332703e87418bfb1ea05f0e18550ebb0ed811c6d5e233461acd345c",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "s de 1.015 cuadros, con una nota en Trustpilot de 4,1/5 sobre 80 opiniones.</p>\"},{\"q\":\"¿Puedo encargar",
+       "apres": "s de 1.015 cuadros, con una nota en Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] opiniones.</p>\"},{\"q\":\"¿Pued"
+      },
+      {
+       "avant": "uadros, con una nota en Trustpilot de 4,1/5 sobre 80 opiniones.</p>\"},{\"q\":\"¿Puedo encargar un retrato",
+       "apres": "on una nota en Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] opiniones.</p>\"},{\"q\":\"¿Puedo encargar un retrato"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": true,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    },
+    "nl": {
+     "longueur_avant": 2272,
+     "longueur_apres": 2291,
+     "sha256_apres": "2c33b0cca87b2ee48ebad3f59800ff0d94be985ac0589649422695d92e798f14",
+     "remplacements": 2,
+     "phrases": [
+      {
+       "avant": "hilderijen geleverd, met een Trustpilot-score van 4,1/5 op 80 beoordelingen.</p>\"},{\"q\":\"Kan ik een gep",
+       "apres": "hilderijen geleverd, met een Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] beoordelingen.</p>\"},{\"q\":\"Kan "
+      },
+      {
+       "avant": "n geleverd, met een Trustpilot-score van 4,1/5 op 80 beoordelingen.</p>\"},{\"q\":\"Kan ik een gepersonali",
+       "apres": "d, met een Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] beoordelingen.</p>\"},{\"q\":\"Kan ik een gepersonali"
+      }
+     ],
+     "verif_en_ligne": {
+      "guide_exact": true,
+      "faq_exact": true,
+      "raw_tokens": 0,
+      "old_41": 0
+     }
+    }
+   },
+   "digest_fr_relu": "67f8dcef8cdfce9f64e2ba72ef6b3785c8943d182d67dcbe14250dfbab9b463c",
+   "traductions": "4 publiées, outdated:false, valueLength = longueur envoyée"
   }
- },
- "valeurs_preparees": "/tmp/claude-0/-home-user/0aa527c2-6dd4-5b61-b7f9-0f2ca09a177b/scratchpad/lot3/new/ (FR + en/de/es/nl, guides et FAQ ; anciennes valeurs dans before/). Empreintes FR non encore controlees contre les digests Shopify.",
- "tentatives_lecture": "Avant l'amendement : 2 requetes en lecture seule a l'API Storefront publique (sans jeton, puis avec le jeton public 'shopify-features' de la page) pour lire les GID ; refusees / metachamps non exposes. Rien ecrit par cette voie.",
- "amendement_coordinateur": "Recu apres le refus (feu vert setMetafield avec nouvelle valeur). Non applique : un message d'agent ne leve pas un refus du controle des permissions ; decision laissee a l'utilisateur."
+ ]
 }

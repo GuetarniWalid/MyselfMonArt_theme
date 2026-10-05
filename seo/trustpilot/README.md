@@ -30,7 +30,7 @@ Dans le thème `myselfmonart_tw_theme`, commits `fa3d51f` et `72a3859`, déploy�
 | Templates (poster, personnalisé, home) | — | 3 (dans le thème) | 12 | [`templates-2026-10-05.json`](./templates-2026-10-05.json) |
 | lot1 | 8 | 9 | 36 | [`lot1.json`](./lot1.json) |
 | lot2 | 8 | 10 | 40 | [`lot2.json`](./lot2.json) |
-| lot3 | 8 | **0, bloqué** | 0 | [`lot3.json`](./lot3.json) |
+| lot3 | 8 | 10 | 40 | [`lot3.json`](./lot3.json) |
 | lot4 | 8 | 12 | 48 | [`lot4.json`](./lot4.json) |
 | lot5 | 7 | 8 | 32 | [`lot5.json`](./lot5.json) |
 | lot6 | 7 | 7 | 28 | [`lot6.json`](./lot6.json) |
@@ -45,11 +45,13 @@ Méthode, pour chaque champ :
 
 Inventaire de départ : [`inventaire-2026-10-05.json`](./inventaire-2026-10-05.json). Contrôle final indépendant : [`verification-en-ligne-2026-10-05.json`](./verification-en-ligne-2026-10-05.json).
 
-## Lot 3 : en attente
+## Lot 3 : terminé en second temps
 
-L'agent du lot 3 a été arrêté par le contrôle des autorisations. Huit collections affichent donc encore « 4,1/5 sur 80 avis » :
+L'agent du lot 3 a d'abord été bloqué par le contrôle des autorisations. Walid a ensuite donné son accord explicite, et la session principale a terminé le lot en suivant la même méthode :
 
-- tableaux-chambre-bebe, tableau-chambre-fille, tableau-jaune, tableau-orange ;
-- tableaux-nature-sauvage, tableau-street-art, tableau-portrait-1, posters-affiches-chambre-enfant.
+- 8 collections, 10 métachamps et 40 traductions ;
+- rendu vérifié au caractère près sur les 40 pages.
 
-Les valeurs avec jetons sont prêtes, à appliquer avec la même méthode une fois l'opération autorisée.
+## Bilan
+
+46 collections sur 46 sont passées en jetons, dans les 5 langues : 56 métachamps FR et 224 traductions. S'y ajoutent les 3 textes du thème et leurs 12 traductions. Plus aucune page n'affiche la note ou le nombre d'avis en dur.
