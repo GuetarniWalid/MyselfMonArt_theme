@@ -1,0 +1,14 @@
+{
+ "tableau-zebre": {
+  "body_html": {"resourceId": "gid://shopify/Collection/682824630619", "key": "body_html", "digest": "a569e3a89bbe063fa64f88a7e55cba66b435f893b80012a140823b1e111cf167", "source_field": "description_html"},
+  "intro": {"resourceId": "gid://shopify/Metafield/69904071721307", "key": "value", "digest": "75f4ffd7e7a0e967b1c71a46858ef3f6e0bcfcfaac6d9541516625f0375fc776", "source_field": "intro"},
+  "guide": {"resourceId": "gid://shopify/Metafield/69904071754075", "key": "value", "digest": "25cb6f2552bf650588e857e23d1cfc4758b8db31262a8593e99859f29d4f802f", "source_field": "guide"},
+  "faq":   {"resourceId": "gid://shopify/Metafield/69904071786843", "key": "value", "digest": "1c9f6c5947a860cfe77296ef4ab5790a92ede0ab6a2c6f62fd2496b5290db392", "source_field": "faq"}
+ },
+ "posters-affiches-zebre": {
+  "body_html": {"resourceId": "gid://shopify/Collection/682801660251", "key": "body_html", "digest": "71bf468cdcfd1e687ff02c59902358e38e8834c1f36db53bdee25662d72970f4", "source_field": "description_html"},
+  "intro": {"resourceId": "gid://shopify/Metafield/69886929568091", "key": "value", "digest": "8eace15111bb7efb70ec6f73040aa970ee7b3494869c7d7c1ca7916609da6497", "source_field": "intro"},
+  "guide": {"resourceId": "gid://shopify/Metafield/69886929600859", "key": "value", "digest": "5714e129663e41ebfda087c59953ef38b815f4edfaa73f43d66f67651df82478", "source_field": "guide"},
+  "faq":   {"resourceId": "gid://shopify/Metafield/69886929633627", "key": "value", "digest": "b97546e7fc8cd0f6eb376dddecc533f6512dcf9af8a33b922e7a307bde9e36ea", "source_field": "faq"}
+ }
+}

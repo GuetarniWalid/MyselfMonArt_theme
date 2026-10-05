@@ -1,0 +1,794 @@
+{
+ "en": {
+  "/blogs/tableau-cuisine/accrocher-un-tableau-en-toute-securite-nos-solutions-et-astuces-pratiques": {
+   "code": "200",
+   "path": "/en/blogs/kitchen-wall-art/securely-hang-a-picture-tips-and-solutions-for-safe-wall-art-installation"
+  },
+  "/blogs/tableau-cuisine/quelle-taille-de-tableau-choisir": {
+   "code": "200",
+   "path": "/en/blogs/kitchen-wall-art/how-to-choose-wall-art-size"
+  },
+  "/blogs/tableau-salon/comment-entretenir-vos-tableaux-le-guide-simple-matiere-par-matiere": {
+   "code": "200",
+   "path": "/en/blogs/living-room-wall-art/how-to-clean-and-care-for-paintings-and-wall-art-material-by-material"
+  },
+  "/blogs/tableau-salon/le-guide-ultime-pour-une-ambiance-scandinave-couleurs-meubles-et-accessoires": {
+   "code": "200",
+   "path": "/en/blogs/living-room-wall-art/ultimate-guide-to-scandinavian-style-colors-furniture-accessories"
+  },
+  "/blogs/tableau-salon/quels-tableaux-animaux-pour-decorer-votre-interieur": {
+   "code": "200",
+   "path": "/en/blogs/living-room-wall-art/how-to-decorate-your-home-with-animal-art"
+  },
+  "/blogs/tableau-salon/voyagez-depuis-votre-salon-guide-pratique-pour-une-decoration-africaine-reussi-et-abordable": {
+   "code": "200",
+   "path": "/en/blogs/living-room-wall-art/travel-from-your-living-room-practical-guide-to-successful-affordable-african-decor"
+  },
+  "/collections/posters-affiches": {
+   "code": "200",
+   "path": "/en/collections/posters-art-prints"
+  },
+  "/collections/posters-affiches-africain": {
+   "code": "200",
+   "path": "/en/collections/african-posters-prints"
+  },
+  "/collections/posters-affiches-animaux": {
+   "code": "200",
+   "path": "/en/collections/animal-posters-prints"
+  },
+  "/collections/posters-affiches-bureau": {
+   "code": "200",
+   "path": "/en/collections/office-posters-prints"
+  },
+  "/collections/posters-affiches-chambre": {
+   "code": "200",
+   "path": "/en/collections/bedroom-posters-prints"
+  },
+  "/collections/posters-affiches-chambre-enfant": {
+   "code": "200",
+   "path": "/en/collections/kids-room-posters-prints"
+  },
+  "/collections/posters-affiches-cheval": {
+   "code": "200",
+   "path": "/en/collections/horse-posters-prints"
+  },
+  "/collections/posters-affiches-entree-couloir": {
+   "code": "200",
+   "path": "/en/collections/entryway-hallway-posters-prints"
+  },
+  "/collections/posters-affiches-lion": {
+   "code": "200",
+   "path": "/en/collections/lion-posters-prints"
+  },
+  "/collections/posters-affiches-nature": {
+   "code": "200",
+   "path": "/en/collections/nature-posters-prints"
+  },
+  "/collections/posters-affiches-noir-et-blanc": {
+   "code": "200",
+   "path": "/en/collections/black-and-white-posters-prints"
+  },
+  "/collections/posters-affiches-pop-art": {
+   "code": "200",
+   "path": "/en/collections/pop-art-posters-prints"
+  },
+  "/collections/posters-affiches-salon": {
+   "code": "200",
+   "path": "/en/collections/living-room-posters-art-prints"
+  },
+  "/collections/posters-affiches-zebre": {
+   "code": "200",
+   "path": "/en/collections/zebra-posters-prints"
+  },
+  "/collections/tableau-africain": {
+   "code": "200",
+   "path": "/en/collections/african-art-prints"
+  },
+  "/collections/tableau-animaux": {
+   "code": "200",
+   "path": "/en/collections/animal-art-prints"
+  },
+  "/collections/tableau-bureau": {
+   "code": "200",
+   "path": "/en/collections/office-wall-art"
+  },
+  "/collections/tableau-chambre": {
+   "code": "200",
+   "path": "/en/collections/bedroom-wall-art"
+  },
+  "/collections/tableau-chambre-enfant": {
+   "code": "200",
+   "path": "/en/collections/childrens-room-wall-art"
+  },
+  "/collections/tableau-cheval": {
+   "code": "200",
+   "path": "/en/collections/horse-paintings"
+  },
+  "/collections/tableau-entree-couloir": {
+   "code": "200",
+   "path": "/en/collections/entryway-hallway-wall-art"
+  },
+  "/collections/tableau-ethnique": {
+   "code": "200",
+   "path": "/en/collections/ethnic-wall-art"
+  },
+  "/collections/tableau-lion": {
+   "code": "200",
+   "path": "/en/collections/lion-artwork"
+  },
+  "/collections/tableau-noir-et-blanc": {
+   "code": "200",
+   "path": "/en/collections/black-and-white-art-prints"
+  },
+  "/collections/tableau-pop-art": {
+   "code": "200",
+   "path": "/en/collections/pop-art-canvas-prints"
+  },
+  "/collections/tableau-salon": {
+   "code": "200",
+   "path": "/en/collections/living-room-art"
+  },
+  "/collections/tableau-street-art": {
+   "code": "200",
+   "path": "/en/collections/street-art-canvas"
+  },
+  "/collections/tableau-zebre": {
+   "code": "200",
+   "path": "/en/collections/zebra-artwork"
+  },
+  "/products/cadre-moderne-zebre-regard-sauvage-en-nuances": {
+   "code": "200",
+   "path": "/en/products/modern-zebra-canvas-wall-art-black-and-white"
+  },
+  "/products/poster-affiche-zebre-portrait-intime-aux-rayures-dorees": {
+   "code": "200",
+   "path": "/en/products/zebra-poster-intimate-portrait-gold-stripes-black"
+  },
+  "/products/poster-maternite-africaine-femme-et-enfant-aux-motifs-zebres": {
+   "code": "200",
+   "path": "/en/products/african-mother-and-child-poster-zebra-pattern"
+  },
+  "/products/poster-zebre-arc-en-ciel-rayures-multicolores-pleines-denergie": {
+   "code": "200",
+   "path": "/en/products/rainbow-zebra-poster-colorful-stripes"
+  },
+  "/products/poster-zebre-motifs-tribaux-africains-et-ocres-cuivres": {
+   "code": "200",
+   "path": "/en/products/zebra-poster-african-tribal-patterns-copper-ochre"
+  },
+  "/products/poster-zebre-regard-sauvage-en-noir-et-blanc": {
+   "code": "200",
+   "path": "/en/products/black-and-white-zebra-poster-wild-gaze"
+  },
+  "/products/poster-zebre-sous-la-neige-rencontre-inattendue-en-plein-hiver": {
+   "code": "200",
+   "path": "/en/products/zebra-in-the-snow-poster-unexpected-winter-encounter"
+  },
+  "/products/tableau-africain-maternite-femme-et-enfant-aux-motifs-zebres-graphiques": {
+   "code": "200",
+   "path": "/en/products/african-mother-and-child-painting-graphic-zebra-motif"
+  },
+  "/products/tableau-street-art-elephant-couronne-hybride-zebre-graffiti-urbain": {
+   "code": "200",
+   "path": "/en/products/crowned-elephant-street-art-canvas-zebra-graffiti"
+  },
+  "/products/tableau-sur-toile-zebre-majestueux-portrait-noir-et-blanc-graphique": {
+   "code": "200",
+   "path": "/en/products/zebra-canvas-print-majestic-black-and-white-portrait-wall-art"
+  },
+  "/products/tableau-sur-toile-zebre-motifs-tribaux-africains-et-ocres-cuivres": {
+   "code": "200",
+   "path": "/en/products/zebra-canvas-wall-art-african-tribal-patterns-copper-ochre-tones"
+  },
+  "/products/tableau-sur-toile-zebre-sous-la-neige-hivernale": {
+   "code": "200",
+   "path": "/en/products/zebra-in-the-snow-canvas-print"
+  },
+  "/products/toile-deco-zebre-rieur-ambiance-feerique": {
+   "code": "200",
+   "path": "/en/products/smiling-zebra-baby-nursery-canvas-print"
+  },
+  "/products/toile-design-zebre-colore-vitalite-arc-en-ciel": {
+   "code": "200",
+   "path": "/en/products/rainbow-zebra-canvas-print-colorful-wall-art"
+  },
+  "/products/toile-moderne-zebre-multicolore-rayures-arc-en-ciel": {
+   "code": "200",
+   "path": "/en/products/rainbow-zebra-canvas-wall-art"
+  }
+ },
+ "de": {
+  "/blogs/tableau-cuisine/accrocher-un-tableau-en-toute-securite-nos-solutions-et-astuces-pratiques": {
+   "code": "200",
+   "path": "/de/blogs/kuechenbilder/ein-bild-sicher-aufhaengen-unsere-loesungen-und-praktischen-tipps"
+  },
+  "/blogs/tableau-cuisine/quelle-taille-de-tableau-choisir": {
+   "code": "200",
+   "path": "/de/blogs/kuechenbilder/wie-waehle-ich-die-groesse-meines-dekobildes"
+  },
+  "/blogs/tableau-salon/comment-entretenir-vos-tableaux-le-guide-simple-matiere-par-matiere": {
+   "code": "200",
+   "path": "/de/blogs/wohnzimmerbilder/bilder-gemaelde-reinigen-pflegen-guide-nach-material"
+  },
+  "/blogs/tableau-salon/le-guide-ultime-pour-une-ambiance-scandinave-couleurs-meubles-et-accessoires": {
+   "code": "200",
+   "path": "/de/blogs/wohnzimmerbilder/der-ultimative-leitfaden-fuer-ein-skandinavisches-ambiente-farben-moebel-und-accessoires"
+  },
+  "/blogs/tableau-salon/quels-tableaux-animaux-pour-decorer-votre-interieur": {
+   "code": "200",
+   "path": "/de/blogs/wohnzimmerbilder/tierbilder-wie-sie-ihr-zuhause-mit-einer-wilden-note-aufwerten"
+  },
+  "/blogs/tableau-salon/voyagez-depuis-votre-salon-guide-pratique-pour-une-decoration-africaine-reussi-et-abordable": {
+   "code": "200",
+   "path": "/de/blogs/wohnzimmerbilder/reisen-sie-von-ihrem-wohnzimmer-aus-praktischer-leitfaden-fuer-eine-gelungene-und-erschwingliche-afrikanische-dekoration"
+  },
+  "/collections/posters-affiches": {
+   "code": "200",
+   "path": "/de/collections/poster-kunstdrucke"
+  },
+  "/collections/posters-affiches-africain": {
+   "code": "200",
+   "path": "/de/collections/afrika-poster-kunstdrucke"
+  },
+  "/collections/posters-affiches-animaux": {
+   "code": "200",
+   "path": "/de/collections/tierposter"
+  },
+  "/collections/posters-affiches-bureau": {
+   "code": "200",
+   "path": "/de/collections/poster-buero"
+  },
+  "/collections/posters-affiches-chambre": {
+   "code": "200",
+   "path": "/de/collections/schlafzimmer-poster"
+  },
+  "/collections/posters-affiches-chambre-enfant": {
+   "code": "200",
+   "path": "/de/collections/poster-kinderzimmer"
+  },
+  "/collections/posters-affiches-cheval": {
+   "code": "200",
+   "path": "/de/collections/pferde-poster-plakate"
+  },
+  "/collections/posters-affiches-entree-couloir": {
+   "code": "200",
+   "path": "/de/collections/poster-kunstdrucke-eingang-flur"
+  },
+  "/collections/posters-affiches-lion": {
+   "code": "200",
+   "path": "/de/collections/loewen-poster"
+  },
+  "/collections/posters-affiches-nature": {
+   "code": "200",
+   "path": "/de/collections/naturposter-plakate"
+  },
+  "/collections/posters-affiches-noir-et-blanc": {
+   "code": "200",
+   "path": "/de/collections/schwarz-weiss-poster-kunstdrucke"
+  },
+  "/collections/posters-affiches-pop-art": {
+   "code": "200",
+   "path": "/de/collections/poster-plakate-pop-art"
+  },
+  "/collections/posters-affiches-salon": {
+   "code": "200",
+   "path": "/de/collections/wohnzimmer-poster"
+  },
+  "/collections/posters-affiches-zebre": {
+   "code": "200",
+   "path": "/de/collections/zebra-poster"
+  },
+  "/collections/tableau-africain": {
+   "code": "200",
+   "path": "/de/collections/afrikanisches-wandbild"
+  },
+  "/collections/tableau-animaux": {
+   "code": "200",
+   "path": "/de/collections/tierbild"
+  },
+  "/collections/tableau-bureau": {
+   "code": "200",
+   "path": "/de/collections/buerobild"
+  },
+  "/collections/tableau-chambre": {
+   "code": "200",
+   "path": "/de/collections/schlafzimmerbild"
+  },
+  "/collections/tableau-chambre-enfant": {
+   "code": "200",
+   "path": "/de/collections/kinderzimmerbild"
+  },
+  "/collections/tableau-cheval": {
+   "code": "200",
+   "path": "/de/collections/pferdebild"
+  },
+  "/collections/tableau-entree-couloir": {
+   "code": "200",
+   "path": "/de/collections/wandbilder-flur-eingangsbereich"
+  },
+  "/collections/tableau-ethnique": {
+   "code": "200",
+   "path": "/de/collections/ethnisches-wandbild"
+  },
+  "/collections/tableau-lion": {
+   "code": "200",
+   "path": "/de/collections/loewenbild"
+  },
+  "/collections/tableau-noir-et-blanc": {
+   "code": "200",
+   "path": "/de/collections/schwarz-weiss-wandbild"
+  },
+  "/collections/tableau-pop-art": {
+   "code": "200",
+   "path": "/de/collections/pop-art-wandbild"
+  },
+  "/collections/tableau-salon": {
+   "code": "200",
+   "path": "/de/collections/wohnzimmerbild"
+  },
+  "/collections/tableau-street-art": {
+   "code": "200",
+   "path": "/de/collections/street-art-bilder"
+  },
+  "/collections/tableau-zebre": {
+   "code": "200",
+   "path": "/de/collections/zebrabild"
+  },
+  "/products/cadre-moderne-zebre-regard-sauvage-en-nuances": {
+   "code": "200",
+   "path": "/de/products/dekoratives-wandbild-zebra-wilder-blick-in-schwarz-weiss"
+  },
+  "/products/poster-affiche-zebre-portrait-intime-aux-rayures-dorees": {
+   "code": "200",
+   "path": "/de/products/zebra-poster-intimes-portraet-goldene-streifen"
+  },
+  "/products/poster-maternite-africaine-femme-et-enfant-aux-motifs-zebres": {
+   "code": "200",
+   "path": "/de/products/poster-afrikanische-mutterschaft-mutter-mit-kind-zebra-muster"
+  },
+  "/products/poster-zebre-arc-en-ciel-rayures-multicolores-pleines-denergie": {
+   "code": "200",
+   "path": "/de/products/poster-zebra-regenbogen-bunte-streifen-voller-energie"
+  },
+  "/products/poster-zebre-motifs-tribaux-africains-et-ocres-cuivres": {
+   "code": "200",
+   "path": "/de/products/poster-zebra-afrikanische-tribal-muster-ocker-kupfer"
+  },
+  "/products/poster-zebre-regard-sauvage-en-noir-et-blanc": {
+   "code": "200",
+   "path": "/de/products/zebra-poster-wilder-blick-schwarz-weiss"
+  },
+  "/products/poster-zebre-sous-la-neige-rencontre-inattendue-en-plein-hiver": {
+   "code": "200",
+   "path": "/de/products/zebra-poster-im-schnee"
+  },
+  "/products/tableau-africain-maternite-femme-et-enfant-aux-motifs-zebres-graphiques": {
+   "code": "200",
+   "path": "/de/products/afrikanisches-wandbild-mutterschaft-mutter-kind-grafisches-zebra-muster"
+  },
+  "/products/tableau-street-art-elephant-couronne-hybride-zebre-graffiti-urbain": {
+   "code": "200",
+   "path": "/de/products/street-art-wandbild-gekroenter-elefant-zebra-hybrid"
+  },
+  "/products/tableau-sur-toile-zebre-majestueux-portrait-noir-et-blanc-graphique": {
+   "code": "200",
+   "path": "/de/products/zebra-leinwandbild-majestaetisch-grafisches-schwarz-weiss-portraet"
+  },
+  "/products/tableau-sur-toile-zebre-motifs-tribaux-africains-et-ocres-cuivres": {
+   "code": "200",
+   "path": "/de/products/leinwandbild-zebra-afrikanische-tribal-muster-kupfer-ocker"
+  },
+  "/products/tableau-sur-toile-zebre-sous-la-neige-hivernale": {
+   "code": "200",
+   "path": "/de/products/leinwandbild-zebra-im-winterlichen-schnee"
+  },
+  "/products/toile-deco-zebre-rieur-ambiance-feerique": {
+   "code": "200",
+   "path": "/de/products/grosses-wandbild-lachendes-zebra-maerchenhafte-stimmung"
+  },
+  "/products/toile-design-zebre-colore-vitalite-arc-en-ciel": {
+   "code": "200",
+   "path": "/de/products/zebra-wanddeko-leinwand-regenbogen-vitalitaet"
+  },
+  "/products/toile-moderne-zebre-multicolore-rayures-arc-en-ciel": {
+   "code": "200",
+   "path": "/de/products/wandbild-buntes-zebra-regenbogenstreifen"
+  }
+ },
+ "es": {
+  "/blogs/tableau-cuisine/accrocher-un-tableau-en-toute-securite-nos-solutions-et-astuces-pratiques": {
+   "code": "200",
+   "path": "/es/blogs/cuadros-para-cocina/colgar-un-cuadro-con-total-seguridad-nuestras-soluciones-y-trucos-practicos"
+  },
+  "/blogs/tableau-cuisine/quelle-taille-de-tableau-choisir": {
+   "code": "200",
+   "path": "/es/blogs/cuadros-para-cocina/como-elegir-el-tamano-de-mi-cuadro-de-decoracion"
+  },
+  "/blogs/tableau-salon/comment-entretenir-vos-tableaux-le-guide-simple-matiere-par-matiere": {
+   "code": "200",
+   "path": "/es/blogs/cuadros-para-salon/como-limpiar-y-cuidar-cuadros-guia-facil-por-material"
+  },
+  "/blogs/tableau-salon/le-guide-ultime-pour-une-ambiance-scandinave-couleurs-meubles-et-accessoires": {
+   "code": "200",
+   "path": "/es/blogs/cuadros-para-salon/la-guia-definitiva-para-un-ambiente-escandinavo-colores-muebles-y-accesorios"
+  },
+  "/blogs/tableau-salon/quels-tableaux-animaux-pour-decorer-votre-interieur": {
+   "code": "200",
+   "path": "/es/blogs/cuadros-para-salon/cuadros-de-animales-como-realzar-tu-interior-con-una-nota-salvaje"
+  },
+  "/blogs/tableau-salon/voyagez-depuis-votre-salon-guide-pratique-pour-une-decoration-africaine-reussi-et-abordable": {
+   "code": "200",
+   "path": "/es/blogs/cuadros-para-salon/viaja-desde-tu-salon-guia-practica-para-una-decoracion-africana-lograda-y-asequible"
+  },
+  "/collections/posters-affiches": {
+   "code": "200",
+   "path": "/es/collections/posters-laminas"
+  },
+  "/collections/posters-affiches-africain": {
+   "code": "200",
+   "path": "/es/collections/posters-laminas-africanas"
+  },
+  "/collections/posters-affiches-animaux": {
+   "code": "200",
+   "path": "/es/collections/posters-laminas-animales"
+  },
+  "/collections/posters-affiches-bureau": {
+   "code": "200",
+   "path": "/es/collections/posters-laminas-oficina"
+  },
+  "/collections/posters-affiches-chambre": {
+   "code": "200",
+   "path": "/es/collections/posters-laminas-dormitorio"
+  },
+  "/collections/posters-affiches-chambre-enfant": {
+   "code": "200",
+   "path": "/es/collections/posters-laminas-habitacion-infantil"
+  },
+  "/collections/posters-affiches-cheval": {
+   "code": "200",
+   "path": "/es/collections/posters-laminas-caballos"
+  },
+  "/collections/posters-affiches-entree-couloir": {
+   "code": "200",
+   "path": "/es/collections/posters-laminas-entrada-pasillo"
+  },
+  "/collections/posters-affiches-lion": {
+   "code": "200",
+   "path": "/es/collections/posters-laminas-leon"
+  },
+  "/collections/posters-affiches-nature": {
+   "code": "200",
+   "path": "/es/collections/posters-laminas-naturaleza"
+  },
+  "/collections/posters-affiches-noir-et-blanc": {
+   "code": "200",
+   "path": "/es/collections/posters-laminas-blanco-y-negro"
+  },
+  "/collections/posters-affiches-pop-art": {
+   "code": "200",
+   "path": "/es/collections/posters-laminas-pop-art"
+  },
+  "/collections/posters-affiches-salon": {
+   "code": "200",
+   "path": "/es/collections/posters-laminas-salon"
+  },
+  "/collections/posters-affiches-zebre": {
+   "code": "200",
+   "path": "/es/collections/posters-laminas-cebra"
+  },
+  "/collections/tableau-africain": {
+   "code": "200",
+   "path": "/es/collections/cuadro-africano"
+  },
+  "/collections/tableau-animaux": {
+   "code": "200",
+   "path": "/es/collections/cuadro-animales"
+  },
+  "/collections/tableau-bureau": {
+   "code": "200",
+   "path": "/es/collections/cuadro-oficina"
+  },
+  "/collections/tableau-chambre": {
+   "code": "200",
+   "path": "/es/collections/cuadro-dormitorio"
+  },
+  "/collections/tableau-chambre-enfant": {
+   "code": "200",
+   "path": "/es/collections/cuadro-habitacion-infantil"
+  },
+  "/collections/tableau-cheval": {
+   "code": "200",
+   "path": "/es/collections/cuadro-de-caballos"
+  },
+  "/collections/tableau-entree-couloir": {
+   "code": "200",
+   "path": "/es/collections/cuadros-entrada-pasillo"
+  },
+  "/collections/tableau-ethnique": {
+   "code": "200",
+   "path": "/es/collections/cuadro-etnico"
+  },
+  "/collections/tableau-lion": {
+   "code": "200",
+   "path": "/es/collections/cuadro-de-leon"
+  },
+  "/collections/tableau-noir-et-blanc": {
+   "code": "200",
+   "path": "/es/collections/cuadro-en-blanco-y-negro"
+  },
+  "/collections/tableau-pop-art": {
+   "code": "200",
+   "path": "/es/collections/cuadro-pop-art"
+  },
+  "/collections/tableau-salon": {
+   "code": "200",
+   "path": "/es/collections/cuadro-salon"
+  },
+  "/collections/tableau-street-art": {
+   "code": "200",
+   "path": "/es/collections/cuadros-street-art"
+  },
+  "/collections/tableau-zebre": {
+   "code": "200",
+   "path": "/es/collections/cuadro-de-cebra"
+  },
+  "/products/cadre-moderne-zebre-regard-sauvage-en-nuances": {
+   "code": "200",
+   "path": "/es/products/cuadro-decorativo-cebra-mirada-salvaje-en-blanco-y-negro"
+  },
+  "/products/poster-affiche-zebre-portrait-intime-aux-rayures-dorees": {
+   "code": "200",
+   "path": "/es/products/poster-lamina-cebra-retrato-intimo-rayas-doradas"
+  },
+  "/products/poster-maternite-africaine-femme-et-enfant-aux-motifs-zebres": {
+   "code": "200",
+   "path": "/es/products/poster-maternidad-africana-mujer-y-nino-estampado-cebra"
+  },
+  "/products/poster-zebre-arc-en-ciel-rayures-multicolores-pleines-denergie": {
+   "code": "200",
+   "path": "/es/products/poster-cebra-arcoiris-rayas-multicolores-llenas-de-energia"
+  },
+  "/products/poster-zebre-motifs-tribaux-africains-et-ocres-cuivres": {
+   "code": "200",
+   "path": "/es/products/poster-cebra-motivos-tribales-africanos-ocres-cobrizos"
+  },
+  "/products/poster-zebre-regard-sauvage-en-noir-et-blanc": {
+   "code": "200",
+   "path": "/es/products/poster-cebra-blanco-y-negro"
+  },
+  "/products/poster-zebre-sous-la-neige-rencontre-inattendue-en-plein-hiver": {
+   "code": "200",
+   "path": "/es/products/poster-cebra-bajo-la-nieve-encuentro-inesperado-en-pleno-invierno"
+  },
+  "/products/tableau-africain-maternite-femme-et-enfant-aux-motifs-zebres-graphiques": {
+   "code": "200",
+   "path": "/es/products/cuadro-africano-maternidad-madre-e-hijo-motivo-cebra-grafico"
+  },
+  "/products/tableau-street-art-elephant-couronne-hybride-zebre-graffiti-urbain": {
+   "code": "200",
+   "path": "/es/products/cuadro-street-art-elefante-coronado-hibrido-cebra-grafiti-urbano"
+  },
+  "/products/tableau-sur-toile-zebre-majestueux-portrait-noir-et-blanc-graphique": {
+   "code": "200",
+   "path": "/es/products/cuadro-en-lienzo-cebra-majestuosa-retrato-blanco-y-negro-grafico"
+  },
+  "/products/tableau-sur-toile-zebre-motifs-tribaux-africains-et-ocres-cuivres": {
+   "code": "200",
+   "path": "/es/products/cuadro-en-lienzo-cebra-motivos-tribales-africanos-ocres-cobrizos"
+  },
+  "/products/tableau-sur-toile-zebre-sous-la-neige-hivernale": {
+   "code": "200",
+   "path": "/es/products/cuadro-en-lienzo-cebra-bajo-la-nieve-invernal"
+  },
+  "/products/toile-deco-zebre-rieur-ambiance-feerique": {
+   "code": "200",
+   "path": "/es/products/gran-cuadro-cebra-risuena-ambiente-de-ensueno"
+  },
+  "/products/toile-design-zebre-colore-vitalite-arc-en-ciel": {
+   "code": "200",
+   "path": "/es/products/lienzo-decorativo-cebra-vitalidad-arcoiris"
+  },
+  "/products/toile-moderne-zebre-multicolore-rayures-arc-en-ciel": {
+   "code": "200",
+   "path": "/es/products/cuadro-cebra-multicolor-rayas-arcoiris"
+  }
+ },
+ "nl": {
+  "/blogs/tableau-cuisine/accrocher-un-tableau-en-toute-securite-nos-solutions-et-astuces-pratiques": {
+   "code": "200",
+   "path": "/nl/blogs/keukenschilderij/een-schilderij-veilig-ophangen-onze-oplossingen-en-praktische-tips"
+  },
+  "/blogs/tableau-cuisine/quelle-taille-de-tableau-choisir": {
+   "code": "200",
+   "path": "/nl/blogs/keukenschilderij/welke-grootte-van-schilderij-kiezen"
+  },
+  "/blogs/tableau-salon/comment-entretenir-vos-tableaux-le-guide-simple-matiere-par-matiere": {
+   "code": "200",
+   "path": "/nl/blogs/woonkamerschilderij/schilderijen-onderhouden-schoonmaken-gids-per-materiaal"
+  },
+  "/blogs/tableau-salon/le-guide-ultime-pour-une-ambiance-scandinave-couleurs-meubles-et-accessoires": {
+   "code": "200",
+   "path": "/nl/blogs/woonkamerschilderij/de-ultieme-gids-voor-een-scandinavische-sfeer-kleuren-meubels-en-accessoires"
+  },
+  "/blogs/tableau-salon/quels-tableaux-animaux-pour-decorer-votre-interieur": {
+   "code": "200",
+   "path": "/nl/blogs/woonkamerschilderij/welke-dierenschilderijen-om-je-interieur-te-versieren"
+  },
+  "/blogs/tableau-salon/voyagez-depuis-votre-salon-guide-pratique-pour-une-decoration-africaine-reussi-et-abordable": {
+   "code": "200",
+   "path": "/nl/blogs/woonkamerschilderij/reis-vanuit-je-woonkamer-praktische-gids-voor-een-geslaagde-en-betaalbare-afrikaanse-decoratie"
+  },
+  "/collections/posters-affiches": {
+   "code": "200",
+   "path": "/nl/collections/posters-en-affiches"
+  },
+  "/collections/posters-affiches-africain": {
+   "code": "200",
+   "path": "/nl/collections/afrikaanse-posters-en-affiches"
+  },
+  "/collections/posters-affiches-animaux": {
+   "code": "200",
+   "path": "/nl/collections/posters-affiches-dieren"
+  },
+  "/collections/posters-affiches-bureau": {
+   "code": "200",
+   "path": "/nl/collections/kantoor-posters"
+  },
+  "/collections/posters-affiches-chambre": {
+   "code": "200",
+   "path": "/nl/collections/posters-slaapkamer"
+  },
+  "/collections/posters-affiches-chambre-enfant": {
+   "code": "200",
+   "path": "/nl/collections/posters-affiches-kinderkamer"
+  },
+  "/collections/posters-affiches-cheval": {
+   "code": "200",
+   "path": "/nl/collections/paarden-posters-en-affiches"
+  },
+  "/collections/posters-affiches-entree-couloir": {
+   "code": "200",
+   "path": "/nl/collections/posters-affiches-hal-gang"
+  },
+  "/collections/posters-affiches-lion": {
+   "code": "200",
+   "path": "/nl/collections/posters-affiches-leeuw"
+  },
+  "/collections/posters-affiches-nature": {
+   "code": "200",
+   "path": "/nl/collections/posters-affiches-natuur"
+  },
+  "/collections/posters-affiches-noir-et-blanc": {
+   "code": "200",
+   "path": "/nl/collections/zwart-wit-posters-affiches"
+  },
+  "/collections/posters-affiches-pop-art": {
+   "code": "200",
+   "path": "/nl/collections/pop-art-posters-en-affiches"
+  },
+  "/collections/posters-affiches-salon": {
+   "code": "200",
+   "path": "/nl/collections/posters-affiches-woonkamer"
+  },
+  "/collections/posters-affiches-zebre": {
+   "code": "200",
+   "path": "/nl/collections/posters-affiches-zebra"
+  },
+  "/collections/tableau-africain": {
+   "code": "200",
+   "path": "/nl/collections/afrikaans-schilderij"
+  },
+  "/collections/tableau-animaux": {
+   "code": "200",
+   "path": "/nl/collections/dierenschilderij"
+  },
+  "/collections/tableau-bureau": {
+   "code": "200",
+   "path": "/nl/collections/kantoor-schilderij"
+  },
+  "/collections/tableau-chambre": {
+   "code": "200",
+   "path": "/nl/collections/slaapkamer-schilderij"
+  },
+  "/collections/tableau-chambre-enfant": {
+   "code": "200",
+   "path": "/nl/collections/kinderkamer-schilderij"
+  },
+  "/collections/tableau-cheval": {
+   "code": "200",
+   "path": "/nl/collections/paarden-schilderij"
+  },
+  "/collections/tableau-entree-couloir": {
+   "code": "200",
+   "path": "/nl/collections/schilderij-hal-gang"
+  },
+  "/collections/tableau-ethnique": {
+   "code": "200",
+   "path": "/nl/collections/etnisch-schilderij"
+  },
+  "/collections/tableau-lion": {
+   "code": "200",
+   "path": "/nl/collections/leeuw-schilderij"
+  },
+  "/collections/tableau-noir-et-blanc": {
+   "code": "200",
+   "path": "/nl/collections/zwart-wit-schilderij"
+  },
+  "/collections/tableau-pop-art": {
+   "code": "200",
+   "path": "/nl/collections/pop-art-schilderij"
+  },
+  "/collections/tableau-salon": {
+   "code": "200",
+   "path": "/nl/collections/woonkamer-schilderij"
+  },
+  "/collections/tableau-street-art": {
+   "code": "200",
+   "path": "/nl/collections/street-art-schilderij"
+  },
+  "/collections/tableau-zebre": {
+   "code": "200",
+   "path": "/nl/collections/zebra-schilderij"
+  },
+  "/products/cadre-moderne-zebre-regard-sauvage-en-nuances": {
+   "code": "200",
+   "path": "/nl/products/modern-kader-zebra-wilde-blik-in-nuances"
+  },
+  "/products/poster-affiche-zebre-portrait-intime-aux-rayures-dorees": {
+   "code": "200",
+   "path": "/nl/products/zebra-poster-goud-zwart-intiem-portret"
+  },
+  "/products/poster-maternite-africaine-femme-et-enfant-aux-motifs-zebres": {
+   "code": "200",
+   "path": "/nl/products/poster-afrikaanse-moeder-en-kind-zebrapatroon"
+  },
+  "/products/poster-zebre-arc-en-ciel-rayures-multicolores-pleines-denergie": {
+   "code": "200",
+   "path": "/nl/products/poster-zebra-regenboogstrepen-kleurrijke-wanddecoratie"
+  },
+  "/products/poster-zebre-motifs-tribaux-africains-et-ocres-cuivres": {
+   "code": "200",
+   "path": "/nl/products/poster-zebra-afrikaanse-tribale-motieven-oker-koper"
+  },
+  "/products/poster-zebre-regard-sauvage-en-noir-et-blanc": {
+   "code": "200",
+   "path": "/nl/products/zebra-zwart-wit-poster-indringende-blik"
+  },
+  "/products/poster-zebre-sous-la-neige-rencontre-inattendue-en-plein-hiver": {
+   "code": "200",
+   "path": "/nl/products/poster-zebra-in-de-sneeuw-onverwachte-ontmoeting-midden-in-de-winter"
+  },
+  "/products/tableau-africain-maternite-femme-et-enfant-aux-motifs-zebres-graphiques": {
+   "code": "200",
+   "path": "/nl/products/afrikaans-schilderij-moederschap-vrouw-en-kind-grafische-zebraprint"
+  },
+  "/products/tableau-street-art-elephant-couronne-hybride-zebre-graffiti-urbain": {
+   "code": "200",
+   "path": "/nl/products/street-art-schilderij-gekroonde-olifant-hybride-zebra-urban-graffiti"
+  },
+  "/products/tableau-sur-toile-zebre-majestueux-portrait-noir-et-blanc-graphique": {
+   "code": "200",
+   "path": "/nl/products/zebra-canvas-schilderij-zwart-wit-grafisch-portret"
+  },
+  "/products/tableau-sur-toile-zebre-motifs-tribaux-africains-et-ocres-cuivres": {
+   "code": "200",
+   "path": "/nl/products/zebra-schilderij-op-canvas-afrikaanse-tribale-motieven-en-koperkleurige-okertinten"
+  },
+  "/products/tableau-sur-toile-zebre-sous-la-neige-hivernale": {
+   "code": "200",
+   "path": "/nl/products/canvasschilderij-zebra-in-de-winterse-sneeuw"
+  },
+  "/products/toile-deco-zebre-rieur-ambiance-feerique": {
+   "code": "200",
+   "path": "/nl/products/deco-canvas-lachende-zebra-sprookjesachtige-sfeer"
+  },
+  "/products/toile-design-zebre-colore-vitalite-arc-en-ciel": {
+   "code": "200",
+   "path": "/nl/products/design-doek-kleurrijke-zebra-regenboog-vitaliteit"
+  },
+  "/products/toile-moderne-zebre-multicolore-rayures-arc-en-ciel": {
+   "code": "200",
+   "path": "/nl/products/modern-canvas-veelkleurige-zebra-regenboogstrepen"
+  }
+ }
+}

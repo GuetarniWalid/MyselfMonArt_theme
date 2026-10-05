@@ -19,6 +19,8 @@ Appliqué en live via le MCP Shopify le 2026-10-04 (après 17:00 UTC). Les valeu
 | 05/10 07:18 | Métaobjet `media` (gid 519469400411) relié via `meta_object.media`, alt traduit EN/DE/ES/NL | ✅ | supprimer métaobjet + métachamp |
 | 05/10 07:19 | Traductions EN/DE/ES/NL de la collection (titre, handle, SEO, description) puis des métachamps `intro`, `guide`, `faq`, `cocon_links` | ✅ 36 entrées, aucune `outdated`, longueurs identiques aux fichiers [`translations/`](./translations/) | Translate & Adapt |
 | 05/10 07:23 | Liens des guides et FAQ (deux collections) pointés directement sur les handles traduits définitifs (la toile, et 2 produits dont le handle a été traduit dans la nuit) | ✅ 135 liens éditoriaux vérifiés sur les 10 pages : tous en 200, aucune redirection | — |
+| 05/10 08:51 | **v2 éditoriale** (retour de Walid : « descriptions très pauvres ») : analyse persona/voix/SERP/concurrents ([`v2/analyse-v2.md`](./v2/analyse-v2.md)), puis réécriture complète FR des deux collections : champ Description (≈ 165 mots), accroche, guide (toile 1 525 mots / poster 1 177), FAQ 8 questions chacune ; relecture adversariale intégrée (op art vs pop art, HPI, faits produit) | ✅ empreintes SHA-256 Shopify = fichiers [`v2/fr.json`](./v2/fr.json) pour les 8 champs ; en ligne : 1 H1, FAQPage 8 q, 49 liens en 200 | réappliquer les valeurs v1 (historique git) |
+| 05/10 ~09:00 | Traductions EN/DE/ES/NL de la v2 (description, accroche, guide, FAQ), liens pointés directement sur les URL traduites ([`v2/urlmap.json`](./v2/urlmap.json)) | voir entrée suivante | Translate & Adapt |
 
 ## Tags : comparaison sans accents
 
