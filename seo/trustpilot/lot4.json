@@ -1,0 +1,2460 @@
+{
+ "lot": "lot4",
+ "date": "2026-10-05",
+ "auteur": "Claude (sous-agent lot4)",
+ "objet": "Chiffres Trustpilot en dur (4,1/5 ; 80 avis) remplacés par les jetons [[TP_SCORE]] / [[TP_COUNT]] dans custom.guide et custom.faq, FR + EN/DE/ES/NL",
+ "collections": [
+  "tableau-chambre-fillette",
+  "tableau-animaux",
+  "tableau-rouge",
+  "tableau-violet",
+  "tous-les-tableaux",
+  "tableau-personnalise-famille",
+  "tableau-islamique",
+  "tableau-entree-couloir"
+ ],
+ "resume": {
+  "metachamps_modifies": 12,
+  "traductions_publiees": 48,
+  "remplacements_fr_total": 24,
+  "remplacements_total_5_langues": 120,
+  "inventaire_phrases_par_langue": {
+   "tableau-chambre-fillette": 2,
+   "tableau-animaux": 1,
+   "tableau-rouge": 2,
+   "tableau-violet": 1,
+   "tous-les-tableaux": 2,
+   "tableau-personnalise-famille": 1,
+   "tableau-islamique": 1,
+   "tableau-entree-couloir": 2
+  },
+  "phrases_supplementaires_hors_inventaire": 0
+ },
+ "methode": [
+  "GID des métachamps non fournis par getCollection : écriture FR via setMetafield (autorisé par amendement), qui renvoie le GID.",
+  "custom.guide : valeur exacte = extraction brute de la page publique (?cb=), refaite deux fois juste avant écriture, identique au fichier préparé.",
+  "custom.faq (FR) : valeur getCollection transcrite puis comparée à la page publique (q = JSON-LD FAQPage name, a = accordéon) : égalité exacte.",
+  "Traductions guide : extraction brute de la page traduite (longueur = valueLength Shopify). Traductions FAQ : reconstruction depuis la page traduite, longueur = valueLength de la valeur getTranslatableContent.",
+  "Remplacements contrôlés par difflib : seuls 4,1/4.1 -> [[TP_SCORE]] et 80 -> [[TP_COUNT]] ; « 60 × 80 cm », « 1 015 », dates, téléphone intacts.",
+  "Après publication : outdated:false et valueLength == longueur envoyée pour les 48 traductions ; vérification en ligne au caractère près (guide et FAQ rendus == valeur envoyée avec 4,2/4.2 et 86)."
+ ],
+ "anomalies": [
+  "Réécriture à l’identique de tableau-chambre-fillette custom.guide via updateCollection (≈10:20 UTC), faite pour tester si la réponse donnait les GID (non) : updatedAt inchangé, guide public identique à l’octet (sha256 179a8149…5385).",
+  "État outdated des traductions AVANT passage non observable (GID obtenu seulement par l’écriture) ; juste après chaque écriture FR, les 4 traductions étaient outdated:true avec des longueurs égales aux extractions publiques, puis toutes republiées outdated:false.",
+  "Un appel getTranslatableContent de lecture lancé par erreur sur un GID inexistant (gid://shopify/Metafield/64743009583451) : erreur « translatableResource null », aucune écriture."
+ ],
+ "balayage_final_html": {
+  "tableau-chambre-fillette|fr": {
+   "len": 1250779,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 3,
+   "new_86": 3
+  },
+  "tableau-chambre-fillette|en": {
+   "len": 1270313,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 3,
+   "new_86": 3
+  },
+  "tableau-chambre-fillette|de": {
+   "len": 1278859,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 3,
+   "new_86": 3
+  },
+  "tableau-chambre-fillette|es": {
+   "len": 1254392,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 3,
+   "new_86": 3
+  },
+  "tableau-chambre-fillette|nl": {
+   "len": 1262456,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 3,
+   "new_86": 3
+  },
+  "tableau-animaux|fr": {
+   "len": 1219333,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 1,
+   "new_86": 1
+  },
+  "tableau-animaux|en": {
+   "len": 1224535,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 1,
+   "new_86": 1
+  },
+  "tableau-animaux|de": {
+   "len": 1236841,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 1,
+   "new_86": 1
+  },
+  "tableau-animaux|es": {
+   "len": 1220667,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 1,
+   "new_86": 1
+  },
+  "tableau-animaux|nl": {
+   "len": 1230339,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 1,
+   "new_86": 1
+  },
+  "tableau-rouge|fr": {
+   "len": 1324962,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 3,
+   "new_86": 3
+  },
+  "tableau-rouge|en": {
+   "len": 1331453,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 3,
+   "new_86": 3
+  },
+  "tableau-rouge|de": {
+   "len": 1346695,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 3,
+   "new_86": 3
+  },
+  "tableau-rouge|es": {
+   "len": 1320969,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 3,
+   "new_86": 3
+  },
+  "tableau-rouge|nl": {
+   "len": 1334349,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 3,
+   "new_86": 3
+  },
+  "tableau-violet|fr": {
+   "len": 1052062,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 1,
+   "new_86": 1
+  },
+  "tableau-violet|en": {
+   "len": 1064667,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 1,
+   "new_86": 1
+  },
+  "tableau-violet|de": {
+   "len": 1066392,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 1,
+   "new_86": 1
+  },
+  "tableau-violet|es": {
+   "len": 1048540,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 1,
+   "new_86": 1
+  },
+  "tableau-violet|nl": {
+   "len": 1069589,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 1,
+   "new_86": 1
+  },
+  "tous-les-tableaux|fr": {
+   "len": 1308792,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 3,
+   "new_86": 3
+  },
+  "tous-les-tableaux|en": {
+   "len": 1315503,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 3,
+   "new_86": 3
+  },
+  "tous-les-tableaux|de": {
+   "len": 1328540,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 3,
+   "new_86": 3
+  },
+  "tous-les-tableaux|es": {
+   "len": 1305639,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 3,
+   "new_86": 3
+  },
+  "tous-les-tableaux|nl": {
+   "len": 1320876,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 3,
+   "new_86": 3
+  },
+  "tableau-personnalise-famille|fr": {
+   "len": 578739,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 1,
+   "new_86": 1
+  },
+  "tableau-personnalise-famille|en": {
+   "len": 579171,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 1,
+   "new_86": 1
+  },
+  "tableau-personnalise-famille|de": {
+   "len": 586078,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 1,
+   "new_86": 1
+  },
+  "tableau-personnalise-famille|es": {
+   "len": 581671,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 1,
+   "new_86": 1
+  },
+  "tableau-personnalise-famille|nl": {
+   "len": 583966,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 1,
+   "new_86": 1
+  },
+  "tableau-islamique|fr": {
+   "len": 988342,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 1,
+   "new_86": 1
+  },
+  "tableau-islamique|en": {
+   "len": 996529,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 1,
+   "new_86": 1
+  },
+  "tableau-islamique|de": {
+   "len": 1008853,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 1,
+   "new_86": 1
+  },
+  "tableau-islamique|es": {
+   "len": 988835,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 1,
+   "new_86": 1
+  },
+  "tableau-islamique|nl": {
+   "len": 1006692,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 1,
+   "new_86": 1
+  },
+  "tableau-entree-couloir|fr": {
+   "len": 1305923,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 3,
+   "new_86": 3
+  },
+  "tableau-entree-couloir|en": {
+   "len": 1316430,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 3,
+   "new_86": 3
+  },
+  "tableau-entree-couloir|de": {
+   "len": 1326964,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 3,
+   "new_86": 3
+  },
+  "tableau-entree-couloir|es": {
+   "len": 1304883,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 3,
+   "new_86": 3
+  },
+  "tableau-entree-couloir|nl": {
+   "len": 1318684,
+   "raw_tokens": 0,
+   "old_41": 0,
+   "old_80": 0,
+   "new_score": 3,
+   "new_86": 3
+  }
+ },
+ "entrees": [
+  {
+   "handle": "tableau-chambre-fillette",
+   "collection_id": "gid://shopify/Collection/406508994815",
+   "metafield_gid": "gid://shopify/Metafield/64743026065755",
+   "metafield": "custom.guide",
+   "type": "multi_line_text_field",
+   "ancien_digest": "179a81494abffed73cc7c8f1da305365db746578cb56a4b80cd1e9e7a6ee5385",
+   "ancien_digest_source": "sha256 de la valeur FR exacte avant écriture (prouvée exacte : extraction publique brute identique sur deux lectures espacées) ; digest Shopify non lisible avant écriture faute de GID",
+   "nouveau_digest": "66d807e7c446b5cb67892415dcb3628b8946887cf79258e71fd5dc1370497df6",
+   "nouveau_digest_verifie": "digest getTranslatableContent == sha256(nouvelle valeur), longueur 3524",
+   "ecrit_via": "setMetafield (amendement coordinateur), valeur avec jetons écrite directement",
+   "ecrit_a": "2026-10-05T10:25:18Z",
+   "remplacements_fr": 2,
+   "remplacements_par_langue": {
+    "fr": 2,
+    "en": 2,
+    "de": 2,
+    "es": 2,
+    "nl": 2
+   },
+   "detail_par_langue": {
+    "fr": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 3505,
+     "longueur_apres": 3524,
+     "sha256_avant": "179a81494abffed73cc7c8f1da305365db746578cb56a4b80cd1e9e7a6ee5385",
+     "sha256_apres": "66d807e7c446b5cb67892415dcb3628b8946887cf79258e71fd5dc1370497df6",
+     "phrases": [
+      {
+       "avant": " confirmée. Notre note Trustpilot de <strong>4,1/5 sur 80 avis</strong> témoigne d'une relation de confiance que nous cu",
+       "apres": " confirmée. Notre note Trustpilot de <strong>[[TP_SCORE]]/5 sur [[TP_COUNT]] avis</strong> témoigne d'une relation de co"
+      }
+     ]
+    },
+    "en": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 3391,
+     "longueur_apres": 3410,
+     "sha256_avant": "d642bbc101ec19e715dd79088919b6e01335b1c0958e9923723a1a1833dd43e3",
+     "sha256_apres": "b732c8b9fe5fe956d616977afdfb108b3a537ccc3a169105d3a9fce12a245554",
+     "phrases": [
+      {
+       "avant": "d</strong>. Our Trustpilot rating of <strong>4.1/5 from 80 reviews</strong> reflects the relationship of trust we cultiv",
+       "apres": "d</strong>. Our Trustpilot rating of <strong>[[TP_SCORE]]/5 from [[TP_COUNT]] reviews</strong> reflects the relationship"
+      }
+     ]
+    },
+    "de": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 3811,
+     "longueur_apres": 3830,
+     "sha256_avant": "79227f99ab9bc0952d7f5aa76852a364791f65f6f2e77bc98642cbcee44db7f0",
+     "sha256_apres": "50f7491f1704d1a3a0a379e97e9a7b1c2c9f3af11745e1a284a7dbb686d2c1c5",
+     "phrases": [
+      {
+       "avant": "ben. Unsere Trustpilot-Bewertung von <strong>4,1/5 bei 80 Bewertungen</strong> zeugt von einer Vertrauensbeziehung, die ",
+       "apres": "ben. Unsere Trustpilot-Bewertung von <strong>[[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen</strong> zeugt von einer Vertra"
+      }
+     ]
+    },
+    "es": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 3693,
+     "longueur_apres": 3712,
+     "sha256_avant": "ea3ee395da27d9be5fb9d0ccac28cda041f9e8c7f619ff1636917a17f59f98ce",
+     "sha256_apres": "c0139549592afacb669038319ae7a6c38ee77145f7c332ed04592947a24b3374",
+     "phrases": [
+      {
+       "avant": "nfirmado. Nuestra nota Trustpilot de <strong>4,1/5 sobre 80 reseñas</strong> da fe de una relación de confianza que cult",
+       "apres": "nfirmado. Nuestra nota Trustpilot de <strong>[[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas</strong> da fe de una relación de"
+      }
+     ]
+    },
+    "nl": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 3577,
+     "longueur_apres": 3596,
+     "sha256_avant": "c26d36cf1bdeb0f60614907f765a052201b328ba68ace41da56bd47bab2cb0be",
+     "sha256_apres": "553ba00a304be44db7ab4922cea244aee967981adb82b5b0ccfaa2218d50e287",
+     "phrases": [
+      {
+       "avant": "bevestigd. Onze Trustpilot-score van <strong>4,1/5 op 80 reviews</strong> getuigt van een vertrouwensrelatie die we bij ",
+       "apres": "bevestigd. Onze Trustpilot-score van <strong>[[TP_SCORE]]/5 op [[TP_COUNT]] reviews</strong> getuigt van een vertrouwens"
+      }
+     ]
+    }
+   },
+   "traductions_outdated_avant": "non observable (GID obtenu seulement par l’écriture setMetafield ; après écriture les 4 traductions étaient outdated:true, longueurs = extractions publiques)",
+   "traductions_publiees": {
+    "en": {
+     "outdated": false,
+     "valueLength": 3410
+    },
+    "de": {
+     "outdated": false,
+     "valueLength": 3830
+    },
+    "es": {
+     "outdated": false,
+     "valueLength": 3712
+    },
+    "nl": {
+     "outdated": false,
+     "valueLength": 3596
+    }
+   },
+   "verification_en_ligne": {
+    "fr": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:30:20Z"
+    },
+    "en": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:30:20Z"
+    },
+    "de": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:30:20Z"
+    },
+    "es": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:30:20Z"
+    },
+    "nl": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:30:20Z"
+    }
+   },
+   "note": "Réécriture à l’identique de custom.guide via updateCollection faite à ~10:20 UTC pour tester si la réponse donnait les GID (non) : updatedAt inchangé, guide public identique à l’octet (sha256 179a8149…5385)."
+  },
+  {
+   "handle": "tableau-chambre-fillette",
+   "collection_id": "gid://shopify/Collection/406508994815",
+   "metafield_gid": "gid://shopify/Metafield/64743035797851",
+   "metafield": "custom.faq",
+   "type": "json",
+   "ancien_digest": "870e230e7e0c3a0a0af7635ac46556182d74fe3acb7c68aa6dd00c6484de07ad",
+   "ancien_digest_source": "sha256 de la valeur FR exacte avant écriture (prouvée exacte : valeur getCollection == q (JSON-LD FAQPage) + a (accordéon) de la page publique, à l’octet) ; digest Shopify non lisible avant écriture faute de GID",
+   "nouveau_digest": "b5b6cb18b310ba5da891ba38479e6f5ef528d38de468ff1bf2ebb694055a9742",
+   "nouveau_digest_verifie": "digest getTranslatableContent == sha256(nouvelle valeur), longueur 2104",
+   "ecrit_via": "setMetafield (amendement coordinateur), valeur avec jetons écrite directement",
+   "ecrit_a": "2026-10-05T10:28:59Z",
+   "remplacements_fr": 2,
+   "remplacements_par_langue": {
+    "fr": 2,
+    "en": 2,
+    "de": 2,
+    "es": 2,
+    "nl": 2
+   },
+   "detail_par_langue": {
+    "fr": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 2085,
+     "longueur_apres": 2104,
+     "sha256_avant": "870e230e7e0c3a0a0af7635ac46556182d74fe3acb7c68aa6dd00c6484de07ad",
+     "sha256_apres": "b5b6cb18b310ba5da891ba38479e6f5ef528d38de468ff1bf2ebb694055a9742",
+     "phrases": [
+      {
+       "avant": "15 tableaux livrés et une note Trustpilot de 4,1/5 sur 80 avis témoignent de cette exigence.</p>\"},{\"q\":\"Un tableau pour",
+       "apres": "15 tableaux livrés et une note Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis témoignent de cette exigence.</p>\"},{\""
+      }
+     ]
+    },
+    "en": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 1825,
+     "longueur_apres": 1844,
+     "sha256_avant": "7db0b917eda5aa1d7f84b98c8a32a4946a07912ed4456341b24f802484bc4439",
+     "sha256_apres": "70cc88e4b73ad7e68a538a517f0604826c2a67961cbbe19307f1d9e698ce3032",
+     "phrases": [
+      {
+       "avant": "anvases delivered and a Trustpilot rating of 4.1/5 from 80 reviews speak to this commitment.</p>\"},{\"q\":\"Is girls’ wall ",
+       "apres": "anvases delivered and a Trustpilot rating of [[TP_SCORE]]/5 from [[TP_COUNT]] reviews speak to this commitment.</p>\"},{\""
+      }
+     ]
+    },
+    "de": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 2129,
+     "longueur_apres": 2148,
+     "sha256_avant": "0691fab55c1b6de9b853ec96b9b9a4a59579b5dc7a5caa60903a148cccd6e5a4",
+     "sha256_apres": "9d93b4ee6e61184081ee294985cf497e8ed81517455a4f6c3452c3da07a40a44",
+     "phrases": [
+      {
+       "avant": "rte Bilder und eine Trustpilot-Bewertung von 4,1/5 bei 80 Bewertungen zeugen von diesem Anspruch.</p>\"},{\"q\":\"Ist ein Bi",
+       "apres": "rte Bilder und eine Trustpilot-Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen zeugen von diesem Anspruch.</p>"
+      }
+     ]
+    },
+    "es": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 2090,
+     "longueur_apres": 2109,
+     "sha256_avant": "bf1f40d57e8f7b894ef314490b0349c034bb039fd455fd57a9d9d01e1c6d28ca",
+     "sha256_apres": "026e6f126f6bd4d3ec82dd6fb4130b831d848245135407da2df6ab0edcec5d80",
+     "phrases": [
+      {
+       "avant": " cuadros entregados y una nota Trustpilot de 4,1/5 sobre 80 reseñas dan fe de esta exigencia.</p>\"},{\"q\":\"¿Es un cuadro ",
+       "apres": " cuadros entregados y una nota Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas dan fe de esta exigencia.</p>\"},{"
+      }
+     ]
+    },
+    "nl": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 2088,
+     "longueur_apres": 2107,
+     "sha256_avant": "71b754ad0969a0d32c95cf3447e213dfed51b78b986500ca1d861a0883a3d6a6",
+     "sha256_apres": "5f7ab60be2408714143350da1a724205db72f04b35af62e2cd00c056afd68ca3",
+     "phrases": [
+      {
+       "avant": "rde schilderijen en een Trustpilot-score van 4,1/5 op 80 reviews getuigen van deze eis.</p>\"},{\"q\":\"Is een schilderij vo",
+       "apres": "rde schilderijen en een Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] reviews getuigen van deze eis.</p>\"},{\"q\":\"I"
+      }
+     ]
+    }
+   },
+   "traductions_outdated_avant": "non observable (GID obtenu seulement par l’écriture setMetafield ; après écriture les 4 traductions étaient outdated:true, longueurs = reconstructions publiques)",
+   "traductions_publiees": {
+    "en": {
+     "outdated": false,
+     "valueLength": 1844
+    },
+    "de": {
+     "outdated": false,
+     "valueLength": 2148
+    },
+    "es": {
+     "outdated": false,
+     "valueLength": 2109
+    },
+    "nl": {
+     "outdated": false,
+     "valueLength": 2107
+    }
+   },
+   "verification_en_ligne": {
+    "fr": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:30:20Z"
+    },
+    "en": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:30:20Z"
+    },
+    "de": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:30:20Z"
+    },
+    "es": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:30:20Z"
+    },
+    "nl": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:30:20Z"
+    }
+   }
+  },
+  {
+   "handle": "tableau-animaux",
+   "collection_id": "gid://shopify/Collection/407429972223",
+   "metafield_gid": "gid://shopify/Metafield/64742900302171",
+   "metafield": "custom.guide",
+   "type": "multi_line_text_field",
+   "ancien_digest": "eee139e809c4caa8f9861c4ea2acf97f30d5ec1a1a0175f4e238d9233ad76b82",
+   "ancien_digest_source": "sha256 de la valeur FR exacte avant écriture (prouvée exacte : extraction publique brute identique sur deux lectures espacées) ; digest Shopify non lisible avant écriture faute de GID",
+   "nouveau_digest": "9298617cc0a3b3926177026b240aad5dff9e9a3ca26db1b955f426875c2138b5",
+   "nouveau_digest_verifie": "digest getTranslatableContent == sha256(nouvelle valeur), longueur 2992",
+   "ecrit_via": "setMetafield (amendement coordinateur), valeur avec jetons écrite directement",
+   "ecrit_a": "2026-10-05T10:31:50Z",
+   "remplacements_fr": 2,
+   "remplacements_par_langue": {
+    "fr": 2,
+    "en": 2,
+    "de": 2,
+    "es": 2,
+    "nl": 2
+   },
+   "detail_par_langue": {
+    "fr": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 2973,
+     "longueur_apres": 2992,
+     "sha256_avant": "eee139e809c4caa8f9861c4ea2acf97f30d5ec1a1a0175f4e238d9233ad76b82",
+     "sha256_apres": "9298617cc0a3b3926177026b240aad5dff9e9a3ca26db1b955f426875c2138b5",
+     "phrases": [
+      {
+       "avant": "ivré plus de 1 015 tableaux et réuni <strong>4,1/5 sur 80 avis Trustpilot</strong>. Nos œuvres sont sélectionnées et ret",
+       "apres": "ivré plus de 1 015 tableaux et réuni <strong>[[TP_SCORE]]/5 sur [[TP_COUNT]] avis Trustpilot</strong>. Nos œuvres sont s"
+      }
+     ]
+    },
+    "en": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 2840,
+     "longueur_apres": 2859,
+     "sha256_avant": "e2b9e35c3010decc5d282d2ecf743eb8425c91ac78445bbb3bbdb73485ec0915",
+     "sha256_apres": "806be94fc9bf3e1f3cb1c48ff2ab2eb32ac054fb69b5c584f4652e12210facca",
+     "phrases": [
+      {
+       "avant": " more than 1,015 artworks and earned <strong>4.1/5 across 80 Trustpilot reviews</strong>. Our pieces are curated and han",
+       "apres": " more than 1,015 artworks and earned <strong>[[TP_SCORE]]/5 across [[TP_COUNT]] Trustpilot reviews</strong>. Our pieces "
+      }
+     ]
+    },
+    "de": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 3190,
+     "longueur_apres": 3209,
+     "sha256_avant": "4dcb6c88a55c61bbd7f4ede67148a328be89167462752faa64b23282701d7eeb",
+     "sha256_apres": "d61de370dcbaef4dea293978a203fe7d1e0adead416d75ad3c3aa7eac386bd51",
+     "phrases": [
+      {
+       "avant": " mehr als 1.015 Bilder geliefert und <strong>4,1/5 bei 80 Trustpilot-Bewertungen</strong> erreicht. Unsere Werke werden ",
+       "apres": " mehr als 1.015 Bilder geliefert und <strong>[[TP_SCORE]]/5 bei [[TP_COUNT]] Trustpilot-Bewertungen</strong> erreicht. U"
+      }
+     ]
+    },
+    "es": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 3084,
+     "longueur_apres": 3103,
+     "sha256_avant": "fa3db1ba0f3e368472081ee5929ac5dd422567a933233dfc19bfcfed12d32c84",
+     "sha256_apres": "208d725fa80593d47995e7820da99991d22732a123ffe15302c9de4639cead5b",
+     "phrases": [
+      {
+       "avant": "egado más de 1.015 cuadros y reunido <strong>4,1/5 sobre 80 reseñas Trustpilot</strong>. Nuestras obras son seleccionada",
+       "apres": "egado más de 1.015 cuadros y reunido <strong>[[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas Trustpilot</strong>. Nuestras obr"
+      }
+     ]
+    },
+    "nl": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 3022,
+     "longueur_apres": 3041,
+     "sha256_avant": "b073d8c70315e569b8216f7dc935bc55f00256c4c7e386dde0780b9819dee1db",
+     "sha256_apres": "a3482c6afdc1dc04a25677cffb0a7b88900f55eda3a1326c8215acd39335da6e",
+     "phrases": [
+      {
+       "avant": "r dan 1.015 schilderijen geleverd en <strong>4,1/5 op 80 Trustpilot-reviews</strong> behaald. Onze werken worden met de ",
+       "apres": "r dan 1.015 schilderijen geleverd en <strong>[[TP_SCORE]]/5 op [[TP_COUNT]] Trustpilot-reviews</strong> behaald. Onze we"
+      }
+     ]
+    }
+   },
+   "traductions_outdated_avant": "non observable (GID obtenu seulement par l’écriture setMetafield ; après écriture les 4 traductions étaient outdated:true, longueurs = extractions publiques)",
+   "traductions_publiees": {
+    "en": {
+     "outdated": false,
+     "valueLength": 2859
+    },
+    "de": {
+     "outdated": false,
+     "valueLength": 3209
+    },
+    "es": {
+     "outdated": false,
+     "valueLength": 3103
+    },
+    "nl": {
+     "outdated": false,
+     "valueLength": 3041
+    }
+   },
+   "verification_en_ligne": {
+    "fr": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures": 0,
+     "new_phrases": 1,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:33:22Z"
+    },
+    "en": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures": 0,
+     "new_phrases": 1,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:33:22Z"
+    },
+    "de": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures": 0,
+     "new_phrases": 1,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:33:22Z"
+    },
+    "es": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures": 0,
+     "new_phrases": 1,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:33:22Z"
+    },
+    "nl": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures": 0,
+     "new_phrases": 1,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:33:22Z"
+    }
+   }
+  },
+  {
+   "handle": "tableau-rouge",
+   "collection_id": "gid://shopify/Collection/599890166107",
+   "metafield_gid": "gid://shopify/Metafield/64743009517915",
+   "metafield": "custom.guide",
+   "type": "multi_line_text_field",
+   "ancien_digest": "7d05b0f1a788a9d0156c482f55f76ecfcbb86fd964ef5abdc883510efc985151",
+   "ancien_digest_source": "sha256 de la valeur FR exacte avant écriture (prouvée exacte : extraction publique brute identique sur deux lectures espacées) ; digest Shopify non lisible avant écriture faute de GID",
+   "nouveau_digest": "4320ad5dbeb04899f178a195ce7fb78a5f8fd74ad469e270816b815deec51d99",
+   "nouveau_digest_verifie": "digest getTranslatableContent == sha256(nouvelle valeur), longueur 3174",
+   "ecrit_via": "setMetafield (amendement coordinateur), valeur avec jetons écrite directement",
+   "ecrit_a": "2026-10-05T10:34:25Z",
+   "remplacements_fr": 2,
+   "remplacements_par_langue": {
+    "fr": 2,
+    "en": 2,
+    "de": 2,
+    "es": 2,
+    "nl": 2
+   },
+   "detail_par_langue": {
+    "fr": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 3155,
+     "longueur_apres": 3174,
+     "sha256_avant": "7d05b0f1a788a9d0156c482f55f76ecfcbb86fd964ef5abdc883510efc985151",
+     "sha256_apres": "4320ad5dbeb04899f178a195ce7fb78a5f8fd74ad469e270816b815deec51d99",
+     "phrases": [
+      {
+       "avant": "ents, qui nous accordent une note de <strong>4,1/5 sur 80 avis Trustpilot</strong>. Et si vous hésitez, notre service cl",
+       "apres": "ents, qui nous accordent une note de <strong>[[TP_SCORE]]/5 sur [[TP_COUNT]] avis Trustpilot</strong>. Et si vous hésite"
+      }
+     ]
+    },
+    "en": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 3015,
+     "longueur_apres": 3034,
+     "sha256_avant": "768f771423bea786df602744280873efaaaba0a84fa9fe5a8af38cab7b753834",
+     "sha256_apres": "63b27730c8aa4193ddd761fd690476328ba2ae05aa9a7c4394a7c7ee6f27bc43",
+     "phrases": [
+      {
+       "avant": "home with our customers, who rate us <strong>4.1/5 across 80 Trustpilot reviews</strong>. If you’re hesitating, our Toul",
+       "apres": "home with our customers, who rate us <strong>[[TP_SCORE]]/5 across [[TP_COUNT]] Trustpilot reviews</strong>. If you’re h"
+      }
+     ]
+    },
+    "de": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 3408,
+     "longueur_apres": 3427,
+     "sha256_avant": "32b496eaee6bad02f8477a55ffc361c06e62cf037a55db0cf446b93adcdfdb46",
+     "sha256_apres": "ab9b7ec9d6d3ea1cfd97d2343c64975834911da46b99e79a1fc87d76075d62b0",
+     "phrases": [
+      {
+       "avant": "gefunden, die uns eine Bewertung von <strong>4,1/5 bei 80 Trustpilot-Bewertungen</strong> geben. Und wenn Sie unsicher s",
+       "apres": "gefunden, die uns eine Bewertung von <strong>[[TP_SCORE]]/5 bei [[TP_COUNT]] Trustpilot-Bewertungen</strong> geben. Und "
+      }
+     ]
+    },
+    "es": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 3184,
+     "longueur_apres": 3203,
+     "sha256_avant": "34b38da025e0d92497b0c42c1456903f4f0bb9fe4cc2a4fe7958567b7026aa0a",
+     "sha256_apres": "7d17216f27cfd8df87aa06b5d85091e992d353992d4ac9b0bdbb05a68e7e8a89",
+     "phrases": [
+      {
+       "avant": "lientes, que nos otorgan una nota de <strong>4,1/5 sobre 80 reseñas en Trustpilot</strong>. Y si duda, nuestro servicio ",
+       "apres": "lientes, que nos otorgan una nota de <strong>[[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas en Trustpilot</strong>. Y si duda"
+      }
+     ]
+    },
+    "nl": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 3256,
+     "longueur_apres": 3275,
+     "sha256_avant": "e8a179a6ad041527052199bb8e7479dc2f182dcdb4f42d1aa427036db4222a45",
+     "sha256_apres": "d3103a53c1df3152dcf9504b41554d5a2c799008c729b768cfffda7d8c8abe23",
+     "phrases": [
+      {
+       "avant": " onze klanten, die ons een score van <strong>4,1/5 op 80 Trustpilot-beoordelingen</strong> toekennen. En als u twijfelt,",
+       "apres": " onze klanten, die ons een score van <strong>[[TP_SCORE]]/5 op [[TP_COUNT]] Trustpilot-beoordelingen</strong> toekennen."
+      }
+     ]
+    }
+   },
+   "traductions_outdated_avant": "non observable (GID obtenu seulement par l’écriture setMetafield ; après écriture les 4 traductions étaient outdated:true, longueurs = extractions publiques)",
+   "traductions_publiees": {
+    "en": {
+     "outdated": false,
+     "valueLength": 3034
+    },
+    "de": {
+     "outdated": false,
+     "valueLength": 3427
+    },
+    "es": {
+     "outdated": false,
+     "valueLength": 3203
+    },
+    "nl": {
+     "outdated": false,
+     "valueLength": 3275
+    }
+   },
+   "verification_en_ligne": {
+    "fr": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:37:50Z"
+    },
+    "en": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:37:50Z"
+    },
+    "de": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:37:50Z"
+    },
+    "es": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:37:50Z"
+    },
+    "nl": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:37:50Z"
+    }
+   }
+  },
+  {
+   "handle": "tableau-rouge",
+   "collection_id": "gid://shopify/Collection/599890166107",
+   "metafield_gid": "gid://shopify/Metafield/64743023346011",
+   "metafield": "custom.faq",
+   "type": "json",
+   "ancien_digest": "6077e51a5523840730afd5c18f09d52f0c45118df03cbbfcd4091cfb5b3419da",
+   "ancien_digest_source": "sha256 de la valeur FR exacte avant écriture (prouvée exacte : valeur getCollection == q (JSON-LD FAQPage) + a (accordéon) de la page publique, à l’octet) ; digest Shopify non lisible avant écriture faute de GID",
+   "nouveau_digest": "3540d1dc49498f0f4492fcf1b88f479f56248d4f3f9f8a5beb139606b9653f53",
+   "nouveau_digest_verifie": "digest getTranslatableContent == sha256(nouvelle valeur), longueur 2365",
+   "ecrit_via": "setMetafield (amendement coordinateur), valeur avec jetons écrite directement",
+   "ecrit_a": "2026-10-05T10:36:22Z",
+   "remplacements_fr": 2,
+   "remplacements_par_langue": {
+    "fr": 2,
+    "en": 2,
+    "de": 2,
+    "es": 2,
+    "nl": 2
+   },
+   "detail_par_langue": {
+    "fr": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 2346,
+     "longueur_apres": 2365,
+     "sha256_avant": "6077e51a5523840730afd5c18f09d52f0c45118df03cbbfcd4091cfb5b3419da",
+     "sha256_apres": "3540d1dc49498f0f4492fcf1b88f479f56248d4f3f9f8a5beb139606b9653f53",
+     "phrases": [
+      {
+       "avant": "s reconnaissent, avec une note Trustpilot de 4,1/5 sur 80 avis et plus de 1 015 tableaux livrés depuis 2022.</p>\"},{\"q\":",
+       "apres": "s reconnaissent, avec une note Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis et plus de 1 015 tableaux livrés depui"
+      }
+     ]
+    },
+    "en": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 2135,
+     "longueur_apres": 2154,
+     "sha256_avant": "0c10c6fc41824e97f18a8dd8ac5516837d32301b4ddebd20784868fc4dc713cf",
+     "sha256_apres": "bec71fb4efb121178383ccb69eefc58a5ecceed87607ff541477132443f280e0",
+     "phrases": [
+      {
+       "avant": "omers recognize, with a Trustpilot rating of 4.1/5 across 80 reviews and more than 1,015 artworks delivered since 2022.<",
+       "apres": "omers recognize, with a Trustpilot rating of [[TP_SCORE]]/5 across [[TP_COUNT]] reviews and more than 1,015 artworks del"
+      }
+     ]
+    },
+    "de": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 2415,
+     "longueur_apres": 2434,
+     "sha256_avant": "f116d8efd0602fa18f9dd968e16c89a315ee684d682cd46d5b3120fe4eab42da",
+     "sha256_apres": "17d618ae994cccd27c71f1f978d73534092917b004e6ef93a54619416f52c211",
+     "phrases": [
+      {
+       "avant": "erkennen, mit einer Trustpilot-Bewertung von 4,1/5 bei 80 Bewertungen und über 1.015 seit 2022 gelieferten Bildern.</p>\"",
+       "apres": "erkennen, mit einer Trustpilot-Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen und über 1.015 seit 2022 gelief"
+      }
+     ]
+    },
+    "es": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 2363,
+     "longueur_apres": 2382,
+     "sha256_avant": "cccaf8c69c6d30d25432335b4a7ab68a0fc520cc6d68fb9007ab9e1d127b6dc5",
+     "sha256_apres": "b3bafb6382ab9496bbddf9ba0f2fc5ed2e4bf1424ac01c3607cdfcd230847e40",
+     "phrases": [
+      {
+       "avant": "ientes reconocen, con una nota Trustpilot de 4,1/5 sobre 80 reseñas y más de 1.015 cuadros entregados desde 2022.</p>\"},",
+       "apres": "ientes reconocen, con una nota Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas y más de 1.015 cuadros entregados"
+      }
+     ]
+    },
+    "nl": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 2378,
+     "longueur_apres": 2397,
+     "sha256_avant": "df813914b11151b2952f685c15ddac27b3a653a942ee91d4c17c0315ce5079c2",
+     "sha256_apres": "521f70ecccc1a43ae023c4b35480da5a2ea315905ba51cd6b130c0cea87c91c7",
+     "phrases": [
+      {
+       "avant": "anten erkennen, met een Trustpilot-score van 4,1/5 op 80 beoordelingen en meer dan 1.015 geleverde schilderijen sinds 20",
+       "apres": "anten erkennen, met een Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] beoordelingen en meer dan 1.015 geleverde sc"
+      }
+     ]
+    }
+   },
+   "traductions_outdated_avant": "non observable (GID obtenu seulement par l’écriture setMetafield ; après écriture les 4 traductions étaient outdated:true, longueurs = reconstructions publiques)",
+   "traductions_publiees": {
+    "en": {
+     "outdated": false,
+     "valueLength": 2154
+    },
+    "de": {
+     "outdated": false,
+     "valueLength": 2434
+    },
+    "es": {
+     "outdated": false,
+     "valueLength": 2382
+    },
+    "nl": {
+     "outdated": false,
+     "valueLength": 2397
+    }
+   },
+   "verification_en_ligne": {
+    "fr": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:37:50Z"
+    },
+    "en": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:37:50Z"
+    },
+    "de": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:37:50Z"
+    },
+    "es": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:37:50Z"
+    },
+    "nl": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:37:50Z"
+    }
+   }
+  },
+  {
+   "handle": "tableau-violet",
+   "collection_id": "gid://shopify/Collection/600338071899",
+   "metafield_gid": "gid://shopify/Metafield/64743073644891",
+   "metafield": "custom.guide",
+   "type": "multi_line_text_field",
+   "ancien_digest": "6e56d2533323ffdd024e3ef4dc21ec2ba1d95ff22aad87f1318f0b7355db954d",
+   "ancien_digest_source": "sha256 de la valeur FR exacte avant écriture (prouvée exacte : extraction publique brute identique sur deux lectures espacées) ; digest Shopify non lisible avant écriture faute de GID",
+   "nouveau_digest": "84f57be36d03f4a81fbd671ca8a7e327b9f3335c9a72f9b69b5c165654f652b0",
+   "nouveau_digest_verifie": "digest getTranslatableContent == sha256(nouvelle valeur), longueur 3102",
+   "ecrit_via": "setMetafield (amendement coordinateur), valeur avec jetons écrite directement",
+   "ecrit_a": "2026-10-05T10:38:49Z",
+   "remplacements_fr": 2,
+   "remplacements_par_langue": {
+    "fr": 2,
+    "en": 2,
+    "de": 2,
+    "es": 2,
+    "nl": 2
+   },
+   "detail_par_langue": {
+    "fr": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 3083,
+     "longueur_apres": 3102,
+     "sha256_avant": "6e56d2533323ffdd024e3ef4dc21ec2ba1d95ff22aad87f1318f0b7355db954d",
+     "sha256_apres": "84f57be36d03f4a81fbd671ca8a7e327b9f3335c9a72f9b69b5c165654f652b0",
+     "phrases": [
+      {
+       "avant": "ts la ressentent : nous sommes notés <strong>4,1/5 sur 80 avis Trustpilot</strong>. Et si vous avez la moindre question ",
+       "apres": "ts la ressentent : nous sommes notés <strong>[[TP_SCORE]]/5 sur [[TP_COUNT]] avis Trustpilot</strong>. Et si vous avez l"
+      }
+     ]
+    },
+    "en": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 2807,
+     "longueur_apres": 2826,
+     "sha256_avant": "12e6a6ce72db4bbd7ca363d22768f99d0e0238398e249b96d4fe2f837afac9a9",
+     "sha256_apres": "a6701b7083b29ed33fef2e0bfe46f2271692808a7eb683bf23933a906c802e0e",
+     "phrases": [
+      {
+       "avant": "ers feel the difference: we’re rated <strong>4.1/5 from 80 Trustpilot reviews</strong>. And if you have any questions be",
+       "apres": "ers feel the difference: we’re rated <strong>[[TP_SCORE]]/5 from [[TP_COUNT]] Trustpilot reviews</strong>. And if you ha"
+      }
+     ]
+    },
+    "de": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 3069,
+     "longueur_apres": 3088,
+     "sha256_avant": "6d1e0d7c32721a394fe13bde6d2a42d4f9afe41bef2409c6dfe5b6299c8b76fe",
+     "sha256_apres": "82014ec05fd25f1a550a4bc27a3631116aff9f5734930f6932bccda61dee613a",
+     "phrases": [
+      {
+       "avant": "s spüren unsere Kunden: Wir sind mit <strong>4,1/5 bei 80 Trustpilot-Bewertungen</strong> bewertet. Und wenn Sie vor der",
+       "apres": "s spüren unsere Kunden: Wir sind mit <strong>[[TP_SCORE]]/5 bei [[TP_COUNT]] Trustpilot-Bewertungen</strong> bewertet. U"
+      }
+     ]
+    },
+    "es": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 3103,
+     "longueur_apres": 3122,
+     "sha256_avant": "671984d2c92991c633f76116075e57af6e2cc780b316af448fd7729a57ae2c4d",
+     "sha256_apres": "2533af72085ca200afd10ea443a60744c03cd9435839d08e35c9132893dc1398",
+     "phrases": [
+      {
+       "avant": "ntes lo notan: estamos valorados con <strong>4,1/5 en 80 reseñas en Trustpilot</strong>. Si tienes cualquier pregunta an",
+       "apres": "ntes lo notan: estamos valorados con <strong>[[TP_SCORE]]/5 en [[TP_COUNT]] reseñas en Trustpilot</strong>. Si tienes cu"
+      }
+     ]
+    },
+    "nl": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 3069,
+     "longueur_apres": 3088,
+     "sha256_avant": "026c26cc94cd52de38149884c0c1ce8fd2732a4cf08036f487e30cc18b05a098",
+     "sha256_apres": "d3df642954f17a65480bf96cd1873bf46f08d96b1b920d047cf1795e48e60c99",
+     "phrases": [
+      {
+       "avant": "ze klanten: we worden beoordeeld met <strong>4,1/5 op 80 Trustpilot-reviews</strong>. Vragen voordat je je paarse schild",
+       "apres": "ze klanten: we worden beoordeeld met <strong>[[TP_SCORE]]/5 op [[TP_COUNT]] Trustpilot-reviews</strong>. Vragen voordat "
+      }
+     ]
+    }
+   },
+   "traductions_outdated_avant": "non observable (GID obtenu seulement par l’écriture setMetafield ; après écriture les 4 traductions étaient outdated:true, longueurs = extractions publiques)",
+   "traductions_publiees": {
+    "en": {
+     "outdated": false,
+     "valueLength": 2826
+    },
+    "de": {
+     "outdated": false,
+     "valueLength": 3088
+    },
+    "es": {
+     "outdated": false,
+     "valueLength": 3122
+    },
+    "nl": {
+     "outdated": false,
+     "valueLength": 3088
+    }
+   },
+   "verification_en_ligne": {
+    "fr": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures": 0,
+     "new_phrases": 1,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:40:17Z"
+    },
+    "en": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures": 0,
+     "new_phrases": 1,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:40:17Z"
+    },
+    "de": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures": 0,
+     "new_phrases": 1,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:40:17Z"
+    },
+    "es": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures": 0,
+     "new_phrases": 1,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:40:17Z"
+    },
+    "nl": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures": 0,
+     "new_phrases": 1,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:40:17Z"
+    }
+   }
+  },
+  {
+   "handle": "tous-les-tableaux",
+   "collection_id": "gid://shopify/Collection/607051088219",
+   "metafield_gid": "gid://shopify/Metafield/64742948667739",
+   "metafield": "custom.guide",
+   "type": "multi_line_text_field",
+   "ancien_digest": "93fe4a7d3fb4d11e70b972a5c1b4d100ca067eb02b1520345b7ce58ee0062b95",
+   "ancien_digest_source": "sha256 de la valeur FR exacte avant écriture (prouvée exacte : extraction publique brute identique sur deux lectures espacées) ; digest Shopify non lisible avant écriture faute de GID",
+   "nouveau_digest": "77b512bd9006daad6462e43e624cd196818319546dc22a269c4cc613e806c7c0",
+   "nouveau_digest_verifie": "digest getTranslatableContent == sha256(nouvelle valeur), longueur 3037",
+   "ecrit_via": "setMetafield (amendement coordinateur), valeur avec jetons écrite directement",
+   "ecrit_a": "2026-10-05T10:41:17Z",
+   "remplacements_fr": 2,
+   "remplacements_par_langue": {
+    "fr": 2,
+    "en": 2,
+    "de": 2,
+    "es": 2,
+    "nl": 2
+   },
+   "detail_par_langue": {
+    "fr": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 3018,
+     "longueur_apres": 3037,
+     "sha256_avant": "93fe4a7d3fb4d11e70b972a5c1b4d100ca067eb02b1520345b7ce58ee0062b95",
+     "sha256_apres": "77b512bd9006daad6462e43e624cd196818319546dc22a269c4cc613e806c7c0",
+     "phrases": [
+      {
+       "avant": "érieurs, avec une note <strong>Trustpilot de 4,1/5 sur 80 avis</strong>. Une question avant ou après votre commande ? No",
+       "apres": "érieurs, avec une note <strong>Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis</strong>. Une question avant ou après "
+      }
+     ]
+    },
+    "en": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 2999,
+     "longueur_apres": 3018,
+     "sha256_avant": "fc699831c86a9b7c74595848e6be53ab039b48664c98c941d0f35f503f386601",
+     "sha256_apres": "4a6e7139700d8313715d4aeafa9a5f5b5ea7e7abed287021355663ec287692a7",
+     "phrases": [
+      {
+       "avant": " a home, with a <strong>Trustpilot rating of 4.1/5 from 80 reviews</strong>. Questions before or after your order? Our T",
+       "apres": " a home, with a <strong>Trustpilot rating of [[TP_SCORE]]/5 from [[TP_COUNT]] reviews</strong>. Questions before or afte"
+      }
+     ]
+    },
+    "de": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 3293,
+     "longueur_apres": 3312,
+     "sha256_avant": "1beb03e0ddf03fdb0b98c8508420d046d2495d457fff9ae4d8ffbbb01672d08b",
+     "sha256_apres": "f80b36ea02562411fdacf0a1ff5422ab4eadaa7610de66e2a856e7840404e708",
+     "phrases": [
+      {
+       "avant": ", mit einer <strong>Trustpilot-Bewertung von 4,1/5 bei 80 Bewertungen</strong>. Eine Frage vor oder nach Ihrer Bestellun",
+       "apres": ", mit einer <strong>Trustpilot-Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen</strong>. Eine Frage vor oder n"
+      }
+     ]
+    },
+    "es": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 3154,
+     "longueur_apres": 3173,
+     "sha256_avant": "2fc641e8f9df9e2e188d4dbbc0c57a7a847d6360ff6c4d45d0a016a0a13e864a",
+     "sha256_apres": "a3557ed8cf0202f41386e5c02955f97f3b52522311eba29fd491c64c12cccff3",
+     "phrases": [
+      {
+       "avant": " hogares, con una nota <strong>Trustpilot de 4,1/5 sobre 80 reseñas</strong>. ¿Una pregunta antes o después de tu pedido",
+       "apres": " hogares, con una nota <strong>Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas</strong>. ¿Una pregunta antes o d"
+      }
+     ]
+    },
+    "nl": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 3083,
+     "longueur_apres": 3102,
+     "sha256_avant": "a368bcb7929104f514e9d7b728f71434b08c8555a714f9b00bc04ad50299d3a9",
+     "sha256_apres": "50bb6581bac84f27f535a06e9d9705fc520d55b10320bcf591aa8737434c7519",
+     "phrases": [
+      {
+       "avant": "rvoegd, met een <strong>Trustpilot-score van 4,1/5 op 80 beoordelingen</strong>. Een vraag voor of na uw bestelling? Onz",
+       "apres": "rvoegd, met een <strong>Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] beoordelingen</strong>. Een vraag voor of na"
+      }
+     ]
+    }
+   },
+   "traductions_outdated_avant": "non observable (GID obtenu seulement par l’écriture setMetafield ; après écriture les 4 traductions étaient outdated:true, longueurs = extractions publiques)",
+   "traductions_publiees": {
+    "en": {
+     "outdated": false,
+     "valueLength": 3018
+    },
+    "de": {
+     "outdated": false,
+     "valueLength": 3312
+    },
+    "es": {
+     "outdated": false,
+     "valueLength": 3173
+    },
+    "nl": {
+     "outdated": false,
+     "valueLength": 3102
+    }
+   },
+   "verification_en_ligne": {
+    "fr": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:43:31Z"
+    },
+    "en": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:43:31Z"
+    },
+    "de": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:43:31Z"
+    },
+    "es": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:43:31Z"
+    },
+    "nl": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:43:31Z"
+    }
+   }
+  },
+  {
+   "handle": "tous-les-tableaux",
+   "collection_id": "gid://shopify/Collection/607051088219",
+   "metafield_gid": "gid://shopify/Metafield/64742962397531",
+   "metafield": "custom.faq",
+   "type": "json",
+   "ancien_digest": "3611ba146cbfa8a09826376e2df96bcb1b3287f405159211365d171738414a0b",
+   "ancien_digest_source": "sha256 de la valeur FR exacte avant écriture (prouvée exacte : valeur getCollection == q (JSON-LD FAQPage) + a (accordéon) de la page publique, à l’octet) ; digest Shopify non lisible avant écriture faute de GID",
+   "nouveau_digest": "4745290b6247d274236858d114d8629e91ca52f3909e87514e916430c88bf481",
+   "nouveau_digest_verifie": "digest getTranslatableContent == sha256(nouvelle valeur), longueur 1926",
+   "ecrit_via": "setMetafield (amendement coordinateur), valeur avec jetons écrite directement",
+   "ecrit_a": "2026-10-05T10:42:37Z",
+   "remplacements_fr": 2,
+   "remplacements_par_langue": {
+    "fr": 2,
+    "en": 2,
+    "de": 2,
+    "es": 2,
+    "nl": 2
+   },
+   "detail_par_langue": {
+    "fr": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 1907,
+     "longueur_apres": 1926,
+     "sha256_avant": "3611ba146cbfa8a09826376e2df96bcb1b3287f405159211365d171738414a0b",
+     "sha256_apres": "4745290b6247d274236858d114d8629e91ca52f3909e87514e916430c88bf481",
+     "phrases": [
+      {
+       "avant": "5 tableaux et affiche une note Trustpilot de 4,1/5 sur 80 avis.</p>\"},{\"q\":\"Proposez-vous des tableaux personnalisés ou ",
+       "apres": "5 tableaux et affiche une note Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis.</p>\"},{\"q\":\"Proposez-vous des tableau"
+      }
+     ]
+    },
+    "en": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 1731,
+     "longueur_apres": 1750,
+     "sha256_avant": "d3ba4aa348f9b7f3377e313d7881c34902858508dbc1da3a579d46b4800d9868",
+     "sha256_apres": "07c7c0e7bef5307228b05d284bf95937d0b6e4caeea6ca7c62960c67e5285dd7",
+     "phrases": [
+      {
+       "avant": "15 canvases and holds a Trustpilot rating of 4.1/5 from 80 reviews.</p>\"},{\"q\":\"Do you offer personalized or hand-painte",
+       "apres": "15 canvases and holds a Trustpilot rating of [[TP_SCORE]]/5 from [[TP_COUNT]] reviews.</p>\"},{\"q\":\"Do you offer personal"
+      }
+     ]
+    },
+    "de": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 2061,
+     "longueur_apres": 2080,
+     "sha256_avant": "5dd24dbc33ad9baa888d96772ff9c279f835786b5c6f5069e4370e28ea9362a2",
+     "sha256_apres": "56aab8887e4ceeaac7391edc68b3868de6d25f4ce6ce8810acd452f406f6e34f",
+     "phrases": [
+      {
+       "avant": "fert und weist eine Trustpilot-Bewertung von 4,1/5 bei 80 Bewertungen auf.</p>\"},{\"q\":\"Bieten Sie personalisierte oder h",
+       "apres": "fert und weist eine Trustpilot-Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen auf.</p>\"},{\"q\":\"Bieten Sie per"
+      }
+     ]
+    },
+    "es": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 1900,
+     "longueur_apres": 1919,
+     "sha256_avant": "d76871787295a51d7e710ac0b0614551cfc735f8b911c730ef18ebaee32ba70f",
+     "sha256_apres": "aa5913a3c85c401f86946df948130f8ae23d728dd08fb50456402185ab384529",
+     "phrases": [
+      {
+       "avant": "015 cuadros y muestra una nota Trustpilot de 4,1/5 sobre 80 reseñas.</p>\"},{\"q\":\"¿Ofrecéis cuadros personalizados o pint",
+       "apres": "015 cuadros y muestra una nota Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas.</p>\"},{\"q\":\"¿Ofrecéis cuadros pe"
+      }
+     ]
+    },
+    "nl": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 2016,
+     "longueur_apres": 2035,
+     "sha256_avant": "1b8b049e04c1bb7d64602b9b39e9dc5462c8868e5b795f712cd12a70c34e92fd",
+     "sha256_apres": "b45486e67ff6ca83da90191e3427fb3e6f26b4c4c39fa5b3dd5f21b0317094b3",
+     "phrases": [
+      {
+       "avant": "verd en behaalt het een Trustpilot-score van 4,1/5 op 80 beoordelingen.</p>\"},{\"q\":\"Bieden jullie gepersonaliseerde of h",
+       "apres": "verd en behaalt het een Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] beoordelingen.</p>\"},{\"q\":\"Bieden jullie gep"
+      }
+     ]
+    }
+   },
+   "traductions_outdated_avant": "non observable (GID obtenu seulement par l’écriture setMetafield ; après écriture les 4 traductions étaient outdated:true, longueurs = reconstructions publiques)",
+   "traductions_publiees": {
+    "en": {
+     "outdated": false,
+     "valueLength": 1750
+    },
+    "de": {
+     "outdated": false,
+     "valueLength": 2080
+    },
+    "es": {
+     "outdated": false,
+     "valueLength": 1919
+    },
+    "nl": {
+     "outdated": false,
+     "valueLength": 2035
+    }
+   },
+   "verification_en_ligne": {
+    "fr": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:43:31Z"
+    },
+    "en": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:43:31Z"
+    },
+    "de": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:43:31Z"
+    },
+    "es": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:43:31Z"
+    },
+    "nl": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:43:31Z"
+    }
+   }
+  },
+  {
+   "handle": "tableau-personnalise-famille",
+   "collection_id": "gid://shopify/Collection/624856400219",
+   "metafield_gid": "gid://shopify/Metafield/64743095009627",
+   "metafield": "custom.guide",
+   "type": "multi_line_text_field",
+   "ancien_digest": "3b5058be6db6de378b3c56f556304374dbb391a3eb5b1ea1d47758d23e887504",
+   "ancien_digest_source": "sha256 de la valeur FR exacte avant écriture (prouvée exacte : extraction publique brute identique sur deux lectures espacées) ; digest Shopify non lisible avant écriture faute de GID",
+   "nouveau_digest": "40dc564fe93c60e7789a7dbb68055bb9616ced950a4a8bc945fa0b2bf63497e8",
+   "nouveau_digest_verifie": "digest getTranslatableContent == sha256(nouvelle valeur), longueur 2018",
+   "ecrit_via": "setMetafield (amendement coordinateur), valeur avec jetons écrite directement",
+   "ecrit_a": "2026-10-05T10:44:47Z",
+   "remplacements_fr": 2,
+   "remplacements_par_langue": {
+    "fr": 2,
+    "en": 2,
+    "de": 2,
+    "es": 2,
+    "nl": 2
+   },
+   "detail_par_langue": {
+    "fr": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 1999,
+     "longueur_apres": 2018,
+     "sha256_avant": "3b5058be6db6de378b3c56f556304374dbb391a3eb5b1ea1d47758d23e887504",
+     "sha256_apres": "40dc564fe93c60e7789a7dbb68055bb9616ced950a4a8bc945fa0b2bf63497e8",
+     "phrases": [
+      {
+       "avant": "ssemble, avec une note <strong>Trustpilot de 4,1/5 sur 80 avis</strong>. Une question avant de commander ? Notre service",
+       "apres": "ssemble, avec une note <strong>Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis</strong>. Une question avant de comman"
+      }
+     ]
+    },
+    "en": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 1909,
+     "longueur_apres": 1928,
+     "sha256_avant": "2f19899c4ead9bd2ce7d1ac870be6fe9bc47123b0d2cd32d06e33894e58d6e11",
+     "sha256_apres": "f558860d5b0663f040d6b48c0dfaa14d457f78dbba486342ea89d7bf59f6e7a7",
+     "phrases": [
+      {
+       "avant": "ou, backed by a <strong>Trustpilot rating of 4.1/5 from 80 reviews</strong>. A question before ordering? Our customer se",
+       "apres": "ou, backed by a <strong>Trustpilot rating of [[TP_SCORE]]/5 from [[TP_COUNT]] reviews</strong>. A question before orderi"
+      }
+     ]
+    },
+    "de": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 2039,
+     "longueur_apres": 2058,
+     "sha256_avant": "d212ad49b870f02c1e373d346cfcaba3f1f04c5e263cbc22b60e1661918bb4c6",
+     "sha256_apres": "0b887b2d41684f0be0e3d78d494522aa800612d2e6e3448b9ebcbfd650974e7c",
+     "phrases": [
+      {
+       "avant": "– mit einer <strong>Trustpilot-Bewertung von 4,1/5 aus 80 Rezensionen</strong>. Fragen vor der Bestellung? Unser Kundens",
+       "apres": "– mit einer <strong>Trustpilot-Bewertung von [[TP_SCORE]]/5 aus [[TP_COUNT]] Rezensionen</strong>. Fragen vor der Bestel"
+      }
+     ]
+    },
+    "es": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 2147,
+     "longueur_apres": 2166,
+     "sha256_avant": "60ffc2fbd9903710e6a6e744c3f776bdc708f1b0747aea0f9c3f65b2553fff2b",
+     "sha256_apres": "077f3fcb4f5991ec2e1825e47a699e2277abc0865e9e08afe1c6677e4c70d1aa",
+     "phrases": [
+      {
+       "avant": " con una <strong>puntuación en Trustpilot de 4,1/5 basada en 80 reseñas</strong>. ¿Alguna pregunta antes de comprar? Nue",
+       "apres": " con una <strong>puntuación en Trustpilot de [[TP_SCORE]]/5 basada en [[TP_COUNT]] reseñas</strong>. ¿Alguna pregunta an"
+      }
+     ]
+    },
+    "nl": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 1989,
+     "longueur_apres": 2008,
+     "sha256_avant": "6794771dda2960a480bbde600b219250f2ec4729d7aadd64ef798c13d5d5ff59",
+     "sha256_apres": "8d662a51693397d0ce65f19c8d1ed4f483a62077236aab1bb62555c742125d25",
+     "phrases": [
+      {
+       "avant": "e past, met een <strong>Trustpilot-score van 4,1/5 op 80 reviews</strong>. Een vraag vóór je bestelt? Onze klantenservic",
+       "apres": "e past, met een <strong>Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] reviews</strong>. Een vraag vóór je bestelt?"
+      }
+     ]
+    }
+   },
+   "traductions_outdated_avant": "non observable (GID obtenu seulement par l’écriture setMetafield ; après écriture les 4 traductions étaient outdated:true, longueurs = extractions publiques)",
+   "traductions_publiees": {
+    "en": {
+     "outdated": false,
+     "valueLength": 1928
+    },
+    "de": {
+     "outdated": false,
+     "valueLength": 2058
+    },
+    "es": {
+     "outdated": false,
+     "valueLength": 2166
+    },
+    "nl": {
+     "outdated": false,
+     "valueLength": 2008
+    }
+   },
+   "verification_en_ligne": {
+    "fr": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures": 0,
+     "new_phrases": 1,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:45:39Z"
+    },
+    "en": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures": 0,
+     "new_phrases": 1,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:45:39Z"
+    },
+    "de": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures": 0,
+     "new_phrases": 1,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:45:39Z"
+    },
+    "es": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures": 0,
+     "new_phrases": 1,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:45:39Z"
+    },
+    "nl": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures": 0,
+     "new_phrases": 1,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:45:39Z"
+    }
+   },
+   "note": "Le « 60 × 80 cm » du guide (et de ses traductions) n’a pas été touché."
+  },
+  {
+   "handle": "tableau-islamique",
+   "collection_id": "gid://shopify/Collection/646969459035",
+   "metafield_gid": "gid://shopify/Metafield/64743135576411",
+   "metafield": "custom.guide",
+   "type": "multi_line_text_field",
+   "ancien_digest": "0524bfe4bfeaa5ec0a6c8efe0bcd15ccbd4edbff5cd87834be33705d5b7779d5",
+   "ancien_digest_source": "sha256 de la valeur FR exacte avant écriture (prouvée exacte : extraction publique brute identique sur deux lectures espacées) ; digest Shopify non lisible avant écriture faute de GID",
+   "nouveau_digest": "5ef90dcc402a0aa6bcb60c625348c127f66c3de92f238d1503c04896413a7020",
+   "nouveau_digest_verifie": "digest getTranslatableContent == sha256(nouvelle valeur), longueur 3187",
+   "ecrit_via": "setMetafield (amendement coordinateur), valeur avec jetons écrite directement",
+   "ecrit_a": "2026-10-05T10:46:39Z",
+   "remplacements_fr": 2,
+   "remplacements_par_langue": {
+    "fr": 2,
+    "en": 2,
+    "de": 2,
+    "es": 2,
+    "nl": 2
+   },
+   "detail_par_langue": {
+    "fr": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 3168,
+     "longueur_apres": 3187,
+     "sha256_avant": "0524bfe4bfeaa5ec0a6c8efe0bcd15ccbd4edbff5cd87834be33705d5b7779d5",
+     "sha256_apres": "5ef90dcc402a0aa6bcb60c625348c127f66c3de92f238d1503c04896413a7020",
+     "phrases": [
+      {
+       "avant": " nos clients, qui nous accordent une note de 4,1/5 sur 80 avis Trustpilot. Une question sur un format ou une teinte ? No",
+       "apres": " nos clients, qui nous accordent une note de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis Trustpilot. Une question sur un format"
+      }
+     ]
+    },
+    "en": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 2917,
+     "longueur_apres": 2936,
+     "sha256_avant": "e130f75bece9415aeea26eae83cfb239c681fde8b394a8e9957fbe1a16fede69",
+     "sha256_apres": "9236f169a8d890c1a5e1f0d2949992c3ced28195e028e6f5daaddd112104d0c7",
+     "phrases": [
+      {
+       "avant": "ave joined our customers’ homes, who rate us 4.1/5 across 80 Trustpilot reviews. Questions about a size or a color? Our ",
+       "apres": "ave joined our customers’ homes, who rate us [[TP_SCORE]]/5 across [[TP_COUNT]] Trustpilot reviews. Questions about a si"
+      }
+     ]
+    },
+    "de": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 3394,
+     "longueur_apres": 3413,
+     "sha256_avant": "f42c930ca5d1c0180444e97a240e91569865e61d6743b57a057592ae53f814d0",
+     "sha256_apres": "675fd6e876667cf35a280664c286a1339c1d24d95491a7866836bedd3257672d",
+     "phrases": [
+      {
+       "avant": "serer Kunden gehalten, die uns eine Note von 4,1/5 bei 80 Trustpilot-Bewertungen geben. Eine Frage zu einem Format oder ",
+       "apres": "serer Kunden gehalten, die uns eine Note von [[TP_SCORE]]/5 bei [[TP_COUNT]] Trustpilot-Bewertungen geben. Eine Frage zu"
+      }
+     ]
+    },
+    "es": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 3217,
+     "longueur_apres": 3236,
+     "sha256_avant": "38edefb08406f8f3fbbe94e66c788f594fe6e25809936c798138a3a61c7f683f",
+     "sha256_apres": "5478c519620f2e468950d6b929fab54e41804a9cb485d1b4ae3c5e2b83ba416a",
+     "phrases": [
+      {
+       "avant": "estros clientes, que nos otorgan una nota de 4,1/5 sobre 80 opiniones en Trustpilot. ¿Una pregunta sobre un formato o un",
+       "apres": "estros clientes, que nos otorgan una nota de [[TP_SCORE]]/5 sobre [[TP_COUNT]] opiniones en Trustpilot. ¿Una pregunta so"
+      }
+     ]
+    },
+    "nl": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 3209,
+     "longueur_apres": 3228,
+     "sha256_avant": "72aeed5ad47ecfb756a8941e19844f46a31934e5b998c33c23adf24e5da06487",
+     "sha256_apres": "923c121a6c6251cc1fe975e59d7ece841f9685fea8729671c9b8af8f4433495a",
+     "phrases": [
+      {
+       "avant": " onze klanten bereikt, die ons een score van 4,1/5 op 80 Trustpilot-beoordelingen geven. Een vraag over een formaat of e",
+       "apres": " onze klanten bereikt, die ons een score van [[TP_SCORE]]/5 op [[TP_COUNT]] Trustpilot-beoordelingen geven. Een vraag ov"
+      }
+     ]
+    }
+   },
+   "traductions_outdated_avant": "non observable (GID obtenu seulement par l’écriture setMetafield ; après écriture les 4 traductions étaient outdated:true, longueurs = extractions publiques)",
+   "traductions_publiees": {
+    "en": {
+     "outdated": false,
+     "valueLength": 2936
+    },
+    "de": {
+     "outdated": false,
+     "valueLength": 3413
+    },
+    "es": {
+     "outdated": false,
+     "valueLength": 3236
+    },
+    "nl": {
+     "outdated": false,
+     "valueLength": 3228
+    }
+   },
+   "verification_en_ligne": {
+    "fr": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures": 0,
+     "new_phrases": 1,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:48:15Z"
+    },
+    "en": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures": 0,
+     "new_phrases": 1,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:48:15Z"
+    },
+    "de": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures": 0,
+     "new_phrases": 1,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:48:15Z"
+    },
+    "es": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures": 0,
+     "new_phrases": 1,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:48:15Z"
+    },
+    "nl": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures": 0,
+     "new_phrases": 1,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:48:15Z"
+    }
+   }
+  },
+  {
+   "handle": "tableau-entree-couloir",
+   "collection_id": "gid://shopify/Collection/675652632923",
+   "metafield_gid": "gid://shopify/Metafield/66059490787675",
+   "metafield": "custom.guide",
+   "type": "multi_line_text_field",
+   "ancien_digest": "236123a265a7e10196e13e8ed957b18598435260b52f100c4bc2912b0a832293",
+   "ancien_digest_source": "sha256 de la valeur FR exacte avant écriture (prouvée exacte : extraction publique brute identique sur deux lectures espacées) ; digest Shopify non lisible avant écriture faute de GID",
+   "nouveau_digest": "3b74d7ad629fc2f87c3d2922fce146c7254156cf6489e11c01eb0e4fdf455420",
+   "nouveau_digest_verifie": "digest getTranslatableContent == sha256(nouvelle valeur), longueur 2937",
+   "ecrit_via": "setMetafield (amendement coordinateur), valeur avec jetons écrite directement",
+   "ecrit_a": "2026-10-05T10:49:35Z",
+   "remplacements_fr": 2,
+   "remplacements_par_langue": {
+    "fr": 2,
+    "en": 2,
+    "de": 2,
+    "es": 2,
+    "nl": 2
+   },
+   "detail_par_langue": {
+    "fr": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 2918,
+     "longueur_apres": 2937,
+     "sha256_avant": "236123a265a7e10196e13e8ed957b18598435260b52f100c4bc2912b0a832293",
+     "sha256_apres": "3b74d7ad629fc2f87c3d2922fce146c7254156cf6489e11c01eb0e4fdf455420",
+     "phrases": [
+      {
+       "avant": "ous ressemblent, avec une note Trustpilot de 4,1/5 sur 80 avis. Chaque œuvre est <strong>sélectionnée et retouchée à la ",
+       "apres": "ous ressemblent, avec une note Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis. Chaque œuvre est <strong>sélectionnée"
+      }
+     ]
+    },
+    "en": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 2846,
+     "longueur_apres": 2865,
+     "sha256_avant": "34e2dd04b4ec7efe6ae5d8fb2664f06a6357d598d519900add88dce571d3402e",
+     "sha256_apres": "c157c3e2b787943e42d17993669dc95cf0b996ff2116cf2b19af72bb39199cfc",
+     "phrases": [
+      {
+       "avant": " feel like ours, with a Trustpilot rating of 4.1/5 from 80 reviews. Each work is <strong>hand-selected and retouched</st",
+       "apres": " feel like ours, with a Trustpilot rating of [[TP_SCORE]]/5 from [[TP_COUNT]] reviews. Each work is <strong>hand-selecte"
+      }
+     ]
+    },
+    "de": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 3017,
+     "longueur_apres": 3036,
+     "sha256_avant": "bd9c636c3dbe8bf94a5fa6ff22c45cb1095732ef981a90824b6ce86e73394b58",
+     "sha256_apres": "6a23516c4c06916e47def01d4003589ed9d3604aef0ad9a0671df92fa379e66c",
+     "phrases": [
+      {
+       "avant": "gefunden, mit einer Trustpilot-Bewertung von 4,1/5 aus 80 Rezensionen. Jedes Werk wird <strong>von unserer künstlerische",
+       "apres": "gefunden, mit einer Trustpilot-Bewertung von [[TP_SCORE]]/5 aus [[TP_COUNT]] Rezensionen. Jedes Werk wird <strong>von un"
+      }
+     ]
+    },
+    "es": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 2920,
+     "longueur_apres": 2939,
+     "sha256_avant": "dc6b9b5560817e7645e5d24359692ab30af8b2c5f0c3c3a86c80c222c016f3a8",
+     "sha256_apres": "32ce05cf3aa52e6142145d1a2a108b60f3bad6506af94d33f276d665b7e8ae38",
+     "phrases": [
+      {
+       "avant": "el tuyo, con una valoración en Trustpilot de 4,1/5 basada en 80 opiniones. Cada obra es <strong>seleccionada y retocada ",
+       "apres": "el tuyo, con una valoración en Trustpilot de [[TP_SCORE]]/5 basada en [[TP_COUNT]] opiniones. Cada obra es <strong>selec"
+      }
+     ]
+    },
+    "nl": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 2907,
+     "longueur_apres": 2926,
+     "sha256_avant": "1bf48e8773e01282b3e1ac335d7c4cba3fcdbd574feb6a5321a42a1300b8c10f",
+     "sha256_apres": "7d99a6cf3b39e673d35f2fb1a95dfc626acb0af734ccd4d707b0613d4c28725f",
+     "phrases": [
+      {
+       "avant": "zoals het onze, met een Trustpilot-score van 4,1/5 op 80 reviews. Elk werk wordt <strong>met de hand geselecteerd en nab",
+       "apres": "zoals het onze, met een Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] reviews. Elk werk wordt <strong>met de hand "
+      }
+     ]
+    }
+   },
+   "traductions_outdated_avant": "non observable (GID obtenu seulement par l’écriture setMetafield ; après écriture les 4 traductions étaient outdated:true, longueurs = extractions publiques)",
+   "traductions_publiees": {
+    "en": {
+     "outdated": false,
+     "valueLength": 2865
+    },
+    "de": {
+     "outdated": false,
+     "valueLength": 3036
+    },
+    "es": {
+     "outdated": false,
+     "valueLength": 2939
+    },
+    "nl": {
+     "outdated": false,
+     "valueLength": 2926
+    }
+   },
+   "verification_en_ligne": {
+    "fr": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:52:32Z"
+    },
+    "en": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:52:32Z"
+    },
+    "de": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:52:32Z"
+    },
+    "es": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:52:32Z"
+    },
+    "nl": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:52:32Z"
+    }
+   }
+  },
+  {
+   "handle": "tableau-entree-couloir",
+   "collection_id": "gid://shopify/Collection/675652632923",
+   "metafield_gid": "gid://shopify/Metafield/66059490820443",
+   "metafield": "custom.faq",
+   "type": "json",
+   "ancien_digest": "746e1963aa69ed108913552c2f6fad92180d977ec3b66df62a52c5253b84e86d",
+   "ancien_digest_source": "sha256 de la valeur FR exacte avant écriture (prouvée exacte : valeur getCollection == q (JSON-LD FAQPage) + a (accordéon) de la page publique, à l’octet) ; digest Shopify non lisible avant écriture faute de GID",
+   "nouveau_digest": "cf5d9466ba3b4dd1a49f236325e00be05fb02e781d7e2800a14e431f5dda8bcc",
+   "nouveau_digest_verifie": "digest getTranslatableContent == sha256(nouvelle valeur), longueur 2049",
+   "ecrit_via": "setMetafield (amendement coordinateur), valeur avec jetons écrite directement",
+   "ecrit_a": "2026-10-05T10:50:58Z",
+   "remplacements_fr": 2,
+   "remplacements_par_langue": {
+    "fr": 2,
+    "en": 2,
+    "de": 2,
+    "es": 2,
+    "nl": 2
+   },
+   "detail_par_langue": {
+    "fr": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 2030,
+     "longueur_apres": 2049,
+     "sha256_avant": "746e1963aa69ed108913552c2f6fad92180d977ec3b66df62a52c5253b84e86d",
+     "sha256_apres": "cf5d9466ba3b4dd1a49f236325e00be05fb02e781d7e2800a14e431f5dda8bcc",
+     "phrases": [
+      {
+       "avant": "éjà livré plus de 1 015 tableaux (Trustpilot 4,1/5 sur 80 avis). Notre service client de Toulouse vous répond au 09 60 4",
+       "apres": "éjà livré plus de 1 015 tableaux (Trustpilot [[TP_SCORE]]/5 sur [[TP_COUNT]] avis). Notre service client de Toulouse vou"
+      }
+     ]
+    },
+    "en": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 1853,
+     "longueur_apres": 1872,
+     "sha256_avant": "7a4a3a036e6352fedb425efa3b475a6c8ee653df79d49decd3b4d9067509c0a6",
+     "sha256_apres": "4adf71a1f0eac6cb005865d27ff6b48cba8ecfb2b419dbe1491e77f80668e133",
+     "phrases": [
+      {
+       "avant": "eady delivered over 1,015 pieces (Trustpilot 4.1/5 from 80 reviews). Our Toulouse customer care team is here to help at ",
+       "apres": "eady delivered over 1,015 pieces (Trustpilot [[TP_SCORE]]/5 from [[TP_COUNT]] reviews). Our Toulouse customer care team "
+      }
+     ]
+    },
+    "de": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 2094,
+     "longueur_apres": 2113,
+     "sha256_avant": "01ca17c1a9f42e90233e13bc60f05650d4e0b4c3d90fa713281046764b52dfca",
+     "sha256_apres": "aae5a2499e7f2e16b6e7c5d24cb654f97b2bc5144f37e92d90ba497b90c79c87",
+     "phrases": [
+      {
+       "avant": " wir über 1 015 Bilder geliefert (Trustpilot 4,1/5 aus 80 Bewertungen). Unser Kundendienst in Toulouse berät Sie gern un",
+       "apres": " wir über 1 015 Bilder geliefert (Trustpilot [[TP_SCORE]]/5 aus [[TP_COUNT]] Bewertungen). Unser Kundendienst in Toulous"
+      }
+     ]
+    },
+    "es": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 2083,
+     "longueur_apres": 2102,
+     "sha256_avant": "4b30ebf75cf7c85ce52a3e7b853cb95099d5f3422a4ddd782c603b45e69a66d1",
+     "sha256_apres": "a080a9ba970a30bea6d40630e92c77d5c500b681b77dac6317b78bc265051e20",
+     "phrases": [
+      {
+       "avant": "a entregado más de 1.015 cuadros (Trustpilot 4,1/5 con 80 opiniones). Nuestro servicio de atención al cliente en Toulous",
+       "apres": "a entregado más de 1.015 cuadros (Trustpilot [[TP_SCORE]]/5 con [[TP_COUNT]] opiniones). Nuestro servicio de atención al"
+      }
+     ]
+    },
+    "nl": {
+     "remplacements": 2,
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "longueur_avant": 1999,
+     "longueur_apres": 2018,
+     "sha256_avant": "23ac89d6a65aa37be3c980d7d9b5a76a9998930c27aedbe1ec61022d39411ba6",
+     "sha256_apres": "e87bf32264386833666b355056cd491c765ad6ff6bd50508b9c65c44c86d659d",
+     "phrases": [
+      {
+       "avant": "e al meer dan 1.015 schilderijen (Trustpilot 4,1/5 op 80 reviews). Onze klantenservice in Toulouse helpt je via 09 60 44",
+       "apres": "e al meer dan 1.015 schilderijen (Trustpilot [[TP_SCORE]]/5 op [[TP_COUNT]] reviews). Onze klantenservice in Toulouse he"
+      }
+     ]
+    }
+   },
+   "traductions_outdated_avant": "non observable (GID obtenu seulement par l’écriture setMetafield ; après écriture les 4 traductions étaient outdated:true, longueurs = reconstructions publiques)",
+   "traductions_publiees": {
+    "en": {
+     "outdated": false,
+     "valueLength": 1872
+    },
+    "de": {
+     "outdated": false,
+     "valueLength": 2113
+    },
+    "es": {
+     "outdated": false,
+     "valueLength": 2102
+    },
+    "nl": {
+     "outdated": false,
+     "valueLength": 2018
+    }
+   },
+   "verification_en_ligne": {
+    "fr": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:52:32Z"
+    },
+    "en": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:52:32Z"
+    },
+    "de": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:52:32Z"
+    },
+    "es": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:52:32Z"
+    },
+    "nl": {
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "faq_exact": true,
+     "faq_jsonld_new": true,
+     "faq_jsonld_old": false,
+     "old_figures": 0,
+     "new_phrases": 2,
+     "ok": true,
+     "attempts": 1,
+     "checked_at": "2026-10-05T10:52:32Z"
+    }
+   }
+  }
+ ]
+}

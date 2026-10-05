@@ -1,0 +1,1794 @@
+{
+ "tableau-cuisine": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "tableau-chambre-adulte": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  }
+ },
+ "tableau-japonais": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "tableau-gris": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "tableau-zen": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "tableau-abstrait": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "horoscope-bebe": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "posters-affiches-fleurs": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "tableau-chambre": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "tableau-chambre-garcon": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  }
+ },
+ "tableau-ethnique": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "tableau-noir-et-blanc": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "tableau-fleurs": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  }
+ },
+ "tableau-fruits-et-legumes": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "tableaux-frida-kahlo": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "posters-affiches-cheval": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "tableaux-chambre-bebe": {
+  "fr": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "ence de qualité que plus de 1 015 familles nous ont déjà confiée, pour une note Trustpilot de 4,1/5 sur 80 avis. Une question sur un format ou une teinte ? Notre service "
+   ],
+   "good": 0,
+   "expected": 1
+  },
+  "es": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "igencia de calidad que más de 1.015 familias ya nos han confiado, para una nota Trustpilot de 4,1/5 sobre 80 reseñas. ¿Una pregunta sobre un formato o un tono? Nuestra at"
+   ],
+   "good": 0,
+   "expected": 1
+  },
+  "nl": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "aliteitseis die meer dan 1.015 gezinnen ons reeds hebben toevertrouwd, voor een Trustpilot-score van 4,1/5 op 80 reviews. Een vraag over een formaat of een tint? Onze kla"
+   ],
+   "good": 0,
+   "expected": 1
+  },
+  "de": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "ätsanspruch, den uns bereits mehr als 1.015 Familien anvertraut haben, für eine Trustpilot-Bewertung von 4,1/5 bei 80 Bewertungen. Eine Frage zu einem Format oder einem F"
+   ],
+   "good": 0,
+   "expected": 1
+  },
+  "en": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    " printed in Europe , with quality trusted by more than 1,015 families—earning a Trustpilot score of 4.1/5 from 80 reviews. Questions about size or shade? Our Toulouse-bas"
+   ],
+   "good": 0,
+   "expected": 1
+  }
+ },
+ "tableau-chambre-fille": {
+  "fr": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "ré plus de 1 015 tableaux à des familles qui nous font confiance, avec une note Trustpilot de 4,1/5 sur 80 avis. Chaque œuvre est sélectionnée et retouchée à la main par "
+   ],
+   "good": 0,
+   "expected": 1
+  },
+  "es": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "entregado más de 1.015 cuadros a familias que confían en nosotros, con una nota Trustpilot de 4,1/5 sobre 80 reseñas. Cada obra es seleccionada y retocada a mano por nues"
+   ],
+   "good": 0,
+   "expected": 1
+  },
+  "nl": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "e meer dan 1.015 schilderijen geleverd aan gezinnen die ons vertrouwen, met een Trustpilot-score van 4,1/5 op 80 reviews. Elk werk wordt met de hand geselecteerd en bijge"
+   ],
+   "good": 0,
+   "expected": 1
+  },
+  "de": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "n wir mehr als 1.015 Bilder an Familien geliefert, die uns vertrauen, mit einer Trustpilot-Bewertung von 4,1/5 bei 80 Bewertungen. Jedes Werk wird von unserer französisch"
+   ],
+   "good": 0,
+   "expected": 1
+  },
+  "en": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "22, we’ve delivered over 1,015 wall art pieces to families who trust us, with a Trustpilot rating of 4.1/5 from 80 reviews. Every artwork is hand-selected and retouched b"
+   ],
+   "good": 0,
+   "expected": 1
+  }
+ },
+ "tableau-jaune": {
+  "fr": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "Depuis 2022, nous avons livré plus de 1 015 tableaux et réuni 4,1/5 sur 80 avis Trustpilot . Chaque œuvre est sélectionnée et retouchée à la main par notre direction arti"
+   ],
+   "good": 0,
+   "expected": 1
+  },
+  "es": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    " 2022, hemos entregado más de 1.015 cuadros y reunido 4,1/5 sobre 80 reseñas en Trustpilot . Cada obra es seleccionada y retocada a mano por nuestra dirección artística f"
+   ],
+   "good": 0,
+   "expected": 1
+  },
+  "nl": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "MonArt Sinds 2022 hebben we meer dan 1.015 schilderijen geleverd en 4,1/5 op 80 Trustpilot-beoordelingen verzameld. Elk werk wordt met de hand geselecteerd en geretouchee"
+   ],
+   "good": 0,
+   "expected": 1
+  },
+  "de": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "fMonArt wählen Seit 2022 haben wir über 1.015 Bilder geliefert und 4,1/5 bei 80 Trustpilot-Bewertungen erreicht. Jedes Werk wird von unserer französischen künstlerischen "
+   ],
+   "good": 0,
+   "expected": 1
+  },
+  "en": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "MonArt Since 2022, we’ve delivered over 1,015 artworks and earned 4.1/5 from 80 Trustpilot reviews . Every piece is hand-selected and retouched by our French art directio"
+   ],
+   "good": 0,
+   "expected": 1
+  }
+ },
+ "tableau-orange": {
+  "fr": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "ans vos intérieurs, et nos clients nous accordent une note de 4,1/5 sur 80 avis Trustpilot. Une confiance qui nous engage. Une question sur un format, une teinte ou un ac",
+    "es intérieurs de nos clients, qui nous attribuent une note de 4,1/5 sur 80 avis Trustpilot. Chaque commande est suivie avec soin par notre équipe à Toulouse, et notre dir"
+   ],
+   "good": 0,
+   "expected": 2
+  },
+  "es": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "teriores, y nuestros clientes nos otorgan una nota de 4,1/5 sobre 80 reseñas en Trustpilot. Una confianza que nos compromete. ¿Una pregunta sobre un formato, un tono o un",
+    "s de nuestros clientes, que nos atribuyen una nota de 4,1/5 sobre 80 reseñas en Trustpilot. Cada pedido se sigue con cuidado por nuestro equipo en Toulouse, y nuestra dir"
+   ],
+   "good": 0,
+   "expected": 2
+  },
+  "nl": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "leid tot in uw interieurs, en onze klanten kennen ons een score van 4,1/5 op 80 Trustpilot-beoordelingen toe. Een vertrouwen dat ons engageert. Een vraag over een formaat",
+    "gevonden naar de interieurs van onze klanten, die ons een score van 4,1/5 op 80 Trustpilot-beoordelingen toekennen. Elke bestelling wordt met zorg opgevolgd door ons team"
+   ],
+   "good": 0,
+   "expected": 2
+  },
+  "de": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "ohnungen begleitet, und unsere Kunden geben uns eine Bewertung von 4,1/5 bei 80 Trustpilot-Bewertungen. Ein Vertrauen, das uns verpflichtet. Eine Frage zu einem Format, e",
+    " die Wohnungen unserer Kunden gefunden, die uns eine Bewertung von 4,1/5 bei 80 Trustpilot-Bewertungen geben. Jede Bestellung wird sorgfältig von unserem Team in Toulouse"
+   ],
+   "good": 0,
+   "expected": 2
+  },
+  "en": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "than 1,015 artworks into our customers' homes, and they rate us 4.1/5 across 80 Trustpilot reviews. A trust that commits us. Questions about size, shade, or color pairing",
+    "rks have found a place in our customers' homes, and we're rated 4.1/5 across 80 Trustpilot reviews. Every order is carefully handled by our team in Toulouse, and our art "
+   ],
+   "good": 0,
+   "expected": 2
+  }
+ },
+ "tableaux-nature-sauvage": {
+  "fr": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "livré plus de 1 015 tableaux et réuni la confiance de nos clients avec une note Trustpilot de 4,1/5 sur 80 avis . Chaque oeuvre est sélectionnée et retouchée à la main pa"
+   ],
+   "good": 0,
+   "expected": 1
+  },
+  "es": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "o más de 1.015 cuadros y reunido la confianza de nuestros clientes con una nota Trustpilot de 4,1/5 sobre 80 reseñas . Cada obra se selecciona y se retoca a mano por nues"
+   ],
+   "good": 0,
+   "expected": 1
+  },
+  "nl": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    ".015 schilderijen geleverd en het vertrouwen van onze klanten verzameld met een Trustpilot-score van 4,1/5 op 80 beoordelingen . Elk werk wordt met de hand geselecteerd e"
+   ],
+   "good": 0,
+   "expected": 1
+  },
+  "de": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "n wir über 1.015 Bilder ausgeliefert und das Vertrauen unserer Kunden mit einer Trustpilot-Bewertung von 4,1/5 bei 80 Bewertungen gewonnen. Jedes Werk wird von unserer kü"
+   ],
+   "good": 0,
+   "expected": 1
+  },
+  "en": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "022, we’ve delivered over 1,015 artworks and earned our customers’ trust with a Trustpilot rating of 4.1/5 from 80 reviews . Every piece is hand-selected and retouched by"
+   ],
+   "good": 0,
+   "expected": 1
+  }
+ },
+ "tableau-street-art": {
+  "fr": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "les intérieurs de nos clients, qui nous accordent une note de 4,1/5 sur 80 avis Trustpilot. Une preuve discrète mais sincère de la confiance que nous tâchons de mériter à"
+   ],
+   "good": 0,
+   "expected": 1
+  },
+  "es": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "ogares de nuestros clientes, que nos otorgan una nota de 4,1/5 sobre 80 reseñas Trustpilot. Una prueba discreta pero sincera de la confianza que tratamos de merecer en ca"
+   ],
+   "good": 0,
+   "expected": 1
+  },
+  "nl": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "ijen de interieurs van onze klanten vervoegd, die ons een score van 4,1/5 op 80 Trustpilot-beoordelingen toekennen. Een discreet maar oprecht bewijs van het vertrouwen da"
+   ],
+   "good": 0,
+   "expected": 1
+  },
+  "de": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    " die Wohnräume unserer Kunden gefunden, die uns eine Bewertung von 4,1/5 bei 80 Trustpilot-Bewertungen geben. Ein dezenter, aber aufrichtiger Beweis für das Vertrauen, da"
+   ],
+   "good": 0,
+   "expected": 1
+  },
+  "en": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    ",015 artworks have found a home with our customers, who rate us 4.1/5 across 80 Trustpilot reviews—a modest but genuine sign of the trust we strive to earn with every ord"
+   ],
+   "good": 0,
+   "expected": 1
+  }
+ },
+ "tableau-portrait-1": {
+  "fr": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "lus de 1 015 tableaux livrés dans des intérieurs qui nous ressemblent. Une note Trustpilot de 4,1/5 sur 80 avis. Un service client basé à Toulouse , joignable au 09 60 44",
+    "premium. Depuis 2022, plus de 1 015 tableaux ont déjà été livrés, avec une note Trustpilot de 4,1/5 sur 80 avis. Puis-je commander un portrait personnalisé et qui contact"
+   ],
+   "good": 0,
+   "expected": 2
+  },
+  "es": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    " Más de 1.015 cuadros entregados en hogares que se parecen a nosotros. Una nota Trustpilot de 4,1/5 sobre 80 opiniones. Un servicio de atención al cliente con sede en Tou",
+    " premium. Desde 2022, ya se han entregado más de 1.015 cuadros, con una nota en Trustpilot de 4,1/5 sobre 80 opiniones. ¿Puedo encargar un retrato personalizado y a quién"
+   ],
+   "good": 0,
+   "expected": 2
+  },
+  "nl": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "ak. Meer dan 1.015 geleverde schilderijen in interieurs die bij ons passen. Een Trustpilot-score van 4,1/5 op 80 beoordelingen. Een klantenservice gevestigd in Toulouse ,",
+    "tandaarden. Sinds 2022 zijn er al meer dan 1.015 schilderijen geleverd, met een Trustpilot-score van 4,1/5 op 80 beoordelingen. Kan ik een gepersonaliseerd portret bestel"
+   ],
+   "good": 0,
+   "expected": 2
+  },
+  "de": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "atz. Über 1.015 ausgelieferte Bilder in Wohnungen, die zu uns passen. Eine Note Trustpilot von 4,1/5 bei 80 Bewertungen. Ein Kundenservice mit Sitz in Toulouse , erreichb",
+    "ds gedruckt. Seit 2022 wurden bereits über 1.015 Bilder ausgeliefert, mit einer Trustpilot-Note von 4,1/5 bei 80 Bewertungen. Kann ich ein personalisiertes Porträt bestel"
+   ],
+   "good": 0,
+   "expected": 2
+  },
+  "en": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "ous approach. Over 1,015 canvases delivered to homes that reflect who we are. A Trustpilot rating of 4.1/5 from 80 reviews. Customer service based in Toulouse , reachable",
+    "ium standards. Since 2022, more than 1,015 canvases have been delivered, with a Trustpilot rating of 4.1/5 from 80 reviews. Can I order a custom portrait, and who should "
+   ],
+   "good": 0,
+   "expected": 2
+  }
+ },
+ "posters-affiches-chambre-enfant": {
+  "fr": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "oster & Affiche Chambre Bébé . Maison française fondée en 2022, notée 4,1/5 sur Trustpilot, nous sélectionnons chaque visuel avec exigence et bienveillance — et notre ser"
+   ],
+   "good": 0,
+   "expected": 1
+  },
+  "es": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "Habitación Bebé . Casa francesa fundada en 2022, con una valoración de 4,1/5 en Trustpilot; seleccionamos cada visual con exigencia y cariño — y nuestro servicio de atenc"
+   ],
+   "good": 0,
+   "expected": 1
+  },
+  "nl": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "s & Affiches Babykamer . Frans huis, opgericht in 2022, beoordeeld met 4,1/5 op Trustpilot; we selecteren elk beeld met hoge eisen en veel mildheid — en onze klantenservi"
+   ],
+   "good": 0,
+   "expected": 1
+  },
+  "de": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "ren Postern fürs Babyzimmer . Französisches Haus, gegründet 2022, mit 4,1/5 auf Trustpilot bewertet – wir wählen jedes Motiv mit Anspruch und Herzlichkeit aus, und unser "
+   ],
+   "good": 0,
+   "expected": 1
+  },
+  "en": {
+   "ok": false,
+   "raw_tokens": 0,
+   "old": [
+    "ur Nursery Posters & Prints . A French brand founded in 2022 and rated 4.1/5 on Trustpilot, we curate every design with care and kindness—and our customer service is avai"
+   ],
+   "good": 0,
+   "expected": 1
+  }
+ },
+ "tableau-chambre-fillette": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  }
+ },
+ "tableau-animaux": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "tableau-rouge": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  }
+ },
+ "tableau-violet": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "tous-les-tableaux": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  }
+ },
+ "tableau-personnalise-famille": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "tableau-islamique": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "tableau-entree-couloir": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  }
+ },
+ "tableau-chambre-enfant": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "tableau-bureau": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 2,
+   "expected": 2
+  }
+ },
+ "tableau-bleue": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "tableau-couleur": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "tableau-paysage": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "bestsellers-1": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "tableaux-bouddha": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "tableau-chambre-ado": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "tableau-africain": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "tableau-vert": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "tableau-pop-art": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "tableau-mer-1": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "tableau-lion": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ },
+ "tableau-cheval": {
+  "fr": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "es": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "nl": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "de": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  },
+  "en": {
+   "ok": true,
+   "raw_tokens": 0,
+   "old": [],
+   "good": 1,
+   "expected": 1
+  }
+ }
+}

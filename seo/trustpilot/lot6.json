@@ -1,0 +1,987 @@
+{
+ "lot": "lot6",
+ "date": "2026-10-05",
+ "operation": "Chiffres Trustpilot en dur (4,1/5 ; 80 avis) remplaces par [[TP_SCORE]] / [[TP_COUNT]] dans custom.guide, FR + EN/DE/ES/NL",
+ "rendu_attendu": {
+  "fr/de/es/nl": "4,2 et 86",
+  "en": "4.2 et 86"
+ },
+ "collections": [
+  "tableau-chambre-ado",
+  "tableau-africain",
+  "tableau-vert",
+  "tableau-pop-art",
+  "tableau-mer-1",
+  "tableau-lion",
+  "tableau-cheval"
+ ],
+ "metachamps_modifies": 7,
+ "traductions_publiees": 28,
+ "entrees": [
+  {
+   "handle": "tableau-chambre-ado",
+   "collection_id": "gid://shopify/Collection/406513090815",
+   "metafield_gid": "gid://shopify/Metafield/64741809520987",
+   "namespace": "custom",
+   "key": "guide",
+   "type": "multi_line_text_field",
+   "old_digest": "702880fb3349dd3aa47b4d0fe5fd944f888a0ee378330b2dc11211c4d6234faa",
+   "old_digest_verifie_par_shopify": true,
+   "new_digest": "c632aadae615f2241ee153af4f4199a7cf29fc8870404403f5eaa23390c05ffe",
+   "new_digest_egal_sha256_nouvelle_valeur": true,
+   "preuve_ancienne_valeur": "digest Shopify lu avant modification == sha256(extraction publique)",
+   "remplacements": {
+    "fr": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    },
+    "en": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    },
+    "de": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    },
+    "es": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    },
+    "nl": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    }
+   },
+   "phrases": {
+    "fr": {
+     "avant": "ation exigeante nous vaut une note Trustpilot de 4,1 sur 5 fondée sur 80 avis. Et si vous cherchez à compléter l'ambianc",
+     "apres": "eante nous vaut une note Trustpilot de [[TP_SCORE]] sur 5 fondée sur [[TP_COUNT]] avis. Et si vous cherchez à compléter "
+    },
+    "en": {
+     "avant": "his demanding curation has earned us a 4.1 out of 5 Trustpilot rating based on 80 reviews. Want to complete the vibe? Ex",
+     "apres": "ding curation has earned us a [[TP_SCORE]] out of 5 Trustpilot rating based on [[TP_COUNT]] reviews. Want to complete th"
+    },
+    "de": {
+     "avant": "erung bringt uns eine Trustpilot-Bewertung von 4,1 von 5 auf Basis von 80 Bewertungen ein. Und wenn Sie die Atmosphäre e",
+     "apres": "ngt uns eine Trustpilot-Bewertung von [[TP_SCORE]] von 5 auf Basis von [[TP_COUNT]] Bewertungen ein. Und wenn Sie die At"
+    },
+    "es": {
+     "avant": "ración exigente nos vale una nota Trustpilot de 4,1 sobre 5 basada en 80 reseñas. Y si buscas completar el ambiente, exp",
+     "apres": "igente nos vale una nota Trustpilot de [[TP_SCORE]] sobre 5 basada en [[TP_COUNT]] reseñas. Y si buscas completar el amb"
+    },
+    "nl": {
+     "avant": "nde curatie levert ons een Trustpilot-score van 4,1 op 5 op basis van 80 reviews. En als u de sfeer wilt vervolledigen, ",
+     "apres": "ie levert ons een Trustpilot-score van [[TP_SCORE]] op 5 op basis van [[TP_COUNT]] reviews. En als u de sfeer wilt vervo"
+    }
+   },
+   "traductions_outdated_avant": {
+    "en": false,
+    "de": false,
+    "es": false,
+    "nl": false
+   },
+   "traductions_publiees": {
+    "en": {
+     "valueLength": 2730,
+     "outdated": false
+    },
+    "de": {
+     "valueLength": 3123,
+     "outdated": false
+    },
+    "es": {
+     "valueLength": 2963,
+     "outdated": false
+    },
+    "nl": {
+     "valueLength": 2867,
+     "outdated": false
+    }
+   },
+   "autres_champs_trustpilot": "custom.intro et custom.faq verifies via getCollection : aucune mention Trustpilot chiffree",
+   "verification_en_ligne": {
+    "fr": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "n Europe pour une qualité de rendu maîtrisée. Cette curation exigeante nous vaut une note Trustpilot de 4,2 sur 5 fondée sur 86 avis. Et si vous cherchez à comp"
+    },
+    "en": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "or controlled, high-quality results. This demanding curation has earned us a 4.2 out of 5 Trustpilot rating based on 86 reviews. Want to complete the vibe? Expl"
+    },
+    "de": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "für eine kontrollierte Ergebnisqualität. Diese anspruchsvolle Kuratierung bringt uns eine Trustpilot-Bewertung von 4,2 von 5 auf Basis von 86 Bewertungen ein. U"
+    },
+    "es": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "Europa para una calidad de resultado controlada. Esta curación exigente nos vale una nota Trustpilot de 4,2 sobre 5 basada en 86 reseñas. Y si buscas completar "
+    },
+    "nl": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "t in Europa voor een beheerste weergavekwaliteit. Deze veeleisende curatie levert ons een Trustpilot-score van 4,2 op 5 op basis van 86 reviews. En als u de sfe"
+    }
+   },
+   "notes": [
+    "Test de recriture a l'identique via updateCollection (guide inchange) avant de connaitre le GID : updatedAt de la collection inchange (2026-10-05T00:10:03Z), reponse sans GID.",
+    "Avant l'amendement : recriture a l'identique de l'ancienne valeur via setMetafield pour obtenir le GID ; digest relu ensuite == sha256(extraction publique) et traductions toujours outdated:false, donc aucune modification du texte."
+   ]
+  },
+  {
+   "handle": "tableau-africain",
+   "collection_id": "gid://shopify/Collection/407673012479",
+   "metafield_gid": "gid://shopify/Metafield/64740574101851",
+   "namespace": "custom",
+   "key": "guide",
+   "type": "multi_line_text_field",
+   "old_digest": "e74d92e7f75d91f7fc9070941d9df053c1c92d554a44275fbe030b8cc9282d8a",
+   "old_digest_verifie_par_shopify": true,
+   "new_digest": "126bb6a77d94d4479135dfbb0b4a929c97a7dcd4b4fc3e2788572674261ab21e",
+   "new_digest_egal_sha256_nouvelle_valeur": true,
+   "preuve_ancienne_valeur": "digest Shopify lu avant modification == sha256(extraction publique)",
+   "remplacements": {
+    "fr": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    },
+    "en": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    },
+    "de": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    },
+    "es": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    },
+    "nl": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    }
+   },
+   "phrases": {
+    "fr": {
+     "avant": "t des intérieurs, avec une note <strong>Trustpilot de 4,1/5 sur 80 avis</strong>.</p><p>Notre équipe vous accompagne ave",
+     "apres": "érieurs, avec une note <strong>Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis</strong>.</p><p>Notre équipe vous acco"
+    },
+    "en": {
+     "avant": "ady found a home, with a <strong>Trustpilot rating of 4.1/5 from 80 reviews</strong>.</p><p>Our team supports you with c",
+     "apres": "a home, with a <strong>Trustpilot rating of [[TP_SCORE]]/5 from [[TP_COUNT]] reviews</strong>.</p><p>Our team supports y"
+    },
+    "de": {
+     "avant": " gefunden, mit einer <strong>Trustpilot-Bewertung von 4,1/5 bei 80 Bewertungen</strong>.</p><p>Unser Team begleitet Sie ",
+     "apres": ", mit einer <strong>Trustpilot-Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen</strong>.</p><p>Unser Team begl"
+    },
+    "es": {
+     "avant": "legado a hogares, con una nota <strong>Trustpilot de 4,1/5 sobre 80 reseñas</strong>.</p><p>Nuestro equipo le acompaña c",
+     "apres": "hogares, con una nota <strong>Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas</strong>.</p><p>Nuestro equipo le "
+    },
+    "nl": {
+     "avant": "erieurs gevonden, met een <strong>Trustpilot-score van 4,1/5 op 80 beoordelingen</strong>.</p><p>Ons team begeleidt u me",
+     "apres": "vonden, met een <strong>Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] beoordelingen</strong>.</p><p>Ons team begel"
+    }
+   },
+   "traductions_outdated_avant": {
+    "en": false,
+    "de": false,
+    "es": false,
+    "nl": false
+   },
+   "traductions_publiees": {
+    "en": {
+     "valueLength": 4085,
+     "outdated": false
+    },
+    "de": {
+     "valueLength": 4517,
+     "outdated": false
+    },
+    "es": {
+     "valueLength": 4298,
+     "outdated": false
+    },
+    "nl": {
+     "valueLength": 4238,
+     "outdated": false
+    }
+   },
+   "autres_champs_trustpilot": "custom.intro et custom.faq verifies via getCollection : aucune mention Trustpilot chiffree",
+   "verification_en_ligne": {
+    "fr": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "mur vous ressemble. Plus de 1 015 tableaux ont déjà rejoint des intérieurs, avec une note Trustpilot de 4,2/5 sur 86 avis . Notre équipe vous accompagne avec at"
+    },
+    "en": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "rafted so your wall feels like you. Over 1,015 artworks have already found a home, with a Trustpilot rating of 4.2/5 from 86 reviews . Our team supports you wit"
+    },
+    "de": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "nen gleicht. Über 1.015 Bilder haben bereits den Weg in die Wohnungen gefunden, mit einer Trustpilot-Bewertung von 4,2/5 bei 86 Bewertungen . Unser Team begleit"
+    },
+    "es": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "su pared se parezca a usted. Más de 1.015 cuadros ya han llegado a hogares, con una nota Trustpilot de 4,2/5 sobre 86 reseñas . Nuestro equipo le acompaña con a"
+    },
+    "nl": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "u lijkt. Meer dan 1.015 schilderijen hebben al hun weg naar interieurs gevonden, met een Trustpilot-score van 4,2/5 op 86 beoordelingen . Ons team begeleidt u m"
+    }
+   },
+   "notes": [
+    "NL republiee une 2e fois : faute de frappe (creeurt au lieu de creeert) detectee par la verification en ligne exacte, corrigee a 10:22:30Z",
+    "Avant l'amendement : recriture a l'identique de l'ancienne valeur via setMetafield pour obtenir le GID ; digest relu ensuite == sha256(extraction publique) et traductions toujours outdated:false, donc aucune modification du texte."
+   ]
+  },
+  {
+   "handle": "tableau-vert",
+   "collection_id": "gid://shopify/Collection/599959470427",
+   "metafield_gid": "gid://shopify/Metafield/64743080001883",
+   "namespace": "custom",
+   "key": "guide",
+   "type": "multi_line_text_field",
+   "old_digest": "31f7056c38fe214e9753208fde5533fbbb12e0bb2ad790c87b5135bc2abe5cd8",
+   "old_digest_verifie_par_shopify": true,
+   "new_digest": "6a4b339160f9503c96c23dff79ac346871e72437a928c86152f775596347aeb7",
+   "new_digest_egal_sha256_nouvelle_valeur": true,
+   "preuve_ancienne_valeur": "digest Shopify lu avant modification == sha256(extraction publique)",
+   "remplacements": {
+    "fr": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    },
+    "en": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    },
+    "de": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    },
+    "es": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    },
+    "nl": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    }
+   },
+   "phrases": {
+    "fr": {
+     "avant": "e nos clients, qui nous accordent une note de <strong>4,1/5 sur 80 avis Trustpilot</strong>. Une question sur une nuance",
+     "apres": "ents, qui nous accordent une note de <strong>[[TP_SCORE]]/5 sur [[TP_COUNT]] avis Trustpilot</strong>. Une question sur "
+    },
+    "en": {
+     "avant": "d our customers’ interiors, and they rate us <strong>4.1/5 across 80 Trustpilot reviews</strong>. Questions about a shad",
+     "apres": "omers’ interiors, and they rate us <strong>[[TP_SCORE]]/5 across [[TP_COUNT]] Trustpilot reviews</strong>. Questions abo"
+    },
+    "de": {
+     "avant": "r Kunden gefunden, die uns eine Bewertung von <strong>4,1/5 bei 80 Trustpilot-Bewertungen</strong> geben. Eine Frage zu ",
+     "apres": "gefunden, die uns eine Bewertung von <strong>[[TP_SCORE]]/5 bei [[TP_COUNT]] Trustpilot-Bewertungen</strong> geben. Eine"
+    },
+    "es": {
+     "avant": "estros clientes, que nos otorgan una nota de <strong>4,1/5 sobre 80 reseñas en Trustpilot</strong>. ¿Una pregunta sobre ",
+     "apres": "ientes, que nos otorgan una nota de <strong>[[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas en Trustpilot</strong>. ¿Una pregu"
+    },
+    "nl": {
+     "avant": "rieurs van onze klanten, die ons een score van <strong>4,1/5 op 80 Trustpilot-beoordelingen</strong> toekennen. Een vraa",
+     "apres": " onze klanten, die ons een score van <strong>[[TP_SCORE]]/5 op [[TP_COUNT]] Trustpilot-beoordelingen</strong> toekennen."
+    }
+   },
+   "traductions_outdated_avant": {
+    "en": false,
+    "de": false,
+    "es": false,
+    "nl": false
+   },
+   "traductions_publiees": {
+    "en": {
+     "valueLength": 2918,
+     "outdated": false
+    },
+    "de": {
+     "valueLength": 3270,
+     "outdated": false
+    },
+    "es": {
+     "valueLength": 3154,
+     "outdated": false
+    },
+    "nl": {
+     "valueLength": 3130,
+     "outdated": false
+    }
+   },
+   "autres_champs_trustpilot": "custom.intro et custom.faq verifies via getCollection : aucune mention Trustpilot chiffree",
+   "verification_en_ligne": {
+    "fr": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "t rejoint les intérieurs de nos clients, qui nous accordent une note de 4,2/5 sur 86 avis Trustpilot . Une question sur une nuance ou un format ? Notre service "
+    },
+    "en": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "han 1,015 canvases have joined our customers’ interiors, and they rate us 4.2/5 across 86 Trustpilot reviews . Questions about a shade or size? Our Toulouse cus"
+    },
+    "de": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "den Weg in die Wohnungen unserer Kunden gefunden, die uns eine Bewertung von 4,2/5 bei 86 Trustpilot-Bewertungen geben. Eine Frage zu einer Nuance oder einem Fo"
+    },
+    "es": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "a los hogares de nuestros clientes, que nos otorgan una nota de 4,2/5 sobre 86 reseñas en Trustpilot . ¿Una pregunta sobre un matiz o un formato? Nuestro servic"
+    },
+    "nl": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "n hun weg gevonden naar de interieurs van onze klanten, die ons een score van 4,2/5 op 86 Trustpilot-beoordelingen toekennen. Een vraag over een nuance of een f"
+    }
+   },
+   "notes": [
+    "Avant l'amendement : recriture a l'identique de l'ancienne valeur via setMetafield pour obtenir le GID ; digest relu ensuite == sha256(extraction publique) et traductions toujours outdated:false, donc aucune modification du texte."
+   ]
+  },
+  {
+   "handle": "tableau-pop-art",
+   "collection_id": "gid://shopify/Collection/602732953947",
+   "metafield_gid": "gid://shopify/Metafield/64743037043035",
+   "namespace": "custom",
+   "key": "guide",
+   "type": "multi_line_text_field",
+   "old_digest": "cc73ccf3a7a458e698e50141999989380e942e50645ba1206b4fac11632fbda2",
+   "old_digest_verifie_par_shopify": false,
+   "new_digest": "a41f1ca1204b69b853d11adcba0b70cd8ccf87aa5ad5e9ad515b79a6ff6fc16b",
+   "new_digest_egal_sha256_nouvelle_valeur": true,
+   "preuve_ancienne_valeur": "2 extractions publiques espacees identiques (procedure amendee)",
+   "remplacements": {
+    "fr": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    },
+    "en": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    },
+    "de": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    },
+    "es": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    },
+    "nl": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    }
+   },
+   "phrases": {
+    "fr": {
+     "avant": "s de 1 015 tableaux et cultivé une note Trustpilot de 4,1/5 sur 80 avis. Nos oeuvres sont conçues en France par une dire",
+     "apres": "5 tableaux et cultivé une note Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis. Nos oeuvres sont conçues en France pa"
+    },
+    "en": {
+     "avant": "ivered over 1,015 artworks and maintained a 4.1/5 Trustpilot score across 80 reviews. Our pieces are designed in France ",
+     "apres": "er 1,015 artworks and maintained a [[TP_SCORE]]/5 Trustpilot score across [[TP_COUNT]] reviews. Our pieces are designed "
+    },
+    "de": {
+     "avant": "15 Bilder geliefert und eine Trustpilot-Bewertung von 4,1/5 bei 80 Bewertungen kultiviert. Unsere Werke werden in Frankr",
+     "apres": " geliefert und eine Trustpilot-Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen kultiviert. Unsere Werke werden"
+    },
+    "es": {
+     "avant": " de 1.015 cuadros y cultivado una nota Trustpilot de 4,1/5 sobre 80 reseñas. Nuestras obras se conciben en Francia por u",
+     "apres": " cuadros y cultivado una nota Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas. Nuestras obras se conciben en Fra"
+    },
+    "nl": {
+     "avant": ".015 schilderijen geleverd en een Trustpilot-score van 4,1/5 op 80 beoordelingen gekweekt. Onze werken worden ontworpen ",
+     "apres": "derijen geleverd en een Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] beoordelingen gekweekt. Onze werken worden o"
+    }
+   },
+   "traductions_outdated_avant": {
+    "en": null,
+    "de": null,
+    "es": null,
+    "nl": null
+   },
+   "traductions_outdated_avant_note": "non lisible (GID obtenu par l ecriture elle-meme)",
+   "traductions_publiees": {
+    "en": {
+     "valueLength": 2841,
+     "outdated": false
+    },
+    "de": {
+     "valueLength": 3167,
+     "outdated": false
+    },
+    "es": {
+     "valueLength": 2964,
+     "outdated": false
+    },
+    "nl": {
+     "valueLength": 2971,
+     "outdated": false
+    }
+   },
+   "autres_champs_trustpilot": "custom.intro et custom.faq verifies via getCollection : aucune mention Trustpilot chiffree",
+   "verification_en_ligne": {
+    "fr": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "sir MyselfMonArt Depuis 2022, nous avons livré plus de 1 015 tableaux et cultivé une note Trustpilot de 4,2/5 sur 86 avis. Nos oeuvres sont conçues en France pa"
+    },
+    "en": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "hoose MyselfMonArt Since 2022, we’ve delivered over 1,015 artworks and maintained a 4.2/5 Trustpilot score across 86 reviews. Our pieces are designed in France "
+    },
+    "de": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "Jahr. Warum MyselfMonArt wählen Seit 2022 haben wir über 1.015 Bilder geliefert und eine Trustpilot-Bewertung von 4,2/5 bei 86 Bewertungen kultiviert. Unsere We"
+    },
+    "es": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "elegir MyselfMonArt Desde 2022, hemos entregado más de 1.015 cuadros y cultivado una nota Trustpilot de 4,2/5 sobre 86 reseñas. Nuestras obras se conciben en Fr"
+    },
+    "nl": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "kiezen voor MyselfMonArt Sinds 2022 hebben we meer dan 1.015 schilderijen geleverd en een Trustpilot-score van 4,2/5 op 86 beoordelingen gekweekt. Onze werken w"
+    }
+   },
+   "notes": [
+    "Procedure amendee : nouvelle valeur ecrite directement via setMetafield (GID dans la reponse) ; etat outdated des traductions avant passage non lisible."
+   ]
+  },
+  {
+   "handle": "tableau-mer-1",
+   "collection_id": "gid://shopify/Collection/619498307931",
+   "metafield_gid": "gid://shopify/Metafield/64743059030363",
+   "namespace": "custom",
+   "key": "guide",
+   "type": "multi_line_text_field",
+   "old_digest": "c55a37231c5bfea3bbed0263dc2074dea848c41f56042197882a3ef13fc4178d",
+   "old_digest_verifie_par_shopify": false,
+   "new_digest": "030dc78ff7ec35882eb1b170c4881b9a348578587b2c6a7dd6fe8da095ae3c32",
+   "new_digest_egal_sha256_nouvelle_valeur": true,
+   "preuve_ancienne_valeur": "3 extractions publiques espacees identiques (10:12, 10:24, 10:29) (procedure amendee)",
+   "remplacements": {
+    "fr": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    },
+    "en": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    },
+    "de": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    },
+    "es": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    },
+    "nl": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    }
+   },
+   "phrases": {
+    "fr": {
+     "avant": "é une communauté qui nous accorde une note de <strong>4,1/5 sur 80 avis Trustpilot</strong>. Chaque œuvre est sélectionn",
+     "apres": "munauté qui nous accorde une note de <strong>[[TP_SCORE]]/5 sur [[TP_COUNT]] avis Trustpilot</strong>. Chaque œuvre est "
+    },
+    "en": {
+     "avant": "/strong> and built a community that rates us <strong>4.1/5 across 80 Trustpilot reviews</strong>. Every image is hand-se",
+     "apres": "nd built a community that rates us <strong>[[TP_SCORE]]/5 across [[TP_COUNT]] Trustpilot reviews</strong>. Every image i"
+    },
+    "de": {
+     "avant": "y zusammengeführt, die uns eine Bewertung von <strong>4,1/5 bei 80 Trustpilot-Bewertungen</strong> gibt. Jedes Werk wird",
+     "apres": "ngeführt, die uns eine Bewertung von <strong>[[TP_SCORE]]/5 bei [[TP_COUNT]] Trustpilot-Bewertungen</strong> gibt. Jedes"
+    },
+    "es": {
+     "avant": "ido una comunidad que nos otorga una nota de <strong>4,1/5 sobre 80 reseñas Trustpilot</strong>. Cada obra se selecciona",
+     "apres": "omunidad que nos otorga una nota de <strong>[[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas Trustpilot</strong>. Cada obra se "
+    },
+    "nl": {
+     "avant": "een gemeenschap verenigd die ons een score van <strong>4,1/5 op 80 Trustpilot-beoordelingen</strong> toekent. Elk werk w",
+     "apres": "schap verenigd die ons een score van <strong>[[TP_SCORE]]/5 op [[TP_COUNT]] Trustpilot-beoordelingen</strong> toekent. E"
+    }
+   },
+   "traductions_outdated_avant": {
+    "en": null,
+    "de": null,
+    "es": null,
+    "nl": null
+   },
+   "traductions_outdated_avant_note": "non lisible (GID obtenu par l ecriture elle-meme)",
+   "traductions_publiees": {
+    "en": {
+     "valueLength": 2979,
+     "outdated": false
+    },
+    "de": {
+     "valueLength": 3431,
+     "outdated": false
+    },
+    "es": {
+     "valueLength": 3260,
+     "outdated": false
+    },
+    "nl": {
+     "valueLength": 3199,
+     "outdated": false
+    }
+   },
+   "autres_champs_trustpilot": "custom.intro et custom.faq verifies via getCollection : aucune mention Trustpilot chiffree",
+   "verification_en_ligne": {
+    "fr": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "de 1 015 tableaux et fédéré une communauté qui nous accorde une note de 4,2/5 sur 86 avis Trustpilot . Chaque œuvre est sélectionnée et retouchée à la main par "
+    },
+    "en": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "we’ve delivered over 1,015 art prints and built a community that rates us 4.2/5 across 86 Trustpilot reviews . Every image is hand-selected and retouched by our"
+    },
+    "de": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "ausgeliefert und eine Community zusammengeführt, die uns eine Bewertung von 4,2/5 bei 86 Trustpilot-Bewertungen gibt. Jedes Werk wird von unserer künstlerischen"
+    },
+    "es": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "e 1.015 cuadros y reunido una comunidad que nos otorga una nota de 4,2/5 sobre 86 reseñas Trustpilot . Cada obra se selecciona y se retoca a mano por nuestra di"
+    },
+    "nl": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "1.015 schilderijen geleverd en een gemeenschap verenigd die ons een score van 4,2/5 op 86 Trustpilot-beoordelingen toekent. Elk werk wordt met de hand geselecte"
+    }
+   },
+   "notes": [
+    "Procedure amendee : nouvelle valeur ecrite directement via setMetafield (GID dans la reponse) ; etat outdated des traductions avant passage non lisible."
+   ]
+  },
+  {
+   "handle": "tableau-lion",
+   "collection_id": "gid://shopify/Collection/640741704027",
+   "metafield_gid": "gid://shopify/Metafield/64743110574427",
+   "namespace": "custom",
+   "key": "guide",
+   "type": "multi_line_text_field",
+   "old_digest": "b335995e97fa728d100bd9806eb37513e1c7895078efd1b6aa59bf6df583417c",
+   "old_digest_verifie_par_shopify": false,
+   "new_digest": "f14cf9bab5b2fd0b66a01315b5ddcbd7a03d44e95fd6008be0ba1a8ac32c29ff",
+   "new_digest_egal_sha256_nouvelle_valeur": true,
+   "preuve_ancienne_valeur": "3 extractions publiques espacees identiques (10:12, 10:24, 10:31) (procedure amendee)",
+   "remplacements": {
+    "fr": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    },
+    "en": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    },
+    "de": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    },
+    "es": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    },
+    "nl": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    }
+   },
+   "phrases": {
+    "fr": {
+     "avant": "des foyers, et nos clients nous accordent une note de 4,1/5 sur 80 avis Trustpilot.</p>\n<p>Une question sur un format ou",
+     "apres": "s, et nos clients nous accordent une note de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis Trustpilot.</p>\n<p>Une question sur un"
+    },
+    "en": {
+     "avant": "have already found a home, and our customers rate us 4.1/5 across 80 Trustpilot reviews.</p>\n<p>Questions about a size o",
+     "apres": "dy found a home, and our customers rate us [[TP_SCORE]]/5 across [[TP_COUNT]] Trustpilot reviews.</p>\n<p>Questions about"
+    },
+    "de": {
+     "avant": "n gefunden, und unsere Kunden geben uns eine Note von 4,1/5 bei 80 Trustpilot-Bewertungen.</p>\n<p>Eine Frage zu einem Fo",
+     "apres": "n, und unsere Kunden geben uns eine Note von [[TP_SCORE]]/5 bei [[TP_COUNT]] Trustpilot-Bewertungen.</p>\n<p>Eine Frage z"
+    },
+    "es": {
+     "avant": "hogares, y nuestros clientes nos otorgan una nota de 4,1/5 sobre 80 opiniones en Trustpilot.</p>\n<p>¿Una pregunta sobre ",
+     "apres": "y nuestros clientes nos otorgan una nota de [[TP_SCORE]]/5 sobre [[TP_COUNT]] opiniones en Trustpilot.</p>\n<p>¿Una pregu"
+    },
+    "nl": {
+     "avant": "ingen bereikt, en onze klanten geven ons een score van 4,1/5 op 80 Trustpilot-beoordelingen.</p>\n<p>Een vraag over een f",
+     "apres": "ikt, en onze klanten geven ons een score van [[TP_SCORE]]/5 op [[TP_COUNT]] Trustpilot-beoordelingen.</p>\n<p>Een vraag o"
+    }
+   },
+   "traductions_outdated_avant": {
+    "en": null,
+    "de": null,
+    "es": null,
+    "nl": null
+   },
+   "traductions_outdated_avant_note": "non lisible (GID obtenu par l ecriture elle-meme)",
+   "traductions_publiees": {
+    "en": {
+     "valueLength": 3024,
+     "outdated": false
+    },
+    "de": {
+     "valueLength": 3466,
+     "outdated": false
+    },
+    "es": {
+     "valueLength": 3252,
+     "outdated": false
+    },
+    "nl": {
+     "valueLength": 3206,
+     "outdated": false
+    }
+   },
+   "autres_champs_trustpilot": "custom.intro et custom.faq verifies via getCollection : aucune mention Trustpilot chiffree",
+   "verification_en_ligne": {
+    "fr": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "ont déjà rejoint des foyers, et nos clients nous accordent une note de 4,2/5 sur 86 avis Trustpilot. Une question sur un format ou une teinte ? Notre service cl"
+    },
+    "en": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "Over 1,015 canvases have already found a home, and our customers rate us 4.2/5 across 86 Trustpilot reviews. Questions about a size or a shade? Our Toulouse-bas"
+    },
+    "de": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "ren Weg in die Wohnungen gefunden, und unsere Kunden geben uns eine Note von 4,2/5 bei 86 Trustpilot-Bewertungen. Eine Frage zu einem Format oder einem Farbton?"
+    },
+    "es": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "do a los hogares, y nuestros clientes nos otorgan una nota de 4,2/5 sobre 86 opiniones en Trustpilot. ¿Una pregunta sobre un formato o un tono? Nuestro servicio"
+    },
+    "nl": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "ilderijen hebben al woningen bereikt, en onze klanten geven ons een score van 4,2/5 op 86 Trustpilot-beoordelingen. Een vraag over een formaat of een tint? Onze"
+    }
+   },
+   "notes": [
+    "Procedure amendee : nouvelle valeur ecrite directement via setMetafield (GID dans la reponse) ; etat outdated des traductions avant passage non lisible."
+   ]
+  },
+  {
+   "handle": "tableau-cheval",
+   "collection_id": "gid://shopify/Collection/656988471643",
+   "metafield_gid": "gid://shopify/Metafield/64743059128667",
+   "namespace": "custom",
+   "key": "guide",
+   "type": "multi_line_text_field",
+   "old_digest": "d0399f36396dd8c9a305f55fbc4444dd4848a17b75424069eaef57c7c667230e",
+   "old_digest_verifie_par_shopify": false,
+   "new_digest": "d25685cf634b137965d84689315a9c7fdc4a222d37f4793ff20a1a5153cc8954",
+   "new_digest_egal_sha256_nouvelle_valeur": true,
+   "preuve_ancienne_valeur": "3 extractions publiques espacees identiques (10:12, 10:24, 10:34) (procedure amendee)",
+   "remplacements": {
+    "fr": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    },
+    "en": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    },
+    "de": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    },
+    "es": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    },
+    "nl": {
+     "phrases": 1,
+     "jetons_TP_SCORE": 1,
+     "jetons_TP_COUNT": 1,
+     "attendu_inventaire": 1
+    }
+   },
+   "phrases": {
+    "fr": {
+     "avant": "urs qui nous ressemblent, avec une note Trustpilot de 4,1/5 sur 80 avis. Chaque œuvre de cette collection est <strong>sé",
+     "apres": "ous ressemblent, avec une note Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis. Chaque œuvre de cette collection est "
+    },
+    "en": {
+     "avant": "ered over 1,015 canvases, with a Trustpilot rating of 4.1/5 from 80 reviews. Every artwork in this collection is <strong",
+     "apres": "1,015 canvases, with a Trustpilot rating of [[TP_SCORE]]/5 from [[TP_COUNT]] reviews. Every artwork in this collection i"
+    },
+    "de": {
+     "avant": "ert, die zu uns passen, mit einer Trustpilot-Note von 4,1/5 bei 80 Bewertungen. Jedes Werk dieser Kollektion wird <stron",
+     "apres": "zu uns passen, mit einer Trustpilot-Note von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen. Jedes Werk dieser Kollektion w"
+    },
+    "es": {
+     "avant": "se parecen a nosotros, con una nota en Trustpilot de 4,1/5 sobre 80 opiniones. Cada obra de esta colección es <strong>se",
+     "apres": "n a nosotros, con una nota en Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] opiniones. Cada obra de esta colección es "
+    },
+    "nl": {
+     "avant": "ieurs die bij ons passen, met een Trustpilot-score van 4,1/5 op 80 beoordelingen. Elk werk uit deze collectie wordt <str",
+     "apres": "bij ons passen, met een Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] beoordelingen. Elk werk uit deze collectie w"
+    }
+   },
+   "traductions_outdated_avant": {
+    "en": null,
+    "de": null,
+    "es": null,
+    "nl": null
+   },
+   "traductions_outdated_avant_note": "non lisible (GID obtenu par l ecriture elle-meme)",
+   "traductions_publiees": {
+    "en": {
+     "valueLength": 2927,
+     "outdated": false
+    },
+    "de": {
+     "valueLength": 3260,
+     "outdated": false
+    },
+    "es": {
+     "valueLength": 3211,
+     "outdated": false
+    },
+    "nl": {
+     "valueLength": 3090,
+     "outdated": false
+    }
+   },
+   "autres_champs_trustpilot": "custom.intro et custom.faq verifies via getCollection : aucune mention Trustpilot chiffree",
+   "verification_en_ligne": {
+    "fr": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "s avons livré plus de 1 015 tableaux à des intérieurs qui nous ressemblent, avec une note Trustpilot de 4,2/5 sur 86 avis. Chaque œuvre de cette collection est "
+    },
+    "en": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "of time. Why choose MyselfMonArt Since 2022, we’ve delivered over 1,015 canvases, with a Trustpilot rating of 4.2/5 from 86 reviews. Every artwork in this colle"
+    },
+    "de": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "2022 haben wir über 1.015 Bilder an Wohnungen ausgeliefert, die zu uns passen, mit einer Trustpilot-Note von 4,2/5 bei 86 Bewertungen. Jedes Werk dieser Kollekt"
+    },
+    "es": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "hemos entregado más de 1.015 cuadros a hogares que se parecen a nosotros, con una nota en Trustpilot de 4,2/5 sobre 86 opiniones. Cada obra de esta colección es"
+    },
+    "nl": {
+     "ok": true,
+     "raw_tokens": 0,
+     "guide_exact": true,
+     "old_figures_near_trustpilot": 0,
+     "phrases_with_new_figures": 1,
+     "sample": "hebben we meer dan 1.015 schilderijen geleverd aan interieurs die bij ons passen, met een Trustpilot-score van 4,2/5 op 86 beoordelingen. Elk werk uit deze coll"
+    }
+   },
+   "notes": [
+    "Procedure amendee : nouvelle valeur ecrite directement via setMetafield (GID dans la reponse) ; etat outdated des traductions avant passage non lisible."
+   ]
+  }
+ ]
+}

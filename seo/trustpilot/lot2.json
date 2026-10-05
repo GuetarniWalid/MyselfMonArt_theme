@@ -1,0 +1,1588 @@
+{
+ "lot": "lot2",
+ "date": "2026-10-05",
+ "operation": "Passage en jetons [[TP_SCORE]] / [[TP_COUNT]] des chiffres Trustpilot écrits en dur (4,1/5 sur 80 avis) dans custom.guide et custom.faq, source FR + traductions EN/DE/ES/NL.",
+ "collections": [
+  "tableau-chambre",
+  "tableau-chambre-garcon",
+  "tableau-ethnique",
+  "tableau-noir-et-blanc",
+  "tableau-fleurs",
+  "tableau-fruits-et-legumes",
+  "tableaux-frida-kahlo",
+  "posters-affiches-cheval"
+ ],
+ "summary": {
+  "collections_done": 8,
+  "metafields_modified": 10,
+  "translations_published": 40,
+  "fr_tokens_total": 19,
+  "inventory_match": "Nombre de phrases remplacées = inventaire (lot2) pour chaque collection et chaque langue ; aucune occurrence supplémentaire trouvée dans les champs bruts."
+ },
+ "method": {
+  "gid": "getCollection ne renvoie pas les GID des métachamps. tableau-chambre et tableau-chambre-garcon : GID obtenus par réécriture à l'identique via setMetafield (avant l'amendement). Autres collections : amendement du coordinateur, écriture directe de la nouvelle valeur avec setMetafield.",
+  "exactness_fr": "guide : extraction brute de la page publique (2 extractions identiques, cache contourné par ?cb=) ; faq : json.loads(getCollection) == liste reconstruite depuis la page publique (q du JSON-LD, a de l'accordéon), égalité à l'octet, et sha256 = ancien digest quand le GID était connu avant écriture.",
+  "exactness_translations": "guide : extraction brute des pages traduites (longueur = valueLength) ; faq : valeur getTranslatableContent = reconstruction des pages traduites (longueurs identiques).",
+  "checks": "difflib : seules opérations = 4,1/4.1 → [[TP_SCORE]] et 80 → [[TP_COUNT]] ; digest FR relu = sha256(nouvelle valeur) ; traductions relues outdated:false et valueLength = longueur envoyée ; rendu en ligne comparé à l'octet à la valeur attendue (jetons remplacés par 4,2 / 4.2 et 86)."
+ },
+ "anomalies": [
+  "tableau-chambre-garcon guide ES : premier envoi avec une coquille de saisie (« ensoación » au lieu de « ensoñación », 3300 car.) détectée par valueLength, republiée aussitôt correctement (3301 car.) ; rendu en ligne contrôlé identique à l'attendu.",
+  "Réécritures à l'identique (sans effet) faites avant l'amendement pour obtenir les GID : tableau-chambre guide (updateCollection puis setMetafield), tableau-chambre-garcon guide et faq (setMetafield). Vérifiées sans effet (digest inchangé, traductions restées outdated:false).",
+  "Pour les 7 métachamps écrits directement via setMetafield, l'état outdated des traductions avant passage n'est pas mesurable ; pour les 3 autres, aucune traduction n'était outdated avant passage.",
+  "posters-affiches-cheval faq : la phrase ne mentionne pas de nombre d'avis (« notée 4,1/5 sur Trustpilot ») : seul [[TP_SCORE]] posé, c'est conforme à la consigne.",
+  "Quelques requêtes publiques ont renvoyé une page courte (limitation passagère) ; refaites automatiquement, sans incidence."
+ ],
+ "entries": [
+  {
+   "handle": "tableau-chambre",
+   "collection_id": "gid://shopify/Collection/404666908927",
+   "metafield_gid": "gid://shopify/Metafield/64742995263835",
+   "namespace": "custom",
+   "key": "guide",
+   "type": "multi_line_text_field",
+   "old_digest": "ee2dfa3d9f959bd83fb50b9a15a504f9663aef758bf5cb3be2a1a12b704fe136",
+   "new_digest": "1756ddf5575cd8518c7065f9a5d8359e909284dd084e6c919f0c2a7072e9e890",
+   "write_method": "updateCollection (id + metafields)",
+   "replacements": {
+    "fr": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3033
+    },
+    "en": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 2896
+    },
+    "de": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3281
+    },
+    "es": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3112
+    },
+    "nl": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3090
+    }
+   },
+   "phrases_before_after": {
+    "fr": [
+     {
+      "before": "ong>1 015 tableaux</strong> et réuni <strong>4,1/5 sur 80 avis Trustpilot</strong>. Chaque œuvre est sélectionnée et ret",
+      "after": "ong>1 015 tableaux</strong> et réuni <strong>[[TP_SCORE]]/5 sur [[TP_COUNT]] avis Trustpilot</strong>. Chaque œuvre est "
+     }
+    ],
+    "en": [
+     {
+      "before": "g>1,015 canvases</strong> and earned <strong>4.1/5 from 80 Trustpilot reviews</strong>. Every piece is hand-selected and",
+      "after": "g>1,015 canvases</strong> and earned <strong>[[TP_SCORE]]/5 from [[TP_COUNT]] Trustpilot reviews</strong>. Every piece i"
+     }
+    ],
+    "de": [
+     {
+      "before": ">1.015 Bilder</strong> geliefert und <strong>4,1/5 bei 80 Trustpilot-Bewertungen</strong> erreicht. Jedes Werk wird von ",
+      "after": ">1.015 Bilder</strong> geliefert und <strong>[[TP_SCORE]]/5 bei [[TP_COUNT]] Trustpilot-Bewertungen</strong> erreicht. J"
+     }
+    ],
+    "es": [
+     {
+      "before": "ong>1.015 cuadros</strong> y reunido <strong>4,1/5 sobre 80 reseñas Trustpilot</strong>. Cada obra es seleccionada y ret",
+      "after": "ong>1.015 cuadros</strong> y reunido <strong>[[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas Trustpilot</strong>. Cada obra es"
+     }
+    ],
+    "nl": [
+     {
+      "before": "15 schilderijen</strong> geleverd en <strong>4,1/5 op 80 Trustpilot-reviews</strong> behaald. Elk werk wordt met de hand",
+      "after": "15 schilderijen</strong> geleverd en <strong>[[TP_SCORE]]/5 op [[TP_COUNT]] Trustpilot-reviews</strong> behaald. Elk wer"
+     }
+    ]
+   },
+   "translations_outdated_before": {
+    "en": false,
+    "de": false,
+    "es": false,
+    "nl": false
+   },
+   "translations_published": [
+    "en",
+    "de",
+    "es",
+    "nl"
+   ],
+   "online_verification": {
+    "fr": {
+     "url": "https://www.myselfmonart.com/collections/tableau-chambre",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:37:57Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    },
+    "en": {
+     "url": "https://www.myselfmonart.com/en/collections/bedroom-wall-art",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:37:59Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    },
+    "de": {
+     "url": "https://www.myselfmonart.com/de/collections/schlafzimmerbild",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:00Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    },
+    "es": {
+     "url": "https://www.myselfmonart.com/es/collections/cuadro-dormitorio",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:01Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    },
+    "nl": {
+     "url": "https://www.myselfmonart.com/nl/collections/slaapkamer-schilderij",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:02Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    }
+   },
+   "notes": [
+    "Avant l'amendement : réécriture à l'identique via updateCollection (id + metafields, valeur = extraction publique exacte ; updatedAt de la collection inchangé à 2026-10-05T00:10:02Z), puis réécriture à l'identique via setMetafield pour obtenir le GID. Contrôle a posteriori : digest = sha256(extraction publique) = ee2dfa3d…, traductions toujours outdated:false → aucune modification effective. Écriture des jetons ensuite via updateCollection."
+   ]
+  },
+  {
+   "handle": "tableau-chambre-garcon",
+   "collection_id": "gid://shopify/Collection/406514893055",
+   "metafield_gid": "gid://shopify/Metafield/64742963052891",
+   "namespace": "custom",
+   "key": "faq",
+   "type": "json",
+   "old_digest": "0b27f5e2ed1a05c3563694246a1cfefa1bc2c6dff9f63216898c8893f36ae716",
+   "new_digest": "a84733b671186d7cda0fd8a41faaa93f9b7080e45a4d2552a6a53fb600e0574b",
+   "write_method": "updateCollection (id + metafields)",
+   "replacements": {
+    "fr": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 2298
+    },
+    "en": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 2153
+    },
+    "de": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 2353
+    },
+    "es": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 2359
+    },
+    "nl": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 2290
+    }
+   },
+   "phrases_before_after": {
+    "fr": [
+     {
+      "before": " des intérieurs, avec une note Trustpilot de 4,1/5 sur 80 avis.</p>\"},{\"q\":\"Puis-je obtenir une œuvre peinte à la main o",
+      "after": " des intérieurs, avec une note Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis.</p>\"},{\"q\":\"Puis-je obtenir une œuvre"
+     }
+    ],
+    "en": [
+     {
+      "before": "oined interiors, with a Trustpilot rating of 4.1/5 from 80 reviews.</p>\"},{\"q\":\"Can I get a hand-painted piece or person",
+      "after": "oined interiors, with a Trustpilot rating of [[TP_SCORE]]/5 from [[TP_COUNT]] reviews.</p>\"},{\"q\":\"Can I get a hand-pain"
+     }
+    ],
+    "de": [
+     {
+      "before": "erreicht, mit einer Trustpilot-Bewertung von 4,1/5 bei 80 Bewertungen.</p>\"},{\"q\":\"Kann ich ein handgemaltes Werk oder e",
+      "after": "erreicht, mit einer Trustpilot-Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen.</p>\"},{\"q\":\"Kann ich ein handg"
+     }
+    ],
+    "es": [
+     {
+      "before": "ado a interiores, con una nota Trustpilot de 4,1/5 sobre 80 reseñas.</p>\"},{\"q\":\"¿Puedo obtener una obra pintada a mano ",
+      "after": "ado a interiores, con una nota Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas.</p>\"},{\"q\":\"¿Puedo obtener una o"
+     }
+    ],
+    "nl": [
+     {
+      "before": "ieurs vervoegd, met een Trustpilot-score van 4,1/5 op 80 reviews.</p>\"},{\"q\":\"Kan ik een handgeschilderd werk of persoon",
+      "after": "ieurs vervoegd, met een Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] reviews.</p>\"},{\"q\":\"Kan ik een handgeschild"
+     }
+    ]
+   },
+   "translations_outdated_before": {
+    "en": false,
+    "de": false,
+    "es": false,
+    "nl": false
+   },
+   "translations_published": [
+    "en",
+    "de",
+    "es",
+    "nl"
+   ],
+   "online_verification": {
+    "fr": {
+     "url": "https://www.myselfmonart.com/collections/tableau-chambre-garcon",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:03Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "faq_rendered_exactly": true,
+     "faq_jsonld_ok": true
+    },
+    "en": {
+     "url": "https://www.myselfmonart.com/en/collections/boys-bedroom-art-collection",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:04Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "faq_rendered_exactly": true,
+     "faq_jsonld_ok": true
+    },
+    "de": {
+     "url": "https://www.myselfmonart.com/de/collections/jungenzimmerbild",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:05Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "faq_rendered_exactly": true,
+     "faq_jsonld_ok": true
+    },
+    "es": {
+     "url": "https://www.myselfmonart.com/es/collections/cuadro-habitacion-nino",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:06Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "faq_rendered_exactly": true,
+     "faq_jsonld_ok": true
+    },
+    "nl": {
+     "url": "https://www.myselfmonart.com/nl/collections/jongenskamer-schilderij",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:07Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "faq_rendered_exactly": true,
+     "faq_jsonld_ok": true
+    }
+   },
+   "notes": [
+    "Avant l'amendement : réécriture à l'identique via setMetafield (valeur = reconstruction de la page publique, identique à getCollection) pour obtenir le GID. Contrôle a posteriori : digest = sha256(reconstruction) = 0b27f5e2…, traductions toujours outdated:false → aucune modification effective. Écriture des jetons ensuite via updateCollection."
+   ]
+  },
+  {
+   "handle": "tableau-chambre-garcon",
+   "collection_id": "gid://shopify/Collection/406514893055",
+   "metafield_gid": "gid://shopify/Metafield/64742949585243",
+   "namespace": "custom",
+   "key": "guide",
+   "type": "multi_line_text_field",
+   "old_digest": "eb31ffbe7dc8064167c6e1678d193d0102d5fbda219c46c6f76a2c7006965339",
+   "new_digest": "eb0591f6711c2293685cbf9ef9f7a7af175db574d7c0dae7d470df2a9cfa18b3",
+   "write_method": "updateCollection (id + metafields)",
+   "replacements": {
+    "fr": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3165
+    },
+    "en": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3055
+    },
+    "de": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3422
+    },
+    "es": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3301
+    },
+    "nl": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3181
+    }
+   },
+   "phrases_before_after": {
+    "fr": [
+     {
+      "before": "s clients nous accordent une note de <strong>4,1/5 sur 80 avis Trustpilot</strong>. Notre studio créatif et notre servic",
+      "after": "s clients nous accordent une note de <strong>[[TP_SCORE]]/5 sur [[TP_COUNT]] avis Trustpilot</strong>. Notre studio créa"
+     }
+    ],
+    "en": [
+     {
+      "before": "nd a home, and our customers rate us <strong>4.1/5 from 80 Trustpilot reviews</strong>. Our creative studio and customer",
+      "after": "nd a home, and our customers rate us <strong>[[TP_SCORE]]/5 from [[TP_COUNT]] Trustpilot reviews</strong>. Our creative "
+     }
+    ],
+    "de": [
+     {
+      "before": " Kunden geben uns eine Bewertung von <strong>4,1/5 bei 80 Trustpilot-Bewertungen</strong>. Unser kreatives Studio und un",
+      "after": " Kunden geben uns eine Bewertung von <strong>[[TP_SCORE]]/5 bei [[TP_COUNT]] Trustpilot-Bewertungen</strong>. Unser krea"
+     }
+    ],
+    "es": [
+     {
+      "before": "ros clientes nos otorgan una nota de <strong>4,1/5 sobre 80 reseñas Trustpilot</strong>. Nuestro estudio creativo y nues",
+      "after": "ros clientes nos otorgan una nota de <strong>[[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas Trustpilot</strong>. Nuestro estu"
+     }
+    ],
+    "nl": [
+     {
+      "before": "nze klanten kennen ons een score van <strong>4,1/5 op 80 Trustpilot-reviews</strong> toe. Onze creatieve studio en onze ",
+      "after": "nze klanten kennen ons een score van <strong>[[TP_SCORE]]/5 op [[TP_COUNT]] Trustpilot-reviews</strong> toe. Onze creati"
+     }
+    ]
+   },
+   "translations_outdated_before": {
+    "en": false,
+    "de": false,
+    "es": false,
+    "nl": false
+   },
+   "translations_published": [
+    "en",
+    "de",
+    "es",
+    "nl"
+   ],
+   "online_verification": {
+    "fr": {
+     "url": "https://www.myselfmonart.com/collections/tableau-chambre-garcon",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:03Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    },
+    "en": {
+     "url": "https://www.myselfmonart.com/en/collections/boys-bedroom-art-collection",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:04Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    },
+    "de": {
+     "url": "https://www.myselfmonart.com/de/collections/jungenzimmerbild",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:05Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    },
+    "es": {
+     "url": "https://www.myselfmonart.com/es/collections/cuadro-habitacion-nino",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:06Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    },
+    "nl": {
+     "url": "https://www.myselfmonart.com/nl/collections/jongenskamer-schilderij",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:07Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    }
+   },
+   "notes": [
+    "Avant l'amendement : réécriture à l'identique via setMetafield pour obtenir le GID. Contrôle a posteriori : digest = sha256(extraction publique), traductions toujours outdated:false → aucune modification effective. Écriture des jetons ensuite via updateCollection (guide + faq dans le même appel).",
+    "ES : premier envoi avec une coquille (ensoación, 3300 car.), republié aussitôt correctement (3301 car.), contrôlé en ligne à l'identique."
+   ]
+  },
+  {
+   "handle": "tableau-ethnique",
+   "collection_id": "gid://shopify/Collection/599645290843",
+   "metafield_gid": "gid://shopify/Metafield/64742998147419",
+   "namespace": "custom",
+   "key": "guide",
+   "type": "multi_line_text_field",
+   "old_digest": "a0dfaf128c4e565a91880ab265bc42db0bdc9f2cb31c48251c4fdbe8bc120f40",
+   "new_digest": "237a9adc89a09f9b428f1409aed9b0aaf57f9b75e936cef10cc2a64950c85be2",
+   "write_method": "setMetafield (amendement du coordinateur), valeur avec jetons écrite directement",
+   "replacements": {
+    "fr": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3133
+    },
+    "en": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3001
+    },
+    "de": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3481
+    },
+    "es": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3269
+    },
+    "nl": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3164
+    }
+   },
+   "phrases_before_after": {
+    "fr": [
+     {
+      "before": "ccordent avec une note Trustpilot de <strong>4,1/5</strong> sur 80 avis. Une question, un doute sur un format ? Notre se",
+      "after": "ccordent avec une note Trustpilot de <strong>[[TP_SCORE]]/5</strong> sur [[TP_COUNT]] avis. Une question, un doute sur u"
+     }
+    ],
+    "en": [
+     {
+      "before": "s agree, with a Trustpilot rating of <strong>4.1/5</strong> from 80 reviews. A question or unsure about sizing? Our Toul",
+      "after": "s agree, with a Trustpilot rating of <strong>[[TP_SCORE]]/5</strong> from [[TP_COUNT]] reviews. A question or unsure abo"
+     }
+    ],
+    "de": [
+     {
+      "before": "s mit einer Trustpilot-Bewertung von <strong>4,1/5</strong> bei 80 Bewertungen. Eine Frage, ein Zweifel bei einem Format",
+      "after": "s mit einer Trustpilot-Bewertung von <strong>[[TP_SCORE]]/5</strong> bei [[TP_COUNT]] Bewertungen. Eine Frage, ein Zweif"
+     }
+    ],
+    "es": [
+     {
+      "before": "reconocen con una nota Trustpilot de <strong>4,1/5</strong> sobre 80 reseñas. ¿Una pregunta, una duda sobre un formato? ",
+      "after": "reconocen con una nota Trustpilot de <strong>[[TP_SCORE]]/5</strong> sobre [[TP_COUNT]] reseñas. ¿Una pregunta, una duda"
+     }
+    ],
+    "nl": [
+     {
+      "before": "die toe met een Trustpilot-score van <strong>4,1/5</strong> op 80 beoordelingen. Een vraag, twijfel over een formaat? On",
+      "after": "die toe met een Trustpilot-score van <strong>[[TP_SCORE]]/5</strong> op [[TP_COUNT]] beoordelingen. Een vraag, twijfel o"
+     }
+    ]
+   },
+   "translations_outdated_before": "non mesurable (GID inconnu avant écriture directe via setMetafield)",
+   "translations_published": [
+    "en",
+    "de",
+    "es",
+    "nl"
+   ],
+   "online_verification": {
+    "fr": {
+     "url": "https://www.myselfmonart.com/collections/tableau-ethnique",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:08Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    },
+    "en": {
+     "url": "https://www.myselfmonart.com/en/collections/ethnic-wall-art",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:09Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    },
+    "de": {
+     "url": "https://www.myselfmonart.com/de/collections/ethnisches-wandbild",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:10Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    },
+    "es": {
+     "url": "https://www.myselfmonart.com/es/collections/cuadro-etnico",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:11Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    },
+    "nl": {
+     "url": "https://www.myselfmonart.com/nl/collections/etnisch-schilderij",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:12Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    }
+   },
+   "notes": [
+    "Écrit directement avec setMetafield (amendement) : état outdated avant passage non mesurable (GID inconnu avant écriture). Ancien digest = sha256 de l'extraction publique (2 extractions identiques)."
+   ]
+  },
+  {
+   "handle": "tableau-noir-et-blanc",
+   "collection_id": "gid://shopify/Collection/600281612635",
+   "metafield_gid": "gid://shopify/Metafield/64743016989019",
+   "namespace": "custom",
+   "key": "guide",
+   "type": "multi_line_text_field",
+   "old_digest": "3b01e726982f38d7cea4faa8dfb408f19b3136ea0e397236b75ea1eaeebeddbd",
+   "new_digest": "190c6ce1d8ff2f51343bab605d01bf5382e332797753a84af2d2e843f54b71b7",
+   "write_method": "setMetafield (amendement du coordinateur), valeur avec jetons écrite directement",
+   "replacements": {
+    "fr": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3056
+    },
+    "en": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3015
+    },
+    "de": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3320
+    },
+    "es": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3224
+    },
+    "nl": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3102
+    }
+   },
+   "phrases_before_after": {
+    "fr": [
+     {
+      "before": "s clients nous accordent une note de <strong>4,1/5 sur 80 avis Trustpilot</strong>, et notre service client de Toulouse ",
+      "after": "s clients nous accordent une note de <strong>[[TP_SCORE]]/5 sur [[TP_COUNT]] avis Trustpilot</strong>, et notre service "
+     }
+    ],
+    "en": [
+     {
+      "before": "rope</strong>. Our customers rate us <strong>4.1/5 on 80 Trustpilot reviews</strong>, and our Toulouse-based customer se",
+      "after": "rope</strong>. Our customers rate us <strong>[[TP_SCORE]]/5 on [[TP_COUNT]] Trustpilot reviews</strong>, and our Toulous"
+     }
+    ],
+    "de": [
+     {
+      "before": " Kunden geben uns eine Bewertung von <strong>4,1/5 bei 80 Trustpilot-Bewertungen</strong>, und unser Kundenservice in To",
+      "after": " Kunden geben uns eine Bewertung von <strong>[[TP_SCORE]]/5 bei [[TP_COUNT]] Trustpilot-Bewertungen</strong>, und unser "
+     }
+    ],
+    "es": [
+     {
+      "before": "ros clientes nos otorgan una nota de <strong>4,1/5 sobre 80 reseñas en Trustpilot</strong>, y nuestro servicio de atenci",
+      "after": "ros clientes nos otorgan una nota de <strong>[[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas en Trustpilot</strong>, y nuestro"
+     }
+    ],
+    "nl": [
+     {
+      "before": "nze klanten kennen ons een score van <strong>4,1/5 op 80 Trustpilot-beoordelingen</strong> toe, en onze klantenservice i",
+      "after": "nze klanten kennen ons een score van <strong>[[TP_SCORE]]/5 op [[TP_COUNT]] Trustpilot-beoordelingen</strong> toe, en on"
+     }
+    ]
+   },
+   "translations_outdated_before": "non mesurable (GID inconnu avant écriture directe via setMetafield)",
+   "translations_published": [
+    "en",
+    "de",
+    "es",
+    "nl"
+   ],
+   "online_verification": {
+    "fr": {
+     "url": "https://www.myselfmonart.com/collections/tableau-noir-et-blanc",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:13Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    },
+    "en": {
+     "url": "https://www.myselfmonart.com/en/collections/black-and-white-art-prints",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:14Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    },
+    "de": {
+     "url": "https://www.myselfmonart.com/de/collections/schwarz-weiss-wandbild",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:15Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    },
+    "es": {
+     "url": "https://www.myselfmonart.com/es/collections/cuadro-en-blanco-y-negro",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:16Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    },
+    "nl": {
+     "url": "https://www.myselfmonart.com/nl/collections/zwart-wit-schilderij",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:17Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    }
+   },
+   "notes": [
+    "Écrit directement avec setMetafield (amendement) : état outdated avant passage non mesurable. Ancien digest = sha256 de l'extraction publique (2 extractions identiques)."
+   ]
+  },
+  {
+   "handle": "tableau-fleurs",
+   "collection_id": "gid://shopify/Collection/607034311003",
+   "metafield_gid": "gid://shopify/Metafield/64743008895323",
+   "namespace": "custom",
+   "key": "faq",
+   "type": "json",
+   "old_digest": "057a2de1a44025bfe9faab895d30aafa948c46be6c084bc09767401ac8d2f651",
+   "new_digest": "ae80a1a06de503d2afeeebd6fb708cb74838fde12e98e907a529afdc05c831c7",
+   "write_method": "setMetafield (amendement du coordinateur), valeur avec jetons écrite directement",
+   "replacements": {
+    "fr": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 2231
+    },
+    "en": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 1924
+    },
+    "de": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 2331
+    },
+    "es": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 2185
+    },
+    "nl": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 2272
+    }
+   },
+   "phrases_before_after": {
+    "fr": [
+     {
+      "before": " 1 015 tableaux, avec une note Trustpilot de 4,1/5 sur 80 avis.</p>\"},{\"q\":\"Puis-je être accompagné pour mon choix ou de",
+      "after": " 1 015 tableaux, avec une note Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis.</p>\"},{\"q\":\"Puis-je être accompagné p"
+     }
+    ],
+    "en": [
+     {
+      "before": " 1,015 artworks, with a Trustpilot rating of 4.1/5 from 80 reviews.</p>\"},{\"q\":\"Can I get help choosing or request a cus",
+      "after": " 1,015 artworks, with a Trustpilot rating of [[TP_SCORE]]/5 from [[TP_COUNT]] reviews.</p>\"},{\"q\":\"Can I get help choosi"
+     }
+    ],
+    "de": [
+     {
+      "before": "eliefert, mit einer Trustpilot-Bewertung von 4,1/5 bei 80 Bewertungen.</p>\"},{\"q\":\"Kann ich bei meiner Wahl begleitet we",
+      "after": "eliefert, mit einer Trustpilot-Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen.</p>\"},{\"q\":\"Kann ich bei meine"
+     }
+    ],
+    "es": [
+     {
+      "before": "de 1.015 cuadros, con una nota Trustpilot de 4,1/5 sobre 80 reseñas.</p>\"},{\"q\":\"¿Puedo recibir acompañamiento para mi e",
+      "after": "de 1.015 cuadros, con una nota Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas.</p>\"},{\"q\":\"¿Puedo recibir acomp"
+     }
+    ],
+    "nl": [
+     {
+      "before": "rijen geleverd, met een Trustpilot-score van 4,1/5 op 80 beoordelingen.</p>\"},{\"q\":\"Kan ik begeleid worden bij mijn keuz",
+      "after": "rijen geleverd, met een Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] beoordelingen.</p>\"},{\"q\":\"Kan ik begeleid w"
+     }
+    ]
+   },
+   "translations_outdated_before": "non mesurable (GID inconnu avant écriture directe via setMetafield)",
+   "translations_published": [
+    "en",
+    "de",
+    "es",
+    "nl"
+   ],
+   "online_verification": {
+    "fr": {
+     "url": "https://www.myselfmonart.com/collections/tableau-fleurs",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:18Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "faq_rendered_exactly": true,
+     "faq_jsonld_ok": true
+    },
+    "en": {
+     "url": "https://www.myselfmonart.com/en/collections/floral-artworks",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:19Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "faq_rendered_exactly": true,
+     "faq_jsonld_ok": true
+    },
+    "de": {
+     "url": "https://www.myselfmonart.com/de/collections/blumenbilder",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:20Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "faq_rendered_exactly": true,
+     "faq_jsonld_ok": true
+    },
+    "es": {
+     "url": "https://www.myselfmonart.com/es/collections/cuadros-de-flores",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:21Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "faq_rendered_exactly": true,
+     "faq_jsonld_ok": true
+    },
+    "nl": {
+     "url": "https://www.myselfmonart.com/nl/collections/bloemen-schilderij",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:22Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "faq_rendered_exactly": true,
+     "faq_jsonld_ok": true
+    }
+   },
+   "notes": [
+    "Écrit directement avec setMetafield (amendement) : état outdated avant passage non mesurable. Valeur getCollection = reconstruction page publique (q JSON-LD + a accordéon), égalité à l'octet ; ancien digest = sha256 de cette valeur. Traductions : valeurs de l'outil = reconstruction des pages traduites (longueurs identiques)."
+   ]
+  },
+  {
+   "handle": "tableau-fleurs",
+   "collection_id": "gid://shopify/Collection/607034311003",
+   "metafield_gid": "gid://shopify/Metafield/64742999097691",
+   "namespace": "custom",
+   "key": "guide",
+   "type": "multi_line_text_field",
+   "old_digest": "e295311aef6fc49287bd2d6c23bdd777a4677c09759439abab6f7ddf21a896e3",
+   "new_digest": "d4d3117aa6d3b04b4cd191640ff2af0a9f8bb227e62f33971e9d626f8227b86b",
+   "write_method": "setMetafield (amendement du coordinateur), valeur avec jetons écrite directement",
+   "replacements": {
+    "fr": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3051
+    },
+    "en": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 2930
+    },
+    "de": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3266
+    },
+    "es": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3102
+    },
+    "nl": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3123
+    }
+   },
+   "phrases_before_after": {
+    "fr": [
+     {
+      "before": "5 tableaux livrés, et une note Trustpilot de 4,1/5 sur 80 avis. Nos œuvres sont sélectionnées et retouchées à la main pa",
+      "after": "5 tableaux livrés, et une note Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis. Nos œuvres sont sélectionnées et reto"
+     }
+    ],
+    "en": [
+     {
+      "before": "rtworks delivered and a Trustpilot rating of 4.1/5 from 80 reviews. Our pieces are hand-selected and retouched by our ar",
+      "after": "rtworks delivered and a Trustpilot rating of [[TP_SCORE]]/5 from [[TP_COUNT]] reviews. Our pieces are hand-selected and "
+     }
+    ],
+    "de": [
+     {
+      "before": "n Bildern und einer Trustpilot-Bewertung von 4,1/5 bei 80 Bewertungen. Unsere Werke werden von unserer künstlerischen Le",
+      "after": "n Bildern und einer Trustpilot-Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen. Unsere Werke werden von unsere"
+     }
+    ],
+    "es": [
+     {
+      "before": " cuadros entregados y una nota Trustpilot de 4,1/5 sobre 80 reseñas. Nuestras obras se seleccionan y se retocan a mano p",
+      "after": " cuadros entregados y una nota Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas. Nuestras obras se seleccionan y "
+     }
+    ],
+    "nl": [
+     {
+      "before": "rde schilderijen en een Trustpilot-score van 4,1/5 op 80 beoordelingen. Onze werken worden met de hand geselecteerd en g",
+      "after": "rde schilderijen en een Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] beoordelingen. Onze werken worden met de han"
+     }
+    ]
+   },
+   "translations_outdated_before": "non mesurable (GID inconnu avant écriture directe via setMetafield)",
+   "translations_published": [
+    "en",
+    "de",
+    "es",
+    "nl"
+   ],
+   "online_verification": {
+    "fr": {
+     "url": "https://www.myselfmonart.com/collections/tableau-fleurs",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:18Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    },
+    "en": {
+     "url": "https://www.myselfmonart.com/en/collections/floral-artworks",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:19Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    },
+    "de": {
+     "url": "https://www.myselfmonart.com/de/collections/blumenbilder",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:20Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    },
+    "es": {
+     "url": "https://www.myselfmonart.com/es/collections/cuadros-de-flores",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:21Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    },
+    "nl": {
+     "url": "https://www.myselfmonart.com/nl/collections/bloemen-schilderij",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:22Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    }
+   },
+   "notes": [
+    "Écrit directement avec setMetafield (amendement) : état outdated avant passage non mesurable. Ancien digest = sha256 de l'extraction publique (2 extractions identiques)."
+   ]
+  },
+  {
+   "handle": "tableau-fruits-et-legumes",
+   "collection_id": "gid://shopify/Collection/623299887451",
+   "metafield_gid": "gid://shopify/Metafield/64743046054235",
+   "namespace": "custom",
+   "key": "guide",
+   "type": "multi_line_text_field",
+   "old_digest": "09dea18282f1ce299f36b03ae7f1709668d527d10deae722f1133e7ff40f9b54",
+   "new_digest": "f470b0473c20fad2e248b8f2c7e92185c5ec256cb6fa689d67cd8299cb78c554",
+   "write_method": "setMetafield (amendement du coordinateur), valeur avec jetons écrite directement",
+   "replacements": {
+    "fr": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3025
+    },
+    "en": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 2806
+    },
+    "de": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3281
+    },
+    "es": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3033
+    },
+    "nl": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3016
+    }
+   },
+   "phrases_before_after": {
+    "fr": [
+     {
+      "before": "erieurs, avec une note Trustpilot de <strong>4,1/5 sur 80 avis</strong>. Notre service client, base a Toulouse, vous acc",
+      "after": "erieurs, avec une note Trustpilot de <strong>[[TP_SCORE]]/5 sur [[TP_COUNT]] avis</strong>. Notre service client, base a"
+     }
+    ],
+    "en": [
+     {
+      "before": " a home, with a Trustpilot rating of <strong>4.1/5 from 80 reviews</strong>. Our Toulouse-based customer support is here",
+      "after": " a home, with a Trustpilot rating of <strong>[[TP_SCORE]]/5 from [[TP_COUNT]] reviews</strong>. Our Toulouse-based custo"
+     }
+    ],
+    "de": [
+     {
+      "before": ", mit einer Trustpilot-Bewertung von <strong>4,1/5 bei 80 Bewertungen</strong>. Unser Kundenservice mit Sitz in Toulouse",
+      "after": ", mit einer Trustpilot-Bewertung von <strong>[[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen</strong>. Unser Kundenservice m"
+     }
+    ],
+    "es": [
+     {
+      "before": " hogares, con una nota Trustpilot de <strong>4,1/5 sobre 80 reseñas</strong>. Nuestro servicio de atención al cliente, c",
+      "after": " hogares, con una nota Trustpilot de <strong>[[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas</strong>. Nuestro servicio de ate"
+     }
+    ],
+    "nl": [
+     {
+      "before": "rvoegd, met een Trustpilot-score van <strong>4,1/5 op 80 beoordelingen</strong>. Onze klantenservice, gevestigd in Toulo",
+      "after": "rvoegd, met een Trustpilot-score van <strong>[[TP_SCORE]]/5 op [[TP_COUNT]] beoordelingen</strong>. Onze klantenservice,"
+     }
+    ]
+   },
+   "translations_outdated_before": "non mesurable (GID inconnu avant écriture directe via setMetafield)",
+   "translations_published": [
+    "en",
+    "de",
+    "es",
+    "nl"
+   ],
+   "online_verification": {
+    "fr": {
+     "url": "https://www.myselfmonart.com/collections/tableau-fruits-et-legumes",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:23Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    },
+    "en": {
+     "url": "https://www.myselfmonart.com/en/collections/fruit-vegetable-wall-art",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:24Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    },
+    "de": {
+     "url": "https://www.myselfmonart.com/de/collections/bilder-mit-obst-und-gemuese",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:25Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    },
+    "es": {
+     "url": "https://www.myselfmonart.com/es/collections/cuadros-de-frutas-y-verduras",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:26Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    },
+    "nl": {
+     "url": "https://www.myselfmonart.com/nl/collections/fruit-en-groenteschilderij",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:27Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    }
+   },
+   "notes": [
+    "Écrit directement avec setMetafield (amendement) : état outdated avant passage non mesurable. Ancien digest = sha256 de l'extraction publique (2 extractions identiques)."
+   ]
+  },
+  {
+   "handle": "tableaux-frida-kahlo",
+   "collection_id": "gid://shopify/Collection/644724818267",
+   "metafield_gid": "gid://shopify/Metafield/64741795955035",
+   "namespace": "custom",
+   "key": "guide",
+   "type": "multi_line_text_field",
+   "old_digest": "8ac49a6a29ff2f34f705808bbd8bc689f57870f8d84442dce3906f2ad933e76f",
+   "new_digest": "480167f888d2919e1e629dfb901562b9c1c18a4d78d9f2a8dc342405bc0914a5",
+   "write_method": "setMetafield (amendement du coordinateur), valeur avec jetons écrite directement",
+   "replacements": {
+    "fr": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 2989
+    },
+    "en": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 2930
+    },
+    "de": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3206
+    },
+    "es": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 3065
+    },
+    "nl": {
+     "tokens": 2,
+     "score": 1,
+     "count": 1,
+     "phrases": 1,
+     "length_sent": 2955
+    }
+   },
+   "phrases_before_after": {
+    "fr": [
+     {
+      "before": "s</strong> et une note <strong>Trustpilot de 4,1/5 sur 80 avis</strong> temoignent de la confiance que vous nous accorde",
+      "after": "s</strong> et une note <strong>Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis</strong> temoignent de la confiance qu"
+     }
+    ],
+    "en": [
+     {
+      "before": "15 artworks delivered</strong> and a <strong>4.1/5 Trustpilot rating from 80 reviews</strong> reflect the trust you plac",
+      "after": "15 artworks delivered</strong> and a <strong>[[TP_SCORE]]/5 Trustpilot rating from [[TP_COUNT]] reviews</strong> reflect"
+     }
+    ],
+    "de": [
+     {
+      "before": "strong> und eine Note <strong>Trustpilot von 4,1/5 bei 80 Bewertungen</strong> belegen das Vertrauen, das Sie uns entgeg",
+      "after": "strong> und eine Note <strong>Trustpilot von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen</strong> belegen das Vertrauen,"
+     }
+    ],
+    "es": [
+     {
+      "before": "os</strong> y una nota <strong>Trustpilot de 4,1/5 sobre 80 opiniones</strong> dan fe de la confianza que nos brinda. ¿U",
+      "after": "os</strong> y una nota <strong>Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] opiniones</strong> dan fe de la confianza"
+     }
+    ],
+    "nl": [
+     {
+      "before": "/strong> en een <strong>Trustpilot-score van 4,1/5 op 80 beoordelingen</strong> getuigen van het vertrouwen dat u ons sc",
+      "after": "/strong> en een <strong>Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] beoordelingen</strong> getuigen van het vert"
+     }
+    ]
+   },
+   "translations_outdated_before": "non mesurable (GID inconnu avant écriture directe via setMetafield)",
+   "translations_published": [
+    "en",
+    "de",
+    "es",
+    "nl"
+   ],
+   "online_verification": {
+    "fr": {
+     "url": "https://www.myselfmonart.com/collections/tableaux-frida-kahlo",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:28Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    },
+    "en": {
+     "url": "https://www.myselfmonart.com/en/collections/frida-kahlo-art-collection",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:28Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    },
+    "de": {
+     "url": "https://www.myselfmonart.com/de/collections/frida-kahlo-bild",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:29Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    },
+    "es": {
+     "url": "https://www.myselfmonart.com/es/collections/cuadro-frida-kahlo",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:30Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    },
+    "nl": {
+     "url": "https://www.myselfmonart.com/nl/collections/frida-kahlo-schilderijen",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:31Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": true,
+     "guide_rendered_exactly": true
+    }
+   },
+   "notes": [
+    "Écrit directement avec setMetafield (amendement) : état outdated avant passage non mesurable. Ancien digest = sha256 de l'extraction publique (2 extractions identiques)."
+   ]
+  },
+  {
+   "handle": "posters-affiches-cheval",
+   "collection_id": "gid://shopify/Collection/675280126299",
+   "metafield_gid": "gid://shopify/Metafield/65790151786843",
+   "namespace": "custom",
+   "key": "faq",
+   "type": "json",
+   "old_digest": "f3451f975f5fa358175554217a4551cd3309ef9a4bd0c7250ee246b5267bb3a4",
+   "new_digest": "60ab30bf177a236e342ed39a130c38fda12a1105b4d01f656b66d8ed8bf6c9e3",
+   "write_method": "setMetafield (amendement du coordinateur), valeur avec jetons écrite directement",
+   "replacements": {
+    "fr": {
+     "tokens": 1,
+     "score": 1,
+     "count": 0,
+     "phrases": 1,
+     "length_sent": 2115
+    },
+    "en": {
+     "tokens": 1,
+     "score": 1,
+     "count": 0,
+     "phrases": 1,
+     "length_sent": 1839
+    },
+    "de": {
+     "tokens": 1,
+     "score": 1,
+     "count": 0,
+     "phrases": 1,
+     "length_sent": 2163
+    },
+    "es": {
+     "tokens": 1,
+     "score": 1,
+     "count": 0,
+     "phrases": 1,
+     "length_sent": 2160
+    },
+    "nl": {
+     "tokens": 1,
+     "score": 1,
+     "count": 0,
+     "phrases": 1,
+     "length_sent": 2045
+    }
+   },
+   "phrases_before_after": {
+    "fr": [
+     {
+      "before": "selfMonArt, maison fondée en 2022, est notée 4,1/5 sur Trustpilot. Une question ? Notre service client répond au 09 60 4",
+      "after": "selfMonArt, maison fondée en 2022, est notée [[TP_SCORE]]/5 sur Trustpilot. Une question ? Notre service client répond a"
+     }
+    ],
+    "en": [
+     {
+      "before": "ion. MyselfMonArt, founded in 2022, is rated 4.1/5 on Trustpilot. Questions? Our customer service answers at 09 60 44 61",
+      "after": "ion. MyselfMonArt, founded in 2022, is rated [[TP_SCORE]]/5 on Trustpilot. Questions? Our customer service answers at 09"
+     }
+    ],
+    "de": [
+     {
+      "before": "nArt, gegründet 2022, ist auf Trustpilot mit 4,1/5 bewertet. Eine Frage? Unser Kundenservice antwortet unter 09 60 44 61",
+      "after": "nArt, gegründet 2022, ist auf Trustpilot mit [[TP_SCORE]]/5 bewertet. Eine Frage? Unser Kundenservice antwortet unter 09"
+     }
+    ],
+    "es": [
+     {
+      "before": "Art, casa fundada en 2022, está valorada con 4,1/5 en Trustpilot. ¿Dudas? Nuestro servicio de atención al cliente respon",
+      "after": "Art, casa fundada en 2022, está valorada con [[TP_SCORE]]/5 en Trustpilot. ¿Dudas? Nuestro servicio de atención al clien"
+     }
+    ],
+    "nl": [
+     {
+      "before": "Art, opgericht in 2022, wordt beoordeeld met 4,1/5 op Trustpilot. Vragen? Onze klantenservice helpt je via 09 60 44 61 5",
+      "after": "Art, opgericht in 2022, wordt beoordeeld met [[TP_SCORE]]/5 op Trustpilot. Vragen? Onze klantenservice helpt je via 09 6"
+     }
+    ]
+   },
+   "translations_outdated_before": "non mesurable (GID inconnu avant écriture directe via setMetafield)",
+   "translations_published": [
+    "en",
+    "de",
+    "es",
+    "nl"
+   ],
+   "online_verification": {
+    "fr": {
+     "url": "https://www.myselfmonart.com/collections/posters-affiches-cheval",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:32Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": false,
+     "faq_rendered_exactly": true,
+     "faq_jsonld_ok": true
+    },
+    "en": {
+     "url": "https://www.myselfmonart.com/en/collections/horse-posters-prints",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:33Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": false,
+     "faq_rendered_exactly": true,
+     "faq_jsonld_ok": true
+    },
+    "de": {
+     "url": "https://www.myselfmonart.com/de/collections/pferde-poster-plakate",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:33Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": false,
+     "faq_rendered_exactly": true,
+     "faq_jsonld_ok": true
+    },
+    "es": {
+     "url": "https://www.myselfmonart.com/es/collections/posters-laminas-caballos",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:34Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": false,
+     "faq_rendered_exactly": true,
+     "faq_jsonld_ok": true
+    },
+    "nl": {
+     "url": "https://www.myselfmonart.com/nl/collections/paarden-posters-en-affiches",
+     "ok": true,
+     "fetched_at": "2026-10-05T10:38:35Z",
+     "raw_token_in_html": false,
+     "old_score_near_trustpilot": 0,
+     "old_count_near_trustpilot": 0,
+     "old_4_1_over_5_anywhere": 0,
+     "new_score_present": true,
+     "86_near_trustpilot": false,
+     "faq_rendered_exactly": true,
+     "faq_jsonld_ok": true
+    }
+   },
+   "notes": [
+    "Écrit directement avec setMetafield (amendement) : état outdated avant passage non mesurable. Valeur getCollection = reconstruction page publique (q JSON-LD + a accordéon), égalité à l'octet. Phrase sans nombre d'avis : seul [[TP_SCORE]] posé (aucun 80 à remplacer). Traductions : valeurs de l'outil = reconstruction des pages traduites (longueurs identiques)."
+   ]
+  }
+ ]
+}

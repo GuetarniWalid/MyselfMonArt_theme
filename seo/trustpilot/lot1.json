@@ -1,0 +1,1664 @@
+{
+ "lot": "lot1",
+ "date": "2026-10-05",
+ "operation": "Passage en jetons Trustpilot ([[TP_SCORE]], [[TP_COUNT]]) des textes éditoriaux de collections",
+ "collections": [
+  "tableau-cuisine",
+  "tableau-chambre-adulte",
+  "tableau-japonais",
+  "tableau-gris",
+  "tableau-zen",
+  "tableau-abstrait",
+  "horoscope-bebe",
+  "posters-affiches-fleurs"
+ ],
+ "notes": [
+  "custom.intro : aucune occurrence Trustpilot dans les 8 collections, non modifié.",
+  "tableau-cuisine : test préalable du 05/10 ~10:15 UTC, réécriture à l'identique de custom.guide via updateCollection (id + metafields seulement) pour chercher le GID ; updatedAt inchangé (2026-10-05T00:10:01Z), aucun GID renvoyé, aucun effet.",
+  "GID des métachamps obtenus via setMetafield, en écrivant directement la nouvelle valeur avec jetons (amendement du coordinateur).",
+  "posters-affiches-fleurs : la FAQ ne cite que la note (« notée 4,1/5 sur Trustpilot »), sans nombre d'avis : 1 remplacement par langue, pas de [[TP_COUNT]].",
+  "tableau-chambre-adulte : 2 champs (guide + FAQ), conforme aux 2 phrases par langue de l'inventaire.",
+  "Aucune occurrence supplémentaire au-delà de l'inventaire (pas d'alt ni d'attribut concerné).",
+  "Textes conservés tels quels, y compris coquilles existantes (ex. NL japonais « precaisie », FR abstrait sans accents)."
+ ],
+ "entrees": [
+  {
+   "handle": "tableau-cuisine",
+   "collection_id": "gid://shopify/Collection/403801309439",
+   "metafield_gid": "gid://shopify/Metafield/64742946144603",
+   "namespace": "custom",
+   "key": "guide",
+   "type": "multi_line_text_field",
+   "ancien_digest": "1589ec827ba0aaa6ffdf062dc56e1e0a598d61271bbc2ed25bf50cd87ccbdd63",
+   "ancien_digest_note": "sha256 calculé de la valeur FR de départ (GID inconnu avant l'écriture, donc digest non lisible avant) ; exactitude prouvée par double extraction publique identique",
+   "nouveau_digest": "a62fdad21963b63d51c64bee69ce003d24ef893e13e89f597bdd761ac6892aa2",
+   "nouveau_digest_egal_sha256": true,
+   "ecriture": "setMetafield (amendement du coordinateur)",
+   "remplacements_fr": 2,
+   "remplacements_par_langue": {
+    "en": 2,
+    "de": 2,
+    "es": 2,
+    "nl": 2
+   },
+   "traductions_outdated_avant_passage": "indéterminable : sans GID avant l'écriture FR, l'état n'a pas pu être lu ; juste après l'écriture source les 4 traductions étaient outdated:true (effet attendu de la modification), longueurs identiques aux extractions publiques",
+   "langues": {
+    "fr": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 2857,
+     "longueur_apres": 2876,
+     "sha256_avant": "1589ec827ba0aaa6ffdf062dc56e1e0a598d61271bbc2ed25bf50cd87ccbdd63",
+     "sha256_apres": "a62fdad21963b63d51c64bee69ce003d24ef893e13e89f597bdd761ac6892aa2",
+     "phrases": [
+      {
+       "avant": "</strong> et réuni une note <strong>Trustpilot de 4,1/5 sur 80 avis</strong>. Nos créations sont conçues en France par n",
+       "apres": "</strong> et réuni une note <strong>Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis</strong>. Nos créations sont conç"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/collections/tableau-cuisine",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     }
+    },
+    "en": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 2686,
+     "longueur_apres": 2705,
+     "sha256_avant": "2cef4067e257bb1de7f684e6d8ff3f08f629935d3bf34c3a1bf31b3c6a0721ed",
+     "sha256_apres": "a1ecdafa10590e30b8eb7e13fa4a1788ebb140c7c43f96b6a111a867f169a2b5",
+     "phrases": [
+      {
+       "avant": "strong> and earned a <strong>Trustpilot rating of 4.1/5 from 80 reviews</strong>. Our creations are designed in France b",
+       "apres": "strong> and earned a <strong>Trustpilot rating of [[TP_SCORE]]/5 from [[TP_COUNT]] reviews</strong>. Our creations are d"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/en/collections/kitchen-wall-art",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 2705,
+      "valueLength_ok": true
+     }
+    },
+    "de": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 3035,
+     "longueur_apres": 3054,
+     "sha256_avant": "fa87391bb294e878b154ff710058de770f718c1900026dcb4032d357fff60c94",
+     "sha256_apres": "4536588987c6d74caf46b25087003f15c563c0b6262a9454b7f18fbec38ec68e",
+     "phrases": [
+      {
+       "avant": "liefert und eine <strong>Trustpilot-Bewertung von 4,1/5 bei 80 Bewertungen</strong> erreicht. Unsere Kreationen werden i",
+       "apres": "liefert und eine <strong>Trustpilot-Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen</strong> erreicht. Unsere "
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/de/collections/kuechenbild",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 3054,
+      "valueLength_ok": true
+     }
+    },
+    "es": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 2892,
+     "longueur_apres": 2911,
+     "sha256_avant": "02db921ddc3ae982f8526198cd37500689820476e255a0b2562b886b0fbd7268",
+     "sha256_apres": "861c29a2e9aded98f91d557a0ce605fb9890a042211dcceb8696a0aaea098eb8",
+     "phrases": [
+      {
+       "avant": "/strong> y reunido una nota <strong>Trustpilot de 4,1/5 sobre 80 reseñas</strong>. Nuestras creaciones se diseñan en Fra",
+       "apres": "/strong> y reunido una nota <strong>Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas</strong>. Nuestras creacione"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/es/collections/cuadro-cocina",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 2911,
+      "valueLength_ok": true
+     }
+    },
+    "nl": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 2831,
+     "longueur_apres": 2850,
+     "sha256_avant": "8e75f6e14887afebc8ee4aecf59565ae412d72afb57b4d3971a8613c86245b15",
+     "sha256_apres": "92abaf5aa7dace2c4b2d337170823945c48c4e7e44a4103d3f7920b9ac6642d6",
+     "phrases": [
+      {
+       "avant": "ong> geleverd en een <strong>Trustpilot-score van 4,1/5 op 80 reviews</strong> behaald. Onze creaties worden in Frankrij",
+       "apres": "ong> geleverd en een <strong>Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] reviews</strong> behaald. Onze creaties"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/nl/collections/keuken-schilderij",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 2850,
+      "valueLength_ok": true
+     }
+    }
+   }
+  },
+  {
+   "handle": "tableau-chambre-adulte",
+   "collection_id": "gid://shopify/Collection/406514532607",
+   "metafield_gid": "gid://shopify/Metafield/64742971670875",
+   "namespace": "custom",
+   "key": "guide",
+   "type": "multi_line_text_field",
+   "ancien_digest": "4ac55a45e658adf48eaeb5fd93617c06261bd31543e48c20f71874f6be92d424",
+   "ancien_digest_note": "sha256 calculé de la valeur FR de départ (GID inconnu avant l'écriture, donc digest non lisible avant) ; exactitude prouvée par double extraction publique identique",
+   "nouveau_digest": "a7389e68582eb19d3b80e32a5c331f6ea3493a383aca39b4d24764de433bbc68",
+   "nouveau_digest_egal_sha256": true,
+   "ecriture": "setMetafield (amendement du coordinateur)",
+   "remplacements_fr": 2,
+   "remplacements_par_langue": {
+    "en": 2,
+    "de": 2,
+    "es": 2,
+    "nl": 2
+   },
+   "traductions_outdated_avant_passage": "indéterminable : sans GID avant l'écriture FR, l'état n'a pas pu être lu ; juste après l'écriture source les 4 traductions étaient outdated:true (effet attendu de la modification), longueurs identiques aux extractions publiques",
+   "langues": {
+    "fr": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 3041,
+     "longueur_apres": 3060,
+     "sha256_avant": "4ac55a45e658adf48eaeb5fd93617c06261bd31543e48c20f71874f6be92d424",
+     "sha256_apres": "a7389e68582eb19d3b80e32a5c331f6ea3493a383aca39b4d24764de433bbc68",
+     "phrases": [
+      {
+       "avant": "nts nous accordent une note <strong>Trustpilot de 4,1/5 sur 80 avis</strong>. Une question sur un format ou une harmonie",
+       "apres": "nts nous accordent une note <strong>Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis</strong>. Une question sur un for"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/collections/tableau-chambre-adulte",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 3,
+      "has86": 3,
+      "ld_faq": 1,
+      "ld_has_new": true,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     }
+    },
+    "en": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 2953,
+     "longueur_apres": 2972,
+     "sha256_avant": "66fdaeb01e74e09d368fd1ba0f641779f3eec92bbb24a0cfd109ef468f48bae8",
+     "sha256_apres": "a09312eaa414ec20b56e41760dc271eb94fe61a3e62eb89d11cdc8b4005d1c00",
+     "phrases": [
+      {
+       "avant": "y found a home, and our customers rate us <strong>4.1/5 on Trustpilot from 80 reviews</strong>. Questions about size or ",
+       "apres": "y found a home, and our customers rate us <strong>[[TP_SCORE]]/5 on Trustpilot from [[TP_COUNT]] reviews</strong>. Quest"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/en/collections/wall-art-master-bedroom",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 3,
+      "has86": 3,
+      "ld_faq": 1,
+      "ld_has_new": true,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 2972,
+      "valueLength_ok": true
+     }
+    },
+    "de": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 3370,
+     "longueur_apres": 3389,
+     "sha256_avant": "060d9e6dd4d28192f3d9ac68f69bc148daf4d1ed6c72baba9f9877f0b2ef2f1a",
+     "sha256_apres": "c2bf5cb5bc54943cd498f228a0fa7fa55e2ec104f6bbe42111ab49e9a3498c88",
+     "phrases": [
+      {
+       "avant": "n geben uns eine <strong>Trustpilot-Bewertung von 4,1/5 bei 80 Bewertungen</strong>. Eine Frage zu einem Format oder ein",
+       "apres": "n geben uns eine <strong>Trustpilot-Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen</strong>. Eine Frage zu ei"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/de/collections/erwachsenenschlafzimmerbild",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 3,
+      "has86": 3,
+      "ld_faq": 1,
+      "ld_has_new": true,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 3389,
+      "valueLength_ok": true
+     }
+    },
+    "es": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 3200,
+     "longueur_apres": 3219,
+     "sha256_avant": "4b5b97b567b69fe5d032f84cde122cbb206614c10ddcc008ab11161cc745384c",
+     "sha256_apres": "b1dc6416819d7cb9cc62a7bec203a684a04a2cdb2c0972173652456841fa3e56",
+     "phrases": [
+      {
+       "avant": "ientes nos otorgan una nota <strong>Trustpilot de 4,1/5 sobre 80 reseñas</strong>. ¿Una pregunta sobre un formato o una ",
+       "apres": "ientes nos otorgan una nota <strong>Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas</strong>. ¿Una pregunta sobr"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/es/collections/cuadro-dormitorio-adulto",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 3,
+      "has86": 3,
+      "ld_faq": 1,
+      "ld_has_new": true,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 3219,
+      "valueLength_ok": true
+     }
+    },
+    "nl": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 3145,
+     "longueur_apres": 3164,
+     "sha256_avant": "cbf2ed8e64aa81bcc3b7b723184fd9afc6ab5f2912fe9f8902906d0fc2644150",
+     "sha256_apres": "f687b80db47528a9a752f97b3bfe24e3cbcef83a97638d032452676d76d82922",
+     "phrases": [
+      {
+       "avant": "anten kennen ons een <strong>Trustpilot-score van 4,1/5 op 80 reviews</strong> toe. Een vraag over een formaat of een ha",
+       "apres": "anten kennen ons een <strong>Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] reviews</strong> toe. Een vraag over ee"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/nl/collections/slaapkamer-schilderij-volwassenen",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 3,
+      "has86": 3,
+      "ld_faq": 1,
+      "ld_has_new": true,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 3164,
+      "valueLength_ok": true
+     }
+    }
+   }
+  },
+  {
+   "handle": "tableau-chambre-adulte",
+   "collection_id": "gid://shopify/Collection/406514532607",
+   "metafield_gid": "gid://shopify/Metafield/64742980911451",
+   "namespace": "custom",
+   "key": "faq",
+   "type": "json",
+   "ancien_digest": "159fb681ab736c9d290c5f59016264362b8216007e9b903669b7f3b40179dc22",
+   "ancien_digest_note": "sha256 calculé de la valeur FR de départ (GID inconnu avant l'écriture, donc digest non lisible avant) ; exactitude prouvée par comparaison json.loads(getCollection) == FAQ reconstruite depuis la page publique (réponses de l'accordéon + questions du JSON-LD)",
+   "nouveau_digest": "5cb5d66ffdf404ad389ff2129aef341061b58cf76d007a22d67dbfc345cfde1f",
+   "nouveau_digest_egal_sha256": true,
+   "ecriture": "setMetafield (amendement du coordinateur)",
+   "remplacements_fr": 2,
+   "remplacements_par_langue": {
+    "en": 2,
+    "de": 2,
+    "es": 2,
+    "nl": 2
+   },
+   "traductions_outdated_avant_passage": "indéterminable : sans GID avant l'écriture FR, l'état n'a pas pu être lu ; juste après l'écriture source les 4 traductions étaient outdated:true (effet attendu de la modification), longueurs identiques aux extractions publiques",
+   "langues": {
+    "fr": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 2300,
+     "longueur_apres": 2319,
+     "sha256_avant": "159fb681ab736c9d290c5f59016264362b8216007e9b903669b7f3b40179dc22",
+     "sha256_apres": "5cb5d66ffdf404ad389ff2129aef341061b58cf76d007a22d67dbfc345cfde1f",
+     "phrases": [
+      {
+       "avant": "joint des intérieurs, avec une note Trustpilot de 4,1/5 sur 80 avis.</p>\"},{\"q\":\"Comment être conseillé avant d'acheter ",
+       "apres": "joint des intérieurs, avec une note Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis.</p>\"},{\"q\":\"Comment être conseil"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/collections/tableau-chambre-adulte",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 3,
+      "has86": 3,
+      "ld_faq": 1,
+      "ld_has_new": true,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     }
+    },
+    "en": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 2175,
+     "longueur_apres": 2194,
+     "sha256_avant": "a733fb6f783d742cfeef6d87f2e3eb56ab8e4a0739192c4254489c20c1abf512",
+     "sha256_apres": "d0e7be0097e0256594797a61b755ac14e241db83a277a72586430f8832974914",
+     "phrases": [
+      {
+       "avant": "ave joined interiors, with a Trustpilot rating of 4.1/5 from 80 reviews.</p>\"},{\"q\":\"How can I get advice before buying?",
+       "apres": "ave joined interiors, with a Trustpilot rating of [[TP_SCORE]]/5 from [[TP_COUNT]] reviews.</p>\"},{\"q\":\"How can I get ad"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/en/collections/wall-art-master-bedroom",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 3,
+      "has86": 3,
+      "ld_faq": 1,
+      "ld_has_new": true,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 2194,
+      "valueLength_ok": true
+     }
+    },
+    "de": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 2364,
+     "longueur_apres": 2383,
+     "sha256_avant": "8fe400d7cb05a1728708ec5718739a5e01da1d2d3d735200f5c678947d06b52e",
+     "sha256_apres": "7e68b825af5e0be5cfa7e094ed013d4ebd4dd7899debb9b2b8123685d77826ba",
+     "phrases": [
+      {
+       "avant": "eurs erreicht, mit einer Trustpilot-Bewertung von 4,1/5 bei 80 Bewertungen.</p>\"},{\"q\":\"Wie kann ich mich vor dem Kauf b",
+       "apres": "eurs erreicht, mit einer Trustpilot-Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen.</p>\"},{\"q\":\"Wie kann ich "
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/de/collections/erwachsenenschlafzimmerbild",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 3,
+      "has86": 3,
+      "ld_faq": 1,
+      "ld_has_new": true,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 2383,
+      "valueLength_ok": true
+     }
+    },
+    "es": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 2310,
+     "longueur_apres": 2329,
+     "sha256_avant": "8c6afe03f68cc3ceb719d820b29971f7fed9acea80d92cbd495897cb23d8b69d",
+     "sha256_apres": "77ed652649dbf75b56cbafb9c475be148e0206769fff662670e1e27ed29d3de8",
+     "phrases": [
+      {
+       "avant": " llegado a interiores, con una nota Trustpilot de 4,1/5 sobre 80 reseñas.</p>\"},{\"q\":\"¿Cómo recibir asesoramiento antes ",
+       "apres": " llegado a interiores, con una nota Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas.</p>\"},{\"q\":\"¿Cómo recibir a"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/es/collections/cuadro-dormitorio-adulto",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 3,
+      "has86": 3,
+      "ld_faq": 1,
+      "ld_has_new": true,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 2329,
+      "valueLength_ok": true
+     }
+    },
+    "nl": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 2322,
+     "longueur_apres": 2341,
+     "sha256_avant": "d00ed94e762acbde939b5cb179a441b025661b4d0f0076c7a8ed85d6bde509da",
+     "sha256_apres": "35614382ed47bc8cdeb6ad40e50db58f16d8995da5fbb3ec3b52bb3078ee57cf",
+     "phrases": [
+      {
+       "avant": "interieurs vervoegd, met een Trustpilot-score van 4,1/5 op 80 reviews.</p>\"},{\"q\":\"Hoe advies krijgen vóór de aankoop?\",",
+       "apres": "interieurs vervoegd, met een Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] reviews.</p>\"},{\"q\":\"Hoe advies krijgen"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/nl/collections/slaapkamer-schilderij-volwassenen",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 3,
+      "has86": 3,
+      "ld_faq": 1,
+      "ld_has_new": true,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 2341,
+      "valueLength_ok": true
+     }
+    }
+   }
+  },
+  {
+   "handle": "tableau-japonais",
+   "collection_id": "gid://shopify/Collection/599544299867",
+   "metafield_gid": "gid://shopify/Metafield/64741836456283",
+   "namespace": "custom",
+   "key": "guide",
+   "type": "multi_line_text_field",
+   "ancien_digest": "b0d8d78f9bfcd09b190055d9aed6115a4e6f8e2fb44897b03757ccdb6c02b388",
+   "ancien_digest_note": "sha256 calculé de la valeur FR de départ (GID inconnu avant l'écriture, donc digest non lisible avant) ; exactitude prouvée par double extraction publique identique",
+   "nouveau_digest": "13a732432df7e16c70f0279367fc49246a12745f518cde3e25446897fc875e87",
+   "nouveau_digest_egal_sha256": true,
+   "ecriture": "setMetafield (amendement du coordinateur)",
+   "remplacements_fr": 2,
+   "remplacements_par_langue": {
+    "en": 2,
+    "de": 2,
+    "es": 2,
+    "nl": 2
+   },
+   "traductions_outdated_avant_passage": "indéterminable : sans GID avant l'écriture FR, l'état n'a pas pu être lu ; juste après l'écriture source les 4 traductions étaient outdated:true (effet attendu de la modification), longueurs identiques aux extractions publiques",
+   "langues": {
+    "fr": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 3131,
+     "longueur_apres": 3150,
+     "sha256_avant": "b0d8d78f9bfcd09b190055d9aed6115a4e6f8e2fb44897b03757ccdb6c02b388",
+     "sha256_apres": "13a732432df7e16c70f0279367fc49246a12745f518cde3e25446897fc875e87",
+     "phrases": [
+      {
+       "avant": "et fédéré une communauté qui nous accorde <strong>4,1/5 sur 80 avis Trustpilot</strong>. Chaque oeuvre de cette collecti",
+       "apres": "et fédéré une communauté qui nous accorde <strong>[[TP_SCORE]]/5 sur [[TP_COUNT]] avis Trustpilot</strong>. Chaque oeuvr"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/collections/tableau-japonais",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     }
+    },
+    "en": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 3013,
+     "longueur_apres": 3032,
+     "sha256_avant": "0f9a8cb1f22861ef33b611bd91d48232568c8fe5184916e97a5d6116afa9427f",
+     "sha256_apres": "8a6b93d0fabf167104ffe07dd569e6603e04e924db890c567c067d1fbf1be6a7",
+     "phrases": [
+      {
+       "avant": "/strong> and earned a community rating of <strong>4.1/5 from 80 Trustpilot reviews</strong>. Every piece in this <strong",
+       "apres": "/strong> and earned a community rating of <strong>[[TP_SCORE]]/5 from [[TP_COUNT]] Trustpilot reviews</strong>. Every pi"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/en/collections/japanese-art-wall-decor",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 3032,
+      "valueLength_ok": true
+     }
+    },
+    "de": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 3317,
+     "longueur_apres": 3336,
+     "sha256_avant": "18e9a42092e0bab6a9ff77bc51c85302dfb2bb06d2f0081ef6b27cee34c1663b",
+     "sha256_apres": "626b4949e6d9663f661fb20565b9d755bc1788c41d6d4caaac64bc9c77f58550",
+     "phrases": [
+      {
+       "avant": "d eine Community zusammengeführt, die uns <strong>4,1/5 bei 80 Trustpilot-Bewertungen</strong> gibt. Jedes Werk dieser K",
+       "apres": "d eine Community zusammengeführt, die uns <strong>[[TP_SCORE]]/5 bei [[TP_COUNT]] Trustpilot-Bewertungen</strong> gibt. "
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/de/collections/japanisches-wandbild",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 3336,
+      "valueLength_ok": true
+     }
+    },
+    "es": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 3167,
+     "longueur_apres": 3186,
+     "sha256_avant": "695be8780f44f5b6e28882f833519fc7570d76178e604ef46d5255fb6b39679b",
+     "sha256_apres": "e99b04b2e8c84b62c19db0bad4db12419be0faf96182d8cff9a20c4b70a1ed81",
+     "phrases": [
+      {
+       "avant": "g> y reunido una comunidad que nos otorga <strong>4,1/5 sobre 80 reseñas en Trustpilot</strong>. Cada obra de esta colec",
+       "apres": "g> y reunido una comunidad que nos otorga <strong>[[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas en Trustpilot</strong>. Cada"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/es/collections/cuadro-japones",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 3186,
+      "valueLength_ok": true
+     }
+    },
+    "nl": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 3112,
+     "longueur_apres": 3131,
+     "sha256_avant": "e3febda6e569f3b4aa82f95bc8196ba017ae716e5693f1e3bb8606d9c5647c27",
+     "sha256_apres": "52d0d8178698c6bf03147bead1c0bf0b41b42084535536282355e4eafe869cb7",
+     "phrases": [
+      {
+       "avant": "everd en een gemeenschap verenigd die ons <strong>4,1/5 op 80 Trustpilot-beoordelingen</strong> geeft. Elk werk uit deze",
+       "apres": "everd en een gemeenschap verenigd die ons <strong>[[TP_SCORE]]/5 op [[TP_COUNT]] Trustpilot-beoordelingen</strong> geeft"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/nl/collections/japans-schilderij",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 3131,
+      "valueLength_ok": true
+     }
+    }
+   }
+  },
+  {
+   "handle": "tableau-gris",
+   "collection_id": "gid://shopify/Collection/600154669403",
+   "metafield_gid": "gid://shopify/Metafield/64743135248731",
+   "namespace": "custom",
+   "key": "guide",
+   "type": "multi_line_text_field",
+   "ancien_digest": "b19295e4b2680e6717d4eda1d6996743630ffddb307d94f58e9709999d728846",
+   "ancien_digest_note": "sha256 calculé de la valeur FR de départ (GID inconnu avant l'écriture, donc digest non lisible avant) ; exactitude prouvée par double extraction publique identique",
+   "nouveau_digest": "cded236df930375be33fd299da12772b5d3cc8fe87894433fd81b51f672eb11b",
+   "nouveau_digest_egal_sha256": true,
+   "ecriture": "setMetafield (amendement du coordinateur)",
+   "remplacements_fr": 2,
+   "remplacements_par_langue": {
+    "en": 2,
+    "de": 2,
+    "es": 2,
+    "nl": 2
+   },
+   "traductions_outdated_avant_passage": "indéterminable : sans GID avant l'écriture FR, l'état n'a pas pu être lu ; juste après l'écriture source les 4 traductions étaient outdated:true (effet attendu de la modification), longueurs identiques aux extractions publiques",
+   "langues": {
+    "fr": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 2982,
+     "longueur_apres": 3001,
+     "sha256_avant": "b19295e4b2680e6717d4eda1d6996743630ffddb307d94f58e9709999d728846",
+     "sha256_apres": "cded236df930375be33fd299da12772b5d3cc8fe87894433fd81b51f672eb11b",
+     "phrases": [
+      {
+       "avant": "<p>Nos clients nous accordent une note de <strong>4,1/5 sur 80 avis Trustpilot</strong>, et notre service client à Toulo",
+       "apres": "<p>Nos clients nous accordent une note de <strong>[[TP_SCORE]]/5 sur [[TP_COUNT]] avis Trustpilot</strong>, et notre ser"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/collections/tableau-gris",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     }
+    },
+    "en": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 2692,
+     "longueur_apres": 2711,
+     "sha256_avant": "aa49587862a073187ece3fb9412ad9b3cec5385df7b6b3f2efa6f12825e5bafe",
+     "sha256_apres": "5f61900c11748ab44190229b340f6b767150ec99efe66f623ade989decfa0d59",
+     "phrases": [
+      {
+       "avant": "every shade.</p>\n<p>Our customers rate us <strong>4.1/5 from 80 Trustpilot reviews</strong>, and our Toulouse-based cust",
+       "apres": "every shade.</p>\n<p>Our customers rate us <strong>[[TP_SCORE]]/5 from [[TP_COUNT]] Trustpilot reviews</strong>, and our "
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/en/collections/grey-wall-art",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 2711,
+      "valueLength_ok": true
+     }
+    },
+    "de": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 2956,
+     "longueur_apres": 2975,
+     "sha256_avant": "c35de3556bc6c7323d16de774bdb4b9e0b0a110c5a529345fe40980a76bbebd9",
+     "sha256_apres": "fff734ec03b2720cc387fc93860480d0a90976f619ac8c1d082b4534e99238f3",
+     "phrases": [
+      {
+       "avant": "/p>\n<p>Unsere Kundschaft bewertet uns mit <strong>4,1/5 aus 80 Trustpilot‑Bewertungen</strong>. Unser Kundenservice in T",
+       "apres": "/p>\n<p>Unsere Kundschaft bewertet uns mit <strong>[[TP_SCORE]]/5 aus [[TP_COUNT]] Trustpilot‑Bewertungen</strong>. Unser"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/de/collections/graue-wandbilder",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 2975,
+      "valueLength_ok": true
+     }
+    },
+    "es": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 2975,
+     "longueur_apres": 2994,
+     "sha256_avant": "a06876d998b85b53a3eb66efd78e8c25324916d3255f0c5aa1eb686eebad67fe",
+     "sha256_apres": "e323f64227dab34458420e5865c3fe1256e3a41b96e44e27211569c92dba3a9b",
+     "phrases": [
+      {
+       "avant": "os clientes nos otorgan una <strong>puntuación de 4,1/5 en 80 opiniones en Trustpilot</strong>, y nuestro servicio de at",
+       "apres": "os clientes nos otorgan una <strong>puntuación de [[TP_SCORE]]/5 en [[TP_COUNT]] opiniones en Trustpilot</strong>, y nue"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/es/collections/cuadros-grises",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 2994,
+      "valueLength_ok": true
+     }
+    },
+    "nl": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 2859,
+     "longueur_apres": 2878,
+     "sha256_avant": "f95f30b49cd0fdc4b9be9296bba32fde5be63826e00bbba421fafd5f94452dce",
+     "sha256_apres": "ed71eba915d378a06241ff73c512958372741c98a6d716578a559e426a8dd259",
+     "phrases": [
+      {
+       "avant": "nuance.</p>\n<p>Klanten beoordelen ons met <strong>4,1/5 op 80 Trustpilot‑beoordelingen</strong>, en onze klantenservice ",
+       "apres": "nuance.</p>\n<p>Klanten beoordelen ons met <strong>[[TP_SCORE]]/5 op [[TP_COUNT]] Trustpilot‑beoordelingen</strong>, en o"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/nl/collections/grijze-schilderijen",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 2878,
+      "valueLength_ok": true
+     }
+    }
+   }
+  },
+  {
+   "handle": "tableau-zen",
+   "collection_id": "gid://shopify/Collection/604416967003",
+   "metafield_gid": "gid://shopify/Metafield/64742953615707",
+   "namespace": "custom",
+   "key": "guide",
+   "type": "multi_line_text_field",
+   "ancien_digest": "e44e5d01aab6e1e0911b4b144d7c9e9e0a6a7df3a8eb3a086fe286d4aa385385",
+   "ancien_digest_note": "sha256 calculé de la valeur FR de départ (GID inconnu avant l'écriture, donc digest non lisible avant) ; exactitude prouvée par double extraction publique identique",
+   "nouveau_digest": "e235ff62ca25eb97cd93e3dbf3fce3ae5c79fc626568763e10c8c1533d317a48",
+   "nouveau_digest_egal_sha256": true,
+   "ecriture": "setMetafield (amendement du coordinateur)",
+   "remplacements_fr": 2,
+   "remplacements_par_langue": {
+    "en": 2,
+    "de": 2,
+    "es": 2,
+    "nl": 2
+   },
+   "traductions_outdated_avant_passage": "indéterminable : sans GID avant l'écriture FR, l'état n'a pas pu être lu ; juste après l'écriture source les 4 traductions étaient outdated:true (effet attendu de la modification), longueurs identiques aux extractions publiques",
+   "langues": {
+    "fr": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 3602,
+     "longueur_apres": 3621,
+     "sha256_avant": "e44e5d01aab6e1e0911b4b144d7c9e9e0a6a7df3a8eb3a086fe286d4aa385385",
+     "sha256_apres": "e235ff62ca25eb97cd93e3dbf3fce3ae5c79fc626568763e10c8c1533d317a48",
+     "phrases": [
+      {
+       "avant": "livrés</strong> et une note <strong>Trustpilot de 4,1/5 sur 80 avis</strong> qui témoignent de cet engagement, jour aprè",
+       "apres": "livrés</strong> et une note <strong>Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis</strong> qui témoignent de cet en"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/collections/tableau-zen",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     }
+    },
+    "en": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 3395,
+     "longueur_apres": 3414,
+     "sha256_avant": "79c44bd7e0bc9400e2e792115d40da9129959d65d1d4e291c00564698d66044a",
+     "sha256_apres": "dadb37a2772364ebfc219290007e680c113110c55f02884e878fdae941d04c12",
+     "phrases": [
+      {
+       "avant": "strong> and earned a <strong>Trustpilot rating of 4.1/5 from 80 reviews</strong>—a reflection of our commitment day afte",
+       "apres": "strong> and earned a <strong>Trustpilot rating of [[TP_SCORE]]/5 from [[TP_COUNT]] reviews</strong>—a reflection of our "
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/en/collections/zen-art-collection",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 3414,
+      "valueLength_ok": true
+     }
+    },
+    "de": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 3870,
+     "longueur_apres": 3889,
+     "sha256_avant": "ff82385cb04a3329971ec772bd397081c016a51cca0d0312bd6efa7a7428e5fd",
+     "sha256_apres": "3cbbe98b802ef3ab5a06e46ea754718605d4b16b37a16229afb2a99ca93ee115",
+     "phrases": [
+      {
+       "avant": "strong> und eine <strong>Trustpilot-Bewertung von 4,1/5 bei 80 Bewertungen</strong>, die Tag für Tag von diesem Engageme",
+       "apres": "strong> und eine <strong>Trustpilot-Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen</strong>, die Tag für Tag "
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/de/collections/zen-bilder",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 3889,
+      "valueLength_ok": true
+     }
+    },
+    "es": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 3655,
+     "longueur_apres": 3674,
+     "sha256_avant": "349ed963a20f374099fa23e63f7c6e34639c1258b551a0d7a9d6f793ebedc3a1",
+     "sha256_apres": "cc8eca09f349a71fcc7288a26eaacc1c60d443bb92f740369085a082a4e15b77",
+     "phrases": [
+      {
+       "avant": "regados</strong> y una nota <strong>Trustpilot de 4,1/5 sobre 80 reseñas</strong> los que dan testimonio de este comprom",
+       "apres": "regados</strong> y una nota <strong>Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas</strong> los que dan testimo"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/es/collections/cuadros-zen",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 3674,
+      "valueLength_ok": true
+     }
+    },
+    "nl": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 3656,
+     "longueur_apres": 3675,
+     "sha256_avant": "16f2cb2e33ec4d64aac46f37de8a782297cf0a10e076539d0d5fe708783b190a",
+     "sha256_apres": "511cfee0c75e3c4741c62eee69345ed73cac43ea6735ce71493c3aad2b7673ee",
+     "phrases": [
+      {
+       "avant": "ijen</strong> en een <strong>Trustpilot-score van 4,1/5 op 80 beoordelingen</strong>, dag na dag, van die betrokkenheid.",
+       "apres": "ijen</strong> en een <strong>Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] beoordelingen</strong>, dag na dag, van"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/nl/collections/zen-schilderij",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 3675,
+      "valueLength_ok": true
+     }
+    }
+   }
+  },
+  {
+   "handle": "tableau-abstrait",
+   "collection_id": "gid://shopify/Collection/620119982427",
+   "metafield_gid": "gid://shopify/Metafield/64743026753883",
+   "namespace": "custom",
+   "key": "guide",
+   "type": "multi_line_text_field",
+   "ancien_digest": "43229fe8817c01b94442c8427dcdd98d2723a4211f8a90f16e00b8df48d4f0c6",
+   "ancien_digest_note": "sha256 calculé de la valeur FR de départ (GID inconnu avant l'écriture, donc digest non lisible avant) ; exactitude prouvée par double extraction publique identique",
+   "nouveau_digest": "ed16df7892301f04f72c120d6ff819c4532dd6308207a360d045ba3c19c8d70a",
+   "nouveau_digest_egal_sha256": true,
+   "ecriture": "setMetafield (amendement du coordinateur)",
+   "remplacements_fr": 2,
+   "remplacements_par_langue": {
+    "en": 2,
+    "de": 2,
+    "es": 2,
+    "nl": 2
+   },
+   "traductions_outdated_avant_passage": "indéterminable : sans GID avant l'écriture FR, l'état n'a pas pu être lu ; juste après l'écriture source les 4 traductions étaient outdated:true (effet attendu de la modification), longueurs identiques aux extractions publiques",
+   "langues": {
+    "fr": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 3182,
+     "longueur_apres": 3201,
+     "sha256_avant": "43229fe8817c01b94442c8427dcdd98d2723a4211f8a90f16e00b8df48d4f0c6",
+     "sha256_apres": "ed16df7892301f04f72c120d6ff819c4532dd6308207a360d045ba3c19c8d70a",
+     "phrases": [
+      {
+       "avant": "ne. Cette exigence se lit dans nos avis : <strong>4,1/5 sur Trustpilot</strong> sur 80 evaluations. Et si une question v",
+       "apres": "ne. Cette exigence se lit dans nos avis : <strong>[[TP_SCORE]]/5 sur Trustpilot</strong> sur [[TP_COUNT]] evaluations. E"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/collections/tableau-abstrait",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     }
+    },
+    "en": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 3068,
+     "longueur_apres": 3087,
+     "sha256_avant": "62a9c51bf536cea64d344e322072e8823babffc47e114fb4e5aedd1a629fdca3",
+     "sha256_apres": "238963127bca2ebf2082542a9d2f25ae2619615771c8ea1d6453403cf385d4c3",
+     "phrases": [
+      {
+       "avant": "ny. This commitment shows in our reviews: <strong>4.1/5 on Trustpilot</strong> from 80 ratings. And if a question comes ",
+       "apres": "ny. This commitment shows in our reviews: <strong>[[TP_SCORE]]/5 on Trustpilot</strong> from [[TP_COUNT]] ratings. And i"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/en/collections/abstract-art-collection",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 3087,
+      "valueLength_ok": true
+     }
+    },
+    "de": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 3495,
+     "longueur_apres": 3514,
+     "sha256_avant": "000c125f6d4e58ef5b6ced27dd9b8a68b657980d4e5b5e2fdaaa1185b84cea77",
+     "sha256_apres": "9cef34b6fdcf70c19cbc9fff94e0225452f200f790bbb73a29c44600e19736d5",
+     "phrases": [
+      {
+       "avant": "spruch zeigt sich in unseren Bewertungen: <strong>4,1/5 auf Trustpilot</strong> bei 80 Bewertungen. Und wenn Sie eine Fr",
+       "apres": "spruch zeigt sich in unseren Bewertungen: <strong>[[TP_SCORE]]/5 auf Trustpilot</strong> bei [[TP_COUNT]] Bewertungen. U"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/de/collections/abstrakte-bilder",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 3514,
+      "valueLength_ok": true
+     }
+    },
+    "es": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 3293,
+     "longueur_apres": 3312,
+     "sha256_avant": "f37fae3d1a69bb4a27c87a6cb283d9432c9502f3131718445961529eb998b6b5",
+     "sha256_apres": "db883e118e3b146c075be9892071e701e738bae984eee9b86071d0882d6b0031",
+     "phrases": [
+      {
+       "avant": "sta exigencia se lee en nuestras reseñas: <strong>4,1/5 en Trustpilot</strong> sobre 80 valoraciones. Y si te surge una ",
+       "apres": "sta exigencia se lee en nuestras reseñas: <strong>[[TP_SCORE]]/5 en Trustpilot</strong> sobre [[TP_COUNT]] valoraciones."
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/es/collections/cuadros-abstractos",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 3312,
+      "valueLength_ok": true
+     }
+    },
+    "nl": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 3290,
+     "longueur_apres": 3309,
+     "sha256_avant": "dc62b8386d15dc1c54968a3402d667556b9ec2026540b6c085aa28e2408e4304",
+     "sha256_apres": "3c41c784316729ce914c515de9aecdc5edcc75adc1c63d8d4817d92167a92917",
+     "phrases": [
+      {
+       "avant": "sendheid leest men in onze beoordelingen: <strong>4,1/5 op Trustpilot</strong> op 80 evaluaties. En als u een vraag hebt",
+       "apres": "sendheid leest men in onze beoordelingen: <strong>[[TP_SCORE]]/5 op Trustpilot</strong> op [[TP_COUNT]] evaluaties. En a"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/nl/collections/abstract-schilderij",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 3309,
+      "valueLength_ok": true
+     }
+    }
+   }
+  },
+  {
+   "handle": "horoscope-bebe",
+   "collection_id": "gid://shopify/Collection/643265495387",
+   "metafield_gid": "gid://shopify/Metafield/64743090553179",
+   "namespace": "custom",
+   "key": "guide",
+   "type": "multi_line_text_field",
+   "ancien_digest": "7d1c343fe5c24aef023f4c88fee1d4d49f5efe3ae2e040e9b60030a19d145ee3",
+   "ancien_digest_note": "sha256 calculé de la valeur FR de départ (GID inconnu avant l'écriture, donc digest non lisible avant) ; exactitude prouvée par double extraction publique identique",
+   "nouveau_digest": "dd9774366152555dbb0f0fe1549c75c87c99f1c0cd9e0a9c9c9413bd39be27a4",
+   "nouveau_digest_egal_sha256": true,
+   "ecriture": "setMetafield (amendement du coordinateur)",
+   "remplacements_fr": 2,
+   "remplacements_par_langue": {
+    "en": 2,
+    "de": 2,
+    "es": 2,
+    "nl": 2
+   },
+   "traductions_outdated_avant_passage": "indéterminable : sans GID avant l'écriture FR, l'état n'a pas pu être lu ; juste après l'écriture source les 4 traductions étaient outdated:true (effet attendu de la modification), longueurs identiques aux extractions publiques",
+   "langues": {
+    "fr": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 3038,
+     "longueur_apres": 3057,
+     "sha256_avant": "7d1c343fe5c24aef023f4c88fee1d4d49f5efe3ae2e040e9b60030a19d145ee3",
+     "sha256_apres": "dd9774366152555dbb0f0fe1549c75c87c99f1c0cd9e0a9c9c9413bd39be27a4",
+     "phrases": [
+      {
+       "avant": "ieurs de nos clients, avec une note Trustpilot de 4,1/5 sur 80 avis. Notre service client, basé à Toulouse, vous accompa",
+       "apres": "ieurs de nos clients, avec une note Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis. Notre service client, basé à Tou"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/collections/horoscope-bebe",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     }
+    },
+    "en": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 2857,
+     "longueur_apres": 2876,
+     "sha256_avant": "773b89982d645a20d24a17badcf1201ced2bb3787d7933a064acc4c8dad626c9",
+     "sha256_apres": "6e5f4772bbeb934c71b3f96c959a7386abec5d80ae924c8fb03a31ad2beafb8d",
+     "phrases": [
+      {
+       "avant": "e with our customers, with a Trustpilot rating of 4.1/5 from 80 reviews. Our customer service team in Toulouse is here t",
+       "apres": "e with our customers, with a Trustpilot rating of [[TP_SCORE]]/5 from [[TP_COUNT]] reviews. Our customer service team in"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/en/collections/baby-zodiac-poster",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 2876,
+      "valueLength_ok": true
+     }
+    },
+    "de": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 3329,
+     "longueur_apres": 3348,
+     "sha256_avant": "65d046fd3fcfa325f33e5a4c529d2e6d5828cfd24a8664b057c96ade000973aa",
+     "sha256_apres": "8961d12e0d6453645769925fae597bc019c63f80990edb6d8654b2d693367c8e",
+     "phrases": [
+      {
+       "avant": "er Kunden gehalten, mit einer Trustpilot-Note von 4,1/5 bei 80 Bewertungen. Unser Kundenservice mit Sitz in Toulouse beg",
+       "apres": "er Kunden gehalten, mit einer Trustpilot-Note von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen. Unser Kundenservice mit S"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/de/collections/babyposter-sternzeichen-aquarell",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 3348,
+      "valueLength_ok": true
+     }
+    },
+    "es": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 3230,
+     "longueur_apres": 3249,
+     "sha256_avant": "5ea232dd7178ebb55b68ef9f6838b6f82bdb7da78dca92abd53ee8a50de62923",
+     "sha256_apres": "143193cfa018b4dadf48510dbb4b9f13ef50f5eb6f4a82ecb80b41fd8a90c9ee",
+     "phrases": [
+      {
+       "avant": " nuestros clientes, con una nota en Trustpilot de 4,1/5 sobre 80 opiniones. Nuestro servicio de atención al cliente, con",
+       "apres": " nuestros clientes, con una nota en Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] opiniones. Nuestro servicio de atenc"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/es/collections/poster-de-bebe-signo-del-zodiaco-en-acuarela",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 3249,
+      "valueLength_ok": true
+     }
+    },
+    "nl": {
+     "remplacements": 2,
+     "score": 1,
+     "nombre_avis": 1,
+     "longueur_avant": 3030,
+     "longueur_apres": 3049,
+     "sha256_avant": "d2557439bf43ebcf18bd7b74544de3e8276dcf87246944b44e6e6bb94551037e",
+     "sha256_apres": "b51b94bdcdd0a912497429750f03135526e2d0c72044367144c25901f9c8c2f3",
+     "phrases": [
+      {
+       "avant": "nze klanten bereikt, met een Trustpilot-score van 4,1/5 op 80 beoordelingen. Onze klantenservice, gevestigd in Toulouse,",
+       "apres": "nze klanten bereikt, met een Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] beoordelingen. Onze klantenservice, gev"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/nl/collections/horoscoop-baby",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 1,
+      "has86": 1,
+      "ld_faq": 1,
+      "ld_has_new": false,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 3049,
+      "valueLength_ok": true
+     }
+    }
+   }
+  },
+  {
+   "handle": "posters-affiches-fleurs",
+   "collection_id": "gid://shopify/Collection/675280060763",
+   "metafield_gid": "gid://shopify/Metafield/65790143365467",
+   "namespace": "custom",
+   "key": "faq",
+   "type": "json",
+   "ancien_digest": "513b595e8b82db38ed9b977ac9e4cc58d9c590395962af6279c38b31d160f70b",
+   "ancien_digest_note": "sha256 calculé de la valeur FR de départ (GID inconnu avant l'écriture, donc digest non lisible avant) ; exactitude prouvée par comparaison json.loads(getCollection) == FAQ reconstruite depuis la page publique (réponses de l'accordéon + questions du JSON-LD)",
+   "nouveau_digest": "f6e498f681bd19aaada74788c171e7db27ab309e65d8b0f3e5a29c94489d0432",
+   "nouveau_digest_egal_sha256": true,
+   "ecriture": "setMetafield (amendement du coordinateur)",
+   "remplacements_fr": 1,
+   "remplacements_par_langue": {
+    "en": 1,
+    "de": 1,
+    "es": 1,
+    "nl": 1
+   },
+   "traductions_outdated_avant_passage": "indéterminable : sans GID avant l'écriture FR, l'état n'a pas pu être lu ; juste après l'écriture source les 4 traductions étaient outdated:true (effet attendu de la modification), longueurs identiques aux extractions publiques",
+   "langues": {
+    "fr": {
+     "remplacements": 1,
+     "score": 1,
+     "nombre_avis": 0,
+     "longueur_avant": 2222,
+     "longueur_apres": 2231,
+     "sha256_avant": "513b595e8b82db38ed9b977ac9e4cc58d9c590395962af6279c38b31d160f70b",
+     "sha256_apres": "f6e498f681bd19aaada74788c171e7db27ab309e65d8b0f3e5a29c94489d0432",
+     "phrases": [
+      {
+       "avant": "n. MyselfMonArt, maison fondée en 2022, est notée 4,1/5 sur Trustpilot. Pour toute question, notre service client est jo",
+       "apres": "n. MyselfMonArt, maison fondée en 2022, est notée [[TP_SCORE]]/5 sur Trustpilot. Pour toute question, notre service clie"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/collections/posters-affiches-fleurs",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 2,
+      "has86": 0,
+      "ld_faq": 1,
+      "ld_has_new": true,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     }
+    },
+    "en": {
+     "remplacements": 1,
+     "score": 1,
+     "nombre_avis": 0,
+     "longueur_avant": 1994,
+     "longueur_apres": 2003,
+     "sha256_avant": "8cd430303e3358327ab4adc30e997d958050d9ef672172dc48b5a3c40ce13f73",
+     "sha256_apres": "e50b6ce57fe0e70078c596e0c6cd95d3d99a17fd0a63a84aff87a974315235e2",
+     "phrases": [
+      {
+       "avant": "h visual. MyselfMonArt, founded in 2022, is rated 4.1/5 on Trustpilot. For any questions, our customer service is availa",
+       "apres": "h visual. MyselfMonArt, founded in 2022, is rated [[TP_SCORE]]/5 on Trustpilot. For any questions, our customer service "
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/en/collections/flower-posters-prints",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 2,
+      "has86": 0,
+      "ld_faq": 1,
+      "ld_has_new": true,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 2003,
+      "valueLength_ok": true
+     }
+    },
+    "de": {
+     "remplacements": 1,
+     "score": 1,
+     "nombre_avis": 0,
+     "longueur_avant": 2251,
+     "longueur_apres": 2260,
+     "sha256_avant": "881dbb05ddbced791cc8e2f875c14957015097e359d7c6b87d7b52d57ebd178c",
+     "sha256_apres": "26387ff05cbefe50b9359428e89f93676dd3cc2cfe9761f583f47b791977e77b",
+     "phrases": [
+      {
+       "avant": "elfMonArt, 2022 gegründet, ist auf Trustpilot mit 4,1/5 bewertet. Bei Fragen erreichen Sie unseren Kundenservice unter 0",
+       "apres": "elfMonArt, 2022 gegründet, ist auf Trustpilot mit [[TP_SCORE]]/5 bewertet. Bei Fragen erreichen Sie unseren Kundenservic"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/de/collections/blumen-poster-plakate",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 2,
+      "has86": 0,
+      "ld_faq": 1,
+      "ld_has_new": true,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 2260,
+      "valueLength_ok": true
+     }
+    },
+    "es": {
+     "remplacements": 1,
+     "score": 1,
+     "nombre_avis": 0,
+     "longueur_avant": 2201,
+     "longueur_apres": 2210,
+     "sha256_avant": "eaa4be8f97a67901feadd7d49bef633c4190c99bfd9a66be9231fb0be5f65234",
+     "sha256_apres": "e4292aa74d28f15f27cf55fb9e89eb74077b68156b88a4c190c55d8feef272a7",
+     "phrases": [
+      {
+       "avant": "lfMonArt, casa fundada en 2022, está valorada con 4,1/5 en Trustpilot. Para cualquier consulta, nuestro servicio de aten",
+       "apres": "lfMonArt, casa fundada en 2022, está valorada con [[TP_SCORE]]/5 en Trustpilot. Para cualquier consulta, nuestro servici"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/es/collections/posters-laminas-flores",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 2,
+      "has86": 0,
+      "ld_faq": 1,
+      "ld_has_new": true,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 2210,
+      "valueLength_ok": true
+     }
+    },
+    "nl": {
+     "remplacements": 1,
+     "score": 1,
+     "nombre_avis": 0,
+     "longueur_avant": 2225,
+     "longueur_apres": 2234,
+     "sha256_avant": "dba538d21a4b4ec574dba1e5ae2a783aaaab1951e62d6ffa5778be6e433ca1c7",
+     "sha256_apres": "41e9a2a01d5818d539765e1324143d3e69690ab12f02bfdb48a8248620872835",
+     "phrases": [
+      {
+       "avant": "lfMonArt, opgericht in 2022, wordt beoordeeld met 4,1/5 op Trustpilot. Voor vragen is onze klantenservice bereikbaar op ",
+       "apres": "lfMonArt, opgericht in 2022, wordt beoordeeld met [[TP_SCORE]]/5 op Trustpilot. Voor vragen is onze klantenservice berei"
+      }
+     ],
+     "verification_en_ligne": {
+      "url": "/nl/collections/bloemen-posters-prints",
+      "ok": true,
+      "raw_token": false,
+      "old_traces": 0,
+      "new_mentions": 2,
+      "has86": 0,
+      "ld_faq": 1,
+      "ld_has_new": true,
+      "ld_has_old": false,
+      "ld_has_raw_token": false
+     },
+     "outdated_apres_ecriture_source": true,
+     "publie": {
+      "outdated": false,
+      "valueLength": 2234,
+      "valueLength_ok": true
+     }
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,229 @@
+{
+ "date": "2026-10-05",
+ "theme_id": 167301710171,
+ "contexte": "Traductions EN/DE/ES/NL des 3 textes FR passés en jetons Trustpilot par le commit fa3d51f (myselfmonart_tw_theme). Seuls les chiffres de note et de nombre d'avis ont été remplacés par [[TP_SCORE]] / [[TP_COUNT]] (snippet trustpilot-tokens). Texte 3 : « Over 80 … » et équivalents rendus fidèles à la nouvelle source « [[TP_COUNT]] retours vérifiés … ».",
+ "textes": [
+  {
+   "template": "templates/product.poster.json",
+   "section": "faq_poster_collapsible",
+   "block": "faq_poster_matiere",
+   "setting": "row_content",
+   "resourceId": "gid://shopify/OnlineStoreThemeJsonTemplate/product.poster?theme_id=167301710171",
+   "key": "section.product.poster.json.faq_poster_collapsible.faq_poster_matiere.row_content:1o83lb7k3qeks",
+   "digest": "80a467087794c9ae76e9558d93baf88092319a68975578f90c7bb6ebf4f611a9",
+   "source_fr": "<p>C’est un tirage photo imprimé en <strong>haute définition</strong> sur un <strong>vrai papier photo de 250 g/m²</strong> : des couleurs éclatantes, des détails nets et fidèles à l’image. L’impression est <strong>sans bordure</strong>, bord à bord, pour un rendu plein cadre, épuré et minimaliste — rien à voir avec une affiche fine bon marché. Chaque tirage est imprimé à la demande, en tirage frais. Conçu en France, imprimé en Europe. Plus de <strong>1000 intérieurs</strong> nous font déjà confiance, avec une note de <strong>[[TP_SCORE]]/5 sur [[TP_COUNT]] avis Trustpilot</strong>.</p>",
+   "traductions": {
+    "en": {
+     "avant": {
+      "value": "<p>It’s a photo print in <strong>high resolution</strong> on <strong>premium 250 gsm photo paper</strong>: vibrant colors, crisp, true-to-image detail. Printing is <strong>borderless</strong>, edge to edge, for a full-bleed, clean, minimalist look — nothing like a flimsy, cheap poster. Each print is made to order, freshly printed. Designed in France, printed in Europe. Trusted in over <strong>1,000 interiors</strong>, with a rating of <strong>4.2/5 from 86 Trustpilot reviews</strong>.</p>",
+      "valueLength": 493,
+      "outdated": true,
+      "updatedAt": "2026-10-05T10:10:25Z"
+     },
+     "apres": {
+      "value": "<p>It’s a photo print in <strong>high resolution</strong> on <strong>premium 250 gsm photo paper</strong>: vibrant colors, crisp, true-to-image detail. Printing is <strong>borderless</strong>, edge to edge, for a full-bleed, clean, minimalist look — nothing like a flimsy, cheap poster. Each print is made to order, freshly printed. Designed in France, printed in Europe. Trusted in over <strong>1,000 interiors</strong>, with a rating of <strong>[[TP_SCORE]]/5 from [[TP_COUNT]] Trustpilot reviews</strong>.</p>",
+      "valueLength": 512,
+      "outdated": false,
+      "updatedAt": "2026-10-05T10:13:55Z"
+     }
+    },
+    "de": {
+     "avant": {
+      "value": "<p>Es ist ein Fotoabzug in <strong>hoher Auflösung</strong> auf <strong>echtem Fotopapier mit 250 g/m²</strong>: leuchtende Farben, gestochen scharfe, bildgetreue Details. Der Druck ist <strong>randlos</strong>, bis an den Rand, für eine vollflächige, klare und minimalistische Wirkung — kein Vergleich mit dünnen Billigpostern. Jeder Abzug wird auf Bestellung frisch gedruckt. Entworfen in Frankreich, gedruckt in Europa. Mehr als <strong>1000 Interieurs</strong> vertrauen uns bereits, mit einer Note von <strong>4,2/5 bei 86 Trustpilot-Bewertungen</strong>.</p>",
+      "valueLength": 564,
+      "outdated": true,
+      "updatedAt": "2026-10-05T10:10:25Z"
+     },
+     "apres": {
+      "value": "<p>Es ist ein Fotoabzug in <strong>hoher Auflösung</strong> auf <strong>echtem Fotopapier mit 250 g/m²</strong>: leuchtende Farben, gestochen scharfe, bildgetreue Details. Der Druck ist <strong>randlos</strong>, bis an den Rand, für eine vollflächige, klare und minimalistische Wirkung — kein Vergleich mit dünnen Billigpostern. Jeder Abzug wird auf Bestellung frisch gedruckt. Entworfen in Frankreich, gedruckt in Europa. Mehr als <strong>1000 Interieurs</strong> vertrauen uns bereits, mit einer Note von <strong>[[TP_SCORE]]/5 bei [[TP_COUNT]] Trustpilot-Bewertungen</strong>.</p>",
+      "valueLength": 583,
+      "outdated": false,
+      "updatedAt": "2026-10-05T10:13:55Z"
+     }
+    },
+    "es": {
+     "avant": {
+      "value": "<p>Es una impresión fotográfica en <strong>alta definición</strong> sobre <strong>auténtico papel fotográfico de 250 g/m²</strong>: colores vibrantes, detalles nítidos y fieles a la imagen. La impresión es <strong>sin bordes</strong>, de borde a borde, para un acabado a tamaño completo, limpio y minimalista — nada que ver con un póster fino y barato. Cada impresión se realiza bajo pedido, recién impresa. Diseñado en Francia, impreso en Europa. Más de <strong>1000 espacios</strong> ya confían en nosotros, con una valoración de <strong>4,2/5 con 86 opiniones en Trustpilot</strong>.</p>",
+      "valueLength": 590,
+      "outdated": true,
+      "updatedAt": "2026-10-05T10:10:25Z"
+     },
+     "apres": {
+      "value": "<p>Es una impresión fotográfica en <strong>alta definición</strong> sobre <strong>auténtico papel fotográfico de 250 g/m²</strong>: colores vibrantes, detalles nítidos y fieles a la imagen. La impresión es <strong>sin bordes</strong>, de borde a borde, para un acabado a tamaño completo, limpio y minimalista — nada que ver con un póster fino y barato. Cada impresión se realiza bajo pedido, recién impresa. Diseñado en Francia, impreso en Europa. Más de <strong>1000 espacios</strong> ya confían en nosotros, con una valoración de <strong>[[TP_SCORE]]/5 con [[TP_COUNT]] opiniones en Trustpilot</strong>.</p>",
+      "valueLength": 609,
+      "outdated": false,
+      "updatedAt": "2026-10-05T10:13:55Z"
+     }
+    },
+    "nl": {
+     "avant": {
+      "value": "<p>Dit is een fotoafdruk in <strong>hoge resolutie</strong> op <strong>echt fotopapier van 250 g/m²</strong>: levendige kleuren, haarscherpe, natuurgetrouwe details. De afdruk is <strong>randloos</strong>, tot aan de rand, voor een beeldvullend, strak en minimalistisch resultaat — niet te vergelijken met een goedkope, dunne poster. Elke afdruk wordt op bestelling vers gedrukt. Ontworpen in Frankrijk, gedrukt in Europa. Meer dan <strong>1000 interieurs</strong> vertrouwen ons al, met een score van <strong>4,2/5 op basis van 86 Trustpilot-reviews</strong>.</p>",
+      "valueLength": 564,
+      "outdated": true,
+      "updatedAt": "2026-10-05T10:10:25Z"
+     },
+     "apres": {
+      "value": "<p>Dit is een fotoafdruk in <strong>hoge resolutie</strong> op <strong>echt fotopapier van 250 g/m²</strong>: levendige kleuren, haarscherpe, natuurgetrouwe details. De afdruk is <strong>randloos</strong>, tot aan de rand, voor een beeldvullend, strak en minimalistisch resultaat — niet te vergelijken met een goedkope, dunne poster. Elke afdruk wordt op bestelling vers gedrukt. Ontworpen in Frankrijk, gedrukt in Europa. Meer dan <strong>1000 interieurs</strong> vertrouwen ons al, met een score van <strong>[[TP_SCORE]]/5 op basis van [[TP_COUNT]] Trustpilot-reviews</strong>.</p>",
+      "valueLength": 583,
+      "outdated": false,
+      "updatedAt": "2026-10-05T10:13:55Z"
+     }
+    }
+   }
+  },
+  {
+   "template": "templates/product.personalized.json",
+   "section": "main",
+   "block": "8600f603-2d6f-4191-8020-3678432ba1e5",
+   "setting": "text",
+   "resourceId": "gid://shopify/OnlineStoreThemeJsonTemplate/product.personalized?theme_id=167301710171",
+   "key": "section.product.personalized.json.main.8600f603-2d6f-4191-8020-3678432ba1e5.text:3hzhmvda7mtjh",
+   "digest": "ea32bc1db3a49f1e792d23635bddbbdafc26232b5ec6f269d05462aa47fcc3e7",
+   "source_fr": "<p>- Sa photo, son équipe, son prénom : une œuvre unique, créée à la demande</p><p>- Aperçu gratuit en quelques instants : vous ne réglez qu'une fois le résultat validé</p><p>- Le cadeau qui fait briller les yeux des passionnés de ballon rond</p><p>- Plus de 1 000 créations livrées depuis 2022 — [[TP_SCORE]]/5 sur Trustpilot<br/></p>",
+   "traductions": {
+    "en": {
+     "avant": {
+      "value": "<p>- Their photo, their team, their first name: a one-of-a-kind artwork, made to order</p><p>- Free preview in minutes: you only pay once you approve the result</p><p>- The gift that makes soccer fans' eyes light up</p><p>- Over 1,000 artworks delivered since 2022 — 4.2/5 on Trustpilot<br/></p>",
+      "valueLength": 295,
+      "outdated": true,
+      "updatedAt": "2026-10-05T10:10:23Z"
+     },
+     "apres": {
+      "value": "<p>- Their photo, their team, their first name: a one-of-a-kind artwork, made to order</p><p>- Free preview in minutes: you only pay once you approve the result</p><p>- The gift that makes soccer fans' eyes light up</p><p>- Over 1,000 artworks delivered since 2022 — [[TP_SCORE]]/5 on Trustpilot<br/></p>",
+      "valueLength": 304,
+      "outdated": false,
+      "updatedAt": "2026-10-05T10:14:11Z"
+     }
+    },
+    "de": {
+     "avant": {
+      "value": "<p>- Ihr Foto, Ihr Verein, Ihr Vorname: ein einzigartiges Kunstwerk, auf Wunsch gestaltet</p><p>- Kostenlose Vorschau in wenigen Augenblicken: Sie zahlen erst, wenn Sie das Ergebnis freigegeben haben</p><p>- Das Geschenk, das Fußballfans zum Strahlen bringt</p><p>- Über 1.000 Kunstwerke seit 2022 geliefert — 4,2/5 auf Trustpilot<br/></p>",
+      "valueLength": 339,
+      "outdated": true,
+      "updatedAt": "2026-10-05T10:10:24Z"
+     },
+     "apres": {
+      "value": "<p>- Ihr Foto, Ihr Verein, Ihr Vorname: ein einzigartiges Kunstwerk, auf Wunsch gestaltet</p><p>- Kostenlose Vorschau in wenigen Augenblicken: Sie zahlen erst, wenn Sie das Ergebnis freigegeben haben</p><p>- Das Geschenk, das Fußballfans zum Strahlen bringt</p><p>- Über 1.000 Kunstwerke seit 2022 geliefert — [[TP_SCORE]]/5 auf Trustpilot<br/></p>",
+      "valueLength": 348,
+      "outdated": false,
+      "updatedAt": "2026-10-05T10:14:11Z"
+     }
+    },
+    "es": {
+     "avant": {
+      "value": "<p>- Tu foto, tu equipo, tu nombre: una lámina única, creada por encargo</p><p>- Vista previa gratuita en cuestión de segundos: solo pagas cuando apruebes el resultado</p><p>- El regalo que emociona a los amantes del fútbol</p><p>- Más de 1.000 creaciones entregadas desde 2022 — 4,2/5 en Trustpilot<br/></p>",
+      "valueLength": 308,
+      "outdated": true,
+      "updatedAt": "2026-10-05T10:10:24Z"
+     },
+     "apres": {
+      "value": "<p>- Tu foto, tu equipo, tu nombre: una lámina única, creada por encargo</p><p>- Vista previa gratuita en cuestión de segundos: solo pagas cuando apruebes el resultado</p><p>- El regalo que emociona a los amantes del fútbol</p><p>- Más de 1.000 creaciones entregadas desde 2022 — [[TP_SCORE]]/5 en Trustpilot<br/></p>",
+      "valueLength": 317,
+      "outdated": false,
+      "updatedAt": "2026-10-05T10:14:11Z"
+     }
+    },
+    "nl": {
+     "avant": {
+      "value": "<p>- Foto, club, naam: een uniek kunstwerk, op maat gemaakt</p><p>- Gratis voorbeeld binnen enkele minuten: je betaalt pas als je het resultaat hebt goedgekeurd</p><p>- Het cadeau dat de ogen van voetballiefhebbers doet stralen</p><p>- Sinds 2022 meer dan 1.000 creaties geleverd — 4,2/5 op Trustpilot<br/></p>",
+      "valueLength": 310,
+      "outdated": true,
+      "updatedAt": "2026-10-05T10:10:24Z"
+     },
+     "apres": {
+      "value": "<p>- Foto, club, naam: een uniek kunstwerk, op maat gemaakt</p><p>- Gratis voorbeeld binnen enkele minuten: je betaalt pas als je het resultaat hebt goedgekeurd</p><p>- Het cadeau dat de ogen van voetballiefhebbers doet stralen</p><p>- Sinds 2022 meer dan 1.000 creaties geleverd — [[TP_SCORE]]/5 op Trustpilot<br/></p>",
+      "valueLength": 319,
+      "outdated": false,
+      "updatedAt": "2026-10-05T10:14:11Z"
+     }
+    }
+   }
+  },
+  {
+   "template": "templates/index.json",
+   "section": "trust_signals_home",
+   "setting": "subtitle",
+   "note": "Section désactivée sur la home : traduction prête, pas de vérification en ligne possible.",
+   "resourceId": "gid://shopify/OnlineStoreThemeJsonTemplate/index?theme_id=167301710171",
+   "key": "section.index.json.trust_signals_home.subtitle:cqhrpawzqgma",
+   "digest": "86bf99aa699edc06a0e7c04f89d3943a2b730a650abadb292c2bccc770e216ec",
+   "source_fr": "[[TP_COUNT]] retours vérifiés sur Trustpilot.",
+   "traductions": {
+    "en": {
+     "avant": {
+      "value": "Over 80 verified reviews on Trustpilot.",
+      "valueLength": 39,
+      "outdated": true,
+      "updatedAt": "2026-10-05T10:10:23Z"
+     },
+     "apres": {
+      "value": "[[TP_COUNT]] verified reviews on Trustpilot.",
+      "valueLength": 44,
+      "outdated": false,
+      "updatedAt": "2026-10-05T10:14:12Z"
+     }
+    },
+    "de": {
+     "avant": {
+      "value": "Über 80 verifizierte Bewertungen auf Trustpilot.",
+      "valueLength": 48,
+      "outdated": true,
+      "updatedAt": "2026-10-05T10:10:23Z"
+     },
+     "apres": {
+      "value": "[[TP_COUNT]] verifizierte Bewertungen auf Trustpilot.",
+      "valueLength": 53,
+      "outdated": false,
+      "updatedAt": "2026-10-05T10:14:12Z"
+     }
+    },
+    "es": {
+     "avant": {
+      "value": "Más de 80 opiniones verificadas en Trustpilot.",
+      "valueLength": 46,
+      "outdated": true,
+      "updatedAt": "2026-10-05T10:10:24Z"
+     },
+     "apres": {
+      "value": "[[TP_COUNT]] opiniones verificadas en Trustpilot.",
+      "valueLength": 49,
+      "outdated": false,
+      "updatedAt": "2026-10-05T10:14:12Z"
+     }
+    },
+    "nl": {
+     "avant": {
+      "value": "Meer dan 80 geverifieerde beoordelingen op Trustpilot.",
+      "valueLength": 54,
+      "outdated": true,
+      "updatedAt": "2026-10-05T10:10:24Z"
+     },
+     "apres": {
+      "value": "[[TP_COUNT]] geverifieerde beoordelingen op Trustpilot.",
+      "valueLength": 55,
+      "outdated": false,
+      "updatedAt": "2026-10-05T10:14:12Z"
+     }
+    }
+   }
+  }
+ ],
+ "controles": {
+  "relecture_api": "12/12 entrées outdated:false, valueLength == len(valeur envoyée), valeur relue identique ; sources et toutes les autres clés des 3 ressources inchangées (comparaison avant/après).",
+  "en_ligne": {
+   "poster_faq": {
+    "/en/products/black-and-white-zebra-poster-wild-gaze": "4.2/5 from 86 Trustpilot reviews (HTML + JSON-LD FAQPage), 0 [[TP_",
+    "/de/products/zebra-poster-wilder-blick-schwarz-weiss": "4,2/5 bei 86 Trustpilot-Bewertungen (HTML + JSON-LD FAQPage), 0 [[TP_",
+    "/es/products/poster-cebra-blanco-y-negro": "4,2/5 con 86 opiniones en Trustpilot (HTML + JSON-LD FAQPage), 0 [[TP_",
+    "/nl/products/zebra-zwart-wit-poster-indringende-blik": "4,2/5 op basis van 86 Trustpilot-reviews (HTML + JSON-LD FAQPage), 0 [[TP_"
+   },
+   "personalized": {
+    "note": "Aucun produit en ligne trouvé avec le gabarit product.personalized (les fiches foot personnalisées utilisent product) ; rendu vérifié via ?view=personalized.",
+    "/en/products/personalized-soccer-gift-black-and-white?view=personalized": "— 4.2/5 on Trustpilot, 0 [[TP_",
+    "/de/products/personalisiertes-fussball-geschenk-schwarz-weiss?view=personalized": "— 4,2/5 auf Trustpilot, 0 [[TP_",
+    "/es/products/regalo-personalizado-futbol-blanco-y-negro?view=personalized": "— 4,2/5 en Trustpilot, 0 [[TP_",
+    "/nl/products/gepersonaliseerd-voetbalcadeau-zwart-wit?view=personalized": "— 4,2/5 op Trustpilot, 0 [[TP_"
+   }
+  }
+ }
+}

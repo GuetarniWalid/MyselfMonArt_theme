@@ -1,0 +1,1322 @@
+{
+ "lot": "lot5",
+ "date": "2026-10-05",
+ "operation": "Chiffres Trustpilot en dur (4,1/5 sur 80 avis) remplacés par [[TP_SCORE]] / [[TP_COUNT]] dans custom.guide et custom.faq, FR + en/de/es/nl",
+ "collections": [
+  "tableau-chambre-enfant",
+  "tableau-bureau",
+  "tableau-bleue",
+  "tableau-couleur",
+  "tableau-paysage",
+  "bestsellers-1",
+  "tableaux-bouddha"
+ ],
+ "metachamps_modifies": 8,
+ "traductions_publiees": 32,
+ "notes": [
+  "getCollection ne renvoie pas le GID des métachamps : GID obtenus via la réponse de setMetafield (amendement du coordinateur).",
+  "Avant l'amendement (tableau-chambre-enfant guide, tableau-bureau guide et faq) : réécriture à l'identique via setMetafield pour obtenir le GID, puis écriture des jetons via updateCollection {id, metafields}. Sur tableau-chambre-enfant, un premier essai de réécriture à l'identique a aussi été fait via updateCollection (updatedAt de la collection inchangé). Aucune de ces réécritures n'a modifié le texte : digests = sha256 des valeurs de départ, traductions restées outdated:false.",
+  "Après l'amendement (tableau-bleue, tableau-couleur, tableau-paysage, bestsellers-1, tableaux-bouddha) : setMetafield direct avec la nouvelle valeur, après deux extractions publiques identiques de la valeur de départ.",
+  "Avant l'amendement, lectures seules hors procédure : une requête à l'API Storefront publique (jeton public de la page) n'a donné que le GID de custom.intro (guide et faq non exposés) ; quelques getTranslatableContent sur des GID devinés ont tous renvoyé null. Aucune autre voie utilisée ensuite.",
+  "custom.intro ne contient aucune mention Trustpilot sur les 7 collections ; custom.faq n'en contient que sur tableau-bureau.",
+  "Aucune occurrence supplémentaire au-delà de l'inventaire (pas d'alt ni d'attribut)."
+ ],
+ "entrees": [
+  {
+   "handle": "tableau-chambre-enfant",
+   "collection_id": "gid://shopify/Collection/406510534911",
+   "metafield_gid": "gid://shopify/Metafield/64742975668571",
+   "metafield_key": "custom.guide",
+   "type": "multi_line_text_field",
+   "ancien_digest": "e07a52ac0e07fdace29bfffa437a3b982fd253dece4aa7225671443877b00ca0",
+   "ancien_digest_source": "lu via getTranslatableContent (= sha256 de la valeur de départ)",
+   "nouveau_digest": "b56f374d1ae2549ddf860115779a4ac861774738b38ad639b9dcbedf3aea2d96",
+   "nouveau_digest_verifie": "getTranslatableContent après écriture = sha256(nouvelle valeur)",
+   "ecriture": "updateCollection identité, setMetafield identité (GID), puis updateCollection {id, metafields} avec la nouvelle valeur",
+   "reecriture_identique": "updateCollection (valeur identique, updatedAt de la collection inchangé 2026-10-05T00:10:03Z) puis setMetafield (valeur identique) pour obtenir le GID ; aucune modification : digest = sha256 de la valeur de départ et traductions restées outdated:false",
+   "remplacements_fr": 2,
+   "remplacements_par_langue": {
+    "fr": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 2847,
+     "len_apres": 2866
+    },
+    "en": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 2742,
+     "len_apres": 2761
+    },
+    "de": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 3055,
+     "len_apres": 3074
+    },
+    "es": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 2992,
+     "len_apres": 3011
+    },
+    "nl": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 2868,
+     "len_apres": 2887
+    }
+   },
+   "phrases": {
+    "fr": [
+     {
+      "avant": "es chambres d'enfants, avec une note Trustpilot de 4,1/5 sur 80 avis. Une question sur une teinte, u",
+      "apres": "es chambres d'enfants, avec une note Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis. Une question sur une teinte, u"
+     }
+    ],
+    "en": [
+     {
+      "avant": "ly homes and kids’ rooms, with a Trustpilot rating of 4.1/5 from 80 reviews. Questions about a shade",
+      "apres": "ly homes and kids’ rooms, with a Trustpilot rating of [[TP_SCORE]]/5 from [[TP_COUNT]] reviews. Questions about a shade"
+     }
+    ],
+    "de": [
+     {
+      "avant": "nderzimmer erreicht, mit einer Trustpilot-Bewertung von 4,1/5 bei 80 Bewertungen. Eine Frage zu ein",
+      "apres": "nderzimmer erreicht, mit einer Trustpilot-Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen. Eine Frage zu ein"
+     }
+    ],
+    "es": [
+     {
+      "avant": "bitaciones infantiles, con una nota Trustpilot de 4,1/5 sobre 80 reseñas. ¿Una pregunta sobre un ton",
+      "apres": "bitaciones infantiles, con una nota Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas. ¿Una pregunta sobre un ton"
+     }
+    ],
+    "nl": [
+     {
+      "avant": "en kinderkamers vervoegd, met een Trustpilot-score van 4,1/5 op 80 reviews. Een vraag over een tint,",
+      "apres": "en kinderkamers vervoegd, met een Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] reviews. Een vraag over een tint,"
+     }
+    ]
+   },
+   "inventaire_phrases_attendues": {
+    "fr": 1,
+    "en": 1,
+    "de": 1,
+    "es": 1,
+    "nl": 1
+   },
+   "traductions_outdated_avant": [],
+   "traductions_outdated_avant_note": "aucune : en/de/es/nl outdated:false lus avant la modification",
+   "traductions_publiees": {
+    "en": {
+     "outdated": false,
+     "valueLength": 2761,
+     "valueLength_ok": true
+    },
+    "de": {
+     "outdated": false,
+     "valueLength": 3074,
+     "valueLength_ok": true
+    },
+    "es": {
+     "outdated": false,
+     "valueLength": 3011,
+     "valueLength_ok": true
+    },
+    "nl": {
+     "outdated": false,
+     "valueLength": 2887,
+     "valueLength_ok": true
+    }
+   },
+   "preuve_valeurs_depart": "extraction publique brute de la page FR et des 4 pages traduites (deux extractions espacées identiques pour les écritures directes)",
+   "verification_en_ligne": {
+    "fr": {
+     "url": "/collections/tableau-chambre-enfant",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    },
+    "en": {
+     "url": "/en/collections/childrens-room-wall-art",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    },
+    "de": {
+     "url": "/de/collections/kinderzimmerbild",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    },
+    "es": {
+     "url": "/es/collections/cuadro-habitacion-infantil",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    },
+    "nl": {
+     "url": "/nl/collections/kinderkamer-schilderij",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    }
+   }
+  },
+  {
+   "handle": "tableau-bureau",
+   "collection_id": "gid://shopify/Collection/407649157375",
+   "metafield_gid": "gid://shopify/Metafield/64742971638107",
+   "metafield_key": "custom.guide",
+   "type": "multi_line_text_field",
+   "ancien_digest": "c29fbd5f3e175bea99ed82679115583b55c4390fa389d672320f941d928e4699",
+   "ancien_digest_source": "lu via getTranslatableContent (= sha256 de la valeur de départ)",
+   "nouveau_digest": "edd20117a355ed79580a84ab03090f6c6060e6fa85aad19bc1a1e439afecd3f4",
+   "nouveau_digest_verifie": "getTranslatableContent après écriture = sha256(nouvelle valeur)",
+   "ecriture": "setMetafield identité (GID) puis updateCollection {id, metafields} avec la nouvelle valeur",
+   "reecriture_identique": "setMetafield (valeur identique) pour obtenir le GID ; aucune modification : digest = sha256 de la valeur de départ et traductions restées outdated:false",
+   "remplacements_fr": 2,
+   "remplacements_par_langue": {
+    "fr": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 2934,
+     "len_apres": 2953
+    },
+    "en": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 2839,
+     "len_apres": 2858
+    },
+    "de": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 3106,
+     "len_apres": 3125
+    },
+    "es": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 3060,
+     "len_apres": 3079
+    },
+    "nl": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 2931,
+     "len_apres": 2950
+    }
+   },
+   "phrases": {
+    "fr": [
+     {
+      "avant": "clients, qui nous accordent une note Trustpilot de 4,1/5 sur 80 avis. Notre service client basé à To",
+      "apres": "clients, qui nous accordent une note Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis. Notre service client basé à To"
+     }
+    ],
+    "en": [
+     {
+      "avant": "stomers’ interiors, and we hold a 4.1/5 Trustpilot rating from 80 reviews. Our Toulouse-based custo",
+      "apres": "stomers’ interiors, and we hold a [[TP_SCORE]]/5 Trustpilot rating from [[TP_COUNT]] reviews. Our Toulouse-based custo"
+     }
+    ],
+    "de": [
+     {
+      "avant": " Kunden erreicht, die uns eine Trustpilot-Bewertung von 4,1/5 bei 80 Bewertungen geben. Unser Kunde",
+      "apres": " Kunden erreicht, die uns eine Trustpilot-Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen geben. Unser Kunde"
+     }
+    ],
+    "es": [
+     {
+      "avant": " clientes, que nos otorgan una nota Trustpilot de 4,1/5 sobre 80 reseñas. Nuestra atención al client",
+      "apres": " clientes, que nos otorgan una nota Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas. Nuestra atención al client"
+     }
+    ],
+    "nl": [
+     {
+      "avant": "nze klanten vervoegd, die ons een Trustpilot-score van 4,1/5 op 80 reviews toekennen. Onze klantense",
+      "apres": "nze klanten vervoegd, die ons een Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] reviews toekennen. Onze klantense"
+     }
+    ]
+   },
+   "inventaire_phrases_attendues": {
+    "fr": 2,
+    "en": 2,
+    "de": 2,
+    "es": 2,
+    "nl": 2
+   },
+   "traductions_outdated_avant": [],
+   "traductions_outdated_avant_note": "aucune : en/de/es/nl outdated:false lus avant la modification",
+   "traductions_publiees": {
+    "en": {
+     "outdated": false,
+     "valueLength": 2858,
+     "valueLength_ok": true
+    },
+    "de": {
+     "outdated": false,
+     "valueLength": 3125,
+     "valueLength_ok": true
+    },
+    "es": {
+     "outdated": false,
+     "valueLength": 3079,
+     "valueLength_ok": true
+    },
+    "nl": {
+     "outdated": false,
+     "valueLength": 2950,
+     "valueLength_ok": true
+    }
+   },
+   "preuve_valeurs_depart": "extraction publique brute de la page FR et des 4 pages traduites (deux extractions espacées identiques pour les écritures directes)",
+   "verification_en_ligne": {
+    "fr": {
+     "url": "/collections/tableau-bureau",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    },
+    "en": {
+     "url": "/en/collections/office-wall-art",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    },
+    "de": {
+     "url": "/de/collections/buerobild",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    },
+    "es": {
+     "url": "/es/collections/cuadro-oficina",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    },
+    "nl": {
+     "url": "/nl/collections/kantoor-schilderij",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    }
+   }
+  },
+  {
+   "handle": "tableau-bureau",
+   "collection_id": "gid://shopify/Collection/407649157375",
+   "metafield_gid": "gid://shopify/Metafield/64742987039067",
+   "metafield_key": "custom.faq",
+   "type": "json",
+   "ancien_digest": "063a25de08342b4d20add7213dbee86fe8af949a468f80b1754d4ea6585e61cf",
+   "ancien_digest_source": "lu via getTranslatableContent (= sha256 de la valeur de départ)",
+   "nouveau_digest": "1818cd784cb68c0a9bb9720da97935ba6d3512909341d0220e20b4934dac13be",
+   "nouveau_digest_verifie": "getTranslatableContent après écriture = sha256(nouvelle valeur)",
+   "ecriture": "setMetafield identité (GID) puis updateCollection {id, metafields} avec la nouvelle valeur",
+   "reecriture_identique": "setMetafield (valeur identique) pour obtenir le GID ; aucune modification : digest = sha256 de la valeur de départ et traductions restées outdated:false",
+   "remplacements_fr": 2,
+   "remplacements_par_langue": {
+    "fr": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 2435,
+     "len_apres": 2454
+    },
+    "en": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 2170,
+     "len_apres": 2189
+    },
+    "de": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 2542,
+     "len_apres": 2561
+    },
+    "es": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 2461,
+     "len_apres": 2480
+    },
+    "nl": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 2510,
+     "len_apres": 2529
+    }
+   },
+   "phrases": {
+    "fr": [
+     {
+      "avant": "us ont fait confiance, avec une note Trustpilot de 4,1/5 sur 80 avis. Vous n'êtes jamais seul face à",
+      "apres": "us ont fait confiance, avec une note Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis. Vous n'êtes jamais seul face à"
+     }
+    ],
+    "en": [
+     {
+      "avant": "5 clients have trusted us, with a 4.1/5 Trustpilot rating from 80 reviews. You’re never alone in yo",
+      "apres": "5 clients have trusted us, with a [[TP_SCORE]]/5 Trustpilot rating from [[TP_COUNT]] reviews. You’re never alone in yo"
+     }
+    ],
+    "de": [
+     {
+      "avant": "015 Kunden vertraut, mit einer Trustpilot-Bewertung von 4,1/5 bei 80 Bewertungen. Sie stehen mit Ih",
+      "apres": "015 Kunden vertraut, mit einer Trustpilot-Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen. Sie stehen mit Ih"
+     }
+    ],
+    "es": [
+     {
+      "avant": " confiado en nosotros, con una nota Trustpilot de 4,1/5 sobre 80 reseñas. Nunca estás solo ante tu d",
+      "apres": " confiado en nosotros, con una nota Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas. Nunca estás solo ante tu d"
+     }
+    ],
+    "nl": [
+     {
+      "avant": "15 klanten ons vertrouwd, met een Trustpilot-score van 4,1/5 op 80 reviews. U staat nooit alleen voo",
+      "apres": "15 klanten ons vertrouwd, met een Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] reviews. U staat nooit alleen voo"
+     }
+    ]
+   },
+   "inventaire_phrases_attendues": {
+    "fr": 2,
+    "en": 2,
+    "de": 2,
+    "es": 2,
+    "nl": 2
+   },
+   "traductions_outdated_avant": [],
+   "traductions_outdated_avant_note": "aucune : en/de/es/nl outdated:false lus avant la modification",
+   "traductions_publiees": {
+    "en": {
+     "outdated": false,
+     "valueLength": 2189,
+     "valueLength_ok": true
+    },
+    "de": {
+     "outdated": false,
+     "valueLength": 2561,
+     "valueLength_ok": true
+    },
+    "es": {
+     "outdated": false,
+     "valueLength": 2480,
+     "valueLength_ok": true
+    },
+    "nl": {
+     "outdated": false,
+     "valueLength": 2529,
+     "valueLength_ok": true
+    }
+   },
+   "preuve_valeurs_depart": "FR et 4 traductions : liste reconstruite depuis la page publique (q = JSON-LD name, a = accordéon) identique à json.loads(valeur) pour les 6 questions, avant écriture",
+   "verification_en_ligne": {
+    "fr": {
+     "url": "/collections/tableau-bureau",
+     "faq_reconstruite_identique": true,
+     "jsonld_faqpage_nouveaux_chiffres": true,
+     "jsonld_faqpage_anciens_chiffres": false,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "ok": true
+    },
+    "en": {
+     "url": "/en/collections/office-wall-art",
+     "faq_reconstruite_identique": true,
+     "jsonld_faqpage_nouveaux_chiffres": true,
+     "jsonld_faqpage_anciens_chiffres": false,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "ok": true
+    },
+    "de": {
+     "url": "/de/collections/buerobild",
+     "faq_reconstruite_identique": true,
+     "jsonld_faqpage_nouveaux_chiffres": true,
+     "jsonld_faqpage_anciens_chiffres": false,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "ok": true
+    },
+    "es": {
+     "url": "/es/collections/cuadro-oficina",
+     "faq_reconstruite_identique": true,
+     "jsonld_faqpage_nouveaux_chiffres": true,
+     "jsonld_faqpage_anciens_chiffres": false,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "ok": true
+    },
+    "nl": {
+     "url": "/nl/collections/kantoor-schilderij",
+     "faq_reconstruite_identique": true,
+     "jsonld_faqpage_nouveaux_chiffres": true,
+     "jsonld_faqpage_anciens_chiffres": false,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "ok": true
+    }
+   }
+  },
+  {
+   "handle": "tableau-bleue",
+   "collection_id": "gid://shopify/Collection/599920804187",
+   "metafield_gid": "gid://shopify/Metafield/64742926057819",
+   "metafield_key": "custom.guide",
+   "type": "multi_line_text_field",
+   "ancien_digest": "0dead6045417c9f745348fd757b3bf089f7987dbb7ccd0dd60570b9bf9ed1fc8",
+   "ancien_digest_source": "sha256 de la valeur de départ prouvée exacte par deux extractions publiques identiques (GID inconnu avant écriture, amendement)",
+   "nouveau_digest": "13600f6c33ab7087a75159e0614e77624fd081513a630f1fdcae6dffae5d3737",
+   "nouveau_digest_verifie": "getTranslatableContent après écriture = sha256(nouvelle valeur)",
+   "ecriture": "setMetafield direct avec la nouvelle valeur (amendement)",
+   "remplacements_fr": 2,
+   "remplacements_par_langue": {
+    "fr": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 2800,
+     "len_apres": 2819
+    },
+    "en": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 2718,
+     "len_apres": 2737
+    },
+    "de": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 3125,
+     "len_apres": 3144
+    },
+    "es": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 2863,
+     "len_apres": 2882
+    },
+    "nl": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 2894,
+     "len_apres": 2913
+    }
+   },
+   "phrases": {
+    "fr": [
+     {
+      "avant": " nous accordent une note de <strong>4,1/5 sur 80 avis Trustpilot</strong>, et notre service client, ",
+      "apres": " nous accordent une note de <strong>[[TP_SCORE]]/5 sur [[TP_COUNT]] avis Trustpilot</strong>, et notre service client, "
+     }
+    ],
+    "en": [
+     {
+      "avant": "orkshop. Our customers rate us <strong>4.1/5 on 80 Trustpilot reviews</strong>, and our customer ser",
+      "apres": "orkshop. Our customers rate us <strong>[[TP_SCORE]]/5 on [[TP_COUNT]] Trustpilot reviews</strong>, and our customer ser"
+     }
+    ],
+    "de": [
+     {
+      "avant": " geben uns eine Bewertung von <strong>4,1/5 bei 80 Trustpilot-Bewertungen</strong>, und unser Kunde",
+      "apres": " geben uns eine Bewertung von <strong>[[TP_SCORE]]/5 bei [[TP_COUNT]] Trustpilot-Bewertungen</strong>, und unser Kunde"
+     }
+    ],
+    "es": [
+     {
+      "avant": "nos otorgan una nota de <strong>4,1/5 sobre 80 reseñas en Trustpilot</strong>, y nuestro servicio de",
+      "apres": "nos otorgan una nota de <strong>[[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas en Trustpilot</strong>, y nuestro servicio de"
+     }
+    ],
+    "nl": [
+     {
+      "avant": "anten kennen ons een score van <strong>4,1/5 op 80 Trustpilot-beoordelingen</strong> toe, en onze kl",
+      "apres": "anten kennen ons een score van <strong>[[TP_SCORE]]/5 op [[TP_COUNT]] Trustpilot-beoordelingen</strong> toe, en onze kl"
+     }
+    ]
+   },
+   "inventaire_phrases_attendues": {
+    "fr": 1,
+    "en": 1,
+    "de": 1,
+    "es": 1,
+    "nl": 1
+   },
+   "traductions_outdated_avant": null,
+   "traductions_outdated_avant_note": "non déterminable : écriture directe de la nouvelle valeur (amendement), le GID n'était pas connu avant. Les 4 traductions extraites en ligne avaient la longueur attendue (valueLength identique).",
+   "traductions_publiees": {
+    "en": {
+     "outdated": false,
+     "valueLength": 2737,
+     "valueLength_ok": true
+    },
+    "de": {
+     "outdated": false,
+     "valueLength": 3144,
+     "valueLength_ok": true
+    },
+    "es": {
+     "outdated": false,
+     "valueLength": 2882,
+     "valueLength_ok": true
+    },
+    "nl": {
+     "outdated": false,
+     "valueLength": 2913,
+     "valueLength_ok": true
+    }
+   },
+   "preuve_valeurs_depart": "extraction publique brute de la page FR et des 4 pages traduites (deux extractions espacées identiques pour les écritures directes)",
+   "verification_en_ligne": {
+    "fr": {
+     "url": "/collections/tableau-bleue",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    },
+    "en": {
+     "url": "/en/collections/blue-wall-art",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    },
+    "de": {
+     "url": "/de/collections/blaues-wandbild",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    },
+    "es": {
+     "url": "/es/collections/cuadro-azul",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    },
+    "nl": {
+     "url": "/nl/collections/blauw-schilderij",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    }
+   }
+  },
+  {
+   "handle": "tableau-couleur",
+   "collection_id": "gid://shopify/Collection/600341086555",
+   "metafield_gid": "gid://shopify/Metafield/64741804540251",
+   "metafield_key": "custom.guide",
+   "type": "multi_line_text_field",
+   "ancien_digest": "d7b12c0088b64c0f2a5cf5ae971ff09206d0380772626db0c31c9343972b0332",
+   "ancien_digest_source": "sha256 de la valeur de départ prouvée exacte par deux extractions publiques identiques (GID inconnu avant écriture, amendement)",
+   "nouveau_digest": "a4dc7f3121561f94191b43957da6f63a63afe0f9d51edacdf43651b944f74b8d",
+   "nouveau_digest_verifie": "getTranslatableContent après écriture = sha256(nouvelle valeur)",
+   "ecriture": "setMetafield direct avec la nouvelle valeur (amendement)",
+   "remplacements_fr": 2,
+   "remplacements_par_langue": {
+    "fr": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 3422,
+     "len_apres": 3441
+    },
+    "en": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 3284,
+     "len_apres": 3303
+    },
+    "de": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 3656,
+     "len_apres": 3675
+    },
+    "es": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 3465,
+     "len_apres": 3484
+    },
+    "nl": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 3515,
+     "len_apres": 3534
+    }
+   },
+   "phrases": {
+    "fr": [
+     {
+      "avant": " nous accordent une note de <strong>4,1/5 sur 80 avis Trustpilot</strong>, et notre service client b",
+      "apres": " nous accordent une note de <strong>[[TP_SCORE]]/5 sur [[TP_COUNT]] avis Trustpilot</strong>, et notre service client b"
+     }
+    ],
+    "en": [
+     {
+      "avant": "</p>\n<p>Our customers rate us <strong>4.1/5 from 80 Trustpilot reviews</strong>, and our Toulouse‑ba",
+      "apres": "</p>\n<p>Our customers rate us <strong>[[TP_SCORE]]/5 from [[TP_COUNT]] Trustpilot reviews</strong>, and our Toulouse‑ba"
+     }
+    ],
+    "de": [
+     {
+      "avant": " geben uns eine Bewertung von <strong>4,1/5 bei 80 Trustpilot-Bewertungen</strong>, und unser Kunde",
+      "apres": " geben uns eine Bewertung von <strong>[[TP_SCORE]]/5 bei [[TP_COUNT]] Trustpilot-Bewertungen</strong>, und unser Kunde"
+     }
+    ],
+    "es": [
+     {
+      "avant": "nos otorgan una nota de <strong>4,1/5 sobre 80 reseñas en Trustpilot</strong>, y nuestro servicio de",
+      "apres": "nos otorgan una nota de <strong>[[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas en Trustpilot</strong>, y nuestro servicio de"
+     }
+    ],
+    "nl": [
+     {
+      "avant": "anten kennen ons een score van <strong>4,1/5 op 80 Trustpilot-beoordelingen</strong> toe, en onze kl",
+      "apres": "anten kennen ons een score van <strong>[[TP_SCORE]]/5 op [[TP_COUNT]] Trustpilot-beoordelingen</strong> toe, en onze kl"
+     }
+    ]
+   },
+   "inventaire_phrases_attendues": {
+    "fr": 1,
+    "en": 1,
+    "de": 1,
+    "es": 1,
+    "nl": 1
+   },
+   "traductions_outdated_avant": null,
+   "traductions_outdated_avant_note": "non déterminable : écriture directe de la nouvelle valeur (amendement), le GID n'était pas connu avant. Les 4 traductions extraites en ligne avaient la longueur attendue (valueLength identique).",
+   "traductions_publiees": {
+    "en": {
+     "outdated": false,
+     "valueLength": 3303,
+     "valueLength_ok": true
+    },
+    "de": {
+     "outdated": false,
+     "valueLength": 3675,
+     "valueLength_ok": true
+    },
+    "es": {
+     "outdated": false,
+     "valueLength": 3484,
+     "valueLength_ok": true
+    },
+    "nl": {
+     "outdated": false,
+     "valueLength": 3534,
+     "valueLength_ok": true
+    }
+   },
+   "preuve_valeurs_depart": "extraction publique brute de la page FR et des 4 pages traduites (deux extractions espacées identiques pour les écritures directes)",
+   "verification_en_ligne": {
+    "fr": {
+     "url": "/collections/tableau-couleur",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    },
+    "en": {
+     "url": "/en/collections/vibrant-art-collection",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    },
+    "de": {
+     "url": "/de/collections/buntes-wandbild",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    },
+    "es": {
+     "url": "/es/collections/cuadro-colorido",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    },
+    "nl": {
+     "url": "/nl/collections/kleurrijk-schilderij",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    }
+   }
+  },
+  {
+   "handle": "tableau-paysage",
+   "collection_id": "gid://shopify/Collection/607562432859",
+   "metafield_gid": "gid://shopify/Metafield/64742944866651",
+   "metafield_key": "custom.guide",
+   "type": "multi_line_text_field",
+   "ancien_digest": "a5724370ec893df488b44ddc54338aa636bf08d974a8a429a49de89c2606b7c5",
+   "ancien_digest_source": "sha256 de la valeur de départ prouvée exacte par deux extractions publiques identiques (GID inconnu avant écriture, amendement)",
+   "nouveau_digest": "d6635d7cc396b6ed4e0994d4a6b9095efa8d0c7febd25d1a49d8c77c6d2cbb77",
+   "nouveau_digest_verifie": "getTranslatableContent après écriture = sha256(nouvelle valeur)",
+   "ecriture": "setMetafield direct avec la nouvelle valeur (amendement)",
+   "remplacements_fr": 2,
+   "remplacements_par_langue": {
+    "fr": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 3048,
+     "len_apres": 3067
+    },
+    "en": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 2908,
+     "len_apres": 2927
+    },
+    "de": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 3250,
+     "len_apres": 3269
+    },
+    "es": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 3142,
+     "len_apres": 3161
+    },
+    "nl": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 3090,
+     "len_apres": 3109
+    }
+   },
+   "phrases": {
+    "fr": [
+     {
+      "avant": "ieurs partout, avec une note <strong>Trustpilot de 4,1/5 sur 80 avis</strong>. Une question avant de",
+      "apres": "ieurs partout, avec une note <strong>Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis</strong>. Une question avant de"
+     }
+    ],
+    "en": [
+     {
+      "avant": "a home worldwide, with a <strong>Trustpilot rating of 4.1/5 from 80 reviews</strong>. Questions befo",
+      "apres": "a home worldwide, with a <strong>Trustpilot rating of [[TP_SCORE]]/5 from [[TP_COUNT]] reviews</strong>. Questions befo"
+     }
+    ],
+    "de": [
+     {
+      "avant": "ll gefunden, mit einer <strong>Trustpilot-Bewertung von 4,1/5 bei 80 Bewertungen</strong>. Eine Fra",
+      "apres": "ll gefunden, mit einer <strong>Trustpilot-Bewertung von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen</strong>. Eine Fra"
+     }
+    ],
+    "es": [
+     {
+      "avant": " todas partes, con una nota <strong>Trustpilot de 4,1/5 sobre 80 reseñas</strong>. ¿Una pregunta ant",
+      "apres": " todas partes, con una nota <strong>Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas</strong>. ¿Una pregunta ant"
+     }
+    ],
+    "nl": [
+     {
+      "avant": "erieurs vervoegd, met een <strong>Trustpilot-score van 4,1/5 op 80 beoordelingen</strong>. Een vraag",
+      "apres": "erieurs vervoegd, met een <strong>Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] beoordelingen</strong>. Een vraag"
+     }
+    ]
+   },
+   "inventaire_phrases_attendues": {
+    "fr": 1,
+    "en": 1,
+    "de": 1,
+    "es": 1,
+    "nl": 1
+   },
+   "traductions_outdated_avant": null,
+   "traductions_outdated_avant_note": "non déterminable : écriture directe de la nouvelle valeur (amendement), le GID n'était pas connu avant. Les 4 traductions extraites en ligne avaient la longueur attendue (valueLength identique).",
+   "traductions_publiees": {
+    "en": {
+     "outdated": false,
+     "valueLength": 2927,
+     "valueLength_ok": true
+    },
+    "de": {
+     "outdated": false,
+     "valueLength": 3269,
+     "valueLength_ok": true
+    },
+    "es": {
+     "outdated": false,
+     "valueLength": 3161,
+     "valueLength_ok": true
+    },
+    "nl": {
+     "outdated": false,
+     "valueLength": 3109,
+     "valueLength_ok": true
+    }
+   },
+   "preuve_valeurs_depart": "extraction publique brute de la page FR et des 4 pages traduites (deux extractions espacées identiques pour les écritures directes)",
+   "verification_en_ligne": {
+    "fr": {
+     "url": "/collections/tableau-paysage",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    },
+    "en": {
+     "url": "/en/collections/landscape-paintings",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    },
+    "de": {
+     "url": "/de/collections/landschaftsbilder",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    },
+    "es": {
+     "url": "/es/collections/cuadros-de-paisaje",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    },
+    "nl": {
+     "url": "/nl/collections/landschapsschilderij",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    }
+   }
+  },
+  {
+   "handle": "bestsellers-1",
+   "collection_id": "gid://shopify/Collection/629742960987",
+   "metafield_gid": "gid://shopify/Metafield/64743070007643",
+   "metafield_key": "custom.guide",
+   "type": "multi_line_text_field",
+   "ancien_digest": "05ba4e93d9bb02c0e04ce265146859155572f0408f32dbeaeacd908f7cc97072",
+   "ancien_digest_source": "sha256 de la valeur de départ prouvée exacte par deux extractions publiques identiques (GID inconnu avant écriture, amendement)",
+   "nouveau_digest": "5b1ec6a15dc4466aebe80579f064c30200e1fe146b5281c2e40a1d95a2bc9003",
+   "nouveau_digest_verifie": "getTranslatableContent après écriture = sha256(nouvelle valeur)",
+   "ecriture": "setMetafield direct avec la nouvelle valeur (amendement)",
+   "remplacements_fr": 2,
+   "remplacements_par_langue": {
+    "fr": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 3247,
+     "len_apres": 3266
+    },
+    "en": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 3060,
+     "len_apres": 3079
+    },
+    "de": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 3525,
+     "len_apres": 3544
+    },
+    "es": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 3358,
+     "len_apres": 3377
+    },
+    "nl": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 3311,
+     "len_apres": 3330
+    }
+   },
+   "phrases": {
+    "fr": [
+     {
+      "avant": " nous accordent une note de <strong>4,1/5 sur 80 avis Trustpilot</strong>. Notre service client, bas",
+      "apres": " nous accordent une note de <strong>[[TP_SCORE]]/5 sur [[TP_COUNT]] avis Trustpilot</strong>. Notre service client, bas"
+     }
+    ],
+    "en": [
+     {
+      "avant": "ur customers, and we’re rated <strong>4.1/5 from 80 Trustpilot reviews</strong>. Our customer servic",
+      "apres": "ur customers, and we’re rated <strong>[[TP_SCORE]]/5 from [[TP_COUNT]] Trustpilot reviews</strong>. Our customer servic"
+     }
+    ],
+    "de": [
+     {
+      "avant": " geben uns eine Bewertung von <strong>4,1/5 bei 80 Trustpilot-Bewertungen</strong>. Unser Kundenser",
+      "apres": " geben uns eine Bewertung von <strong>[[TP_SCORE]]/5 bei [[TP_COUNT]] Trustpilot-Bewertungen</strong>. Unser Kundenser"
+     }
+    ],
+    "es": [
+     {
+      "avant": " nos otorgan una nota de <strong>4,1/5 sobre 80 reseñas Trustpilot</strong>. Nuestro servicio de at",
+      "apres": " nos otorgan una nota de <strong>[[TP_SCORE]]/5 sobre [[TP_COUNT]] reseñas Trustpilot</strong>. Nuestro servicio de at"
+     }
+    ],
+    "nl": [
+     {
+      "avant": "anten kennen ons een score van <strong>4,1/5 op 80 Trustpilot-beoordelingen</strong> toe. Onze klant",
+      "apres": "anten kennen ons een score van <strong>[[TP_SCORE]]/5 op [[TP_COUNT]] Trustpilot-beoordelingen</strong> toe. Onze klant"
+     }
+    ]
+   },
+   "inventaire_phrases_attendues": {
+    "fr": 1,
+    "en": 1,
+    "de": 1,
+    "es": 1,
+    "nl": 1
+   },
+   "traductions_outdated_avant": null,
+   "traductions_outdated_avant_note": "non déterminable : écriture directe de la nouvelle valeur (amendement), le GID n'était pas connu avant. Les 4 traductions extraites en ligne avaient la longueur attendue (valueLength identique).",
+   "traductions_publiees": {
+    "en": {
+     "outdated": false,
+     "valueLength": 3079,
+     "valueLength_ok": true
+    },
+    "de": {
+     "outdated": false,
+     "valueLength": 3544,
+     "valueLength_ok": true
+    },
+    "es": {
+     "outdated": false,
+     "valueLength": 3377,
+     "valueLength_ok": true
+    },
+    "nl": {
+     "outdated": false,
+     "valueLength": 3330,
+     "valueLength_ok": true
+    }
+   },
+   "preuve_valeurs_depart": "extraction publique brute de la page FR et des 4 pages traduites (deux extractions espacées identiques pour les écritures directes)",
+   "verification_en_ligne": {
+    "fr": {
+     "url": "/collections/bestsellers-1",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    },
+    "en": {
+     "url": "/en/collections/bestsellers",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    },
+    "de": {
+     "url": "/de/collections/bestseller-1",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    },
+    "es": {
+     "url": "/es/collections/superventas-1",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    },
+    "nl": {
+     "url": "/nl/collections/meest-verkocht-1",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    }
+   }
+  },
+  {
+   "handle": "tableaux-bouddha",
+   "collection_id": "gid://shopify/Collection/650738270555",
+   "metafield_gid": "gid://shopify/Metafield/64743100842331",
+   "metafield_key": "custom.guide",
+   "type": "multi_line_text_field",
+   "ancien_digest": "cfb28cf9b2aec7daf41bdf92b3704dc42c2d1264f0b0f62b7762fd95604e9142",
+   "ancien_digest_source": "sha256 de la valeur de départ prouvée exacte par deux extractions publiques identiques (GID inconnu avant écriture, amendement)",
+   "nouveau_digest": "aa6da301f6c078e82efb0279bd9a31a32ade355b91d9e36f706263ffa937c735",
+   "nouveau_digest_verifie": "getTranslatableContent après écriture = sha256(nouvelle valeur)",
+   "ecriture": "setMetafield direct avec la nouvelle valeur (amendement)",
+   "remplacements_fr": 2,
+   "remplacements_par_langue": {
+    "fr": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 3353,
+     "len_apres": 3372
+    },
+    "en": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 3174,
+     "len_apres": 3193
+    },
+    "de": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 3576,
+     "len_apres": 3595
+    },
+    "es": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 3401,
+     "len_apres": 3420
+    },
+    "nl": {
+     "TP_SCORE": 1,
+     "TP_COUNT": 1,
+     "total": 2,
+     "len_avant": 3405,
+     "len_apres": 3424
+    }
+   },
+   "phrases": {
+    "fr": [
+     {
+      "avant": "ong> depuis 2022 et une note <strong>Trustpilot de 4,1/5 sur 80 avis</strong>. Ce n'est pas une simp",
+      "apres": "ong> depuis 2022 et une note <strong>Trustpilot de [[TP_SCORE]]/5 sur [[TP_COUNT]] avis</strong>. Ce n'est pas une simp"
+     }
+    ],
+    "en": [
+     {
+      "avant": "strong> since 2022 and a <strong>Trustpilot rating of 4.1/5 from 80 reviews</strong>. You’re not han",
+      "apres": "strong> since 2022 and a <strong>Trustpilot rating of [[TP_SCORE]]/5 from [[TP_COUNT]] reviews</strong>. You’re not han"
+     }
+    ],
+    "de": [
+     {
+      "avant": "ng> seit 2022 und eine Note <strong>Trustpilot von 4,1/5 bei 80 Bewertungen</strong>. Sie hängen ni",
+      "apres": "ng> seit 2022 und eine Note <strong>Trustpilot von [[TP_SCORE]]/5 bei [[TP_COUNT]] Bewertungen</strong>. Sie hängen ni"
+     }
+    ],
+    "es": [
+     {
+      "avant": "rong> desde 2022 y una nota <strong>Trustpilot de 4,1/5 sobre 80 opiniones</strong>. No es una simpl",
+      "apres": "rong> desde 2022 y una nota <strong>Trustpilot de [[TP_SCORE]]/5 sobre [[TP_COUNT]] opiniones</strong>. No es una simpl"
+     }
+    ],
+    "nl": [
+     {
+      "avant": "strong> sinds 2022 en een <strong>Trustpilot-score van 4,1/5 op 80 beoordelingen</strong>. Het is ni",
+      "apres": "strong> sinds 2022 en een <strong>Trustpilot-score van [[TP_SCORE]]/5 op [[TP_COUNT]] beoordelingen</strong>. Het is ni"
+     }
+    ]
+   },
+   "inventaire_phrases_attendues": {
+    "fr": 1,
+    "en": 1,
+    "de": 1,
+    "es": 1,
+    "nl": 1
+   },
+   "traductions_outdated_avant": null,
+   "traductions_outdated_avant_note": "non déterminable : écriture directe de la nouvelle valeur (amendement), le GID n'était pas connu avant. Les 4 traductions extraites en ligne avaient la longueur attendue (valueLength identique).",
+   "traductions_publiees": {
+    "en": {
+     "outdated": false,
+     "valueLength": 3193,
+     "valueLength_ok": true
+    },
+    "de": {
+     "outdated": false,
+     "valueLength": 3595,
+     "valueLength_ok": true
+    },
+    "es": {
+     "outdated": false,
+     "valueLength": 3420,
+     "valueLength_ok": true
+    },
+    "nl": {
+     "outdated": false,
+     "valueLength": 3424,
+     "valueLength_ok": true
+    }
+   },
+   "preuve_valeurs_depart": "extraction publique brute de la page FR et des 4 pages traduites (deux extractions espacées identiques pour les écritures directes)",
+   "verification_en_ligne": {
+    "fr": {
+     "url": "/collections/tableaux-bouddha",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    },
+    "en": {
+     "url": "/en/collections/buddha-wall-art",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    },
+    "de": {
+     "url": "/de/collections/buddha-bilder",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    },
+    "es": {
+     "url": "/es/collections/cuadros-de-buda",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    },
+    "nl": {
+     "url": "/nl/collections/boeddha-schilderijen",
+     "guide_rendu_identique_au_attendu": true,
+     "jeton_brut_[[TP_": false,
+     "ancien_4,1/5_ou_4.1/5": false,
+     "ancien_80_avis_pres_Trustpilot": false,
+     "nouveaux_chiffres_presents": true,
+     "ok": true
+    }
+   }
+  }
+ ]
+}
