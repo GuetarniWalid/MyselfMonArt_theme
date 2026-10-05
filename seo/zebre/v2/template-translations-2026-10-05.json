@@ -1,0 +1,232 @@
+{
+  "date": "2026-10-05",
+  "theme_id": "167301710171",
+  "context": "FR source corrigé : note Trustpilot 4,2/5 sur 86 avis ; papier poster 250 g/m². Traductions EN/DE/ES/NL mises à jour par modification minimale de la traduction existante, puis vérifiées outdated:false.",
+  "entries_published": 32,
+  "entries": [
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.poster?theme_id=167301710171",
+      "key": "section.product.poster.json.main.collapsible_tab_poster_ou_toile.content:2v7av570f4yzs",
+      "locale": "en",
+      "old_value": "<p>One artwork, two ways to make it yours — choose what feels right today.</p><p><strong>The poster gives you freedom.</strong> A light, affordable paper format—frame it yourself with any standard frame, or display it as is. Move it around, build a gallery wall, refresh it whenever you like. Perfect for first-time decor, small budgets, rentals, or a tasteful gift. The look? Real photo paper, an HD print with vibrant colors.</p><p><strong>The canvas is the statement piece.</strong> The one you put up to last, that sets the tone for a wall and doesn’t get swapped out. More immersive, more substantial—designed to stay.</p><p>Want to see it on canvas? Use the <em>Poster / Canvas</em> toggle at the top of the page to view the same artwork on durable canvas.</p>",
+      "new_value": "<p>One artwork, two ways to make it yours — choose what feels right today.</p><p><strong>The poster gives you freedom.</strong> A light, affordable paper format—frame it yourself with any standard frame, or display it as is. Move it around, build a gallery wall, refresh it whenever you like. Perfect for first-time decor, small budgets, rentals, or a tasteful gift. The look? Real 250 gsm photo paper, an HD print with vibrant colors.</p><p><strong>The canvas is the statement piece.</strong> The one you put up to last, that sets the tone for a wall and doesn’t get swapped out. More immersive, more substantial—designed to stay.</p><p>Want to see it on canvas? Use the <em>Poster / Canvas</em> toggle at the top of the page to view the same artwork on durable canvas.</p>"
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.poster?theme_id=167301710171",
+      "key": "section.product.poster.json.main.collapsible_tab_poster_ou_toile.content:2v7av570f4yzs",
+      "locale": "de",
+      "old_value": "<p>Dasselbe Motiv, zwei Arten, es bei sich wirken zu lassen — wählen Sie, was heute zu Ihnen passt.</p><p><strong>Poster heißt Freiheit.</strong> Ein leichtes, unkompliziertes Papierformat: rahmen Sie es selbst mit einem Standardrahmen oder hängen Sie es pur auf. Lässt sich umhängen, zur Bilderwand kombinieren und nach Lust und Laune austauschen. Ideal für die erste Deko, kleines Budget, Mietwohnung oder ein geschmackvolles Geschenk. Die Wirkung? Echtes Fotopapier, ein HD‑Druck mit leuchtenden Farben.</p><p><strong>Die Leinwand ist das Statement‑Piece.</strong> Sie ist für die Dauer gedacht, gibt einer Wand den Ton an — und bleibt. Wirkungsvoller, präsenter — gemacht, um zu bleiben.</p><p>Lust, es auf Leinwand zu entdecken? Verwenden Sie den Schalter <em>Poster / Leinwand</em> oben auf der Seite, um dasselbe Motiv als langlebige Variante zu sehen.</p>",
+      "new_value": "<p>Dasselbe Motiv, zwei Arten, es bei sich wirken zu lassen — wählen Sie, was heute zu Ihnen passt.</p><p><strong>Poster heißt Freiheit.</strong> Ein leichtes, unkompliziertes Papierformat: rahmen Sie es selbst mit einem Standardrahmen oder hängen Sie es pur auf. Lässt sich umhängen, zur Bilderwand kombinieren und nach Lust und Laune austauschen. Ideal für die erste Deko, kleines Budget, Mietwohnung oder ein geschmackvolles Geschenk. Die Wirkung? Echtes Fotopapier mit 250 g/m², ein HD‑Druck mit leuchtenden Farben.</p><p><strong>Die Leinwand ist das Statement‑Piece.</strong> Sie ist für die Dauer gedacht, gibt einer Wand den Ton an — und bleibt. Wirkungsvoller, präsenter — gemacht, um zu bleiben.</p><p>Lust, es auf Leinwand zu entdecken? Verwenden Sie den Schalter <em>Poster / Leinwand</em> oben auf der Seite, um dasselbe Motiv als langlebige Variante zu sehen.</p>"
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.poster?theme_id=167301710171",
+      "key": "section.product.poster.json.main.collapsible_tab_poster_ou_toile.content:2v7av570f4yzs",
+      "locale": "es",
+      "old_value": "<p>Una misma obra, dos formas de vivirla: elige la que más va contigo hoy.</p><p><strong>El póster es libertad.</strong> Un formato en papel, ligero y accesible, para enmarcar tú mismo con un marco estándar o colocar tal cual. Lo mueves, compones una pared-galería y lo renuevas cuando te apetece. Ideal para una primera decoración, un presupuesto ajustado, una vivienda en alquiler o un regalo con buen gusto. ¿El resultado? Auténtico papel fotográfico, una impresión HD con colores vibrantes.</p><p><strong>La versión en lienzo es la pieza protagonista.</strong> La que se instala para durar, marca el tono de la pared y no se cambia. Más envolvente, más presente — pensada para quedarse.</p><p>¿Quieres verla en lienzo? Usa el selector <em>Póster / Lienzo</em> en la parte superior de la página para ver la misma obra en versión duradera.</p>",
+      "new_value": "<p>Una misma obra, dos formas de vivirla: elige la que más va contigo hoy.</p><p><strong>El póster es libertad.</strong> Un formato en papel, ligero y accesible, para enmarcar tú mismo con un marco estándar o colocar tal cual. Lo mueves, compones una pared-galería y lo renuevas cuando te apetece. Ideal para una primera decoración, un presupuesto ajustado, una vivienda en alquiler o un regalo con buen gusto. ¿El resultado? Auténtico papel fotográfico de 250 g/m², una impresión HD con colores vibrantes.</p><p><strong>La versión en lienzo es la pieza protagonista.</strong> La que se instala para durar, marca el tono de la pared y no se cambia. Más envolvente, más presente — pensada para quedarse.</p><p>¿Quieres verla en lienzo? Usa el selector <em>Póster / Lienzo</em> en la parte superior de la página para ver la misma obra en versión duradera.</p>"
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.poster?theme_id=167301710171",
+      "key": "section.product.poster.json.main.collapsible_tab_poster_ou_toile.content:2v7av570f4yzs",
+      "locale": "nl",
+      "old_value": "<p>Eén en hetzelfde werk, twee manieren om het in huis te halen — kies wat vandaag het beste bij je past.</p><p><strong>De poster, dat is vrijheid.</strong> Een licht en toegankelijk papierformaat, dat je zelf kunt inlijsten met een standaardlijst uit de winkel, of gewoon zo ophangen. Je verplaatst 'm makkelijk, stelt een gallery wall samen en wisselt wanneer je wilt. Ideaal voor je eerste inrichting, een kleiner budget, een huurwoning of een stijlvol cadeau. Het resultaat? Echt fotopapier, een HD-print met sprankelende kleuren.</p><p><strong>De versie op canvas is de blikvanger.</strong> Die je ophangt voor de lange termijn, die de toon aan de muur zet en die je niet snel vervangt. Rijker, aanweziger — gemaakt om te blijven.</p><p>Zin om 'm op canvas te ontdekken? Gebruik de schakelaar <em>Poster / Canvas</em> bovenaan de pagina om hetzelfde werk in de duurzame versie te bekijken.</p>",
+      "new_value": "<p>Eén en hetzelfde werk, twee manieren om het in huis te halen — kies wat vandaag het beste bij je past.</p><p><strong>De poster, dat is vrijheid.</strong> Een licht en toegankelijk papierformaat, dat je zelf kunt inlijsten met een standaardlijst uit de winkel, of gewoon zo ophangen. Je verplaatst 'm makkelijk, stelt een gallery wall samen en wisselt wanneer je wilt. Ideaal voor je eerste inrichting, een kleiner budget, een huurwoning of een stijlvol cadeau. Het resultaat? Echt fotopapier van 250 g/m², een HD-print met sprankelende kleuren.</p><p><strong>De versie op canvas is de blikvanger.</strong> Die je ophangt voor de lange termijn, die de toon aan de muur zet en die je niet snel vervangt. Rijker, aanweziger — gemaakt om te blijven.</p><p>Zin om 'm op canvas te ontdekken? Gebruik de schakelaar <em>Poster / Canvas</em> bovenaan de pagina om hetzelfde werk in de duurzame versie te bekijken.</p>"
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.poster?theme_id=167301710171",
+      "key": "section.product.poster.json.main.collapsible_tab_finitions.content:1uoshc27tdg0x",
+      "locale": "en",
+      "old_value": "<h3>A genuine photo print</h3><p>Your poster is a high-definition reproduction, printed on real photo paper. Colors are vibrant and true to life, with crisp detail. The image is printed edge to edge, with no border—for a full-bleed, clean, minimal look.</p><p>Four sizes to suit your space: <strong>30×40</strong> (small wall or gallery wall), <strong>60×80</strong> (above a piece of furniture), <strong>75×100</strong> and <strong>90×120 cm</strong> (the statement piece, above a sofa or bed). With one click, add the <strong>white border</strong>: a white margin around the artwork for a chic gallery look that lets the image breathe.</p><h3>Framing (optional)</h3><p><strong>Unframed</strong>: the poster only, ready to frame as you like with any standard frame. <em>Frame not included</em>—giving you full freedom to style it your way. <strong>Framed</strong>: delivered ready to hang, in four finishes—white, matte black, light oak, or walnut.</p>",
+      "new_value": "<h3>A genuine photo print</h3><p>Your poster is a high-definition reproduction, printed on real 250 gsm photo paper. Colors are vibrant and true to life, with crisp detail. The image is printed edge to edge, with no border—for a full-bleed, clean, minimal look.</p><p>Four sizes to suit your space: <strong>30×40</strong> (small wall or gallery wall), <strong>60×80</strong> (above a piece of furniture), <strong>75×100</strong> and <strong>90×120 cm</strong> (the statement piece, above a sofa or bed). With one click, add the <strong>white border</strong>: a white margin around the artwork for a chic gallery look that lets the image breathe.</p><h3>Framing (optional)</h3><p><strong>Unframed</strong>: the poster only, ready to frame as you like with any standard frame. <em>Frame not included</em>—giving you full freedom to style it your way. <strong>Framed</strong>: delivered ready to hang, in four finishes—white, matte black, light oak, or walnut.</p>"
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.poster?theme_id=167301710171",
+      "key": "section.product.poster.json.main.collapsible_tab_finitions.content:1uoshc27tdg0x",
+      "locale": "de",
+      "old_value": "<h3>Ein echter Fotodruck</h3><p>Ihr Poster ist eine hochauflösende Reproduktion, gedruckt auf echtem Fotopapier. Die Farben sind leuchtend und originalgetreu, die Details gestochen scharf. Das Motiv wird randlos gedruckt — ein vollformatiger, klarer, minimalistischer Look.</p><p>Vier Formate, damit Sie das Richtige finden: <strong>30×40</strong> (kleine Wand oder Bilderwand), <strong>60×80</strong> (über einem Möbelstück), <strong>75×100</strong> und <strong>90×120 cm</strong> (der Blickfang, über Sofa oder Bett). Mit einem Klick fügen Sie den <strong>weißen Rand</strong> hinzu: eine weiße Umrandung für einen eleganten Galerie-Effekt, der dem Motiv Luft zum Atmen lässt.</p><h3>Rahmen (optional)</h3><p><strong>Ohne Rahmen</strong>: das Poster allein, zum Einrahmen nach Ihrem Geschmack mit einem Standardrahmen aus dem Handel. <em>Der Rahmen ist nicht enthalten</em> — so haben Sie volle Freiheit bei der Gestaltung. <strong>Mit Rahmen</strong>: fertig zum Aufhängen geliefert, in vier Ausführungen zur Wahl — weiß, mattschwarz, Eiche hell oder Nussbaum.</p>",
+      "new_value": "<h3>Ein echter Fotodruck</h3><p>Ihr Poster ist eine hochauflösende Reproduktion, gedruckt auf echtem Fotopapier mit 250 g/m². Die Farben sind leuchtend und originalgetreu, die Details gestochen scharf. Das Motiv wird randlos gedruckt — ein vollformatiger, klarer, minimalistischer Look.</p><p>Vier Formate, damit Sie das Richtige finden: <strong>30×40</strong> (kleine Wand oder Bilderwand), <strong>60×80</strong> (über einem Möbelstück), <strong>75×100</strong> und <strong>90×120 cm</strong> (der Blickfang, über Sofa oder Bett). Mit einem Klick fügen Sie den <strong>weißen Rand</strong> hinzu: eine weiße Umrandung für einen eleganten Galerie-Effekt, der dem Motiv Luft zum Atmen lässt.</p><h3>Rahmen (optional)</h3><p><strong>Ohne Rahmen</strong>: das Poster allein, zum Einrahmen nach Ihrem Geschmack mit einem Standardrahmen aus dem Handel. <em>Der Rahmen ist nicht enthalten</em> — so haben Sie volle Freiheit bei der Gestaltung. <strong>Mit Rahmen</strong>: fertig zum Aufhängen geliefert, in vier Ausführungen zur Wahl — weiß, mattschwarz, Eiche hell oder Nussbaum.</p>"
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.poster?theme_id=167301710171",
+      "key": "section.product.poster.json.main.collapsible_tab_finitions.content:1uoshc27tdg0x",
+      "locale": "es",
+      "old_value": "<h3>Una auténtica impresión fotográfica</h3><p>Tu lámina es una reproducción en alta definición, impresa en papel fotográfico auténtico. Los colores son vivos y fieles; los detalles, muy nítidos. La imagen se imprime de borde a borde, sin margen — un acabado a toda imagen, limpio y minimalista.</p><p>Cuatro tamaños para dar con el tuyo: <strong>30×40</strong> (pared pequeña ou composición), <strong>60×80</strong> (sobre un mueble), <strong>75×100</strong> y <strong>90×120 cm</strong> (la pieza protagonista, sobre un sofá o una cama). Con un clic, añade el <strong>borde blanco</strong>: un margen blanco alrededor del diseño, para un efecto galería más elegante que deja respirar la imagen.</p><h3>El marco, opcional</h3><p><strong>Sin marco</strong>: la lámina sola, para enmarcarla a tu gusto con un marco estándar. <em>El marco no está incluido</em> — tienes total libertad para componer. <strong>Con marco</strong>: se entrega lista para colgar, en cuatro acabados a elegir — blanco, negro mate, roble claro o nogal.</p>",
+      "new_value": "<h3>Una auténtica impresión fotográfica</h3><p>Tu lámina es una reproducción en alta definición, impresa en papel fotográfico auténtico de 250 g/m². Los colores son vivos y fieles; los detalles, muy nítidos. La imagen se imprime de borde a borde, sin margen — un acabado a toda imagen, limpio y minimalista.</p><p>Cuatro tamaños para dar con el tuyo: <strong>30×40</strong> (pared pequeña o composición), <strong>60×80</strong> (sobre un mueble), <strong>75×100</strong> y <strong>90×120 cm</strong> (la pieza protagonista, sobre un sofá o una cama). Con un clic, añade el <strong>borde blanco</strong>: un margen blanco alrededor del diseño, para un efecto galería más elegante que deja respirar la imagen.</p><h3>El marco, opcional</h3><p><strong>Sin marco</strong>: la lámina sola, para enmarcarla a tu gusto con un marco estándar. <em>El marco no está incluido</em> — tienes total libertad para componer. <strong>Con marco</strong>: se entrega lista para colgar, en cuatro acabados a elegir — blanco, negro mate, roble claro o nogal.</p>"
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.poster?theme_id=167301710171",
+      "key": "section.product.poster.json.main.collapsible_tab_finitions.content:1uoshc27tdg0x",
+      "locale": "nl",
+      "old_value": "<h3>Een echte fotoafdruk</h3><p>Je poster is een reproductie in hoge resolutie, gedrukt op echt fotopapier. De kleuren zijn levendig en natuurgetrouw, de details haarscherp. De afbeelding wordt randloos, aflopend gedrukt — een strak, minimalistisch resultaat.</p><p>Vier formaten, zodat je altijd de juiste vindt: <strong>30×40</strong> (kleine muur of in een set), <strong>60×80</strong> (boven een meubel), <strong>75×100</strong> en <strong>90×120 cm</strong> (het statementstuk, boven een bank of bed). Met één klik voeg je de <strong>witte rand</strong> toe: een witte marge rondom het beeld, voor een chiquer galerie-effect dat de afbeelding laat ademen.</p><h3>De lijst, optioneel</h3><p><strong>Zonder lijst</strong>: alleen de poster, die je naar wens kunt inlijsten met een standaardlijst uit de winkel. <em>De lijst is niet inbegrepen</em> — zo heb je alle vrijheid om te combineren. <strong>Met lijst</strong>: kant-en-klaar om op te hangen, in vier afwerkingen naar keuze — wit, matzwart, licht eiken of notenhout.</p>",
+      "new_value": "<h3>Een echte fotoafdruk</h3><p>Je poster is een reproductie in hoge resolutie, gedrukt op echt fotopapier van 250 g/m². De kleuren zijn levendig en natuurgetrouw, de details haarscherp. De afbeelding wordt randloos, aflopend gedrukt — een strak, minimalistisch resultaat.</p><p>Vier formaten, zodat je altijd de juiste vindt: <strong>30×40</strong> (kleine muur of in een set), <strong>60×80</strong> (boven een meubel), <strong>75×100</strong> en <strong>90×120 cm</strong> (het statementstuk, boven een bank of bed). Met één klik voeg je de <strong>witte rand</strong> toe: een witte marge rondom het beeld, voor een chiquer galerie-effect dat de afbeelding laat ademen.</p><h3>De lijst, optioneel</h3><p><strong>Zonder lijst</strong>: alleen de poster, die je naar wens kunt inlijsten met een standaardlijst uit de winkel. <em>De lijst is niet inbegrepen</em> — zo heb je alle vrijheid om te combineren. <strong>Met lijst</strong>: kant-en-klaar om op te hangen, in vier afwerkingen naar keuze — wit, matzwart, licht eiken of notenhout.</p>"
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.poster?theme_id=167301710171",
+      "key": "section.product.poster.json.main.shop_arguments_poster.argument_1_text:r4vs84g11w3k",
+      "locale": "en",
+      "old_value": "High-definition photo print on genuine photo paper — vibrant colors, crisp details, borderless printing.",
+      "new_value": "High-definition photo print on genuine 250 gsm photo paper — vibrant colors, crisp details, borderless printing."
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.poster?theme_id=167301710171",
+      "key": "section.product.poster.json.main.shop_arguments_poster.argument_1_text:r4vs84g11w3k",
+      "locale": "de",
+      "old_value": "HD-Fotodruck auf echtem Fotopapier — brillante Farben, gestochen scharfe Details, randloser Druck.",
+      "new_value": "HD-Fotodruck auf echtem Fotopapier mit 250 g/m² — brillante Farben, gestochen scharfe Details, randloser Druck."
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.poster?theme_id=167301710171",
+      "key": "section.product.poster.json.main.shop_arguments_poster.argument_1_text:r4vs84g11w3k",
+      "locale": "es",
+      "old_value": "Impresión fotográfica HD en papel fotográfico auténtico — colores vibrantes, detalles nítidos, impresión sin bordes.",
+      "new_value": "Impresión fotográfica HD en papel fotográfico auténtico de 250 g/m² — colores vibrantes, detalles nítidos, impresión sin bordes."
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.poster?theme_id=167301710171",
+      "key": "section.product.poster.json.main.shop_arguments_poster.argument_1_text:r4vs84g11w3k",
+      "locale": "nl",
+      "old_value": "HD-fotoafdruk op echt fotopapier — levendige kleuren, haarscherpe details, randloos gedrukt.",
+      "new_value": "HD-fotoafdruk op echt fotopapier van 250 g/m² — levendige kleuren, haarscherpe details, randloos gedrukt."
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.poster?theme_id=167301710171",
+      "key": "section.product.poster.json.posterB_matiere.description:coq0eykyv21f",
+      "locale": "en",
+      "old_value": "<p>This isn’t a cheap poster you tape up and forget. Printed to order in high resolution on <strong>real photo paper</strong>, your poster reveals <strong>vibrant colors</strong> that stay true, with crisp, sharp detail.</p><p>The image is printed <strong>edge-to-edge, borderless</strong>: a full-bleed, clean, minimalist look that draws the eye without overwhelming. <em>Designed in France, printed in Europe.</em></p>",
+      "new_value": "<p>This isn’t a cheap poster you tape up and forget. Printed to order in high resolution on <strong>real 250 gsm photo paper</strong>, your poster reveals <strong>vibrant colors</strong> that stay true, with crisp, sharp detail.</p><p>The image is printed <strong>edge-to-edge, borderless</strong>: a full-bleed, clean, minimalist look that draws the eye without overwhelming. <em>Designed in France, printed in Europe.</em></p>"
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.poster?theme_id=167301710171",
+      "key": "section.product.poster.json.posterB_matiere.description:coq0eykyv21f",
+      "locale": "de",
+      "old_value": "<p>Das ist kein Billigposter, das man einfach anklebt und vergisst. Für Sie auf Bestellung in hoher Auflösung auf <strong>echtem Fotopapier</strong> gedruckt, zeigt Ihr Poster <strong>brillante, farbgetreue Farben</strong> und gestochen scharfe Details.</p><p>Das Motiv wird <strong>randlos, ohne Rand</strong> gedruckt: ein vollflächiger, klarer, minimalistischer Look, der den Blick fesselt, ohne zu überladen. <em>In Frankreich entworfen, in Europa gedruckt.</em></p>",
+      "new_value": "<p>Das ist kein Billigposter, das man einfach anklebt und vergisst. Für Sie auf Bestellung in hoher Auflösung auf <strong>echtem Fotopapier mit 250 g/m²</strong> gedruckt, zeigt Ihr Poster <strong>brillante, farbgetreue Farben</strong> und gestochen scharfe Details.</p><p>Das Motiv wird <strong>randlos, ohne Rand</strong> gedruckt: ein vollflächiger, klarer, minimalistischer Look, der den Blick fesselt, ohne zu überladen. <em>In Frankreich entworfen, in Europa gedruckt.</em></p>"
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.poster?theme_id=167301710171",
+      "key": "section.product.poster.json.posterB_matiere.description:coq0eykyv21f",
+      "locale": "es",
+      "old_value": "<p>No es el póster barato que se pega con cinta y se olvida. Impreso para ti, bajo pedido, en alta definición sobre un <strong>auténtico papel fotográfico</strong>, tu póster luce <strong>colores vibrantes</strong> y fieles, con detalles de gran nitidez.</p><p>La imagen se imprime <strong>de borde a borde, sin márgenes</strong>: un acabado a toda la superficie, limpio y minimalista, que atrae la mirada sin recargarla. <em>Diseñado en Francia, impreso en Europa.</em></p>",
+      "new_value": "<p>No es el póster barato que se pega con cinta y se olvida. Impreso para ti, bajo pedido, en alta definición sobre un <strong>auténtico papel fotográfico de 250 g/m²</strong>, tu póster luce <strong>colores vibrantes</strong> y fieles, con detalles de gran nitidez.</p><p>La imagen se imprime <strong>de borde a borde, sin márgenes</strong>: un acabado a toda la superficie, limpio y minimalista, que atrae la mirada sin recargarla. <em>Diseñado en Francia, impreso en Europa.</em></p>"
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.poster?theme_id=167301710171",
+      "key": "section.product.poster.json.posterB_matiere.description:coq0eykyv21f",
+      "locale": "nl",
+      "old_value": "<p>Dit is niet zo’n goedkope poster die je met plakband ophangt en weer vergeet. Speciaal voor jou, op bestelling en in hoge resolutie geprint op <strong>echt fotopapier</strong>, toont je poster <strong>levendige kleuren</strong>, kleurecht en met haarscherpe details.</p><p>De afbeelding wordt <strong>randloos, zonder witrand</strong> geprint: een beeldvullend, strak en minimalistisch resultaat dat de blik trekt zonder te overheersen. <em>Ontworpen in Frankrijk, gedrukt in Europa.</em></p>",
+      "new_value": "<p>Dit is niet zo’n goedkope poster die je met plakband ophangt en weer vergeet. Speciaal voor jou, op bestelling en in hoge resolutie geprint op <strong>echt fotopapier van 250 g/m²</strong>, toont je poster <strong>levendige kleuren</strong>, kleurecht en met haarscherpe details.</p><p>De afbeelding wordt <strong>randloos, zonder witrand</strong> geprint: een beeldvullend, strak en minimalistisch resultaat dat de blik trekt zonder te overheersen. <em>Ontworpen in Frankrijk, gedrukt in Europa.</em></p>"
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.poster?theme_id=167301710171",
+      "key": "section.product.poster.json.faq_poster_collapsible.faq_poster_matiere.row_content:1o83lb7k3qeks",
+      "locale": "en",
+      "old_value": "<p>It’s a photo print in <strong>high resolution</strong> on <strong>premium photo paper</strong>: vibrant colors, crisp, true-to-image detail. Printing is <strong>borderless</strong>, edge to edge, for a full-bleed, clean, minimalist look — nothing like a flimsy, cheap poster. Each print is made to order, freshly printed. Designed in France, printed in Europe. Trusted in over <strong>1,000 interiors</strong>, with a <strong>4.5/5 Trustpilot rating</strong>.</p>",
+      "new_value": "<p>It’s a photo print in <strong>high resolution</strong> on <strong>premium 250 gsm photo paper</strong>: vibrant colors, crisp, true-to-image detail. Printing is <strong>borderless</strong>, edge to edge, for a full-bleed, clean, minimalist look — nothing like a flimsy, cheap poster. Each print is made to order, freshly printed. Designed in France, printed in Europe. Trusted in over <strong>1,000 interiors</strong>, with a rating of <strong>4.2/5 from 86 Trustpilot reviews</strong>.</p>"
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.poster?theme_id=167301710171",
+      "key": "section.product.poster.json.faq_poster_collapsible.faq_poster_matiere.row_content:1o83lb7k3qeks",
+      "locale": "de",
+      "old_value": "<p>Es ist ein Fotoabzug in <strong>hoher Auflösung</strong> auf <strong>echtem Fotopapier</strong>: leuchtende Farben, gestochen scharfe, bildgetreue Details. Der Druck ist <strong>randlos</strong>, bis an den Rand, für eine vollflächige, klare und minimalistische Wirkung — kein Vergleich mit dünnen Billigpostern. Jeder Abzug wird auf Bestellung frisch gedruckt. Entworfen in Frankreich, gedruckt in Europa. Mehr als <strong>1000 Interieurs</strong> vertrauen uns bereits, mit einer <strong>Trustpilot-Bewertung von 4,5/5</strong>.</p>",
+      "new_value": "<p>Es ist ein Fotoabzug in <strong>hoher Auflösung</strong> auf <strong>echtem Fotopapier mit 250 g/m²</strong>: leuchtende Farben, gestochen scharfe, bildgetreue Details. Der Druck ist <strong>randlos</strong>, bis an den Rand, für eine vollflächige, klare und minimalistische Wirkung — kein Vergleich mit dünnen Billigpostern. Jeder Abzug wird auf Bestellung frisch gedruckt. Entworfen in Frankreich, gedruckt in Europa. Mehr als <strong>1000 Interieurs</strong> vertrauen uns bereits, mit einer Note von <strong>4,2/5 bei 86 Trustpilot-Bewertungen</strong>.</p>"
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.poster?theme_id=167301710171",
+      "key": "section.product.poster.json.faq_poster_collapsible.faq_poster_matiere.row_content:1o83lb7k3qeks",
+      "locale": "es",
+      "old_value": "<p>Es una impresión fotográfica en <strong>alta definición</strong> sobre <strong>auténtico papel fotográfico</strong>: colores vibrantes, detalles nítidos y fieles a la imagen. La impresión es <strong>sin bordes</strong>, de borde a borde, para un acabado a tamaño completo, limpio y minimalista — nada que ver con un póster fino y barato. Cada impresión se realiza bajo pedido, recién impresa. Diseñado en Francia, impreso en Europa. Más de <strong>1000 espacios</strong> ya confían en nosotros, con una valoración <strong>Trustpilot de 4,5/5</strong>.</p>",
+      "new_value": "<p>Es una impresión fotográfica en <strong>alta definición</strong> sobre <strong>auténtico papel fotográfico de 250 g/m²</strong>: colores vibrantes, detalles nítidos y fieles a la imagen. La impresión es <strong>sin bordes</strong>, de borde a borde, para un acabado a tamaño completo, limpio y minimalista — nada que ver con un póster fino y barato. Cada impresión se realiza bajo pedido, recién impresa. Diseñado en Francia, impreso en Europa. Más de <strong>1000 espacios</strong> ya confían en nosotros, con una valoración de <strong>4,2/5 con 86 opiniones en Trustpilot</strong>.</p>"
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.poster?theme_id=167301710171",
+      "key": "section.product.poster.json.faq_poster_collapsible.faq_poster_matiere.row_content:1o83lb7k3qeks",
+      "locale": "nl",
+      "old_value": "<p>Dit is een fotoafdruk in <strong>hoge resolutie</strong> op <strong>echt fotopapier</strong>: levendige kleuren, haarscherpe, natuurgetrouwe details. De afdruk is <strong>randloos</strong>, tot aan de rand, voor een beeldvullend, strak en minimalistisch resultaat — niet te vergelijken met een goedkope, dunne poster. Elke afdruk wordt op bestelling vers gedrukt. Ontworpen in Frankrijk, gedrukt in Europa. Meer dan <strong>1000 interieurs</strong> vertrouwen ons al, met een <strong>Trustpilot-score van 4,5/5</strong>.</p>",
+      "new_value": "<p>Dit is een fotoafdruk in <strong>hoge resolutie</strong> op <strong>echt fotopapier van 250 g/m²</strong>: levendige kleuren, haarscherpe, natuurgetrouwe details. De afdruk is <strong>randloos</strong>, tot aan de rand, voor een beeldvullend, strak en minimalistisch resultaat — niet te vergelijken met een goedkope, dunne poster. Elke afdruk wordt op bestelling vers gedrukt. Ontworpen in Frankrijk, gedrukt in Europa. Meer dan <strong>1000 interieurs</strong> vertrouwen ons al, met een score van <strong>4,2/5 op basis van 86 Trustpilot-reviews</strong>.</p>"
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.poster?theme_id=167301710171",
+      "key": "section.product.poster.json.badges_CQWfDx.svg_block_jhdjPx.text:2zfduq95q7xx7",
+      "locale": "en",
+      "old_value": "Real photo paper, high-definition print: vibrant colors, crisp details, borderless printing.",
+      "new_value": "Real 250 gsm photo paper, high-definition print: vibrant colors, crisp details, borderless printing."
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.poster?theme_id=167301710171",
+      "key": "section.product.poster.json.badges_CQWfDx.svg_block_jhdjPx.text:2zfduq95q7xx7",
+      "locale": "de",
+      "old_value": "Echtes Fotopapier, hochauflösende Reproduktion: brillante Farben, gestochen scharfe Details, randloser Druck.",
+      "new_value": "Echtes Fotopapier mit 250 g/m², hochauflösende Reproduktion: brillante Farben, gestochen scharfe Details, randloser Druck."
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.poster?theme_id=167301710171",
+      "key": "section.product.poster.json.badges_CQWfDx.svg_block_jhdjPx.text:2zfduq95q7xx7",
+      "locale": "es",
+      "old_value": "Papel fotográfico auténtico, reproducción en alta definición: colores vibrantes, detalles nítidos, impresión sin bordes.",
+      "new_value": "Papel fotográfico auténtico de 250 g/m², reproducción en alta definición: colores vibrantes, detalles nítidos, impresión sin bordes."
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.poster?theme_id=167301710171",
+      "key": "section.product.poster.json.badges_CQWfDx.svg_block_jhdjPx.text:2zfduq95q7xx7",
+      "locale": "nl",
+      "old_value": "Echt fotopapier, hoge-resolutie reproductie: levendige kleuren, scherpe details, randloos gedrukt.",
+      "new_value": "Echt fotopapier van 250 g/m², hoge-resolutie reproductie: levendige kleuren, scherpe details, randloos gedrukt."
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.painting?theme_id=167301710171",
+      "key": "section.product.painting.json.main.collapsible_tab_79mrAT.content:13qju3usz4e33",
+      "locale": "en",
+      "old_value": "<p>One artwork, two ways to live with it—choose the one that fits you today.</p><p><strong>Posters give you freedom.</strong> A lightweight, affordable paper format—frame it yourself with any standard frame, or display as is. Move it around, build a gallery wall, swap it out whenever you like. Perfect for first-time decor, small budgets, rentals, or a tasteful gift. The finish? Real photo paper, HD printing with vibrant colors.</p><p><strong>Canvas is the statement piece.</strong> Made to last, it sets the tone for a wall you won’t want to change. More immersive, more impactful—designed to stay.</p><p>Want to see it on canvas? Use the <em>Poster / Canvas</em> toggle at the top of the page to view the same artwork in a durable format.</p>",
+      "new_value": "<p>One artwork, two ways to live with it—choose the one that fits you today.</p><p><strong>Posters give you freedom.</strong> A lightweight, affordable paper format—frame it yourself with any standard frame, or display as is. Move it around, build a gallery wall, swap it out whenever you like. Perfect for first-time decor, small budgets, rentals, or a tasteful gift. The finish? Real 250 gsm photo paper, HD printing with vibrant colors.</p><p><strong>Canvas is the statement piece.</strong> Made to last, it sets the tone for a wall you won’t want to change. More immersive, more impactful—designed to stay.</p><p>Want to see it on canvas? Use the <em>Poster / Canvas</em> toggle at the top of the page to view the same artwork in a durable format.</p>"
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.painting?theme_id=167301710171",
+      "key": "section.product.painting.json.main.collapsible_tab_79mrAT.content:13qju3usz4e33",
+      "locale": "de",
+      "old_value": "<p>Ein und dasselbe Motiv, zwei Arten, damit zu leben — wähle die, die heute zu dir passt.</p><p><strong>Das Poster – pure Freiheit.</strong> Ein leichtes, erschwingliches Papierformat, das du selbst mit einem Standardrahmen einrahmen oder einfach so platzieren kannst. Du kannst es umhängen, zur Galeriewand arrangieren und nach Lust und Laune austauschen. Ideal für die erste Deko, ein kleines Budget, eine Mietwohnung oder ein geschmackvolles Geschenk. Das Ergebnis? Echtes Fotopapier, ein HD-Druck mit leuchtenden Farben.</p><p><strong>Die Leinwandversion – das Statement‑Piece.</strong> Die, die man für lange Zeit aufhängt, die der Wand den Ton vorgibt und die man nicht wechselt. Wirkungsvoller, präsenter — gemacht, um zu bleiben.</p><p>Lust, sie auf Leinwand zu entdecken? Nutze den Schalter <em>Poster / Leinwand</em> oben auf der Seite, um dasselbe Motiv in der langlebigen Version zu sehen.</p>",
+      "new_value": "<p>Ein und dasselbe Motiv, zwei Arten, damit zu leben — wähle die, die heute zu dir passt.</p><p><strong>Das Poster – pure Freiheit.</strong> Ein leichtes, erschwingliches Papierformat, das du selbst mit einem Standardrahmen einrahmen oder einfach so platzieren kannst. Du kannst es umhängen, zur Galeriewand arrangieren und nach Lust und Laune austauschen. Ideal für die erste Deko, ein kleines Budget, eine Mietwohnung oder ein geschmackvolles Geschenk. Das Ergebnis? Echtes Fotopapier mit 250 g/m², ein HD-Druck mit leuchtenden Farben.</p><p><strong>Die Leinwandversion – das Statement‑Piece.</strong> Die, die man für lange Zeit aufhängt, die der Wand den Ton vorgibt und die man nicht wechselt. Wirkungsvoller, präsenter — gemacht, um zu bleiben.</p><p>Lust, sie auf Leinwand zu entdecken? Nutze den Schalter <em>Poster / Leinwand</em> oben auf der Seite, um dasselbe Motiv in der langlebigen Version zu sehen.</p>"
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.painting?theme_id=167301710171",
+      "key": "section.product.painting.json.main.collapsible_tab_79mrAT.content:13qju3usz4e33",
+      "locale": "es",
+      "old_value": "<p>Una misma obra, dos formas de vivirla: tú eliges la que va contigo hoy.</p><p><strong>El póster es libertad.</strong> Un formato en papel ligero y asequible, para enmarcar tú mismo con un marco estándar, o para colocar tal cual. Lo mueves, lo combinas en una galería de pared y lo renuevas cuando te apetezca. Ideal para empezar, para presupuestos ajustados, para alquileres o para un regalo con estilo. ¿El acabado? Papel fotográfico auténtico, impresión HD con colores vibrantes.</p><p><strong>La versión en lienzo es la pieza protagonista.</strong> La que se instala para durar, marca el tono de la pared y no se cambia. Más envolvente, más presente: pensada para quedarse.</p><p>¿Quieres verla en lienzo? Usa el selector <em>Póster / Lienzo</em> en la parte superior de la página para ver la misma obra en versión duradera.</p>",
+      "new_value": "<p>Una misma obra, dos formas de vivirla: tú eliges la que va contigo hoy.</p><p><strong>El póster es libertad.</strong> Un formato en papel ligero y asequible, para enmarcar tú mismo con un marco estándar, o para colocar tal cual. Lo mueves, lo combinas en una galería de pared y lo renuevas cuando te apetezca. Ideal para empezar, para presupuestos ajustados, para alquileres o para un regalo con estilo. ¿El acabado? Papel fotográfico auténtico de 250 g/m², impresión HD con colores vibrantes.</p><p><strong>La versión en lienzo es la pieza protagonista.</strong> La que se instala para durar, marca el tono de la pared y no se cambia. Más envolvente, más presente: pensada para quedarse.</p><p>¿Quieres verla en lienzo? Usa el selector <em>Póster / Lienzo</em> en la parte superior de la página para ver la misma obra en versión duradera.</p>"
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.painting?theme_id=167301710171",
+      "key": "section.product.painting.json.main.collapsible_tab_79mrAT.content:13qju3usz4e33",
+      "locale": "nl",
+      "old_value": "<p>Eén en hetzelfde kunstwerk, twee manieren om het in huis te halen — kies wat vandaag bij je past.</p><p><strong>De poster staat voor vrijheid.</strong> Een licht, toegankelijk papierformaat dat je zelf inlijst met een standaardlijst of zo ophangt. Je verplaatst hem makkelijk, maakt er een galerijwand mee en wisselt wanneer je wilt. Ideaal voor een eerste inrichting, een klein budget, een huurwoning of een stijlvol cadeau. Het resultaat? Echt fotopapier, een HD-print met levendige kleuren.</p><p><strong>De canvasversie is de blikvanger.</strong> Die hang je op voor de lange termijn, bepaalt de sfeer aan de wand en vervang je niet snel. Rijker, nadrukkelijker aanwezig — gemaakt om te blijven.</p><p>Benieuwd naar de canvasuitvoering? Gebruik de schakelaar <em>Poster / Canvas</em> bovenaan de pagina om hetzelfde werk in de blijvende uitvoering te bekijken.</p>",
+      "new_value": "<p>Eén en hetzelfde kunstwerk, twee manieren om het in huis te halen — kies wat vandaag bij je past.</p><p><strong>De poster staat voor vrijheid.</strong> Een licht, toegankelijk papierformaat dat je zelf inlijst met een standaardlijst of zo ophangt. Je verplaatst hem makkelijk, maakt er een galerijwand mee en wisselt wanneer je wilt. Ideaal voor een eerste inrichting, een klein budget, een huurwoning of een stijlvol cadeau. Het resultaat? Echt fotopapier van 250 g/m², een HD-print met levendige kleuren.</p><p><strong>De canvasversie is de blikvanger.</strong> Die hang je op voor de lange termijn, bepaalt de sfeer aan de wand en vervang je niet snel. Rijker, nadrukkelijker aanwezig — gemaakt om te blijven.</p><p>Benieuwd naar de canvasuitvoering? Gebruik de schakelaar <em>Poster / Canvas</em> bovenaan de pagina om hetzelfde werk in de blijvende uitvoering te bekijken.</p>"
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.personalized?theme_id=167301710171",
+      "key": "section.product.personalized.json.main.8600f603-2d6f-4191-8020-3678432ba1e5.text:3hzhmvda7mtjh",
+      "locale": "en",
+      "old_value": "<p>- Their photo, their team, their first name: a one-of-a-kind artwork, made to order</p><p>- Free preview in minutes: you only pay once you approve the result</p><p>- The gift that makes soccer fans' eyes light up</p><p>- Over 1,000 artworks delivered since 2022 — 4.1/5 on Trustpilot<br/></p>",
+      "new_value": "<p>- Their photo, their team, their first name: a one-of-a-kind artwork, made to order</p><p>- Free preview in minutes: you only pay once you approve the result</p><p>- The gift that makes soccer fans' eyes light up</p><p>- Over 1,000 artworks delivered since 2022 — 4.2/5 on Trustpilot<br/></p>"
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.personalized?theme_id=167301710171",
+      "key": "section.product.personalized.json.main.8600f603-2d6f-4191-8020-3678432ba1e5.text:3hzhmvda7mtjh",
+      "locale": "de",
+      "old_value": "<p>- Ihr Foto, Ihr Verein, Ihr Vorname: ein einzigartiges Kunstwerk, auf Wunsch gestaltet</p><p>- Kostenlose Vorschau in wenigen Augenblicken: Sie zahlen erst, wenn Sie das Ergebnis freigegeben haben</p><p>- Das Geschenk, das Fußballfans zum Strahlen bringt</p><p>- Über 1.000 Kunstwerke seit 2022 geliefert — 4,1/5 auf Trustpilot<br/></p>",
+      "new_value": "<p>- Ihr Foto, Ihr Verein, Ihr Vorname: ein einzigartiges Kunstwerk, auf Wunsch gestaltet</p><p>- Kostenlose Vorschau in wenigen Augenblicken: Sie zahlen erst, wenn Sie das Ergebnis freigegeben haben</p><p>- Das Geschenk, das Fußballfans zum Strahlen bringt</p><p>- Über 1.000 Kunstwerke seit 2022 geliefert — 4,2/5 auf Trustpilot<br/></p>"
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.personalized?theme_id=167301710171",
+      "key": "section.product.personalized.json.main.8600f603-2d6f-4191-8020-3678432ba1e5.text:3hzhmvda7mtjh",
+      "locale": "es",
+      "old_value": "<p>- Tu foto, tu equipo, tu nombre: una lámina única, creada por encargo</p><p>- Vista previa gratuita en cuestión de segundos: solo pagas cuando apruebes el resultado</p><p>- El regalo que emociona a los amantes del fútbol</p><p>- Más de 1.000 creaciones entregadas desde 2022 — 4,1/5 en Trustpilot<br/></p>",
+      "new_value": "<p>- Tu foto, tu equipo, tu nombre: una lámina única, creada por encargo</p><p>- Vista previa gratuita en cuestión de segundos: solo pagas cuando apruebes el resultado</p><p>- El regalo que emociona a los amantes del fútbol</p><p>- Más de 1.000 creaciones entregadas desde 2022 — 4,2/5 en Trustpilot<br/></p>"
+    },
+    {
+      "resource": "gid://shopify/OnlineStoreThemeJsonTemplate/product.personalized?theme_id=167301710171",
+      "key": "section.product.personalized.json.main.8600f603-2d6f-4191-8020-3678432ba1e5.text:3hzhmvda7mtjh",
+      "locale": "nl",
+      "old_value": "<p>- Foto, club, naam: een uniek kunstwerk, op maat gemaakt</p><p>- Gratis voorbeeld binnen enkele minuten: je betaalt pas als je het resultaat hebt goedgekeurd</p><p>- Het cadeau dat de ogen van voetballiefhebbers doet stralen</p><p>- Sinds 2022 meer dan 1.000 creaties geleverd — 4,1/5 op Trustpilot<br/></p>",
+      "new_value": "<p>- Foto, club, naam: een uniek kunstwerk, op maat gemaakt</p><p>- Gratis voorbeeld binnen enkele minuten: je betaalt pas als je het resultaat hebt goedgekeurd</p><p>- Het cadeau dat de ogen van voetballiefhebbers doet stralen</p><p>- Sinds 2022 meer dan 1.000 creaties geleverd — 4,2/5 op Trustpilot<br/></p>"
+    }
+  ]
+}

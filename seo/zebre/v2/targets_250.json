@@ -1,0 +1,13 @@
+{
+ "tableau-zebre": {
+  "guide": {"resourceId": "gid://shopify/Metafield/69904071754075", "key": "value", "digest": "b72fb0996d374609d70721051c43bbd590bb5335f35cb760c3a9bb2c352a4339"},
+  "faq":   {"resourceId": "gid://shopify/Metafield/69904071786843", "key": "value", "digest": "689a18d6a8e0f9f86f2098f2f6ab84ae91830c870a896359e9ae95a1ddfdd5ca"}
+ },
+ "posters-affiches-zebre": {
+  "body_html": {"resourceId": "gid://shopify/Collection/682801660251", "key": "body_html", "digest": "e66f005f767e0ef7aa1a9bbf4d9ef8eb6dbce738e281725fe94986017034efc0"},
+  "guide": {"resourceId": "gid://shopify/Metafield/69886929600859", "key": "value", "digest": "cbc2d4a89e1271f608c08ccfc83b036132d5b87a0c9a11fd5825885633f91ea9"},
+  "faq":   {"resourceId": "gid://shopify/Metafield/69886929633627", "key": "value", "digest": "f36f970eda5d79d7e4625b54a4aec1efc37deaba0a01dd8ff2c6397bfd8491b1"},
+  "meta_description": {"resourceId": "gid://shopify/Collection/682801660251", "key": "meta_description", "digest": "6974c9e240b6edee35b6ca65f2652e11ed976e60757f20d2ac18eadcf1d427a6", "fr": "Poster et affiche zèbre : noir et blanc, arc-en-ciel ou motifs africains. Papier photo HD 250 g/m², avec ou sans cadre, livraison offerte."},
+  "meta_title": {"resourceId": "gid://shopify/Collection/682801660251", "key": "meta_title", "digest": "efed5c6e46f5a44a13c6a80fe02721577c2dd27c2850ea290fd90db8ad0c9610", "note": "texte FR inchangé : republier la traduction existante telle quelle pour lever le statut outdated"}
+ }
+}

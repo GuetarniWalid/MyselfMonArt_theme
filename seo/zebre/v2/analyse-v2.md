@@ -86,15 +86,15 @@ L'UX est préservée, comme le demande METHODOLOGY §5bis : les produits restent
   - toiles encadrées livrées montées, prêtes à accrocher ;
   - 14 jours, Klarna en 3 fois dès 50 €, conçu en France et imprimé en Europe.
 - **Poster** (`templates/product.poster.json`) :
-  - vrai papier photo HD, impression bord à bord, contour blanc ;
+  - vrai papier photo HD de 250 g/m², impression bord à bord, contour blanc ;
   - cadres blanc, noir mat, chêne clair ou noyer.
 - **Options réelles des produits** :
   - toiles du 30x40 au 90x120, carrés du 40x40 au 100x100, 5 bordures et 5 cadres ;
   - posters du 30x40 au 90x120, « Avec cadre » jusqu'au 75x100.
 - **Marque** (copy de la home) : 2022, Toulouse, plus de 1 015 tableaux, plus de mille œuvres écartées, 09 60 44 61 50.
-- Le grammage du papier poster n'est documenté nulle part : il n'est **pas** cité, alors que les concurrents l'affichent. Si Walid le confirme, il faudra l'ajouter.
+- Grammage du papier poster : **250 g/m²**, confirmé par Walid le 05/10. Il est désormais cité dans la description, le guide et la FAQ des deux collections, comme le font les concurrents. Il figure aussi dans les templates produit du thème.
 
 ## 6. Hors périmètre, à signaler
 
 - Sur google.fr, une fiche poster MyselfMonArt sort avec une URL `/fr-ch/`. Il faut vérifier hreflang et canonique du marché suisse.
-- `templates/product.poster.json` (FAQ qualité) affiche « Trustpilot 4,5/5 », alors que METHODOLOGY §7 retient 4,1 sur 80 avis et interdit la note en gros. C'est à arbitrer.
+- Trustpilot, réglé le 05/10. La vraie note, relevée sur la page publique, est de **4,2/5 sur 86 avis**, avec le libellé officiel « Bien » (« Excellent » ne s'applique qu'à partir de 4,3). Le site affichait 4,5/5 sur la fiche poster, 4,1/5 sur la fiche personnalisée, 81 avis dans les blocs et le libellé « Excellent ». Tout a été aligné dans le thème : commit `396f4ec` de `myselfmonart_tw_theme`. Le détail figure dans [`../applied-log.md`](../applied-log.md).
