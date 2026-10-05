@@ -9,8 +9,12 @@
   "meta_object.media": "gid://shopify/Metaobject/519130415451"
  },
  "tableau-zebre": {
-  "collection": "à créer (handle bloqué)",
-  "hero_file": "gid://shopify/MediaImage/58839221862747",
-  "hero_url": "https://cdn.shopify.com/s/files/1/0623/2388/4287/files/tableau-zebre-deco-murale.jpg"
+  "collection": "gid://shopify/Collection/682824630619",
+  "intro": "gid://shopify/Metafield/69904071721307",
+  "guide": "gid://shopify/Metafield/69904071754075",
+  "faq": "gid://shopify/Metafield/69904071786843",
+  "cocon_links": "gid://shopify/Metafield/69904071819611",
+  "meta_object.media": "gid://shopify/Metaobject/519469400411",
+  "hero_file": "gid://shopify/MediaImage/58839221862747"
  }
 }

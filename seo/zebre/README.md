@@ -2,7 +2,7 @@
 
 Demande de Walid, 2026-10-04 : créer les collections zèbre tableau et poster avec toutes les données des autres collections, SEO soigné, voix MyselfMonArt.
 
-> **État au 2026-10-04 (soir) : `posters-affiches-zebre` complète en live (image héros mise en scène, métachamps, métaobjet media, traductions EN/DE/ES/NL de tout l'éditorial) ; `tableau-zebre` prête (image héros déjà sur le CDN, traductions prêtes dans [`translations/`](./translations/)) mais bloquée : handle réservé par une collection que l'API ne voit pas.** Détail : [applied-log.md](./applied-log.md). Source de vérité machine : [`collections-zebre.json`](./collections-zebre.json). Ce README est généré depuis les mêmes données.
+> **État au 2026-10-05 : les deux collections sont complètes en live** (`tableau-zebre` et `posters-affiches-zebre`) : image héros mise en scène, métachamps, métaobjet media, traductions EN/DE/ES/NL de tout l'éditorial, liens vérifiés. Détail : [applied-log.md](./applied-log.md). Source de vérité machine : [`collections-zebre.json`](./collections-zebre.json). Ce README est généré depuis les mêmes données.
 
 ## Ce qui existe déjà en ligne (relevé le 2026-10-04)
 

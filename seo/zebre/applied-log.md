@@ -15,6 +15,10 @@ Appliqué en live via le MCP Shopify le 2026-10-04 (après 17:00 UTC). Les valeu
 | 18:40 | Nouvel essai de création de `tableau-zebre` | ❌ toujours « Handle has already been taken » | — |
 | 18:42 | Image héros de `posters-affiches-zebre` remplacée par la mise en scène (chambre, 6 posters encadrés), alt « Poster et affiche zèbre dans une chambre apaisante — mur-galerie déco murale MyselfMonArt » | ✅ servie par le CDN (OG compris), identique au pixel au fichier [`heros/poster-affiche-zebre-deco-murale.jpg`](./heros/poster-affiche-zebre-deco-murale.jpg). Shopify garde l'ancien nom de fichier lors d'un remplacement | ré-uploader l'ancienne image produit |
 | 18:43 | Image héros toile (salon, 6 toiles) déposée dans Fichiers Shopify : `files/tableau-zebre-deco-murale.jpg` (MediaImage 58839221862747) | ✅ prête pour la création de la collection | supprimer le fichier |
+| 05/10 07:18 | « Tableau zebre » supprimée par Walid dans l'admin → création de `tableau-zebre` (gid 682824630619) en un appel : titre, description, SEO, règle TAG = `zèbre` ET TYPE ≠ `poster`, image héros + alt, métachamps (`intro`, `guide`, `faq` 7 Q, `cocon_links`, `type_of_collection` = painting, `editorial_h1`, `breadcrumb.parentCollection` → tableau-animaux, `translation.handle` 5 langues), publiée | ✅ 9 toiles, image servie sous `collections/tableau-zebre-deco-murale.jpg` | `deleteCollection` |
+| 05/10 07:18 | Métaobjet `media` (gid 519469400411) relié via `meta_object.media`, alt traduit EN/DE/ES/NL | ✅ | supprimer métaobjet + métachamp |
+| 05/10 07:19 | Traductions EN/DE/ES/NL de la collection (titre, handle, SEO, description) puis des métachamps `intro`, `guide`, `faq`, `cocon_links` | ✅ 36 entrées, aucune `outdated`, longueurs identiques aux fichiers [`translations/`](./translations/) | Translate & Adapt |
+| 05/10 07:23 | Liens des guides et FAQ (deux collections) pointés directement sur les handles traduits définitifs (la toile, et 2 produits dont le handle a été traduit dans la nuit) | ✅ 135 liens éditoriaux vérifiés sur les 10 pages : tous en 200, aucune redirection | — |
 
 ## Tags : comparaison sans accents
 
@@ -26,25 +30,21 @@ Vérifié en admin après l'envoi : le poster arc-en-ciel porte toujours `zébre
 - Un seul H1 (« Poster & Affiche Zèbre »), éditorial rendu, H2 du guide, FAQ de 6 questions, cocon de 4 liens.
 - JSON-LD : BreadcrumbList (Accueil › Poster & Affiche Nature › Poster & Affiche Animaux › Poster & Affiche Zèbre), FAQPage (6), ItemList (6 produits).
 - hreflang : `/en/collections/zebra-posters-prints`, `/de/collections/zebra-poster`, `/es/collections/posters-laminas-cebra`, `/nl/collections/posters-affiches-zebra`.
-- Version EN : titre, H1 et SEO en anglais. **L'accroche, le guide et la FAQ restent en français** : ce sont des métachamps, et le MCP n'expose pas leurs identifiants, donc impossible de les traduire depuis ici. À passer dans la chaîne de traduction habituelle.
+- Versions EN/DE/ES/NL : titre, H1, SEO, accroche, guide, FAQ, liens et alt traduits (métachamps traduits via leurs GID, cf. entrée 18:05).
 
-## Blocage `tableau-zebre`
+## Blocage `tableau-zebre` (résolu le 05/10)
 
-- Le site public sert toujours « Tableau zebre » (id 682785833307, 9 produits, sans H1 ni SEO).
-- L'API admin répond « Collection does not exist » à la lecture, à la mise à jour et à la suppression de cet id, et aucune recherche admin ne la trouve.
-- Pourtant le handle `tableau-zebre` reste réservé : impossible de créer la collection complète à cette adresse.
-- À faire dans l'admin Shopify : supprimer « Tableau zebre » si elle y apparaît (ou vérifier qu'elle n'y est plus). Dès que le handle est libéré, la création se fait en un appel avec les valeurs de `collections-zebre.json` (règle TAG = `zèbre` ET TYPE ≠ `poster`, image `tableau-zebre-rayures-multicolores-ambiance-minimaliste-2.jpg`).
+La collection fantôme « Tableau zebre » (id 682785833307, invisible pour l'API admin) réservait le handle. Walid l'a supprimée dans l'admin le 05/10, et la création a réussi du premier coup.
 
 ## Images héros
 
 Process : [`hero-tools/README.md`](./hero-tools/README.md). Pièces générées vides, vraies œuvres montées par script, panel QC de 4 lentilles × 2 juges sur 3 tours. Le tour final G3 a obtenu 3 ou 4 sur 4 sur toutes les lentilles, sans aucun 2. La version G4 corrige les remarques mineures de ce tour.
 
-## Quand `tableau-zebre` sera libre (une seule session)
+## Vérifié en ligne (`/collections/tableau-zebre` et ses 4 traductions)
 
-1. `createCollection` avec les valeurs de [`collections-zebre.json`](./collections-zebre.json) : règle TAG = `zèbre` ET TYPE ≠ `poster`, publiée, tri meilleures ventes, image `https://cdn.shopify.com/s/files/1/0623/2388/4287/files/tableau-zebre-deco-murale.jpg` + alt, et métachamps. Pour `translation.handle`, prendre les 5 langues (cf. JSON).
-2. Créer le métaobjet `media` (alts = alt de l'image) et le relier via `meta_object.media`.
-3. Traductions : titre, handle, SEO et description (tableau du README), puis les métachamps avec [`translations/`](./translations/). Obtenir les GID en réécrivant la même valeur avec `setMetafield`, puis lancer `registerTranslations`. Traduire aussi l'alt du métaobjet.
-4. Vérifier en ligne : H1, FAQ (7), fil d'Ariane, hreflang, OG.
+- `<title>` et H1 traduits (« Tableau Zèbre », « Zebra Artwork », « Zebrabild », « Cuadro de Cebra », « Zebraschilderij »). FAQ JSON-LD de 7 questions. Fil d'Ariane … › Tableau Animaux › Tableau Zèbre. 43 balises hreflang. Image OG = image héros.
+- 9 toiles dans la collection, toutes de type `painting`.
+- Les 135 liens éditoriaux des 10 pages zèbre (2 collections × 5 langues) répondent en 200, sans redirection.
 
 ## Reste à faire hors MCP
 

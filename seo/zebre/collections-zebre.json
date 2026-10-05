@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-04",
- "status": "EN COURS — posters-affiches-zebre appliquée en live (image héros, métachamps, traductions). tableau-zebre prête mais bloquée : handle réservé par une collection fantôme (voir applied-log.md).",
+ "status": "APPLIQUÉ — les deux collections sont complètes en live (05/10) : voir applied-log.md.",
  "prerequis": {
   "tag_a_ajouter": "zèbre",
   "pourquoi": "Les 15 produits portent aujourd'hui 'zebre' ou 'zébre' (faute d'accent) : une seule règle smart ne peut pas couvrir les deux ET filtrer le type. On ajoute le tag canonique 'zèbre' sans retirer les anciens (updateProduct remplace la liste : fusionner avant d'écrire).",
@@ -99,8 +99,8 @@
  },
  "collections": [
   {
-   "action": "METTRE À JOUR (la collection existe déjà, créée le 2026-10-04 à 15:31 : titre sans accent, ni SEO, ni image, ni éditorial)",
-   "gid": "gid://shopify/Collection/682785833307",
+   "action": "CRÉÉE le 2026-10-05",
+   "gid": "gid://shopify/Collection/682824630619",
    "handle": "tableau-zebre",
    "title": "Tableau Zèbre",
    "template_suffix": "(aucun, template collection par défaut)",
