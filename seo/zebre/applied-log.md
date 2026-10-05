@@ -20,7 +20,7 @@ Appliqué en live via le MCP Shopify le 2026-10-04 (après 17:00 UTC). Les valeu
 | 05/10 07:19 | Traductions EN/DE/ES/NL de la collection (titre, handle, SEO, description) puis des métachamps `intro`, `guide`, `faq`, `cocon_links` | ✅ 36 entrées, aucune `outdated`, longueurs identiques aux fichiers [`translations/`](./translations/) | Translate & Adapt |
 | 05/10 07:23 | Liens des guides et FAQ (deux collections) pointés directement sur les handles traduits définitifs (la toile, et 2 produits dont le handle a été traduit dans la nuit) | ✅ 135 liens éditoriaux vérifiés sur les 10 pages : tous en 200, aucune redirection | — |
 | 05/10 08:51 | **v2 éditoriale** (retour de Walid : « descriptions très pauvres ») : analyse persona/voix/SERP/concurrents ([`v2/analyse-v2.md`](./v2/analyse-v2.md)), puis réécriture complète FR des deux collections : champ Description (≈ 165 mots), accroche, guide (toile 1 525 mots / poster 1 177), FAQ 8 questions chacune ; relecture adversariale intégrée (op art vs pop art, HPI, faits produit) | ✅ empreintes SHA-256 Shopify = fichiers [`v2/fr.json`](./v2/fr.json) pour les 8 champs ; en ligne : 1 H1, FAQPage 8 q, 49 liens en 200 | réappliquer les valeurs v1 (historique git) |
-| 05/10 ~09:00 | Traductions EN/DE/ES/NL de la v2 (description, accroche, guide, FAQ), liens pointés directement sur les URL traduites ([`v2/urlmap.json`](./v2/urlmap.json)) | voir entrée suivante | Translate & Adapt |
+| 05/10 09:00-09:40 | Traductions EN/DE/ES/NL de la v2 (description, accroche, guide, FAQ), avec les liens pointés directement sur les URL traduites ([`v2/urlmap.json`](./v2/urlmap.json), 49 liens × 4 langues, tous en 200). Une passe d'alignement a suivi sur les libellés réels des fiches produit : bordures, cadres et contour blanc par langue, et **pouces ajoutés en EN**, car les fiches EN affichent les tailles en pouces. Le sigle HPI a été retiré en DE/ES/NL (inconnu hors de France), en gardant la mention de Jeanne Siaud-Facchin | ✅ 32 champs `outdated:false`, longueurs relues égales aux fichiers [`v2/en.json`](./v2/en.json), [`de`](./v2/de.json), [`es`](./v2/es.json), [`nl`](./v2/nl.json) | Translate & Adapt |
 
 ## Tags : comparaison sans accents
 
@@ -53,3 +53,18 @@ Process : [`hero-tools/README.md`](./hero-tools/README.md). Pièces générées 
 - Navigation : le méga-menu est réglé dans l'éditeur de thème (section « En-tête », blocs « Ensemble de collection »), pas dans le menu Navigation de Shopify, et le MCP ne peut pas le modifier. Vérifié en ligne le 05/10 : il n'y a pas de niveau « Animaux ». « Tableau Animaux » est un lien du groupe « Nature & Sauvage ». Aucune collection d'espèce (lion, cheval) ni « Poster & Affiche Animaux » n'est dans le menu. Fait le 05/10 par un push direct sur `main` du dépôt `myselfmonart_tw_theme` (commit 7bd29dd, déployé par le workflow). Ajouts : un groupe « Animaux » dans Nos Tableaux (Animaux, Lion, Cheval, Zèbre) et un dans Posters & Affiches (Animaux, Lion, Cheval, Zèbre). Titre du groupe traduit : Animals / Tiere / Animales / Dieren (2 blocs × 4 langues, aucune traduction `outdated`). Vérifié en ligne sur ordinateur et mobile dans les 5 langues : 8 liens par langue, tous vers les adresses traduites, tous en 200. La PR #1 de ce dépôt a été fermée sans fusion, à la demande de Walid : désormais, push direct sur `main`, règle notée dans le `CLAUDE.md` du thème. Deux titres visibles dans le nouveau groupe ont été harmonisés le 05/10. En français, `tableau-cheval` passe de « Tableau chevaux » à « Tableau Chevaux » : le mot-clé principal « tableau chevaux » est conservé, et les traductions EN/DE/ES/NL sont republiées sans changement, donc rien n'est `outdated`. En allemand, `posters-affiches-lion` passe de « Löwen Poster – moderne Wandposter & Kunstdrucke » à « Löwen Poster & Plakate » (le meta title DE n'a pas changé). Les deux H1 ont été vérifiés en ligne.
 - Autres canaux de vente (Google/Shopping…) : l'outil ne publie que sur la boutique en ligne.
 - Optionnel : copier `heros/*.jpg` dans `growth/hero-tools/published/` du thème actif, comme pour les autres collections.
+
+## Vérifié en ligne, v2 (05/10)
+
+| Page | H1 | Guide (mots) | FAQPage | Liens du guide |
+|---|---|---:|---:|---|
+| /collections/tableau-zebre | Tableau Zèbre | 1 543 | 8 | 29, tous en 200 |
+| /collections/posters-affiches-zebre | Poster & Affiche Zèbre | 1 191 | 8 | 24, tous en 200 |
+| /en/collections/zebra-artwork | Zebra Artwork | 1 568 | 8 | 29, table EN |
+| /en/collections/zebra-posters-prints | Zebra Posters & Prints | 1 233 | 8 | 24, table EN |
+| /de/collections/zebrabild | Zebrabild | 1 408 | 8 | 29, table DE |
+| /de/collections/zebra-poster | Zebra Poster | 1 128 | 8 | 24, table DE |
+| /es/collections/cuadro-de-cebra | Cuadro de Cebra | 1 590 | 8 | 29, table ES |
+| /es/collections/posters-laminas-cebra | Pósters y Láminas de Cebra | 1 227 | 8 | 24, table ES |
+| /nl/collections/zebra-schilderij | Zebraschilderij | 1 517 | 8 | 29, table NL |
+| /nl/collections/posters-affiches-zebra | Poster Zebra & Affiche Zebra | 1 181 | 8 | 24, table NL |
